@@ -1,7 +1,6 @@
 ---
-layout: page
-title: "General (Master Cource)"
-permalink: /posts/univ/general/
+title: "General (Master Course)"
+url: /posts/univ/general/
 ---
 
 <!-- 内容を追加してください -->
@@ -36,7 +35,7 @@ permalink: /posts/univ/general/
 # MISC
 ## 時間割
 
-| 時限 | 時間 | 
+| 時限 | 時間 |
 | --- | --- |
 |  1|   8:45~10:30|
 |2|10:45~12:30|
@@ -51,7 +50,7 @@ permalink: /posts/univ/general/
 
 
 # ref
-- [my drive](https://drive.google.com/drive/folders/1USkPUgaZTbrinjMEwH9jtI6VLQdhekFE?usp=drive_link) 
+- [my drive](https://drive.google.com/drive/folders/1USkPUgaZTbrinjMEwH9jtI6VLQdhekFE?usp=drive_link)
 
 - SDSの先輩方の記事も参考になる
   - [一橋大学大学院ソーシャルデータサイエンス研究科 M1の1年間を振り返る (授業編)](https://note.com/reizo_kichijitsu/n/n04cfd9e1b98c)

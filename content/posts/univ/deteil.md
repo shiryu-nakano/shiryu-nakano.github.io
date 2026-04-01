@@ -1,7 +1,6 @@
 ---
-layout: page
-title: "Detail (Master Cource)"
-permalink: /posts/univ/deteil/
+title: "Detail (Master Course)"
+url: /posts/univ/deteil/
 ---
 
 > 個人的なメモ
@@ -26,7 +25,7 @@ permalink: /posts/univ/deteil/
 
 
 - ガイダンス時配布もの
-- 
+-
 
 
 
