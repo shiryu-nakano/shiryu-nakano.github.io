@@ -1,8 +1,6 @@
 ---
+layout: page
 title: "Scaling Laws in Deep Learning"
-date: 2026-03-31 13:00:00 +0900
-categories: [Research, Scaling]
-tags: [scaling, llm, deep-learning]
 permalink: /posts/research/scaling-laws/
 ---
 

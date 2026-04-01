@@ -1,7 +1,10 @@
-# The Site Configuration
+#The Site Configuration
 
 # Import the theme
 theme: jekyll-theme-chirpy
+
+# Content directory (keeps content separate from config files)
+collections_dir: content
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -14,12 +17,11 @@ timezone: Asia/Tokyo
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Shiryu Nakano
+title: Shiryu NAKANO
 
-tagline: SLT / ML / Hacking
-
+tagline:
 description: >- # used by seo meta and the atom feed
-  Shiryu Nakano's blog on Singular Learning Theory, ML, and more.
+  Shiryu Nakano's blog.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -141,7 +143,7 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 10
+# paginate: 10  # Disabled: using profile as home instead of blog listing
 
 # The base URL of your site
 baseurl: ""

@@ -1,8 +1,6 @@
 ---
+layout: page
 title: "Singular Learning Theory (SLT)"
-date: 2026-03-31 12:00:00 +0900
-categories: [Research, SLT]
-tags: [slt, watanabe, bayesian]
 permalink: /posts/research/slt/
 ---
 

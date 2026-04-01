@@ -1,8 +1,13 @@
 ---
 layout: page
-title: "Posts"
+title: Posts
 permalink: /posts/
 ---
+
+## University
+
+- [General](/posts/univ/general/)
+
 
 ## Research
 
@@ -13,15 +18,14 @@ permalink: /posts/
 
 ## Life
 
-- [Montreal Cafes](/posts/life/montreal-cafes/)
+<!--準備中-->
+
+- [tips](/posts/life/tips/)
+- [Study](/posts/life/study/)
+
 
 ---
 
-## Daily
-
-- [2026-03-31 Log](/posts/daily/2026-03-31-log/)
-
----
 
 ## Others
 
