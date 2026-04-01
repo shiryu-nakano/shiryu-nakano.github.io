@@ -1,6 +1,7 @@
 ---
+layout: page
 title: "Detail (Master Course)"
-url: /posts/univ/deteil/
+permalink: /posts/univ/deteil/
 ---
 
 > 個人的なメモ
