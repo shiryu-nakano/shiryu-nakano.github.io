@@ -36,6 +36,8 @@ permalink: /posts/univ/general/
 
 
 # MISC
+
+## [履修登録](/posts/univ/class/)
 ## 時間割
 
 | 時限 | 時間 |

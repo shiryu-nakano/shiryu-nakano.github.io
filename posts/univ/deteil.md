@@ -9,6 +9,8 @@ permalink: /posts/univ/deteil/
 
 
 # 20260401 ガイダンス
+- [ガイダンス資料](https://drive.google.com/file/d/1-aMNJGzjVHhMNXDtcx--wIehafp08bDB/view?usp=sharing)
+
 ## TASK（4/1ガイダンス直後）
 - [X] CELSログイン
   - [X] 住所などの登録
