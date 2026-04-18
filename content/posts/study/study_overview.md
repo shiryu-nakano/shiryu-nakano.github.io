@@ -122,9 +122,12 @@ ankiシステムりよう
 - [ ] [【PyMCで学ぶ】データサイエンスのための実践ベイズ統計モデリング](https://www.udemy.com/course/pymc-bayes/)
 - [ ] [Course: 豊富な演習問題とKaggle実践で身に付ける！『Python データ分析 & 機械学習 ～パーフェクトスターターコース』  Udemy](https://www.udemy.com/course/kagglepython/learn/lecture/33602040?start=120#overview)
 - [ ] [Course: 【PythonとStanで学ぶ】仕組みが分かるベイズ統計学入門  Udemy](https://www.udemy.com/course/pythonstan/learn/lecture/9132022?start=0#overview) 
+- [深層学習の理論の勉強→動画など](https://claude.ai/chat/e5760241-5015-44ff-a692-383babbe7011)
+
 
 ---
 ## 教材（本）
+
 
 - イメージでつかむ機械学習入門
 - 深層学習と統計神経力学

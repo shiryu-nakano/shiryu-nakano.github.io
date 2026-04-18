@@ -1,6 +1,6 @@
 ---
 title: "Detail (Master Course)"
-url: /posts/univ/deteil/
+url: /posts/univ/guidance/
 ---
 
 > 個人的なメモ
@@ -25,13 +25,13 @@ url: /posts/univ/deteil/
 - [ ] labインターネットの接続設定
 - [ ] 大学の無線LAN接続設定
 - [ ] 至急！！　奨学金について調べる
-- [ ] Microsoft365の設定
+- [X] ~~*Microsoft365の設定*~~ [2026-04-18]
     - <https://www.hit-u.ac.jp/ictc/services/ms365/>
-- [ ] 履修登録
+- [X] ~~*履修登録*~~ [2026-04-18]
     - <https://www.hit-u.ac.jp/kyomu/newstudents/pdf/R8_GS_SDS_guidance2_course_registration.pdf>
     - 「一橋ID」でログインが可能になる「学務情報システムCELS」で、シラバスの閲覧や実際の履修登録手続きを行う
 
-- [ ] 新入生全研究科合同ガイダンス
+- [X] ~~*新入生全研究科合同ガイダンス*~~ [2026-04-18]
   - オンデマンド
   - manaba キャリア支援室からのお知らせを確認
 

@@ -6,7 +6,14 @@
     <description>Recent content in Posts on Shiryu NAKANO</description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>このブログについて</title>
+      <link>http://localhost:1313/posts/misc/motivation-of-blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/misc/motivation-of-blog/</guid>
+      <description>&lt;p&gt;ホームページの作り方や，ブログを始めようと思い至った経緯について自分用に記録しておきます．&lt;/p&gt;&#xA;&lt;h2 id=&#34;きっかけ&#34;&gt;きっかけ&lt;a class=&#34;anchor&#34; href=&#34;#%e3%81%8d%e3%81%a3%e3%81%8b%e3%81%91&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;ブログを参考にした人は以下の通りです．&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://hiroki11x.github.io/posts/&#34;&gt;Main Page | Hiroki Naganuma&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;見ていただければ一目瞭然ですが，ブログのまとめ方や構成はこの方に多分に影響を受けています．&lt;/li&gt;&#xA;&lt;li&gt;研究者としても大変優秀な実績を残しておられ，雲の上の存在です．&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Daniel Murfetさんのホームページ&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://therisingsea.org/&#34;&gt;The Rising Sea&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://therisingsea.org/post/seminar-ch/&#34;&gt;Seminar · The Rising Sea&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;SLT Seminarも要チェックです．&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;このページを読んだことがブログを始めようとしたきっかけだったと記憶しています．当時このページの構成を真似ようとして，&lt;a href=&#34;https://chatgpt.com/c/6902ff73-79f4-8324-bc1d-0e2a1aca9947&#34;&gt;chatGPTに相談した記録&lt;/a&gt;があります．(公開はしていません)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Jesee Hogland&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.jessehoogland.com/blog&#34;&gt;Blog – Jesse Hoogland&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;ブログの書き方&#34;&gt;ブログの書き方&lt;a class=&#34;anchor&#34; href=&#34;#%e3%83%96%e3%83%ad%e3%82%b0%e3%81%ae%e6%9b%b8%e3%81%8d%e6%96%b9&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;インターンについてのメモ．&#xA;→ロンドンであるやつ&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; claude code で確認する&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; timeous&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
   </channel>
 </rss>
