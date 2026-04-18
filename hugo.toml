@@ -1,0 +1,21 @@
+baseURL = "https://shiryu-nakano.github.io/"
+languageCode = "ja"
+defaultContentLanguage = "ja"
+title = "Shiryu NAKANO"
+theme = "book"
+
+# Enable org-mode support (Hugo built-in)
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"
+    lineNos = true
+
+[params]
+  # Book theme settings
+  BookTheme = "auto"
+  BookToC = true
+  BookSection = "posts"
+  BookRepo = "https://github.com/shiryu-nakano/shiryu-nakano.github.io"

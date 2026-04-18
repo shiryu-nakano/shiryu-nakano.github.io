@@ -1,5 +1,0 @@
----
-title: "life"
-bookCollapseSection: true
----
-

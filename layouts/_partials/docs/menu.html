@@ -1,0 +1,22 @@
+<nav>
+{{ partial "docs/brand" . }}
+{{ partial "docs/search" . }}
+{{ if hugo.IsMultilingual }}
+  {{ partial "docs/languages" . }}
+{{ end }}
+
+{{ partial "docs/inject/menu-before" . }}
+
+{{ with .Site.GetPage "/menu" }}
+  <div class="markdown">
+    {{ .Content }}
+  </div>
+{{ end }}
+
+{{ partial "docs/inject/menu-after" . }}
+</nav>
+
+{{ $script := resources.Get "menu-reset.js" | resources.Minify }}
+{{ with $script.Content }}
+  <script>{{ . | safeJS }}</script>
+{{ end }}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>life on Shiryu NAKANO</title>
+    <link>http://localhost:1313/posts/life/</link>
+    <description>Recent content in life on Shiryu NAKANO</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 31 Mar 2026 13:00:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tips</title>
+      <link>http://localhost:1313/posts/life/tips/</link>
+      <pubDate>Tue, 31 Mar 2026 13:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/life/tips/</guid>
+      <description>&lt;h1 id=&#34;色々なtipsのメモ&#34;&gt;色々なtipsのメモ&lt;a class=&#34;anchor&#34; href=&#34;#%e8%89%b2%e3%80%85%e3%81%aatips%e3%81%ae%e3%83%a1%e3%83%a2&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://note.com/kuweb/n/na6f06cb7fc21&#34;&gt;https://note.com/kuweb/n/na6f06cb7fc21&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Study</title>
+      <link>http://localhost:1313/posts/life/study/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/life/study/</guid>
+      <description>&lt;!-- 内容を追加してください --&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Daily on Shiryu NAKANO</title>
+    <link>http://localhost:1313/posts/daily/</link>
+    <description>Recent content in Daily on Shiryu NAKANO</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <atom:link href="http://localhost:1313/posts/daily/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Daily</title>
+      <link>http://localhost:1313/posts/daily/hima-wo-tsukutte-himatsubushi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/daily/hima-wo-tsukutte-himatsubushi/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/daily/2025/&#34;&gt;2025年&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/daily/2026/&#34;&gt;2026年&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/daily/2027/&#34;&gt;2027年&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

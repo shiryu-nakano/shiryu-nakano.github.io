@@ -1,0 +1,38 @@
+/* Org-mode checkbox styling */
+li.unchecked,
+li.checked {
+  list-style-type: none;
+  position: relative;
+  padding-left: 1.5em;
+  margin-left: -1em;
+}
+
+li.unchecked::before {
+  content: "☐";
+  position: absolute;
+  left: 0;
+}
+
+li.checked::before {
+  content: "☑";
+  position: absolute;
+  left: 0;
+}
+
+/* Fix nested list paragraph margins */
+li.unchecked > p,
+li.checked > p {
+  margin: 0;
+  display: inline;
+}
+
+li.unchecked > p:first-child,
+li.checked > p:first-child {
+  margin-top: 0;
+}
+
+/* Ensure nested lists display properly */
+li.unchecked > ul,
+li.checked > ul {
+  margin-top: 0.25em;
+}
