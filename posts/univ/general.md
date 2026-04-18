@@ -1,7 +1,6 @@
 ---
-layout: page
 title: "General (Master Course)"
-permalink: /posts/univ/general/
+url: /posts/univ/general/
 ---
 
 <!-- 内容を追加してください -->

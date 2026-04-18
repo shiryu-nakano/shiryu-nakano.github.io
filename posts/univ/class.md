@@ -1,7 +1,6 @@
 ---
-layout: page
 title: "履修登録"
-permalink: /posts/univ/class/
+url: /posts/univ/class/
 ---
 
 

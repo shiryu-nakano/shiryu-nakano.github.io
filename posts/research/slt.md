@@ -1,7 +1,6 @@
 ---
-layout: page
 title: "Singular Learning Theory (SLT)"
-permalink: /posts/research/slt/
+url: /posts/research/slt/
 ---
 
 ## What is SLT?

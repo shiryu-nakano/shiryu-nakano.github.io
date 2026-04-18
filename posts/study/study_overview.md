@@ -1,7 +1,6 @@
 ---
-layout: page
 title: "Overview"
-permalink: /posts/study/overview/
+url: /posts/study/overview/
 ---
 
   - GCI

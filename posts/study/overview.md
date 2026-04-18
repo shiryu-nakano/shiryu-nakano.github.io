@@ -1,7 +1,6 @@
 ---
-layout: page
 title: "Overview"
-permalink: /posts/misc/blog_intro/
+url: /posts/misc/blog_intro/
 ---
 
 
@@ -16,25 +15,32 @@ permalink: /posts/misc/blog_intro/
   - コースに関する説明
   - コースのメモなど
 - 研究
-  - 論文積読リスト
+  - [論文積読リスト](/posts/research/paper_stock/)
   - 論文メモ
     - NotebookLM使ってる？
     - リポジトリ使ってページにしているっぽい
       - [Paper Survey](https://hiroki11x.github.io/Papers/?)
   - 研究メモ
     - 研究で参考にするもの，よく出てくる論文とか概念
+      - [SLT調べ物①](https://zenn.dev/nkncru/scraps/a6065f144800eb)
       - [研究メモ | Hiroki Naganuma](https://hiroki11x.github.io/posts/research_topics/)
         - [FIM: Fisher Information Matrix | Hiroki Naganuma](https://hiroki11x.github.io/posts/research_topics/FIM/)
-    - <https://github.com/Kei18/awesome_cs-ja_phd_life?tab=readme-ov-file>
     - [研究者](/posts/research/attitude/)
 - Tech
     - 自分ならエンジニアで参考にすること
-      - 自分の方向性いくつかあるのでそれだけページにしてもOK
+      - 何があったっけ？
+      -
+     
+---
+自分の方向性いくつかあるのでそれだけページにしてもOK
     - 自分はどうなりたいのか？多分起業すると思う
-    - 
+
+--- 
+
 - 生活関連
     - 京都
-      - 作業したところのメモとかかく
+      - 作業したところのメモ
+      - 京都の音楽（こじんてき）
     - 本郷？四谷三丁目？ 
     - 国立
 - Study

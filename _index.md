@@ -1,23 +1,24 @@
 ---
-layout: page
-title: "中野 志颯 / Shiryu NAKANO"
-permalink: /ja/
+title: "Shiryu NAKANO / 中野 志颯"
 ---
 
-<div style="text-align: right; margin-bottom: 1rem;">
-  <a href="/">English</a>
-</div>
-
 ## About
+
+Interested in Singular Learning Theory (SLT) and Machine Learning.
 
 特異学習理論（SLT）と機械学習に興味があります。
 
 ## Research Interests
-<!-- sss -->
+
 - Singular Learning Theory (SLT)
 - Machine Learning
 
 ## Education
+
+| Period | Affiliation |
+|:-------|:------------|
+| 2026.4 - Present | Hitotsubashi University, Graduate School of Social Data Science |
+| 2021.4 - 2026.3 | Doshisha University, Faculty of Science Engineering, Department of Intelligent Information Engineering and Sciences |
 
 | 期間 | 所属 |
 |:-----|:-----|
@@ -26,7 +27,7 @@ permalink: /ja/
 
 ## Publications
 
-- (準備中)
+- (In preparation)
 
 ## Links
 

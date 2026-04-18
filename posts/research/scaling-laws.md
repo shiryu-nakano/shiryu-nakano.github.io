@@ -1,7 +1,6 @@
 ---
-layout: page
 title: "Scaling Laws in Deep Learning"
-permalink: /posts/research/scaling-laws/
+url: /posts/research/scaling-laws/
 math: true
 ---
 
