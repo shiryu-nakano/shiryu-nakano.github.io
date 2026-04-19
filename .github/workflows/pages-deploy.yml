@@ -41,6 +41,14 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      - name: Copy org images to static
+        run: |
+          find content -type d -name '*_image' | while read dir; do
+            target="static/${dir#content/}"
+            mkdir -p "$(dirname "$target")"
+            cp -r "$dir" "$target"
+          done
+
       - name: Build site
         run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
