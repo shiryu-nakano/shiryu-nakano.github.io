@@ -28,3 +28,11 @@ def hello():
 - Item 2
   - Nested item
 - Item 3
+
+
+#+ATTR_ORG: :width 40
+[[file:../../../static/images/posts/research/20260419_123420.png]]
+
+
+#+ATTR_ORG: :width 40
+[[file:../../../static/images/posts/research/20260419_134538.png]]

@@ -1,0 +1,32 @@
+#+TITLE: Org-mode Test
+#+URL: /posts/research/notes/
+
+* Overview
+研究でも何回も出てくる資料とか読み直してる資料のリンクや、理解した内容をまとめる場所
+
+* Math Test
+
+Inline math: $E = mc^2$
+
+Display math:
+
+$$
+\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+$$
+
+* Code Block
+
+#+BEGIN_SRC python
+def hello():
+    print("Hello from org-mode!")
+#+END_SRC
+
+* List
+
+- Item 1
+- Item 2
+  - Nested item
+- Item 3
+
+
+[メンタル的なところ](/posts/research/attitude/)

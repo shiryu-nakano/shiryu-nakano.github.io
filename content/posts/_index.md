@@ -1,42 +1,40 @@
 ---
-title: "Posts"
+title: "Shiryu NAKANO"
 bookCollapseSection: true
 url: /posts/
 ---
 
 
 
-# Blog
-
-
-# 大学
+## 大学
+---
   - コースに関する説明
   - コースのメモなど
-# 研究
+
+
+## 研究
+---
   - [論文積読リスト](/posts/research/paper_stock/)
-  - 論文メモ
-    - NotebookLM使ってる？
-    - リポジトリ使ってページにしているっぽい
-      - [Paper Survey](https://hiroki11x.github.io/Papers/?)
-  - 
-  - 研究メモ
+  - [論文メモ](https://shiryu-nakano.github.io/Papers/)
+  - [研究メモ](/posts/research/notes/)
     - 研究で参考にするもの，よく出てくる論文とか概念
     研究でも何回も出てくる資料とか読み直してる資料のリンクや、理解した内容をまとめる場所
       - [SLT調べ物①](https://zenn.dev/nkncru/scraps/a6065f144800eb)
       - [研究メモ | Hiroki Naganuma](https://hiroki11x.github.io/posts/research_topics/)
         - [FIM: Fisher Information Matrix | Hiroki Naganuma](https://hiroki11x.github.io/posts/research_topics/FIM/)
-    - [研究者](/posts/research/attitude/)
-# Tech
+  
 
-- 自分ならエンジニアで参考にすること
-    - 何があったっけ？
-    - 自分の方向性いくつかあるのでそれだけページにしてもOK
-    - 自分はどうなりたいのか？多分起業？
-- 自立移動ロボット開発チーム Arcanain
-- githubで人生を管理する
+## Engineering
+---
+- [**Arcanain**](https://arcanain.github.io/arcanain-documentation/)：私が所属している自律移動ロボット開発チームです
+- [エンジニアリングメモ](/posts/engineering/notes/)
+- [qiita](https://qiita.com/Nkn4ryu)： 主にArcanainでの開発の記録やまとめを投稿しています
+- [zenn](https://zenn.dev/nkncru)： 個人的な勉強メモが中心です
 
 
-# Life
+
+## Life
+---
 - 京都
   - 京都のお気に入りカフェ
   - 京都の音楽（こじんてき）
@@ -49,8 +47,8 @@ url: /posts/
 
 - 税金関係
 
-# Study
- 
+## Study
+---
 - [study](/posts/study/overview/)
 - GCI
 - 教科書？
@@ -59,8 +57,10 @@ url: /posts/
 - Atcoder
 - Kaggle
 - 資格とか？
+  - CMA
 
-# その他
+## その他
+---
 - 筋トレ
 - ストレッチ
 - Routine -> Claudeの会話はっつければOK
@@ -71,7 +71,8 @@ url: /posts/
 - インターン・アルバイトメモ
 - [このサイトについて](/posts/misc/motivation-of-blog/)
 
-# Posts
+## Posts
+---
 日報一覧
 スケジュール
 

@@ -1,0 +1,821 @@
+#+title: 2026-03-19
+#+filetags: :daily:
+#+OPTIONS: toc:nil num:nil ^:nil tags:nil todo:nil H:10
+#+OPTIONS: broken-links:mark
+#+OPTIONS: tex:t
+#+OPTIONS: html-postamble:nil
+#+OPTIONS: links:nil
+
+* Home
+
+
+** やらないこと
+1. 起床後90分はスマホを触らない
+2. SNSアプリをホーム画面から削除する
+3. 作業前に「今日やる1つ」を紙に書く
+4. 勉強・仕事中はスマホを別室へ
+5. 移動中の"ながら刺激"をやめる
+6. 食事中は何も見ずに食べる
+7. 1日1回「何もしない時間」を作る
+8. 夜は寝る1時間前からデジタル遮断
+9. 週1回「低刺激の日」を作る
+** 毎日やること
+- 新聞読む
+  毎日続けること
+  - 一度読んで，プロンプトでキーワードを解説してもらう
+    #+begin_src
+      この記事を解説して下さい．特に日経新聞を普段読まない人がつまづきがちなキーワードの解説を行ってください 
+    #+end_src
+  - 読んだ記事の管理方法→
+    google driveに置くことにするか．
+  
+- 論文
+  論文を1つ読んで，メモを書いていく
+  以下の2つを記録として残していく
+  - 読むのにかかった時間
+  - 読んで書いたメモ
+    
+  
+- 日々アイデアを書き留めていくこと
+- atcoder
+- 読書
+- ベイズpython
+
+
+
+
+
+
+
+
+
+
+
+
+* 直近の予定締め切り
+
+** Week 11 TASK
+-  [[id:C1E9AC7E-52CA-4C15-B08A-E1E3A1E7314B][arXiv Daily 2026-03-10]]
+  これを一つずつ毎日読む！
+
+会員番号：3710001801
+#+ATTR_ORG: :width 300
+[[file:2026-03-10.org_image/20260310_210752.png]]
+ 
+
+**** 郵便物→午前中に届く
+
+** Week11
+*** Thr 12
+*** Fri 13
+*** Sat 14
+*** Sun 15
+*** INBOX 入学金手続き追加書類の提出 3/19
+
+
+
+
+
+
+
+
+
+
+* TASK
+
+** INBOX gxpレポート作成
+** INBOX 同志社のメアド→データをどこかに移動させておく必要がある
+** INBOX Wベイズ1章の資料作成
+** INBOX 大久保さんの研究引き継ぎ
+** INBOX 卒論ブラッシュアップ
+- 卒論本誌を大幅修正
+- 研究の意義を考え直す
+
+** MISC
+ 
+- [ ] suica アプリ？
+- [ ] 直近のお金の管理とか口座管理について決めておく
+  → 今後重要→株をやったり，欲しいものを買うには計画的になることが大切
+- [ ] email of Doshisha will expire on 22 March
+  - donwload datas
+  - set up accounts, especially Notion.
+- [ ] jesseのgithub anki
+  
+
+** 入学手続き書類
+- [X] 本籍のある住民票
+- [ ] 学生カードの記入
+- [ ] 卒業証明
+  →卒業式の後
+- [ ] 成績証明
+  →卒業式の後
+- [X] 学生用写真データ
+  あとで写真撮る→メールで送る
+
+** ARCRA
+** ARCANAIN
+** 修士の研究引き継ぎ
+** 修士の前の準備
+** INBOX emacsのim-select
+https://claude.ai/chat/ab03da93-7c24-4802-9389-2592c13f0e45
+
+** DONE ブートキャンプ
+*** INBOX 統計
+*** INBOX 社会学
+*** INBOX AI
+** INBOX udemy
+** INBOX GCI
+- [ ] 申請→在学の証明になる物
+- [ ] 2つのコースに申し込み
+** INBOX 経営学の追加コースに申し込む
+** INBOX CMA申し込み→科目選定
+** INBOX 3月からの参照を作成する
+
+
+
+
+* LOG
+- jesseの記憶方法→やっぱり重要
+  - さらに，簡単なものから，じっくり基礎を固めること
+    
+
+* タスク整理
+
+
+
+** リンク
+https://www.sds.hit-u.ac.jp/graduate-education/
+https://github.com/laishulu/emacs-smart-input-source
+https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_2S5GS205/_pdf/-char/ja
+https://www.youtube.com/watch?v=i43tkaTXtwI&t=2776s
+https://chatgpt.com/
+https://claude.ai/chat/c7bcdf07-bcb0-440f-b238-b42976d3e356
+https://noneq.c.u-tokyo.ac.jp/Stochastic_Thermodynamics_III/wp-content/uploads/2022/06/WOST-III_tutorial_oizumi.pdf
+https://gist.github.com/sifue/b6506ea6b3f3d3a46a0c3bb885cd5ddf
+https://www.takeokunn.org/posts/permanent/20240112071806-my_relationship_with_org_mode_in_2023_and_how_navigate_in_2024/
+http://handasse.blogspot.com/2010/02/blog-post.html
+
+
+https://user.competition.signate.jp/en/competition/detail/?competition=d10dda94a8d546ae949c64f5e980a5af&task=356ac27eb3fa4ba7843fae2dcc4047fb&tab=knowledge&leaderboard=public&knowledge=90818ace4cc84e70a45db421477745c2
+https://www.hit-u.ac.jp/kyomu/newstudents/pdf/R7_GS_SDS_guidance3_about_learning.pdf
+https://www.jstage.jst.go.jp/article/jnns/32/4/32_181/_pdf/-char/ja
+https://stern-bow.hatenablog.com/entry/2026/01/02/120000#%E5%AD%A6%E7%BF%92%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B8%E5%88%A5%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%E8%AA%AD%E6%9B%B8%E3%83%AB%E3%83%BC%E3%83%88
+https://stern-bow.hatenablog.com/entry/2024/09/08/133104
+https://weblab.t.u-tokyo.ac.jp/lecture/learning-roadmap/
+https://weblab.t.u-tokyo.ac.jp/lecture/learning-roadmap-job/
+https://arxiv.org/pdf/2503.02113#page=2.29
+https://www.jstage.jst.go.jp/article/jnns/32/4/32_216/_pdf/-char/ja
+https://proceedings.iclr.cc/paper_files/paper/2024/file/682f87a8c306098ec8be29019bd76aa4-Paper-Conference.pdf
+https://timaeus.co/projects/grokking
+https://papers.neurips.cc/paper_files/paper/2022/file/dfc310e81992d2e4cedc09ac47eff13e-Paper-Conference.pdf
+https://www.themoonlight.io/ja/review/using-physics-inspired-singular-learning-theory-to-understand-grokking-other-phase-transitions-in-modern-neural-networks
+https://arxiv.org/pdf/2603.01192
+https://docs.google.com/spreadsheets/d/1K96yywYTBZ_DAJvqQhioUSAeltBOaqgyKW1qpcjEwU8/edit?gid=1256236786#gid=1256236786
+file:///Users/nkn4ryu/Downloads/al-260301192v1.pdf
+https://qiita.com/yendo0206/items/9ce023c2e4973fe579d4
+https://github.com/bbatsov/projectile
+https://xwmx.github.io/nb/#-zettelkasten
+https://zenn.dev/shunk031/articles/my-dev-env-2026
+https://claude.ai/chat/cc04a6ad-703f-4001-9ec8-b1dce4ac2c1e
+file:///Users/nkn4ryu/Downloads/al-250302113v2.pdf
+https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox
+https://eng-blog.iij.ad.jp/archives/5935
+https://www.amazon.co.jp/dp/4274064069/
+https://www.youtube.com/watch?v=Ct7mZBP6OOo&list=RDGMEMCMFH2exzjBeE_zAHHJOdxg&index=3
+https://zenn.dev/xiangze/articles/c0ce4a9f513660
+https://zenn.dev/xiangze/articles/2249f2221b0a5d
+https://zenn.dev/xiangze/articles/c95b6105f985ae
+https://seetheworld1992.hatenablog.com/entry/2017/06/04/150253
+https://joisino.hatenablog.com/entry/theory
+https://arxiv.org/abs/2503.02113
+file:///Users/nkn4ryu/Downloads/crm-redefining-customer-relationship-management-1st-edition-155558263x-1751891941-9781555582630_compress.pdf
+
+** 論文
+Overcoming Simplicity Bias in Deep Networks using a Feature Sieve
+*** https://www.semanticscholar.org/paper/Loss-landscape-geometry-reveals-stagewise-of-Wang-Farrugia-Roberts/db3ca0e715d3563bad7698ad8bedba08a98b203d 
+
+
+** 開いている論文リスト
+*** arXiv論文
+
+- [[https://arxiv.org/abs/2310.06161][Mitigating Simplicity Bias in Deep Learning for Improved OOD Generalization and Robustness]]
+- [[https://arxiv.org/abs/2301.13293][Overcoming Simplicity Bias in Deep Networks using a Feature Sieve]]
+- [[https://arxiv.org/abs/2405.10927][Using Degeneracy in the Loss Landscape for Mechanistic Interpretability]]
+- [[https://arxiv.org/abs/2402.02364][Loss Landscape Degeneracy and Stagewise Development in Transformers]]
+- [[https://arxiv.org/abs/2410.02984][Differentiation and Specialization of Attention Heads via the Refined Local Learning Coefficient]]
+- [[https://arxiv.org/abs/1904.03866][On the Learnability of Deep Random Networks]]
+- [[https://arxiv.org/abs/2110.05481][Which Samples Should be Learned First: Easy or Hard?]]
+- [[https://arxiv.org/abs/2510.25154][TabMGP: Martingale Posterior with TabPFN]]
+
+*** OpenReview論文
+
+- [[https://openreview.net/forum?id=hVcGX9oOeE][Unraveling the Complexities of Simplicity Bias: Mitigating and Amplifying Factors]]
+
+*** NeurIPS 2024論文
+
+- [[https://proceedings.neurips.cc/paper_files/paper/2024/file/7f5f9a88c6516469c83d074c6f2976fb-Paper-Conference.pdf][Changing the Training Data Distribution to Reduce Simplicity Bias Improves In-distribution Generalization]]
+- [[https://neurips.cc/virtual/2024/poster/92982][Changing the Training Data Distribution to Reduce Simplicity Bias Improves In-distribution Generalization (Poster)]]
+
+*** J-STAGE (Jxiv) プレプリント
+
+- [[https://jxiv.jst.go.jp/index.php/jxiv/preprint/view/2475/6213][論文解説：計算代数によるReLUニューラルネットの局所最適解全列挙の表示]]
+
+*** ローカルファイル
+
+- file:///Users/nkn4ryu/Downloads/tiwari23a.pdf
+  (注: タイトル情報なし。ファイル名から推測するとTiwari氏の2023年の論文)
+
+*** いますぐすべきこと
+**** INBOX CMAの経済を読み終わる
+**** INBOX CMA 支払い
+**** INBOX Stat-pre1のワークブックと，これを紹介しているサイトにまとまっていた参考書たちの討伐
+それ以外何やるかは，それが終わってから考える
+
+**** INBOX ベイズjurla
+**** DONE python→python kindleで買うか
+**** INBOX セキュリティのテキストkindle pdf
+**** INBOX 読んでスクショしてanki
+**** WIP FP3の本読む
+小分けにして，1hとかでいいので教科書を読むべきもの
+***** Fp3
+***** AP
+***** sec
+***** stat pre1
+***** 
+
+**** やりかけのタスク
+***** INBOX in your life リードの打ち込み
+***** INBOX ドラムは音源分離で貼り付け
+***** INBOX 音源分離オープンモデル
+
+
+
+
+
+
+** 歯医者の予約まじで急ぐ
+
+** INBOX タブ整理→あとでclaudeに投げるか
+*** 1
+https://proceedings.mlr.press/v202/refinetti23a.html
+https://proceedings.mlr.press/v202/refinetti23a/refinetti23a.pdf
+https://chatgpt.com/c/6953a308-8f90-8323-a5f7-1b67f959df74
+https://proceedings.mlr.press/v202/refinetti23a.html#:~:text=networks%20trained%20using%20stochastic%20gradient,consider%20its%20implications%20for%20the
+https://arxiv.org/pdf/2406.17467v1
+https://scispace.com/pdf/simplicity-bias-in-1-hidden-layer-neural-networks-3feoyu9o.pdf
+
+https://proceedings.neurips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html
+https://arxiv.org/pdf/2402.02364
+https://chatgpt.com/c/6939370b-baf4-8321-9d71-dd3d9af64674
+https://proceedings.mlr.press/v202/refinetti23a/refinetti23a.pdf
+https://arxiv.org/pdf/2510.12071
+https://dl.acm.org/doi/10.1145/3593013.3594003
+https://aclanthology.org/2023.acl-long.317.pdf
+https://arxiv.org/html/2410.19637v1
+https://qiita.com/icoxfog417/items/5fd55fad152231d706c2
+https://cs231n.stanford.edu/index.html
+https://arxiv.org/abs/2410.22768?utm_source=chatgpt.com
+https://arxiv.org/pdf/2410.22768
+https://arxiv.org/pdf/2303.13731
+https://resou.osaka-u.ac.jp/ja/research/2025/20250530_1
+https://github.com/jacobgil/vit-explain
+https://scholar.google.co.jp/scholar?start=30&hl=ja&as_sdt=2005&sciodt=0,5&as_ylo=2025&cites=17216179482310248845&scipsc=
+https://arxiv.org/pdf/2507.17616
+https://arxiv.org/abs/2508.07636
+https://arxiv.org/abs/2507.17616
+https://github.com/timaeus-research/devinterp?utm_source=chatgpt.com
+https://github.com/timaeus-research/paper-rllcs-2024
+https://arxiv.org/pdf/2511.04564
+https://masao-ds.hatenablog.com/entry/2023/06/05/004416
+https://masao-ds.hatenablog.com/entry/2023/05/29/231611#54GradCAM%E3%81%AB%E3%82%88%E3%82%8B%E5%88%A4%E6%96%AD%E6%A0%B9%E6%8B%A0%E3%81%AE%E5%8F%AF%E8%A6%96%E5%8C%96
+https://watermark02.silverchair.com/isal_a_00216.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAA0swggNHBgkqhkiG9w0BBwagggM4MIIDNAIBADCCAy0GCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMx4s9aWUiJ9wZieK1AgEQgIIC_o6G76HkO81a97Ejg8b8Ku8EbSoRad92wUb8hNTxprPfJ0lJJkkE_peMF1VOrlhW_pat2b1XZGuZx4TgTjcvIfHsqORxVdQk9wq9litwxB0VfHJc_oiavdU0Nzks3_Pdz4Rk5QPRjaE_D6leE6Z4yTt9nU_5n9aiuN7mspUik5H-Xb1NUx2429Naaov520hbCyH5klndEuxymeZRRBs0D-JDvLAE2h_5R4hzgDXkjPBJ1ZXWFXLKIEoPYu3gpk0l1zYhJs2adfK6HyQFgPQS1HgRXboBRlt022H1GuE6heOx8IA7o6Neg5GhBr2U_jOfVRAAf0YItGwhPzyshRajt4bNTAtz645jabJRiuyqIXUu5CveOpB8bKGg6qPw5V_9iGEmYgdDOd9Xm8saJGZdmttmjX2uhAZnD3q5m-jtS2995j4w16PFJBHNt_c5gaWjvq1dtDHpZf1afH24Ruv7EDO3YGhrYHB1lUZHfzdJ9ysW8GFwYHopwvPlo9KG_WkKY6p_3ea-0Q4d8Hwakwr4ci3mM5dwzSgFRafRFTk9vhYhTNawe1_nslaAIhW8f9lIH4jry5i76_1_DYesBkIeUlaV76CWI6NRyxT9NnG6oVVPZSx204TTQHjv0OUUhXAQkFo7bfT8oabsU4xTPYKzTwt3_V3-6PVzN84KeNJxDESuIa4c1TSREDjzQ5DuozTJsPw0uYe91TJlW8vM0aU6xrzD900_WK719CYFB8SZZmaQS6A9gkcc4LEu7zp58VvoSXdrv9m0mz1xASHHKCz5r8Nt6vpNZQpz0AcGmnn3ak2_mZkcmg5JVedZzddLjpxoNEcK9ZVPCMGylx0ehFcn1Hks167p6Y8pqEcNvbA5V5jEX0D-7tmPOq1wmAplabe1z5EVyiDMJtarudP1EIbA-VaKITQf0TUL_VRQwCVKkmP7CtYeKpd5p6c_k6mY_O4CpdRHRGQhDikGS95RHMgF_EsrhgxsxLZ-WyhmLgc0aEoz3zhYrZrY9-3ZVBI5Fxk
+https://www.ieice.org/publications/conference-FIT-DVDs/FIT2020/data/pdf/F-023.pdf
+https://chatgpt.com/c/694538b4-222c-8327-9325-5c8487098567
+https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_2S5GS205/_pdf/-char/ja
+https://ikuro-kotaro.sakura.ne.jp/koramu/hoho2.htm
+https://www.kaggle.com/code/runway/posterior-sampling-with-sgld-and-mmvi
+https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh2011a.pdf
+https://github.com/Arcanain/decision_controller/blob/feature/performance2025/decision_controller/decision_control_node.py
+https://x.com/home
+https://www.multiset.ai/blog
+https://github.com/shiryu-nakano/NotionDBToDiscord/actions/runs/18652040616/job/53172108517
+https://chatgpt.com/c/69619831-2bac-8320-a595-a155aa54c328
+https://chromewebstore.google.com/detail/export-tabs-as-text-file/odclbaijmmabcgcdaipkpkcmfkfifgea?hl=ja&utm_source=chatgpt.com
+https://docs.google.com/spreadsheets/d/1K96yywYTBZ_DAJvqQhioUSAeltBOaqgyKW1qpcjEwU8/edit?gid=0#gid=0
+https://www.google.com/search?q=%E4%B8%87%E5%B9%B4%E7%AD%86+%E5%B7%A6%E5%88%A9%E3%81%8D&sca_esv=e93d873ff7c43fb4&sxsrf=AE3TifNbLHPfoutQl43AGjkUoiGIiuAA9Q%3A1766906095722&ei=79hQad3fK8mn2roP6P3mkAQ&ved=0ahUKEwidk7-R3t-RAxXJk1YBHei-GUIQ4dUDCBE&oq=%E4%B8%87%E5%B9%B4%E7%AD%86+%E5%B7%A6%E5%88%A9%E3%81%8D&gs_lp=Egxnd3Mtd2l6LXNlcnAiE-S4h-W5tOethiDlt6bliKnjgY1IAFAAWABwAHgAkAEAmAEAoAEAqgEAuAEMyAEAmAIAoAIAmAMAkgcAoAcAsgcAuAcAwgcAyAcAgAgB&sclient=gws-wiz-serp
+https://www.youtube.com/watch?v=Hi7ktoBL12Y
+https://axrp.net/episode/2024/05/07/episode-31-singular-learning-theory-dan-murfet.html
+file:///Users/nkn4ryu/Downloads/Paper%20Survey.html#/issues/483
+https://arxiv.org/pdf/2410.19637#page=10.38
+
+*** 2
+https://dedemoni.hatenablog.com/entry/1/3/2#%E8%A4%87%E7%B4%A0%E6%95%B0%E3%81%AE%E5%9B%A0%E6%95%B0%E3%81%A8%E5%86%86%E3%81%AE%E6%A0%BC%E5%AD%90%E7%82%B9
+https://www.ms.u-tokyo.ac.jp/tambara/docs/mc4h2022-Shiho-Iwaki.pdf
+https://docs.google.com/spreadsheets/d/12sE4xcu_ewRFfmZarHV4q-cS7gVA-cTld1aTSlu1nWM/edit?gid=94873348#gid=94873348
+https://github.com/mm-doshisha/ExtendedAbstract
+https://qiita.com/eureka-ai/items/6c55e3b6d9617ae58afa#%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E4%BD%9C%E3%82%8Bdeep-learning-python%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%82%A3%E3%83%BC%E3%83%97%E3%83%A9%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%81%AE%E7%90%86%E8%AB%96%E3%81%A8%E5%AE%9F%E8%A3%85
+https://www.amazon.co.jp/Python%E3%81%A7%E3%81%AF%E3%81%98%E3%82%81%E3%82%8B%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92-%E2%80%95scikit-learn%E3%81%A7%E5%AD%A6%E3%81%B6%E7%89%B9%E5%BE%B4%E9%87%8F%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%A8%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E3%81%AE%E5%9F%BA%E7%A4%8E-Andreas-C-Muller/dp/4873117984/ref=asc_df_4873117984/?tag=jpgo-22&linkCode=df0&hvadid=295686767484&hvpos=&hvnetw=g&hvrand=3911510148755802076&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1009472&hvtargid=pla-526272655673&psc=1&th=1&psc=1%5D(https://www.amazon.co.jp/Python%E3%81%A7%E3%81%AF%E3%81%98%E3%82%81%E3%82%8B%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92-%E2%80%95scikit-learn%E3%81%A7%E5%AD%A6%E3%81%B6%E7%89%B9%E5%BE%B4%E9%87%8F%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%A8%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E3%81%AE%E5%9F%BA%E7%A4%8E-Andreas-C-Muller/dp/4873117984/ref=asc_df_4873117984/
+https://qiita.com/taki_tflare/items/42a40119d3d8e622edd2
+https://qiita.com/fY9pFc4W1I8uoa0/items/6b0d22ae7ae42296502a
+https://qiita.com/kunishou/items/bd5fad9a334f4f5be51c
+https://www.amazon.co.jp/%E6%96%B0%E7%89%88-%E8%B2%A1%E5%8B%993%E8%A1%A8%E4%B8%80%E4%BD%93%E7%90%86%E8%A7%A3%E6%B3%95-%E6%9C%9D%E6%97%A5%E6%96%B0%E6%9B%B8-%E5%9C%8B%E8%B2%9E-%E5%85%8B%E5%89%87-ebook/dp/B08W4YZTBZ/ref=books_storefront_desktop_mfs_rfy_0?_encoding=UTF8&pd_rd_w=lT9T7&content-id=amzn1.sym.1b69b158-0c4a-4f24-98cd-fd7a83d2208e&pf_rd_p=1b69b158-0c4a-4f24-98cd-fd7a83d2208e&pf_rd_r=F5MVRB6NSN92NHZ39T47&pd_rd_wg=hpi59&pd_rd_r=d8dff1d2-905e-4eee-9ccf-b31e06d32134
+https://katsurai.esa.io/#path=%2FTSUBAME4.0
+https://zenn.dev/xyslope/articles/469de48c79eb8d
+https://akisute3.hatenablog.com/entry/2013/12/28/144918
+https://zenn.dev/toyboot4e/articles/write-org-for-great-good
+https://www.amazon.co.jp/%E8%AA%AD%E3%82%80%E3%83%BB%E6%89%93%E3%81%A4%E3%83%BB%E6%9B%B8%E3%81%8F-%E8%AA%AD%E6%9B%B8%E3%83%BB%E6%9B%B8%E8%A9%95%E3%83%BB%E5%9F%B7%E7%AD%86%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E7%90%86%E7%B3%BB%E7%A0%94%E7%A9%B6%E8%80%85%E3%81%AE%E6%97%A5%E3%80%85-%E4%B8%89%E4%B8%AD%E4%BF%A1%E5%AE%8F-ebook/dp/B0CBP9NBDT/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1628405998&sr=8-16
+https://zenn.dev/gomadoufu/articles/how-to-write-papers-with-org-2025
+https://www.google.com/search?q=%E3%83%95%E3%83%AA%E3%83%BC%E3%83%A9%E3%83%B3%E3%82%B9+%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E3%80%80%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2&sca_esv=e218964b1e17de2c&sxsrf=AE3TifM10mxqo0y4LsC7jUz5yrXSrWLAcg%3A1767718785165&ei=gT9dacnjCa-k2roPiv2MyA0&ved=0ahUKEwiJqILSsfeRAxUvklYBHYo-A9kQ4dUDCBE&uact=5&oq=%E3%83%95%E3%83%AA%E3%83%BC%E3%83%A9%E3%83%B3%E3%82%B9+%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E3%80%80%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2&gs_lp=Egxnd3Mtd2l6LXNlcnAiMeODleODquODvOODqeODs-OCuSDmqZ_morDlrabnv5LjgIDjgqjjg7Pjgrjjg4vjgqIyBhAAGAgYHjIIEAAYiQUYogQyBRAAGO8FSKhBULQGWK89cAZ4AJABAJgB0gGgAfMlqgEGMC4zNS4xuAEDyAEA-AEBmAIioAKmHsICChAAGEcY1gQYsAPCAgQQIxgnwgIFEAAYgATCAgcQABiABBgEwgIIEAAYgAQYsQPCAgYQABgEGB7CAggQABgIGAQYHsICCBAAGIAEGKIEwgIEEAAYHsICBRAhGKABwgIEECEYFZgDAIgGAZAGCpIHBjYuMjcuMaAHlHeyBwYwLjI3LjG4B5gewgcGMi4yNi42yAdKgAgB&sclient=gws-wiz-serp
+https://www.google.com/search?q=%E5%9B%BD%E7%AB%8B+%E4%B8%AD%E7%9B%AE%E9%BB%92&oq=%E5%9B%BD%E7%AB%8B%E3%80%80%E4%B8%AD%E7%9B%AE%E9%BB%92&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIKCAEQABiABBiiBDIKCAIQABiABBiiBDIICAMQABgIGB4yBwgEEAAY7wXSAQkxMzk2MGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+https://chatgpt.com/c/695d42c8-0574-8321-a393-294fd5975db5
+https://www.youtube.com/watch?v=hL_n_GljC0I
+https://www.youtube.com/watch?v=q8S-f4-as50
+https://qiita.com/mokemokechicken/items/e63081de6a379905ecf5
+https://www.google.com/search?sca_esv=b04cb06c25fa1fe2&sxsrf=ANbL-n7qSQFFm8pr-O-j0A4o2xN7SCxKIg:1767967329281&udm=2&fbs=ADc_l-ZlCIK_ae5oKZcV5pK93vZHUyOZfINb1ICDQ-FkE6soPeKYRyg8Vmd0jFHjD70dl4CIIEjj8nBPa6tyOns8de8pjGHe9pIaDcxAd7ZZ88fe2-DWd_jV3RBF3Ih2X9lJ0PcJf-00w3KTuP9rdXe2CdBVlNqzbqjOvWsh1DAbaFxul0KVxUcVFlT8pcfH2uVKRDmRraoBEh96z_dUuR1VXA3WKd9937EmCTWu5-AR44RmSjwVyxo&q=%E3%83%91%E3%82%AF%E3%82%BD%E3%82%B8%E3%83%A5%E3%83%B3%E3%80%80%E3%83%A1%E3%82%AC%E3%83%8D&sa=X&ved=2ahUKEwjEqYvFz_6RAxUIp1YBHbovDE8QtKgLegQIFBAB&biw=1242&bih=726&dpr=1&aic=0#sv=CAMSVhoyKhBlLW1XQ2FteldCWU9oWGtNMg5tV0NhbXpXQllPaFhrTToOOFVTUXpDZEZiODhvQU0gBCocCgZtb3NhaWMSEGUtbVdDYW16V0JZT2hYa00YADABGAcg45-q1gowAkoKCAIQAhgCIAIoAg
+https://x.com/kosuke_agos/status/2009525550109610089
+https://mail.google.com/mail/u/0/#inbox/FMfcgzQfBPzCDNKwTzPDRQZjTWztRsPC
+https://jp.trip.com/online/orderdetail/index?orderid=1385430428403864&from=email&template=IBU_FLIGHT_CHANGE_NOTIFY_EMAIL&locale=ja-JP&channel=email&subChannel=IBU_FLIGHT_CHANGE_NOTIFY_EMAIL&allianceid=&ouid=&sid=&oid=1385430428403864&orderId=1385430428403864&redirectFromOnline=1&accesstoken=&hash=
+
+*** 3
+https://dedemoni.hatenablog.com/entry/1/3/2#%E8%A4%87%E7%B4%A0%E6%95%B0%E3%81%AE%E5%9B%A0%E6%95%B0%E3%81%A8%E5%86%86%E3%81%AE%E6%A0%BC%E5%AD%90%E7%82%B9
+https://www.ms.u-tokyo.ac.jp/tambara/docs/mc4h2022-Shiho-Iwaki.pdf
+https://docs.google.com/spreadsheets/d/12sE4xcu_ewRFfmZarHV4q-cS7gVA-cTld1aTSlu1nWM/edit?gid=94873348#gid=94873348
+https://github.com/mm-doshisha/ExtendedAbstract
+https://qiita.com/eureka-ai/items/6c55e3b6d9617ae58afa#%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E4%BD%9C%E3%82%8Bdeep-learning-python%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%82%A3%E3%83%BC%E3%83%97%E3%83%A9%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%81%AE%E7%90%86%E8%AB%96%E3%81%A8%E5%AE%9F%E8%A3%85
+https://www.amazon.co.jp/Python%E3%81%A7%E3%81%AF%E3%81%98%E3%82%81%E3%82%8B%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92-%E2%80%95scikit-learn%E3%81%A7%E5%AD%A6%E3%81%B6%E7%89%B9%E5%BE%B4%E9%87%8F%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%A8%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E3%81%AE%E5%9F%BA%E7%A4%8E-Andreas-C-Muller/dp/4873117984/ref=asc_df_4873117984/?tag=jpgo-22&linkCode=df0&hvadid=295686767484&hvpos=&hvnetw=g&hvrand=3911510148755802076&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1009472&hvtargid=pla-526272655673&psc=1&th=1&psc=1%5D(https://www.amazon.co.jp/Python%E3%81%A7%E3%81%AF%E3%81%98%E3%82%81%E3%82%8B%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92-%E2%80%95scikit-learn%E3%81%A7%E5%AD%A6%E3%81%B6%E7%89%B9%E5%BE%B4%E9%87%8F%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%A8%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E3%81%AE%E5%9F%BA%E7%A4%8E-Andreas-C-Muller/dp/4873117984/ref=asc_df_4873117984/
+https://qiita.com/taki_tflare/items/42a40119d3d8e622edd2
+https://qiita.com/fY9pFc4W1I8uoa0/items/6b0d22ae7ae42296502a
+https://qiita.com/kunishou/items/bd5fad9a334f4f5be51c
+https://www.amazon.co.jp/%E6%96%B0%E7%89%88-%E8%B2%A1%E5%8B%993%E8%A1%A8%E4%B8%80%E4%BD%93%E7%90%86%E8%A7%A3%E6%B3%95-%E6%9C%9D%E6%97%A5%E6%96%B0%E6%9B%B8-%E5%9C%8B%E8%B2%9E-%E5%85%8B%E5%89%87-ebook/dp/B08W4YZTBZ/ref=books_storefront_desktop_mfs_rfy_0?_encoding=UTF8&pd_rd_w=lT9T7&content-id=amzn1.sym.1b69b158-0c4a-4f24-98cd-fd7a83d2208e&pf_rd_p=1b69b158-0c4a-4f24-98cd-fd7a83d2208e&pf_rd_r=F5MVRB6NSN92NHZ39T47&pd_rd_wg=hpi59&pd_rd_r=d8dff1d2-905e-4eee-9ccf-b31e06d32134
+https://katsurai.esa.io/#path=%2FTSUBAME4.0
+https://zenn.dev/xyslope/articles/469de48c79eb8d
+https://akisute3.hatenablog.com/entry/2013/12/28/144918
+https://zenn.dev/toyboot4e/articles/write-org-for-great-good
+https://www.amazon.co.jp/%E8%AA%AD%E3%82%80%E3%83%BB%E6%89%93%E3%81%A4%E3%83%BB%E6%9B%B8%E3%81%8F-%E8%AA%AD%E6%9B%B8%E3%83%BB%E6%9B%B8%E8%A9%95%E3%83%BB%E5%9F%B7%E7%AD%86%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E7%90%86%E7%B3%BB%E7%A0%94%E7%A9%B6%E8%80%85%E3%81%AE%E6%97%A5%E3%80%85-%E4%B8%89%E4%B8%AD%E4%BF%A1%E5%AE%8F-ebook/dp/B0CBP9NBDT/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1628405998&sr=8-16
+https://zenn.dev/gomadoufu/articles/how-to-write-papers-with-org-2025
+https://www.google.com/search?q=%E3%83%95%E3%83%AA%E3%83%BC%E3%83%A9%E3%83%B3%E3%82%B9+%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E3%80%80%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2&sca_esv=e218964b1e17de2c&sxsrf=AE3TifM10mxqo0y4LsC7jUz5yrXSrWLAcg%3A1767718785165&ei=gT9dacnjCa-k2roPiv2MyA0&ved=0ahUKEwiJqILSsfeRAxUvklYBHYo-A9kQ4dUDCBE&uact=5&oq=%E3%83%95%E3%83%AA%E3%83%BC%E3%83%A9%E3%83%B3%E3%82%B9+%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E3%80%80%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2&gs_lp=Egxnd3Mtd2l6LXNlcnAiMeODleODquODvOODqeODs-OCuSDmqZ_morDlrabnv5LjgIDjgqjjg7Pjgrjjg4vjgqIyBhAAGAgYHjIIEAAYiQUYogQyBRAAGO8FSKhBULQGWK89cAZ4AJABAJgB0gGgAfMlqgEGMC4zNS4xuAEDyAEA-AEBmAIioAKmHsICChAAGEcY1gQYsAPCAgQQIxgnwgIFEAAYgATCAgcQABiABBgEwgIIEAAYgAQYsQPCAgYQABgEGB7CAggQABgIGAQYHsICCBAAGIAEGKIEwgIEEAAYHsICBRAhGKABwgIEECEYFZgDAIgGAZAGCpIHBjYuMjcuMaAHlHeyBwYwLjI3LjG4B5gewgcGMi4yNi42yAdKgAgB&sclient=gws-wiz-serp
+https://www.google.com/search?q=%E5%9B%BD%E7%AB%8B+%E4%B8%AD%E7%9B%AE%E9%BB%92&oq=%E5%9B%BD%E7%AB%8B%E3%80%80%E4%B8%AD%E7%9B%AE%E9%BB%92&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIKCAEQABiABBiiBDIKCAIQABiABBiiBDIICAMQABgIGB4yBwgEEAAY7wXSAQkxMzk2MGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+https://chatgpt.com/c/695d42c8-0574-8321-a393-294fd5975db5
+https://www.youtube.com/watch?v=hL_n_GljC0I
+https://www.youtube.com/watch?v=q8S-f4-as50
+https://qiita.com/mokemokechicken/items/e63081de6a379905ecf5
+https://www.google.com/search?sca_esv=b04cb06c25fa1fe2&sxsrf=ANbL-n7qSQFFm8pr-O-j0A4o2xN7SCxKIg:1767967329281&udm=2&fbs=ADc_l-ZlCIK_ae5oKZcV5pK93vZHUyOZfINb1ICDQ-FkE6soPeKYRyg8Vmd0jFHjD70dl4CIIEjj8nBPa6tyOns8de8pjGHe9pIaDcxAd7ZZ88fe2-DWd_jV3RBF3Ih2X9lJ0PcJf-00w3KTuP9rdXe2CdBVlNqzbqjOvWsh1DAbaFxul0KVxUcVFlT8pcfH2uVKRDmRraoBEh96z_dUuR1VXA3WKd9937EmCTWu5-AR44RmSjwVyxo&q=%E3%83%91%E3%82%AF%E3%82%BD%E3%82%B8%E3%83%A5%E3%83%B3%E3%80%80%E3%83%A1%E3%82%AC%E3%83%8D&sa=X&ved=2ahUKEwjEqYvFz_6RAxUIp1YBHbovDE8QtKgLegQIFBAB&biw=1242&bih=726&dpr=1&aic=0#sv=CAMSVhoyKhBlLW1XQ2FteldCWU9oWGtNMg5tV0NhbXpXQllPaFhrTToOOFVTUXpDZEZiODhvQU0gBCocCgZtb3NhaWMSEGUtbVdDYW16V0JZT2hYa00YADABGAcg45-q1gowAkoKCAIQAhgCIAIoAg
+https://x.com/kosuke_agos/status/2009525550109610089
+https://mail.google.com/mail/u/0/#inbox/FMfcgzQfBPzCDNKwTzPDRQZjTWztRsPC
+https://jp.trip.com/online/orderdetail/index?orderid=1385430428403864&from=email&template=IBU_FLIGHT_CHANGE_NOTIFY_EMAIL&locale=ja-JP&channel=email&subChannel=IBU_FLIGHT_CHANGE_NOTIFY_EMAIL&allianceid=&ouid=&sid=&oid=1385430428403864&orderId=1385430428403864&redirectFromOnline=1&accesstoken=&hash=
+
+*** 4
+
+https://blog.octopt.com/transformer/
+https://www.google.com/search?q=%E8%84%B3%E3%82%92%E9%8D%9B%E3%81%88%E3%81%9F%E3%81%84+%E7%AD%8B%E3%83%88%E3%83%AC&sca_esv=dd662b92346943f5&udm=28&biw=1512&bih=945&sxsrf=AE3TifOnbtjuKMla-FL2U0uLTPoJFkUOHg%3A1767274793014&ei=KXlWachS3rm-vQ-B68jgDA&ved=0ahUKEwiIi4jSu-qRAxXenK8BHYE1EswQ4dUDCBM&uact=5&oq=%E8%84%B3%E3%82%92%E9%8D%9B%E3%81%88%E3%81%9F%E3%81%84+%E7%AD%8B%E3%83%88%E3%83%AC&gs_lp=Ehlnd3Mtd2l6LW1vZGVsZXNzLXNob3BwaW5nIhzohLPjgpLpjZvjgYjjgZ_jgYQg562L44OI44OsSKEGUABYzANwAHgBkAEAmAEAoAEAqgEAuAEDyAEA-AEBmAIAoAIAmAMAkgcAoAcAsgcAuAcAwgcAyAcAgAgB&sclient=gws-wiz-modeless-shopping
+https://note.com/jsbi/n/na87f91aa90d0
+https://note.com/jsbi/n/na87f91aa90d0
+https://zenn.dev/kaba777/articles/32d8f619ef4f72
+https://jp.quora.com/%E6%95%B0%E5%AD%A6%E7%A7%91%E3%81%AE-%E5%B9%B3%E5%9D%87%E7%9A%84-%E3%81%AA%E5%AD%A6%E7%94%9F%E3%81%AF-%E9%80%B1%E3%81%AB%E4%BD%95%E6%99%82%E9%96%93%E3%81%8F%E3%82%89%E3%81%84%E8%87%AA%E5%B7%B1%E5%AD%A6%E7%BF%92
+https://www.ms.u-tokyo.ac.jp/~yasuyuki/sem.htm
+https://mathlog.info/articles/EzVIGMfJU7M3fGHI8ajK
+https://www.amazon.co.jp/%E8%B5%B0%E3%82%8B%E3%81%93%E3%81%A8%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E8%AA%9E%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AB%E5%83%95%E3%81%AE%E8%AA%9E%E3%82%8B%E3%81%93%E3%81%A8-%E6%96%87%E6%98%A5%E6%96%87%E5%BA%AB-%E6%9D%91%E4%B8%8A-%E6%98%A5%E6%A8%B9/dp/4167502100
+https://cdn.bookey.app/files/pdf/book/en/what-i-talk-about-when-i-talk-about-running.pdf
+https://cdaw.gsfc.nasa.gov/pub/hong/run_talk.pdf
+https://coolschool-spb.ru/upload/What_I_Talk_About_When_I_Talk_About_Running.pdf
+https://www.hello-statisticians.com/explain-terms-cat/langevin_mc1.html
+https://qiita.com/zisui-sukitarou/items/d990a9630ff2c7f4abf2
+https://github.com/zisui-sukitarou/my-vit-pytorch/blob/main/vit_model.py
+https://qiita.com/omiita/items/72998858efc19a368e50
+https://aimath.org/pastworkshops/modelselectionrep.pdf
+https://chatgpt.com/
+https://www.youtube.com/watch?v=KBmhamGNDnc&list=PLFHVQGyAGeqlBJcwchBF_jDqtowJCy1uM&index=9
+https://www.amazon.co.jp/%E6%9D%91%E4%B8%8A%E9%BE%8D%E6%98%A0%E7%94%BB%E5%B0%8F%E8%AA%AC%E9%9B%86-%E6%9D%91%E4%B8%8A%E9%BE%8D%E9%9B%BB%E5%AD%90%E6%9C%AC%E8%A3%BD%E4%BD%9C%E6%89%80-%E6%9D%91%E4%B8%8A-%E9%BE%8D-ebook/dp/B081YFKB9C/ref=tmm_kin_swatch_0
+https://sites.google.com/view/complex-system/
+https://github.com/NithishkumarS/DWA-RL
+https://www.arxiv.org/abs/2511.22226
+https://docs.google.com/presentation/d/1_yekoTv_CHRgz6vsT57RMDESHjlnbGQvq8tYCxKLyW0/edit?slide=id.g5fd1c965c6_0_32#slide=id.g5fd1c965c6_0_32
+https://blog.hatena.ne.jp/abcnkn/abcnkn.hatenablog.com/edit/done?publication_id=6802418398316262279
+https://arxiv.org/pdf/1905.11604
+https://arxiv.org/abs/2512.20607
+https://www.google.com/search?q=%E9%A3%9B%E8%A1%8C%E6%A9%9F%E3%81%AA%E3%81%84+%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88&oq=%E9%A3%9B%E8%A1%8C%E6%A9%9F%E3%81%AA%E3%81%84%E3%80%80%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTILCAEQABgEGCUYgAQyCwgCEAAYBBglGIAEMggIAxAAGAQYHjIKCAQQABiABBiiBDIKCAUQABiABBiiBDIKCAYQABgEGAUYHtIBCDgxOTRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+https://arxiv.org/pdf/2402.04362
+
+
+*** 5
+
+
+
+
+
+
+
+*** 6
+https://chatgpt.com/c/6944b53e-2b40-8323-8374-8349c5133234
+https://bayesnet.org/books_jp/?p=779
+https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_1S5GS201/_pdf/-char/en
+https://www.pnas.org/doi/epdf/10.1073/pnas.2312992121
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11118502/#ABS1
+https://www.biorxiv.org/content/10.1101/2024.05.15.594236v1
+https://www.notion.so/Gradient-based-learning-drives-robust-representations-in-recurrent-neural-networks-by-balancing-comp-12c1fbe7470a80338ce1c34995c31151
+https://www.nature.com/articles/s42256-022-00565-6
+https://www.jstage.jst.go.jp/article/jnns/32/3/32_140/_pdf/-char/en
+https://www.biorxiv.org/content/biorxiv/early/2019/12/18/564476.full.pdf
+https://resou.osaka-u.ac.jp/ja/research/2025/20250530_1
+https://arxiv.org/pdf/2410.02984
+https://www.pnas.org/doi/epdf/10.1073/pnas.1820226116
+https://jxiv.jst.go.jp/index.php/jxiv/preprint/view/2475/6213
+file:///Users/nkn4ryu/Downloads/document.pdf
+https://www.google.com/search?q=%E8%A8%88%E7%AE%97%E4%BB%A3%E6%95%B0%E7%B5%B1%E8%A8%88%E5%AD%A6&sca_esv=c64924e04d081bdf&sxsrf=ANbL-n5YjZQy6WM1wg0yR3ZmW-zozSvVTQ%3A1768563912368&ei=yCRqadiUFouA1e8Pz7fRkQY&ved=0ahUKEwjYmIn-_Y-SAxULQPUHHc9bNGIQ4dUDCBE&uact=5&oq=%E8%A8%88%E7%AE%97%E4%BB%A3%E6%95%B0%E7%B5%B1%E8%A8%88%E5%AD%A6&gs_lp=Egxnd3Mtd2l6LXNlcnAiFeioiOeul-S7o-aVsOe1seioiOWtpjIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBDIIEAAYgAQYogQyCBAAGIAEGKIESLkTUOAKWMwQcAF4AZABAJgBvgGgAe8HqgEDMC43uAEDyAEA-AEBmAIEoAKlA8ICChAAGEcY1gQYsAPCAgUQABjvBcICCBAAGIkFGKIEmAMAiAYBkAYKkgcDMS4zoAf5DrIHAzAuM7gHogPCBwMwLjTIBwmACAE&sclient=gws-wiz-serp
+https://qiita.com/s-yonekura/items/292aad3e48526880edaa
+https://archived.stat.ufl.edu/casella/MCSM10/MCSMshortcourse09.pdf
+https://www.amazon.co.jp/%E8%A1%8C%E5%88%97%E8%A8%88%E7%AE%97%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0-%E5%9F%BA%E6%9C%AC%E3%81%8B%E3%82%89%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E3%81%B8%E3%81%AE%E5%BF%9C%E7%94%A8%E3%81%BE%E3%81%A7-KS%E7%90%86%E5%B7%A5%E5%AD%A6%E5%B0%82%E9%96%80%E6%9B%B8-%E4%BB%8A%E5%80%89-%E6%9A%81/dp/4065424887
+https://arxiv.org/pdf/2010.11560#page=0.88
+https://zenn.dev/xiangze/articles/2249f2221b0a5d#fn-309c-1
+https://www.alignmentforum.org/s/czrXjvCLsqGepybHC/p/4eZtmwaqhAgdJQDEg
+https://arxiv.org/html/2410.16401v1
+https://proceedings.neurips.cc/paper_files/paper/2024/file/377235d5cee7b104501407c0e5066c92-Paper-Conference.pdf
+https://minyoungg.github.io/overparam/resources/overparam-v3.pdf
+https://readable.jp/translate/d1708f63c4bd4751ac32d1b65efc3215
+https://files.readable.jp/d1708f63c4bd4751ac32d1b65efc3215/al-201011560v1.pdf?_gl=1*1wvbwbn*_gcl_au*MTk2MjA5OTc2NC4xNzY4MjAzNzY1
+https://bsi-ni.brain.riken.jp/database/file/251/257.pdf
+https://claude.ai/chat/e8134757-4144-4e04-9785-4ba2bf5f25d8
+https://claude.ai/chat/346717ac-b07b-459a-965e-176aae7443a0
+https://claude.ai/chat/0e93452f-2304-4787-a70d-6a906e216095
+https://chatgpt.com/g/g-p-69155aac615481919d7056b614032cc7-toituyu/c/696dfcff-795c-8322-a285-b844d9553ad9
+https://claude.ai/chat/ceb0be3b-1162-4dc1-a5d0-a3caf6752735
+https://docs.google.com/spreadsheets/d/1JnFQLYwsADnBgt-xZMOsVK5Scgi88lbi3J_VLEwSVPk/edit?gid=269795698#gid=269795698
+https://arxiv.org/pdf/1805.08522
+https://ocw.tsukuba.ac.jp/wp/wp-content/uploads/2019/10/b2e69dfe0c100ecd3b638a1351b5d17b.pdf
+https://docs.google.com/spreadsheets/d/1K96yywYTBZ_DAJvqQhioUSAeltBOaqgyKW1qpcjEwU8/edit?gid=924772202#gid=924772202
+https://drive.google.com/drive/folders/1ddq7zUw6NO1Tgj4gLcH2Xkc8pMLG3bHm
+https://drive.google.com/file/d/12Dv8c5OTPpUpAoN5zu0rmudv-SS_Vt0M/view
+https://www.google.com/search?q=Fragen&oq=Fragen&gs_lcrp=EgZjaHJvbWUyDwgAEEUYORiDARixAxiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDI1MTVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+https://www.google.com/search?q=ihre&oq=Ihre&gs_lcrp=EgZjaHJvbWUqDAgAEAAYQxiABBiKBTIMCAAQABhDGIAEGIoFMgcIARAAGIAEMgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMgkIBxAAGAQYgATSAQc3OTFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#sv=CAMSVhozKhFpYy1XVmJ1QnRLUTRDdUU2TTIOV1ZidUJ0S1E0Q3VFNk06DlpocnJoZUx0bmtMd01NIAQqGwoEc3ZpbRIRaWMtV1ZidUJ0S1E0Q3VFNk0YATABGAcgzODTzw0wAg
+https://app.studyplus.jp/record
+https://www.sanshusha.co.jp/text/onsei/isbn/9784384123128/
+https://www.sanshusha.co.jp/text/onsei/download/512312/mp3/050_CD1_050.mp3
+https://ticktick.com/webapp/#statistics/pomo
+https://chatgpt.com/
+https://chatgpt.com/
+
+*** 7
+https://docs.google.com/document/d/1q-sBsjZ9NS3AOxoIsJ7KmNIOnUvZnHKiQ3_y7tWT6OU/edit?tab=t.0#heading=h.i74v87coq302
+https://arxiv.org/pdf/2601.03220
+https://papers.cool/arxiv/2601.03220
+https://papers.cool/arxiv/cs.LG?show=50
+https://papers.cool/arxiv/stat.ML
+https://arxiv.org/pdf/2402.04362
+https://github.com/shiryu-nakano/project_B4_Doshisha/tree/experiments/llc/experiment/exp02
+https://katsurai.esa.io/posts/119
+https://katsurai.esa.io/posts/17
+https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-15500130/
+https://samurai.nims.go.jp/profiles/nagata_kenji?locale=ja
+https://docs.google.com/spreadsheets/d/1K96yywYTBZ_DAJvqQhioUSAeltBOaqgyKW1qpcjEwU8/edit?gid=0#gid=0
+https://jxiv.jst.go.jp/index.php/jxiv/preprint/view/2475/6213
+https://www.e-arrivalcard.go.kr/portal/apply/individual.do
+https://ocw.tsukuba.ac.jp/wp/wp-content/uploads/2019/10/5b43d44b7c8f6475622e63173d226184.pdf
+https://www.kurims.kyoto-u.ac.jp/coss/coss2020/suzuki-lecture3.pdf
+https://ocw.tsukuba.ac.jp/course/systeminformation/machine_learning/p-1/
+https://ocw.tsukuba.ac.jp/wp/wp-content/uploads/2019/10/cb183f31ebab2cfbc80e2d314cd66920.pdf
+https://mathlandscape.com/taylor-expansion/
+https://mathlandscape.com/group/
+https://gemini.google.com/app/26e0df8858d87499?hl=ja
+https://gemini.google.com/app/26e0df8858d87499
+https://qiita.com/usayamadausako/items/7b72b36303d9d9a077c7
+https://docs.abci.ai/v3/ja/system-overview/
+https://claude.ai/recents
+https://minzsiure.github.io/multiregion-brain-model/
+https://arxiv.org/pdf/2601.06597
+https://qiita.com/ksato9700/items/5d9eba10fe6b8e064178#pyenv-virtualenv%E3%82%92%E4%BD%BF%E3%81%86
+https://chatgpt.com/c/69671d91-0f70-8322-8b82-b486b0a9ead8
+https://speedtest.gate02.ne.jp/
+
+*** 8　勉強の姿勢など
+https://chatgpt.com/
+https://hiroyukikojima.hatenablog.com/entry/2022/09/08/023347
+https://seasawher.hatenablog.com/entry/2020/04/25/175335#%E5%87%BD%E6%95%B0%E8%A7%A3%E6%9E%90%E3%81%A8%E5%A4%89%E5%88%86%E8%A7%A3%E6%9E%90
+https://seasawher.hatenablog.com/entry/2020/04/25/175335#%E7%B7%9A%E5%BD%A2%E4%BB%A3%E6%95%B0
+https://seasawher.hatenablog.com/entry/2021/12/25/144540
+https://seasawher.hatenablog.com/entry/graduate_exam
+https://seasawher.hatenablog.com/entry/2021/12/25/144540
+https://seasawher.hatenablog.com/entry/2020/04/25/175335
+http://iso.2022.jp/math/texintro2016/resume.pdf
+https://seasawher.hatenablog.com/entry/2022/07/01/010000
+https://mathlog.info/articles/xL1wHIWriZIRH973rbSp
+https://docs.google.com/spreadsheets/d/1K96yywYTBZ_DAJvqQhioUSAeltBOaqgyKW1qpcjEwU8/edit?gid=2069027021#gid=2069027021
+
+*** 9研究メイン
+chrome-extension://chphlpgkkbolifaimnlloiipkdnihall/onetab.html
+chrome://newtab/
+https://www.lesswrong.com/posts/L4jbKyexxLYYaBigd/experiments-to-understand-singular-learning-theory-s-free
+https://apartresearch.com/project/local-learning-coefficients-predict-developmental-milestones-during-group-relative-policy-optimization-2te2
+https://www.marktechpost.com/2024/10/21/refined-local-learning-coefficients-rllcs-a-novel-machine-learning-approach-to-understanding-the-development-of-attention-heads-in-transformers/
+https://github.com/sgoldt/dist_inc_comp
+https://proceedings.neurips.cc/paper_files/paper/2024/file/7f5f9a88c6516469c83d074c6f2976fb-Paper-Conference.pdf
+https://github.com/sgoldt/dist_inc_comp
+https://note.com/sangmin/n/n92321e835bc2
+https://github.com/STomoya/ExtendedAbstract/blob/main/howto_overleaf.pdf
+file:///Users/nkn4ryu/Downloads/howto_overleaf.pdf
+https://www.overleaf.com/project/69467d3be381fe4907e1feda
+https://www.notion.so/1851fbe7470a8038be20ed71d8372544
+https://qiita.com/SUZUKI_Masaya/items/14f9727845e020f8e7e9
+https://context-tree-weighting-slt.netlify.app/
+https://chatgpt.com/c/696f3166-2204-8320-9ef8-b13ae0a210c9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Agile
+小さなプロジェクトor習慣化
+プロジェクトごとにメモをため、大きくなったらprojectにするか、もしくはnoteにまとめておく
+
+** books
+booksに入れるか→notionをそのまま使った方が良さそう→時間を作ることだけに注力すれば良くなるので楽
+
+- W bayes
+- 測度の考え方
+- High Dementional Probability
+- 暗号と代数
+- 標準ベイズ統計学→eigo
+- bayes engilish
+  
+** Preparation of Master
+- とにかくここでは研究有者として生き残るため，修士・博士
+
+** MISC
+*** 位相30講義の前に集合30講をやりたい
+*** カリフォルニア変更
+https://note.com/mane_taku/n/ne36d88abc6f9
+
+*** やることで今後が変わる部分
+- githubで人生を管理する
+- skills→これは使い方を上手く工夫すれば，情報収集の精度を向上させることができるかもしれない
+- emacs-terminal はしらばらくはこのまま両方使う．使いながらlispを学ぶ．学んでから最後に考えればいい．
+- 
+
+*** 部屋の整理
+- Money Management sheet
+  - https://docs.google.com/spreadsheets/d/1K96yywYTBZ_DAJvqQhioUSAeltBOaqgyKW1qpcjEwU8/edit?gid=161993183#gid=161993183
+
+**** 必要なもの
+- 作業部屋
+- ダイニング
+  - IKEA 丸テーブル
+  - キッチン横の調味料置き
+  - 棚
+  - 電子レンジ
+    
+
+- 寝室
+  - ソファ
+- MISC
+  - [ ] [[https://www.amazon.co.jp/Fullicon-%E3%80%8CVitaSeal-%E3%82%B4%E3%83%A0%E3%83%91%E3%83%83%E3%82%AD%E3%83%B3%E4%BB%98%E3%81%8D-%E3%82%B5%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%B5%E3%83%97%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%88%E3%82%B1%E3%83%BC%E3%82%B9/dp/B0D48K4M67/ref=sr_1_32?dib=eyJ2IjoiMSJ9.AMZNVTJfkztAwyEwNdsfalGo-e5UfSZBkYaLcQYlhSivCKiR2SCP90jh5PSbwE9kGPXg15Ia6UrdeslcFqmgyf9RPft7UJvTyRHhb6GNiDwAF9MY5t035FPSmNdbZWB0gRyWYLXiSwd8G6Xxc4DXv5pgAhoxa4jLQlOKzDvC_Dqke49Oau_-ngWNjyLtEn4ZbALLWNQjcUZSmbNGWOOj7tE-M6x2xTg_WIlMRJZMS0xg71W4gm7VO_F-ZhK3lFCH1bShc5qFW96OEelgDi0DKoixYEyzJoOk--u939mK68A.Y4OgF9CM4y7twND0I_dqEDrCFhd92tQdBCJV5GSN_uQ&dib_tag=se&keywords=%E3%82%B5%E3%83%97%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%88%E3%82%B1%E3%83%BC%E3%82%B9&qid=1773135310&sr=8-32&th=1][Amazon.co.jp: Fullicon 「VitaSeal 8」 ピルケース 大容量 1週間 薬ケース 密閉 防湿 大きめ 大きい 特大 ゴムパッキン付き 薬入れ サプリケース サプリメントケース 飲み忘れ防止 クスリケース ぴるけーす 長期旅行 トラベル (黒) : ドラッグストア]]
+    2000
+  - [ ] 
+
+** dairy paper
+- 取りあえずこれで動きそう
+  動くものができたのでよし．zennに描きたいけど，やめとくか
+  テーマというか，方面ごとに別のskillを使うのがいいかもしれない
+- 拡張
+  特異学習理論以外の，深層学習の面白い現象について
+  他の応用数学をつかった，深層学習の数理について
+- 特異学習理論の日本語の記事をgoogle検索して，出てきたものをよむ
+  →これは毎日で良さそう→→これは一気に日本語の記事のリストを出して，ランダムで1つえらんでもらうのがいいかも
+  
+
+** Arcaain
+*** INBOX 
+
+** Arcra
+*** INBOX 実装を追う
+*** INBOX hfの記事を30分で1つ読む
+*** INBOX その後何すればいい？？よくわからん
+
+** 研究
+- DSB→これはまだ先があるはず
+- LLC→中西先生の言っていること...再度細かく議論する必要がある
+- [ ] vitの実験を精緻化する→実験に必要な条件を掘る
+- 解き方について，定量的にみてみるとよい
+  
+** Math Study 
+*** current problem
+- 数学の勉強の仕方がわかっていない．習慣できていない
+  - うどん，数学書の読み方
+  - 他リンクをここに貼る
+- 部屋の環境
+  - 作業できる空間にするにはどうすればいいか，研究し続けることをやめない
+    
+*** current work
+**** ベイズ
+- 標準ベイズ https://sites.math.rutgers.edu/~zeilberg/EM20/Hoff.pdf
+- https://github.com/jayelm/hoff-bayesian-statistics
+- ThinkBayes https://davidhason.com/wp-content/uploads/2023/12/15-Think-Bayes-Bayesian-Statistics-in-Python-by-Allen-B.-Downey-z-lib.org_.pdf
+**** 数学の基礎部分
+***** INBOX 数学30講
+** Engineer働き方
+*** current problem
+1月時点目標
+月10万円を稼げるようにしたい．
+AI駆動で開発したい
+
+
+長期的
+機械学習，AIのリサーチ
+→どんな準備が必要か調べてまとめていこう
+*** current work
+**** INBOX AI駆動開発
+**** INBOX install claude code
+**** INBOX try claude code
+**** INBOX try cursor?
+**** INBOX make 6 applications using Ai Agents
+
+** 音楽
+
+** Over ALL
+それぞれの軸で反省点などあれば記入すること．
+SDS早期修了可能？
+
+
+** Music
+*** current problem
+** 海外研究
+
+** Pbroad
+*** current problem
+今抱えている課題，精神的・習慣的なものでもいい
+*** current work
+** Atcoder
+毎日
+** Kaggle
+*** current
+**** INBOX 数式をプログラミングする
+**** INBOX bayese 手法調べて
+*** current problemi
+** Reading
+*** current problem
+** MEMOR
+*** current problem
+** workout
+*** current problem
+** 資格
+*** current problem
+- [X] 日程だけでもいいので調べてスプレッドシートにまとめる
+  https://gemini.google.com/app/87377017973e35c6?hl=ja
+*** Currently WORKING
+**** 応用情報技術者試験
+***** INBOX kindleで本を決めた→これを読んで勉強する
+**** 安全セキスペ
+***** INBOX kindleの書籍をpdfにする
+**** FP3級
+***** INBOX 教科書買った
+**** ERE
+***** INBOX 教科書も何もわからん→CMAの経済だけ見てみるか
+
+**** stat pre1
+**** 簿記3
+**** 今すべきは
+CMAの経済を終わらせる
+ 
+
+
+** 勉強の計画(応用よりの勉強）
+*** 情報幾何
+**** INBOX  https://language-and-engineering.hatenablog.jp/entry/20140619/InformationGeometryPDFPapers
+**** INBOX https://www.jstage.jst.go.jp/article/bjsiam/2/1/2_KJ00005767586/_pdf/-char/ja
+  - 本家
+**** INBOX [[https://language-and-engineering.hatenablog.jp/entry/20140619/InformationGeometryPDFPapers][「情報幾何」に入門するための資料PDF。解説論文と機械学習への応用の紹介 - 主に言語とシステム開発に関して]]
+**** INBOX  [[https://medium.com/@masazdream/%E6%83%85%E5%A0%B1%E5%B9%BE%E4%BD%95%E3%81%AB%E5%85%A5%E9%96%80%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%83%AA%E3%83%B3%E3%82%AF%E9%9B%86-49fdb11360f0][情報幾何に入門するためのリンク集. 情報幾何入門（産総研 脳神経情報研究部門 赤穂昭太郎）… | by Masahiro Imai | Medium]]
+** 入学手続き
+- メール返信
+- 魁星のメール内容
+- R7確定申告結果
+** 奨学金関係
+- https://www.perplexity.ai/search/tukini-kotiranoji-shi-wodu-nte-ef622j4jREexJeoIz1QSQw
+- https://www.notion.so/2de1fbe7470a8020b10cfe26b7b1092a?source=copy_link
+*** INBOX https://note.com/witty_elke1121/n/ne13a58a09572
+*** INBOX https://www.msi.co.jp/event/stuaward/guideline.html
+*** INBOX https://kasegao.github.io/posts/2023/03/money/
+**** 固定費用を計算する必要がある．
+*** INBOX 一橋の説明会のぱわぽ
+https://www.hit-u.ac.jp/kyomu/newstudents/pdf/R7_scholarship_graduated.pdf
+*** 第1種奨学金は借りれそう→あとは在学中に結果を出して免除したい
+
+
+** 確定申告・青色申告
+- https://drive.google.com/drive/u/0/folders/1Uz42FWP7Zu2kGrClpiSOau_LPcas3-46
+  
+*** INBOX 同志社にR7分の源泉徴収を請求しておく
+DEADLINE: <2026-03-16 Mon>
+
+*** INBOX volumetricにも請求しておく
+DEADLINE: <2026-03-16 Mon>
+
+*** DONE 東京大学
+DEADLINE: <2026-03-16 Mon>
+源泉徴収入手済み
+
+*** DONE 同志社大学
+源泉徴収入手した
+*** DONE 書類の整理
+*** DONE openAIの請求書
+  https://chatgpt.com/c/6957e78d-36d0-8320-b737-292cfc131556
+  - [ ] 日本円の請求額を計上するためにクレカの明細を集める
+*** INBOX Arcra請求書→R8年度分を整理しておく
+DEADLINE: <2026-03-20 Fri>
+*** 基礎控除
+- https://www.nta.go.jp/users/gensen/2025kiso/index.htm
+
+
+
+
+
+
+* 所感
+
+* inbox
+
+** C-c n a でDONEを殲滅できます
+** INBOX gtdは毎週どこかの時間で進めるようにするiiといいかも→zenn 
+  [2025-12-02 Tue 16:38]*** INBOX 長沼さんの記事
+https://hiroki11x.github.io/posts/2025/09/10/todo
+** INBOX [[https://joisino.hatenablog.com/entry/theory#%E6%B7%B1%E5%B1%A4%E5%AD%A6%E7%BF%92%E3%81%AE%E7%90%86%E8%AB%96%E3%81%B8][絶対に分かる機iii械学習理論 - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ]*** INBOX log内容を毎日discordに投げたい 
+** INBOX 読みたいもの 
+ - [[https://mathlog.info/articles/EzVIGMfJU7M3fGHI8ajK][数学の勉強のやり方 | Mathlog]]
+ - [[https://qiita.com/Sicut_study/items/c0096caf21eefcd5c85f][【初心者完全版】0からReact開発して基礎をマスターできる最強チュートリアル 音楽生成アプリ編【図解解説】 #TypeScript - Qiita]] 
+ - [[https://studyhacker.net/unconscious-perfectionism#%E3%82%BF%E3%82%A4%E3%83%972%E6%AD%A3%E8%A7%A3%E4%B8%BB%E7%BE%A9%E5%9E%8B%E8%AA%BF%E3%81%B9%E3%82%8C%E3%81%B0%E7%AD%94%E3%81%88%E3%81%8C%E8%A6%8B%E3%81%A4%E3%81%8B%E3%82%8B%E3%81%A8%E3%81%84%E3%81%86%E5%B9%BB%E6%83%B3][あなたに "Done is better than perfect." が出来ない理由——無自覚な完璧主義、4つのタイプと処方箋 - STUDY HACKER（スタディーハッカー）｜社会人の勉強法＆英語学習]]
+ - [[https://mathlog.info/articles/tluyvuhcxujw1tbXfU5Q][可換環論の†全て†を幾何に翻訳して鑑賞しよう~前編~ | Mathlog]]
+ - https://www.youtube.com/watch?app=desktop&v=87-BNgM-KfQ
+ - 
+ - [[https://towardsdatascience.com/ai-papers-to-read-in-2025/][AI Papers to Read in 2025 | Towards Data Science*** INBOX instの画i像投稿 
+  - [[https://tabiato.co.jp/biz/blog/instagram-api-content-publishing/][Instagram Graph APIで自動投稿！画像もリールもストーリーも！ - 旅アトリーチ]]
+** INBOX https://arxiv.org/abs/1904.03866
+** INBOX タスク表示→サブタスクが見えてしまっているので修正すること
+** INBOX Downlooadsにたくさんpdf埋まってるので，google driveに挙げておくこと 
+  Created on [2025-12-08 Mon 14:03]
+** INBOX 借りてたPCのubuntu初期化 
+DEADLINE: <2025-12-28 Sun>
+  Created on [2025-12-08 Mon 20:03]
+** INBOX 勉強として，動画を見ること→動画のリスト 
+  Created on [2025-12-10 Wed 12:29]
+** INBOX 銀行印の整理 
+  Created on [2025-12-10 Wed 13:32]
+** INBOX 機械学習発展 https://tatsy.github.io/1284-sds-advml/
+  Created on [2025-12-11 Thu 19:56]
+** INBOX テスト駆動開発の本を進める 
+  Created on [2025-12-17 Wed 23:24]
+*** INBOX アプリ1
+*** INBOX アプリ2
+*** INBOX アプリ3
+** INBOX 2026やりたいことを書いていく 
+** INBOX Codex，claude codeの本を一回回すこと 
+  Created on [2026-01-05 Mon 14:48]
+** INBOX 試験の流れをパワポにして，それも貼り付けるようにする．
+** INBOX 教科書は何を持ってやったことにするのかをあらかじめ決める，目的も設定する
+  Created on [2026-01-08 Thu 15:33]
+** INBOX エンジニアとしてのポートフォリオ
+  Created on [2026-01-08 Thu 15:35]
+** INBOX codexのとき，他のウィンドウでもチャットが共有されている問題 
+  Created on [2026-01-08 Thu 18:20]
+** INBOX arcra volだけでやるのきついかもしれないのでいったんmacでやって感じをつかむことにするか
+** INBOX gxpの開発を，volで進めることはできないか？→これは十分にタスクを細かくすれば行けるはず
+今すべきこと
+*** INBOX パワポ作成
+*** INBOX システム図の作成
+
+** INBOX ７時半に起きたい
+** INBOX ARCRA MTG 20260319
+task
+新しいのが来るっぽい
+
+Q
+- 今のタスクOCR, AI Agent
+-
+  
+
+- RAGのプロジェクト
+- やりたいこと（お題）
+
+
+#+ATTR_ORG: :width 500
+[[file:2026-03-19.org_image/20260319_182314.png]]
+
+- サーバーに
+  EC2建てて，7Bの24B　LLM,VLMをAWSのec2などで動作させる方法とコスト
+  セキュリティ面リスク→notion
+  リサーチ3時間程度
+  構築12時間
+** INBOX make able to fold programs
+
+
+
+
+

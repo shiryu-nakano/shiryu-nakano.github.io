@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:1313/posts/life/</loc>
     <lastmod>2026-03-31T13:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/life/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2026-03-31T13:00:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
@@ -14,17 +14,19 @@
     <loc>http://localhost:1313/posts/life/tips/</loc>
     <lastmod>2026-03-31T13:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/research/attitude/</loc>
+    <loc>http://localhost:1313/posts/study/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/univ/deteil/</loc>
+    <loc>http://localhost:1313/posts/univ/guidance/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/engineering/notes/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/univ/general/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/research/org-test/</loc>
+    <loc>http://localhost:1313/posts/research/notes/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/misc/blog_intro/</loc>
+    <loc>http://localhost:1313/posts/research/org-test/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/study/overview/</loc>
   </url><url>
@@ -36,8 +38,6 @@
   </url><url>
     <loc>http://localhost:1313/posts/research/slt/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/study/</loc>
-  </url><url>
     <loc>http://localhost:1313/posts/life/study/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
@@ -46,6 +46,14 @@
   </url><url>
     <loc>http://localhost:1313/posts/univ/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/univ/class/</loc>
+    <loc>http://localhost:1313/posts/misc/motivation-of-blog/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/misc/tsukuchal2024/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/misc/tsukuchal2025/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/misc/retrospective-intern/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/univ/detail/</loc>
   </url>
 </urlset>

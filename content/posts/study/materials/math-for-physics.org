@@ -1,0 +1,17 @@
+#+TITLE: 物理のための数学
+#+URL: /posts/study/math-for-physics
+
+* Overview
+- 物理学を学ぶために必要最低限の数学を学習することを目的に，使用した（する予定の）教材をまとめる
+- 学習した内容のうち，自分でまとめた部分を参照できるように整理しておく
+
+* 教材
+
+** INBOXv: [[https://haltasaki.github.io/books/math/][Math book]]
+田崎晴明先生のホームページで公開されてい「数学：物理を学び楽しむために」
+自分用のリンク→https://drive.google.com/file/d/1zh6Ph4jYB5DidD6bGgDHS7xN8cTMBn4f/view?usp=drive_link
+
+** WIP : [[https://www.amazon.co.jp/%E7%89%A9%E7%90%86%E6%95%B0%E5%AD%A6-%E7%89%A9%E7%90%86%E5%AD%A6%E3%83%AC%E3%82%AF%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B3%E3%83%BC%E3%82%B9-%E6%A9%8B%E7%88%AA-%E6%B4%8B%E4%B8%80%E9%83%8E/dp/4785324104][物理数学 (物理学レクチャーコース) | 橋爪 洋一郎 |本 | 通販 | Amazon]]
+
+
+** NEXT : [[https://www.amazon.co.jp/%E4%B8%80%E6%AD%A9%E9%80%B2%E3%82%93%E3%81%A0%E7%89%A9%E7%90%86%E6%95%B0%E5%AD%A6-%E3%83%AC%E3%82%AF%E3%83%81%E3%83%A3%E3%83%BC%E3%81%AE%E3%81%9D%E3%81%AE%E5%85%88%E3%81%B8-%E6%A9%8B%E7%88%AA-%E6%B4%8B%E4%B8%80%E9%83%8E/dp/4785328320/ref=pd_sbs_d_sccl_2_1/357-2093534-0579907?pd_rd_w=1DX9a&content-id=amzn1.sym.d9975236-2c6f-40f8-8a79-8a86a96a4ad2&pf_rd_p=d9975236-2c6f-40f8-8a79-8a86a96a4ad2&pf_rd_r=8PPXPF22NF6NECMTG0YH&pd_rd_wg=N6SnW&pd_rd_r=129fd609-b564-44cd-bd30-114327335a5a&pd_rd_i=4785328320&psc=1][一歩進んだ物理数学: レクチャーのその先へ | 橋爪 洋一郎 |本 | 通販 | Amazon]]

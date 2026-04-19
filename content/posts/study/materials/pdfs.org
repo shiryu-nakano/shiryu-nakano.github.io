@@ -1,0 +1,13 @@
+#+TITLE: PDFで見たい雑多なまとめ
+#+URL: /posts/study/pdf1/
+
+* Overview
+特に目的を持ってというわけでもなく，でも見ようと思ってみていないpdfやブログをメモする
+
+* LIST
+
+- 
+- [ ] 高次元現象の統計数理
+  - https://www.math.tsukuba.ac.jp/~aoshima-lab/jp/kikaku2022aoshima.pdf
+- [ ] [[https://ocw.u-tokyo.ac.jp/course_11477/][時系列解析（数理手法Ⅶ） | UTokyo OCW (OpenCourseWare)]]
+- [ ] 
