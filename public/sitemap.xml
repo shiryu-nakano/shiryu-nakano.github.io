@@ -14,7 +14,11 @@
     <loc>http://localhost:1313/posts/life/tips/</loc>
     <lastmod>2026-03-31T13:00:00+09:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/research/materials/ai-safty/</loc>
+  </url><url>
     <loc>http://localhost:1313/posts/study/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/cabinet/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
@@ -32,6 +36,10 @@
   </url><url>
     <loc>http://localhost:1313/posts/research/paper_stock/</loc>
   </url><url>
+    <loc>http://localhost:1313/posts/study/pdf1/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/research/materials/pinns/</loc>
+  </url><url>
     <loc>http://localhost:1313/posts/research/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/research/scaling-laws/</loc>
@@ -46,6 +54,8 @@
   </url><url>
     <loc>http://localhost:1313/posts/univ/</loc>
   </url><url>
+    <loc>http://localhost:1313/posts/study/youtube1/</loc>
+  </url><url>
     <loc>http://localhost:1313/posts/misc/motivation-of-blog/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/misc/tsukuchal2024/</loc>
@@ -53,6 +63,8 @@
     <loc>http://localhost:1313/posts/misc/tsukuchal2025/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/misc/retrospective-intern/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/study/math-for-physics/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/univ/detail/</loc>
   </url>

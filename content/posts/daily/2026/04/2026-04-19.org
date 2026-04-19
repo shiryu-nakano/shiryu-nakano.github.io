@@ -1,0 +1,973 @@
+#+TITLE: 2026-04-19
+#+URL: /posts/daily/2026/04/19/
+#+filetags: :daily:
+#+OPTIONS: toc:nil num:nil ^:nil tags:nil todo:nil H:10
+#+OPTIONS: broken-links:mark
+#+OPTIONS: tex:t
+#+OPTIONS: html-postamble:nil
+#+OPTIONS: links:nil
+
+* Home
+  
+** Reading
+- [[https://code.claude.com/docs/en/how-claude-code-works]]
+
+
+** 毎日やること
+- 新聞
+  - [[https://opac.lib.hit-u.ac.jp/opac/gateway/list/purpose/3/?lang=1&page=2&list_disp=20][Hitotsubashi University Library Database List]]
+    - [[https://t21-nikkei-co-jp.hit-u.idm.oclc.org/g3/CMNDF11.do?Xid=%2Fzyo%2FI%2BoeIySJkO9rUZf%2BDz13eIrYpqa%2BMDi%2BGQS7Ux%2BY36VUrrySvocsc6eyk1du036Db5SbHqaHbWwlKqmCj6b9l9XRhHa&Pkey=pkey4][日経テレコン21]]    
+  - 一度読んで，プロンプトでキーワードを解説してもらう
+  #+begin_src
+  この記事を解説して下さい．特に日経新聞を普段読まない人がつまづきがちなキーワードの解説を行ってください
+  #+end_src
+
+  
+- 論文を毎日読む
+- 日々アイデアを書き留めていくこと
+- Atcoder
+- 読書
+- ベイズpython
+
+
+
+
+** 設計
+- sltの情報収集
+  - 3月→ SLT周りの日本語の記事を1日1本読むこと
+    - 読む記事のリスト
+      -
+  - 4月→ 同じ
+  - 5月→ AI-Alignmentの英語の記事に移る
+
+* 直近の予定締め切り
+
+
+
+
+** 直近のタスク
+
+*** PINNs
+- [[https://www.udemy.com/course/physics-informed-neural-network-pinns/learn/lecture/39867700#overview][Course: Physics Informed Neural Networks (PINNs) | Udemy]]
+- https://www.msiism.jp/article/physics-informed-machine-learning1.html
+- [[https://zenn.dev/tatsukikodama/articles/ca050afe41058b][シンプルな物理知ニューラルネットワーク (PINN: Physics-Informed Neural Network)]]
+
+  
+ここら辺も自分だけ見れるブログ
+** 直近の予定
+4/15(水)：2h:18-20
+4/16(木)：1.5h程度
+4/17(金)：3h:
+4/18(土)：
+4/19(日)：4h:
+4/20(月)：2h
+4/21(火)：セミナーのため0
+4/22(水)：2.5h
+ここまで15時間程度
+4/23(木)：2h 19-21
+4/24(金)：2h
+
+
+
+
+* TASK
+- [ ] 予備乗り積分100→毎日1つ？
+  https://drive.google.com/file/d/1sJye9GxOzSwOeI2WTBXV2VP6RZ52fatR/view
+
+** 雑務 [10/12]
+*** DONE anytime対応→メール待ち
+*** INBOX マーキュリータワー申請もうすぐ 22 まで
+*** DONE RA 4, 5月をカレンダーに入れる
+*** DONE 構成にお金送る
+*** DONE 時間割決定
+*** DONE 時間割登録→CELS
+*** DONE RAの書類を準備，確認，質問する
+DEADLINE: <2026-04-13 Mon>
+*** INBOX 松尾の課題を確認してここに書き下すこと
+DEADLINE: <2026-04-13 Mon>
+*** DONE slackに勉強会の連絡を書く
+→今日
+お疲れ様です．投票ありがとうございました．
+初回は一番投票の多かった水曜日の
+にいたします．
+ひとまず初回は対面で行いたいと思います．
+*** DONE 口座登録
+*** DONE RAの手続きもう一つ＝乙の申請
+*** DONE orgのタスク数える機能がおかしいのでclaudeに聞く
+→｜の後ろに書いてあると，完了済みと扱ってくれるらしい．init.elの内容の事．
+
+** 課題関係 [1/9]
+*** INBOX  研究計画のスライド作成　2hくらい？
+*** INBOX 統計実践課題1 平常レポート
+DEADLINE: <2026-04-23 Thu>
+*** INBOX 課題2
+*** DONE リサーチ・ワークショップ→小町Tに連絡
+*** INBOX 金融→課題
+*** INBOX GCIの事前
+*** INBOX deeplearning初回→再来週まで？
+*** INBOX 公的統計のレポート確認しておくこと
+DEADLINE: <2026-04-30 Thu>
+*** INBOX 特論のレポート
+** misc
+- [ ] 奨学金関係→昼休み？
+- [X] シラバス調べる
+  - 調べる→情報収集のみに集中する
+- [X] 時間割をきめること
+- [X] gxp
+- [X] arcra
+
+- [ ] 引き継ぎ→修論を読む
+  - [ ] プログラムを読む
+  - [ ] ベイズpythonをやる
+- [X] gci 金融も通った
+  - [X] 事前準備的なもの？
+
+- [X] LLMComunityに入る
+  - [X] [[https://linktr.ee/matsuolab_community#382761485]]
+    
+** Blog
+- [ ] university
+- [ ] research
+  - hiroxiさんのものを参考に
+- [ ] paper これもhiroxi
+- [ ] study
+- [ ] plan
+- [ ] この運用方法自体をブログに
+
+ブログ管理についてのメモ
+main: github
+hatena
+qiita
+zenn
+note?
+ 
+** 大学関係 事務系
+- [X] RAシフト提出　5月分
+↓研究倫理教育→研究室でやること
+- [ ] [[https://mail.google.com/mail/u/0/#inbox/FMfcgzQgLFlPmFMZphschTvJpsgFqpML]]
+- [ ] [[https://mail.google.com/mail/u/0/#inbox/FMfcgzQgLFlPJqBFQxhqsMPcNWFkttDq]]
+- [ ] jpbankカードメールが来ていたか探す
+  
+** 入学手続き書類
+- [X] 魁星の在学証明書
+- [ ] 返信待ち
+
+** udemy
+- [ ] ベイズ
+- [ ] kaggle
+- [ ] ベイズ2
+
+** 動画で学習する
+- [ ] 予備のり
+  - [ ] 群論
+  - [ ] 線形
+  - [ ] 解析
+  - [ ] 複素解析
+  - [ ] ベクトル解析
+*** 行列の積（39本の動画） [1/6]
+- [X] 1
+- [ ] 2
+- [ ] 3
+- [ ] 4
+- [ ] 5
+- [ ] 
+** 松尾研セミナー
+- [ ] GCI spring→事前学習
+  - [ ] 教材のダウンロードをしておく
+  - [ ] 説明を見る
+
+- [X] deep leaning
+  - [X] 事前準備
+  - [X] slack登録
+
+- 金融
+  - [X] 事前登録
+
+
+
+
+
+
+
+
+
+
+
+* LOG
+
+- http://localhost:1313/posts/daily/hima-wo-tsukutte-himatsubushi/
+
+Evanと何かプロジェクトをやりたい．せっかくなら何か一緒に形になることがしたい．
+SLTとNNに関わる何らかのプロジェクトを進めたい．SLTに関する研究ネタを持ってくればいいかな．
+
+
+画像の貼り付けをできるようにした！
+→emacsの設定と，hugoのせっていを変更した
+- [ ] dailyを手早く整理する
+- [ ] 物理
+- [ ] 深層学習
+- [ ] Aprin
+- [X] タブ
+  - [[https://science-log.com/%E6%95%B0%E5%AD%A6/%E3%80%90%E6%9C%80%E9%81%A9%E5%8C%96%E5%95%8F%E9%A1%8C%E3%81%AE%E5%9F%BA%E7%A4%8E%E3%80%91%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%88%E3%83%B3%E6%B3%95%E3%81%A8%E3%83%98%E3%83%83%E3%82%BB%E8%A1%8C%E5%88%97/][【最適化問題の基礎】ニュートン法とヘッセ行列 - 理系のための備忘録]]
+  - [[https://forum.effectivealtruism.org/posts/KBtLzLzrSxzZm4HZK/lasr-labs-summer-2026-applications-are-open#Who_should_apply_][LASR Labs Summer 2026 applications are open! — EA Forum]]
+    - https://claude.ai/chat/3a21b0b5-4306-4a07-ad6d-912fab93113b
+    - https://coefficientgiving.org/research/reasoning-transparency/
+  - https://www.cs.ucr.edu/~eamonn/Keogh_SIGKDD09_tutorial.pdf
+
+- [ ] file:///Users/nkn4ryu/Downloads/al-Chenetal2024-Unveilinginductionheads-Provabletrainingdynamicsandfeaturelearningintransformerscopy.pdf
+- file:///Users/nkn4ryu/Downloads/al-Chenetal2024-Unveilinginductionheads-Provabletrainingdynamicsandfeaturelearningintransformerscopy.pdf
+- https://www.youtube.com/watch?v=WEmVYvijaMc
+- 
+
+ 
+- [ ] やり方をまとめておく
+
+
+*** まとめ
+⏺ Hugo + Org-mode での画像貼り付け設定まとめ
+
+  概要
+
+  Emacsでorg-modeを使いながら、画像を貼り付けてEmacsとHugo両方で表示できるようにする設定です。
+
+  ディレクトリ構造
+
+  shiryu-nakano.github.io/
+  ├── content/
+  │   └── posts/research/
+  │       └── org-test.org          ← orgファイル
+  ├── static/
+  │   └── images/
+  │       └── posts/research/
+  │           └── 20260419_123420.png  ← 画像はここに保存
+  └── layouts/
+      └── posts/
+          └── single.html           ← パス変換用
+
+  変更したファイル
+
+  1. ~/.emacs.d/init.el
+
+  画像貼り付け時に:
+  - Hugoサイト内: static/images/ に保存、相対パスで参照
+  - それ以外（org-roam等）: 従来通り ファイル名_image/ に保存
+
+  (with-eval-after-load "org"
+    (defun org-insert-clipboard-image ()
+      (interactive)
+      (let* ((hugo-root (locate-dominating-file default-directory "hugo.toml")))
+        (if hugo-root
+            ;; Hugoサイト内 → static/images/に保存、相対パスで参照
+            (let* ((content-dir (expand-file-name "content" hugo-root))
+                   (current-dir (file-name-directory (buffer-file-name)))
+                   (relative-path (if (string-prefix-p content-dir current-dir)
+                                      (file-relative-name current-dir content-dir)
+                                    ""))
+                   (image-dir (expand-file-name
+                               (concat "static/images/" relative-path)
+                               hugo-root))
+                   (image-name (format-time-string "%Y%m%d_%H%M%S.png"))
+                   (image-file (concat image-dir image-name))
+                   (org-link (file-relative-name image-file current-dir)))
+              (make-directory image-dir t)
+              (shell-command (concat "pngpaste " image-file))
+              (when (file-exists-p image-file)
+                (insert (format "#+ATTR_ORG: :width %d\n" 40))
+                (insert (concat "[[file:" org-link "]]")))
+              (org-display-inline-images))
+          ;; Hugoサイト外 → 従来通り
+          ...))))
+
+  2. layouts/posts/single.html
+
+  go-orgが生成するHTMLの画像パスを変換:
+
+  {{ define "main" }}
+  <article class="markdown book-post">
+    ...
+    <div class="book-post-content markdown-inner">
+      {{- .Content | replaceRE `src="../../../static` `src="` | safeHTML -}}
+    </div>
+  </article>
+  {{ end }}
+
+  3. .github/workflows/pages-deploy.yml
+
+  Jekyll → Hugo に変更:
+
+  - name: Setup Hugo
+    uses: peaceiris/actions-hugo@v3
+    with:
+      hugo-version: 'latest'
+      extended: true
+
+  - name: Build site
+    run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+  動作の流れ
+
+  1. Emacsで C-x C-y で画像貼り付け
+     ↓
+  2. 画像が static/images/posts/research/xxx.png に保存
+     ↓
+  3. orgファイルに [[file:../../../static/images/posts/research/xxx.png]] が挿入
+     ↓
+  4. Emacs: 相対パスで画像を表示 ✓
+     ↓
+  5. Hugo: layouts/posts/single.html の replaceRE でパス変換
+     → <img src="/images/posts/research/xxx.png"> ✓
+
+  結果
+  ┌───────────────────┬────────────────────┐
+  │       環境        │      画像表示      │
+  ├───────────────────┼────────────────────┤
+  │ Emacs             │ ✓ 相対パスで表示   │
+  ├───────────────────┼────────────────────┤
+  │ Hugo (ローカル)   │ ✓ replaceRE で変換 │
+  ├───────────────────┼────────────────────┤
+  │ GitHub Pages      │ ✓ 同上             │
+  ├───────────────────┼────────────────────┤
+  │ org-roam (Hugo外) │ ✓ 従来通り動作     │
+  └───────────────────┴────────────────────┘
+
+
+
+
+* 所感
+
+orgとブログの統合はだいぶうまくいくようになってきた気がする．大体11月とかに興味を持ち始めて，4月中旬の今なので，6ヶ月くらい．
+大体半年でこういうレベルまでは来れる．
+数学やMLについてもそうであると考えられるだろうか？
+**** INBOX あとはjesseのAnkiのブログを参照して，ルーティンに入れるリズムを作りたい
+
+* タスク整理
+- 研究進めたい
+
+*** miscやりのこしたTASK
+  - [ ] Spring Deep の課題OMG.
+  - [ ] インターネット利用申請.→教員の許可が必要
+  - [ ] 楽天カードのポイント設定→別にあとでよし
+
+ 
+*** 講義の課題
+**** 統計分析発展実践
+#+ATTR_ORG: :width 40
+[[file:../../../../../static/images/posts/daily/2026/04/20260419_164737.png]]
+
+4/30（木）・5/1（金）の2日間を，平常レポート2の作成に際した個別の壁打ち会に充てます．
+
+原則として，1人あたり30分時間を確保します．
+4/24（金）に実施予定の「データの可視化」回までの内容を理解できていないと，平常レポート2に加えて最終レポートの作成も困難になりますので，今までで理解できていない点について，キャッチアップを図る機会としてください．
+
+開催場所は，原則として私の研究室（第3研究館203）とします．
+対面開催の都合が付かない方に関しては，Zoomでの開催も可とします．
+日程を登録する際に，その旨をコメントとして追記してください．
+
+任意参加としますので，壁打ち会の機会が必要な方については，4/26（日）までに以下のURLから日時毎の参加可否を登録してください．
+https://chosuke.net/main.aspx?g=84d3119789841d6b71
+
+
+
+  
+**** 公的統計
+- [ ] 物価のpdfを読む
+  - https://drive.google.com/open?id=1RISmztg-6RiJJj_xAVxiYxPxipTyVitg&usp=drive_fs
+* Agile
+小さなプロジェクトor習慣化
+プロジェクトごとにメモをため、大きくなったらprojectにするか、もしくはnoteにまとめておく
+
+** Preparation of Master
+
+*** attitude
+- とにかくここでは研究有者として生き残るため，修士・博士で何を一番大切にするべきかを考える
+  
+- じっくり考える癖をつける（インプットとアウトプットを同時にやろうとしないこと）
+- まずは自分の頭で考える
+
+*** todo
+
+**** テーマ：とにかくベイズをやりまくる．Deepは後から一気にやる
+- udemy ベイズ [[https://www.udemy.com/course/pythonstan/][【PythonとStanで学ぶ】仕組みが分かるベイズ統計学入門]]
+  動画11．5時間
+  rule
+   単純な視聴で11.5, anki？や定着などのために
+   25時間程度を計画に入れる
+   どのようにすすめるか；
+     計画→4日間
+     動画の視聴
+- udemy ベイズ
+- udemy Kaggle
+  - レクチャー: 144
+  - 動画: 合計18.5時間
+  - 計画：
+    30時間以上かかる
+- python beyes
+  - 書籍．ベイズのとっかかりとして選んだ
+  
+- julia beyes
+- ベイズによる機械学習
+- ベイズ深層学習
+- 統計の概要を掴むことが優先なので統計検定のワークブックがおすすめらしい
+
+
+
+** books
+booksに入れるか→notionをそのまま使った方が良さそう→時間を作ることだけに注力すれば良くなるので楽
+
+- W bayes
+- 測度の考え方
+- High Dementional Probability
+- 暗号と代数
+- 標準ベイズ統計学→eigo
+- bayes engilish
+  
+** MISC
+*** 位相30講義の前に集合30講をやりたい
+*** カリフォルニア変更
+https://note.com/mane_taku/n/ne36d88abc6f9
+
+*** やることで今後が変わる部分
+- githubで人生を管理する
+- skills→これは使い方を上手く工夫すれば，情報収集の精度を向上させることができるかもしれない
+- emacs-terminal はしらばらくはこのまま両方使う．使いながらlispを学ぶ．学んでから最後に考えればいい．
+- 
+
+*** 部屋の整理
+- Money Management sheet
+  - https://docs.google.com/spreadsheets/d/1K96yywYTBZ_DAJvqQhioUSAeltBOaqgyKW1qpcjEwU8/edit?gid=161993183#gid=161993183
+
+**** 必要なもの
+- 作業部屋
+- ダイニング
+  - IKEA 丸テーブル
+  - キッチン横の調味料置き
+  - 棚
+  - 電子レンジ
+    
+
+- 寝室
+  - ソファ
+- MISC
+  - [ ] [[https://www.amazon.co.jp/Fullicon-%E3%80%8CVitaSeal-%E3%82%B4%E3%83%A0%E3%83%91%E3%83%83%E3%82%AD%E3%83%B3%E4%BB%98%E3%81%8D-%E3%82%B5%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%B5%E3%83%97%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%88%E3%82%B1%E3%83%BC%E3%82%B9/dp/B0D48K4M67/ref=sr_1_32?dib=eyJ2IjoiMSJ9.AMZNVTJfkztAwyEwNdsfalGo-e5UfSZBkYaLcQYlhSivCKiR2SCP90jh5PSbwE9kGPXg15Ia6UrdeslcFqmgyf9RPft7UJvTyRHhb6GNiDwAF9MY5t035FPSmNdbZWB0gRyWYLXiSwd8G6Xxc4DXv5pgAhoxa4jLQlOKzDvC_Dqke49Oau_-ngWNjyLtEn4ZbALLWNQjcUZSmbNGWOOj7tE-M6x2xTg_WIlMRJZMS0xg71W4gm7VO_F-ZhK3lFCH1bShc5qFW96OEelgDi0DKoixYEyzJoOk--u939mK68A.Y4OgF9CM4y7twND0I_dqEDrCFhd92tQdBCJV5GSN_uQ&dib_tag=se&keywords=%E3%82%B5%E3%83%97%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%88%E3%82%B1%E3%83%BC%E3%82%B9&qid=1773135310&sr=8-32&th=1][Amazon.co.jp: Fullicon 「VitaSeal 8」 ピルケース 大容量 1週間 薬ケース 密閉 防湿 大きめ 大きい 特大 ゴムパッキン付き 薬入れ サプリケース サプリメントケース 飲み忘れ防止 クスリケース ぴるけーす 長期旅行 トラベル (黒) : ドラッグストア]]
+    2000
+  - [ ] 
+
+** dairy paper
+- 取りあえずこれで動きそう
+  動くものができたのでよし．zennに描きたいけど，やめとくか
+  テーマというか，方面ごとに別のskillを使うのがいいかもしれない
+- 拡張
+  特異学習理論以外の，深層学習の面白い現象について
+  他の応用数学をつかった，深層学習の数理について
+- 特異学習理論の日本語の記事をgoogle検索して，出てきたものをよむ
+  →これは毎日で良さそう→→これは一気に日本語の記事のリストを出して，ランダムで1つえらんでもらうのがいいかも
+  
+
+** Arcaain
+
+** Arcra
+*** INBOX 実装を追う
+*** INBOX hfの記事を30分で1つ読む
+*** INBOX その後何すればいい？？よくわからん
+
+** 研究
+- DSB→これはまだ先があるはず
+- LLC→中西先生の言っていること...再度細かく議論する必要がある
+- [ ] vitの実験を精緻化する→実験に必要な条件を掘る
+- 解き方について，定量的にみてみるとよい
+  
+** Math Study 
+*** current problem
+- 数学の勉強の仕方がわかっていない．習慣できていない
+  - うどん，数学書の読み方
+  - 他リンクをここに貼る
+- 部屋の環境
+  - 作業できる空間にするにはどうすればいいか，研究し続けることをやめない
+    
+*** current work
+**** ベイズ
+- 標準ベイズ https://sites.math.rutgers.edu/~zeilberg/EM20/Hoff.pdf
+- https://github.com/jayelm/hoff-bayesian-statistics
+- ThinkBayes https://davidhason.com/wp-content/uploads/2023/12/15-Think-Bayes-Bayesian-Statistics-in-Python-by-Allen-B.-Downey-z-lib.org_.pdf
+**** 数学の基礎部分
+***** INBOX 数学30講
+** Engineer働き方
+*** current problem
+1月時点目標
+月10万円を稼げるようにしたい．
+AI駆動で開発したい
+
+
+長期的
+機械学習，AIのリサーチ
+→どんな準備が必要か調べてまとめていこう
+*** current work
+**** INBOX AI駆動開発
+**** INBOX install claude code
+**** INBOX try claude code
+**** INBOX try cursor?
+**** INBOX make 6 applications using Ai Agents
+
+** 音楽
+
+** Over ALL
+それぞれの軸で反省点などあれば記入すること．
+SDS早期修了可能？
+
+
+** Music
+*** current problem
+** 海外研究
+
+** Pbroad
+*** current problem
+今抱えている課題，精神的・習慣的なものでもいい
+*** current work
+** Atcoder
+毎日
+** Kaggle
+*** current
+**** INBOX 数式をプログラミングする
+**** INBOX bayese 手法調べて
+*** current problemi
+** Reading
+*** current problem
+** MEMOR
+*** current problem
+** workout
+*** current problem
+** 資格
+*** current problem
+- [X] 日程だけでもいいので調べてスプレッドシートにまとめる
+  https://gemini.google.com/app/87377017973e35c6?hl=ja
+*** Currently WORKING
+**** 応用情報技術者試験
+***** INBOX kindleで本を決めた→これを読んで勉強する
+**** 安全セキスペ
+***** INBOX kindleの書籍をpdfにする
+**** FP3級
+***** INBOX 教科書買った
+**** ERE
+***** INBOX 教科書も何もわからん→CMAの経済だけ見てみるか
+
+**** stat pre1
+**** 簿記3
+**** 今すべきは
+CMAの経済を終わらせる
+ 
+
+
+** 勉強の計画(応用よりの勉強）
+*** 情報幾何
+**** INBOX  https://language-and-engineering.hatenablog.jp/entry/20140619/InformationGeometryPDFPapers
+**** INBOX https://www.jstage.jst.go.jp/article/bjsiam/2/1/2_KJ00005767586/_pdf/-char/ja
+  - 本家
+**** INBOX [[https://language-and-engineering.hatenablog.jp/entry/20140619/InformationGeometryPDFPapers][「情報幾何」に入門するための資料PDF。解説論文と機械学習への応用の紹介 - 主に言語とシステム開発に関して]]
+**** INBOX  [[https://medium.com/@masazdream/%E6%83%85%E5%A0%B1%E5%B9%BE%E4%BD%95%E3%81%AB%E5%85%A5%E9%96%80%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%83%AA%E3%83%B3%E3%82%AF%E9%9B%86-49fdb11360f0][情報幾何に入門するためのリンク集. 情報幾何入門（産総研 脳神経情報研究部門 赤穂昭太郎）… | by Masahiro Imai | Medium]]
+** 入学手続き
+- メール返信
+- 魁星のメール内容
+- R7確定申告結果
+** 奨学金関係
+- https://www.perplexity.ai/search/tukini-kotiranoji-shi-wodu-nte-ef622j4jREexJeoIz1QSQw
+- https://www.notion.so/2de1fbe7470a8020b10cfe26b7b1092a?source=copy_link
+*** INBOX https://note.com/witty_elke1121/n/ne13a58a09572
+*** INBOX https://www.msi.co.jp/event/stuaward/guideline.html
+*** INBOX https://kasegao.github.io/posts/2023/03/money/
+**** 固定費用を計算する必要がある．
+*** INBOX 一橋の説明会のぱわぽ
+https://www.hit-u.ac.jp/kyomu/newstudents/pdf/R7_scholarship_graduated.pdf
+*** 第1種奨学金は借りれそう→あとは在学中に結果を出して免除したい
+
+
+** 確定申告・青色申告
+- https://drive.google.com/drive/u/0/folders/1Uz42FWP7Zu2kGrClpiSOau_LPcas3-46
+  
+*** INBOX 同志社にR7分の源泉徴収を請求しておく
+DEADLINE: <2026-03-16 Mon>
+
+*** INBOX volumetricにも請求しておく
+DEADLINE: <2026-03-16 Mon>
+
+*** DONE 東京大学
+DEADLINE: <2026-03-16 Mon>
+源泉徴収入手済み
+
+*** DONE 同志社大学
+源泉徴収入手した
+*** DONE 書類の整理
+*** DONE openAIの請求書
+  https://chatgpt.com/c/6957e78d-36d0-8320-b737-292cfc131556
+  - [ ] 日本円の請求額を計上するためにクレカの明細を集める
+*** INBOX Arcra請求書→R8年度分を整理しておく
+DEADLINE: <2026-03-20 Fri>
+*** 基礎控除
+- https://www.nta.go.jp/users/gensen/2025kiso/index.htm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* inbox
+
+** C-c n a でDONEを殲滅できます
+** INBOX gtdは毎週どこかの時間で進めるようにするiiといいかも→zenn 
+  [2025-12-02 Tue 16:38]*** INBOX 長沼さんの記事
+https://hiroki11x.github.io/posts/2025/09/10/todo
+** INBOX [[https://joisino.hatenablog.com/entry/theory#%E6%B7%B1%E5%B1%A4%E5%AD%A6%E7%BF%92%E3%81%AE%E7%90%86%E8%AB%96%E3%81%B8][絶対に分かる機iii械学習理論 - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ]*** INBOX log内容を毎日discordに投げたい 
+** INBOX 読みたいもの 
+ - [[https://mathlog.info/articles/EzVIGMfJU7M3fGHI8ajK][数学の勉強のやり方 | Mathlog]]
+ - [[https://qiita.com/Sicut_study/items/c0096caf21eefcd5c85f][【初心者完全版】0からReact開発して基礎をマスターできる最強チュートリアル 音楽生成アプリ編【図解解説】 #TypeScript - Qiita]] 
+ - [[https://studyhacker.net/unconscious-perfectionism#%E3%82%BF%E3%82%A4%E3%83%972%E6%AD%A3%E8%A7%A3%E4%B8%BB%E7%BE%A9%E5%9E%8B%E8%AA%BF%E3%81%B9%E3%82%8C%E3%81%B0%E7%AD%94%E3%81%88%E3%81%8C%E8%A6%8B%E3%81%A4%E3%81%8B%E3%82%8B%E3%81%A8%E3%81%84%E3%81%86%E5%B9%BB%E6%83%B3][あなたに "Done is better than perfect." が出来ない理由——無自覚な完璧主義、4つのタイプと処方箋 - STUDY HACKER（スタディーハッカー）｜社会人の勉強法＆英語学習]]
+ - [[https://mathlog.info/articles/tluyvuhcxujw1tbXfU5Q][可換環論の†全て†を幾何に翻訳して鑑賞しよう~前編~ | Mathlog]]
+ - https://www.youtube.com/watch?app=desktop&v=87-BNgM-KfQ
+ - 
+ - [[https://towardsdatascience.com/ai-papers-to-read-in-2025/][AI Papers to Read in 2025 | Towards Data Science*** INBOX instの画i像投稿 
+  - [[https://tabiato.co.jp/biz/blog/instagram-api-content-publishing/][Instagram Graph APIで自動投稿！画像もリールもストーリーも！ - 旅アトリーチ]]
+** INBOX https://arxiv.org/abs/1904.03866
+** INBOX タスク表示→サブタスクが見えてしまっているので修正すること
+** INBOX Downlooadsにたくさんpdf埋まってるので，google driveに挙げておくこと 
+  Created on [2025-12-08 Mon 14:03]
+** INBOX 借りてたPCのubuntu初期化 
+DEADLINE: <2025-12-28 Sun>
+  Created on [2025-12-08 Mon 20:03]
+** INBOX 勉強として，動画を見ること→動画のリスト 
+  Created on [2025-12-10 Wed 12:29]
+** INBOX 銀行印の整理 
+  Created on [2025-12-10 Wed 13:32]
+** INBOX 機械学習発展 https://tatsy.github.io/1284-sds-advml/
+  Created on [2025-12-11 Thu 19:56]
+** INBOX テスト駆動開発の本を進める 
+  Created on [2025-12-17 Wed 23:24]
+*** INBOX アプリ1
+*** INBOX アプリ2
+*** INBOX アプリ3
+** INBOX 2026やりたいことを書いていく 
+** INBOX Codex，claude codeの本を一回回すこと 
+  Created on [2026-01-05 Mon 14:48]
+** INBOX 試験の流れをパワポにして，それも貼り付けるようにする．
+** INBOX 教科書は何を持ってやったことにするのかをあらかじめ決める，目的も設定する
+  Created on [2026-01-08 Thu 15:33]
+** INBOX エンジニアとしてのポートフォリオ
+  Created on [2026-01-08 Thu 15:35]
+** INBOX codexのとき，他のウィンドウでもチャットが共有されている問題 
+  Created on [2026-01-08 Thu 18:20]
+** INBOX arcra volだけでやるのきついかもしれないのでいったんmacでやって感じをつかむことにするか
+** INBOX gxpの開発を，volで進めることはできないか？→これは十分にタスクを細かくすれば行けるはず
+今すべきこと
+*** INBOX パワポ作成
+*** INBOX システム図の作成
+
+** WIP ７時半に起きたい
+** INBOX ARCRA MTG 20260319
+task
+新しいのが来るっぽい
+
+Q
+- 今のタスクOCR, AI Agent
+-
+  
+
+- RAGのプロジェクト
+- やりたいこと（お題）
+
+
+#+ATTR_ORG: :width 500
+[[file:2026-03-19.org_image/20260319_182314.png]]
+
+- サーバーに
+  EC2建てて，7Bの24B　LLM,VLMをAWSのec2などで動作させる方法とコスト
+  セキュリティ面リスク→notion
+  リサーチ3時間程度
+  構築12時間
+** INBOX make able to fold programs
+** WIP 論文の読み方
+https://joisino.hatenablog.com/entry/2023/04/10/170519#%E6%97%A5%E8%AA%B2%E3%81%AE%E6%B5%81%E3%82%8C
+
+*** abstract
+- 毎朝1本必ず読む
+- use readable
+- choose paper following some rules
+  
+*** point1 論文の選び方
+毎日1本必ず読むことを達成するために，自分の忙しさや状況を考慮して柔軟に選び方を変えること
+*** point2 take notes
+#+ATTR_ORG: :width 40
+[[file:2026-03-20.org_image/20260320_120306.png]]
+読むこと以上に時間をかけている．優秀な研究者でさえそのくらいしているのだから，
+自分もそれに倣う他ない．
+
+*** point3 measure time
+track the time you take to read the paper.
+When you do this, there is a rule recommended.
+the rule is that time should be sepaarted into several parts.
+abstract: time to scan the paper
+deteils: time to understand the deteil of the paper
+memo: time to make notes of the paper
+
+
+#+ATTR_ORG: :width 40
+[[file:2026-03-20.org_image/20260320_120441.png]]
+*** get some expressions from paper
+** INBOX 予備乗り群論の次に，暗号と台数
+** INBOX 時間とお金についてのめも
+- 書くことによって考える
+  考えごとがうまくいかない時の考え方の変え方
+  考え事がたくさんある
+  - 自分では変えられない外的要因などの問題を抱えているとき
+    人間関係，環境の変化
+
+  - 解決したい問題があるとき
+    互いに排反ではないかもしれないが，このような場合に頭を整理したくなるときがある．
+    しかし，「考え事」を始めたにも関わらず思考が発散し，誰かが答えを書いていることに期待してネットサーフィンを
+    開始して数時間溶かしてしまうことがあった．
+
+  - こういうことをなくしたい．
+    発散的な思考は無意味ではない．クリエイティビティはむしろ発散的思考の産物と捉えることができたりもする・
+    現実的な時間で，現実的に解決や妥結に達したい時に，この頭の使い方を始めると大抵うまくいかない．
+
+  - 何が問題か？
+    → 問い方に問題があるから
+     ①解決できない（or 一般的に難しい問題）であるとき→これは普通に難しいのでこのパターンは除外する．
+      難しい問題は他の人も難しいし，たくさんの人がぶち当たっている問題である可能性が高いので，まずそれに気づく．
+      小さく分割して解決に近づく．
+     ②考えかたが悪い．
+     解決したい問題に対して，まず自分が「解決した」と結論づけられる条件が定まっていないのに
+     何か悶々と考えていても，基本的にネットサーフィンが始まる
+     まず何が解決なのか，範囲を決める．その範囲を決める諸条件は基本的には外的要因を考慮すればいい．
+     外的要因によって定まる領域の外側にはどう頑張ってもいけない．（1日は24時間しかない，とか自分の能力とか，お金の問題とか）
+     ここが定まると，あとは自分がどこからどこまでなら妥協できるかを決めるだけ．
+
+- それを元に考えることは
+  - phdの後，何がしたいのか？
+    - それを決めるために何を知りたいか
+    - 当たり前だがこれは変わっていく
+  - お金の問題→ってどんな問題ですか？
+    - お金が足りない→どのくらい足りない？
+      可処分が月10万円くらいあると嬉しい
+      では現状の安定した収入はいくらで固定費はいくら？
+      - 安定収入
+	5万円 gxp, 5万円 arcra,
+	10万円
+      - Fixed Costs
+	- 58000 = rent home
+	- 10000 = Nisa
+	- 6000 = meru pay
+	- gym = 4620
+	- rebo = 13000
+	- claude ai = 16000
+	- amazon prime = 1580 (prime + kindle)
+	- Netflix
+	- DetoxLock
+	- TickTick
+	- 大体 12．5万円
+      - thus,
+	I have to earn at least 230,000 yen/month
+	- 80,000 y/month = 奨学金
+	- 100,000 = part time job (current)
+	- difference = 50,000 = 25hour/month
+	  
+    - 時間の問題→ってどんな問題？
+      - お金の問題と合わさって複合的になる
+	I have to earn at least 250,000 y/m.
+	I need to work on arcra at least 20 hours per week so I have to spend about 3 hours per day for arcra.
+
+      - I have several routine (including currently cultivating ones)
+	- Work at Labratory (spend )
+	- 
+	- paper reading 2.5 hours at labratory
+	- study math
+	  - this is (formulatively seperated from studying for research)
+	- study for certification
+	- English
+	- other things
+	  - atcoder
+	  - news paper
+	  - Kaggle
+	  - english conversation
+	  - it is very hard to do all the stuffs in a day.
+** WIP Hiroki Naganuma**](https://hiroki11x.github.io//posts/)
+メモの参考にする
+## **Schedule**
+
+- 直近の Schedule
+
+## **予定**
+
+## **数日中には終わらせたいこと**
+
+- Canada Compute Cluster が使えてない
+
+## **一日の流れ**
+
+- 昨日は早く寝て、今朝は八時には起きた
+- 朝から椅子取りに行った
+- IKEA に行った
+- 家で作業
+- 帰宅後に作業
+    - torchtitan
+    - NVIDIA に返事
+- Jean Taron で買い物
+- 散髪
+- 帰宅して夕食
+- 作業
+    - torchtitan
+        - 実験流してて待ち
+            - Mila
+            - Narval (sweep はまだ)
+        - 試行錯誤中
+            - 投げ直して実行待ち
+                - Nibi
+                    - job 投げ直した
+                - Roquel
+                    - torch がないとか言われる、、
+            - 環境整備し直し
+                - Fir
+                    - (disk がめっちゃ遅い)
+                    - scratch 領域で作業してる
+                    - python 3.10.13で環境設定し直し
+        - 一旦保留
+            - Trillium
+                - torchrun の permission 問題
+                - scratch に退避
+                - 非常に使いにくい
+                - https://docs.alliancecan.ca/wiki/Trillium_Quickstart
+            - Squid
+                - セットアップ
+                - データをダウンロードしている
+                - srun とかのコマンドがない
+- 家のこと色々やった
+
+## **TODO**
+
+- MUON 関連のサーベイ
+    - https://arxiv.org/pdf/2409.20325
+- LLM 関連
+    - https://www.meti.go.jp/policy/mono_info_service/geniac/selection_1/index.html
+- Transformer 理解
+    - https://youtu.be/9Tu8H7wPVWo?si=jbrDE_JA_jFBEIdq
+
+## **今日何を学んだか？**
+
+## **喫緊の TODOS**
+
+## **所感**
+
+## **Deadlines**
+
+## **Reference**
+
+- [TODO - 09/10](https://hiroki11x.github.io/posts/2025/09/10/todo)
+- [研究プロジェクト Notion](https://www.notion.so/035120e5528043a3b9a86351663f5731?pvs=21)
+
+## **Deadline**
+
+- 年間スケジュール
+    
+    ```
+    
+    参考 URL: https://hiroki11x.github.io/posts/research_topics/ML_Conference/
+    
+    ```
+** INBOX ベイズ勉強のリスト from notion
+
+https://www.hit-u.ac.jp/hq-mag/innovation/485_20221227/
+
+https://note.com/shunsock/n/n1be47770d0b1
+
+https://qiita.com/mtanaka-kumw/items/5ac71fd46283a6800493
+
+https://qiita.com/ssugasawa/items/0e0d76de3ed92c7410e6
+
+https://lib.kobe-u.ac.jp/kulip/22842/
+
+https://qiita.com/ssugasawa/items/dffd68a7bb744a96a8d6
+
+https://www.amazon.co.jp/Bayesian-Econometric-Methods-Exercises/dp/1108437494/ref=pd_lpo_14_t_0/356-9149762-0335915?_encoding=UTF8&pd_rd_i=1108437494&pd_rd_r=73af9043-218f-46fb-a56d-257ef365fbd5&pd_rd_w=opknD&pd_rd_wg=7Wdq0&pf_rd_p=cb2cef9d-b0a3-4b58-a575-45abfc5e07e8&pf_rd_r=3NNHAGW6C25TKHEM460M&psc=1&refRID=3NNHAGW6C25TKHEM460M#detailBullets_feature_div
+
+https://qiita.com/ueniki/items/ebdafbd123c714dabf10
+
+https://qiita.com/ueniki/items/6338f8de53ee65637b32
+
+https://www.morikita.co.jp/books/mid/009703
+
+https://zenn.dev/tokin_tokin/articles/de726a1030f699
+
+---
+
+https://taro-masuda.hatenablog.com/entry/2021/12/20/123109
+
+https://qiita.com/drken/items/089b8443305df047b44e
+
+https://qiita.com/sugakuyaro/items/56d9578a4c8ed336b020
+** INBOX 暗記しているという定義の曖昧さと思考の流暢さをモデリングできるかも 
+** INBOX ideaof reasrch
+DSBの研究の続きとして rich-lazyでlazy度合いを定量化できる時に，あるlazy度における，モデルが推論に用いることのできるデータの モーメント統計量の上限（みたいなもの）を理論的に解析する研究． くそそも白そう
+** INBOX [[https://zenn.dev/muse_energy/books/0ec42f73ce5689/viewer/a12e88][はじめに｜Leanの型理論(など)のメモの本]] いつかやりたい
+** INBOX プロジェクトごとのメモを，rg-caputeで描けるようにしたい 
+** INBOX inboxに書く機能はこれでいい？
+どう使いたいんだっけ？というと
+小さなメモを素早く書けるようにしたい→C-c n i で 最新の日付のdaily noteのinboxに新しいエントリーを追加する機能がある
+
+これはたすくのめもも，何か小さなメモも書けるものなので活用するといいかも？
+inboxは，やっぱり日報ではなくて他のinboxというページを作製しておくほうがいいのかもしれない
+
+任意のタイミングで記述できる機能としては何がある？
+
+*** INBOX claude にあとで聞いてみる
+内容→今のinitを読んで，org modeに関する機能を全て抽出して書き出して下さい
+** INBOX logを開くだけでなくて，logのLOGに入力する内容を書き入れるcaptureの機能もあるといい
+さらにそれをそれぞれのプロジェクトのlogに投げ入れる機能もあると尚良い？
+プロジェクトに配置されている，プロジェクト管理のページは，一定の形式で書かれているというルールを課す．
+** INBOX 高次元統計学→HDPとかビッグデータ時系列分析
+
+https://zenn.dev/totopironote/articles/f13fe705f52d42
+[[https://zenn.dev/totopironote/articles/f13fe705f52d42][高次元データとは?]]
+
+https://www.math.tsukuba.ac.jp/~aoshima-lab/jp/kikaku2022aoshima.pdf
+https://www.ms.u-tokyo.ac.jp/~kyuta/hdstoch_v8.pdf
+https://www.ms.u-tokyo.ac.jp/~kyuta/hdstoch_v8.pdf
+
+
+https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-2.pdf
+** INBOX データ駆動科学，物理学のためのデータサイエンスなど
+
+https://www.amazon.co.jp/%E3%83%87%E3%83%BC%E3%82%BF%E9%A7%86%E5%8B%95%E7%A7%91%E5%AD%A6%E5%85%A5%E9%96%80-%E4%BC%8A%E8%97%A4%E8%81%A1/dp/4627818912
+** INBOX 集中的に，短期的に一気に読み込む＋ankiにもそこで入力する
+ankiに毎日一定の時間を使う
+** INBOX 研究紹介スライドと論文本誌の修正
+** INBOX 交換モンテカルロ法の勉強，ベイズpythonをさっさと終わらす
+** INBOX emacsのプロフェッショナルになるしかない
+** INBOX 研究で色々参考になる人のサイトをまとめる
+- https://hiroki11x.github.io/posts/technical_topic/
+- [[https://hiroki11x.github.io/posts/misc/routine/][博士課程学生のための研究・ビザ手続き両立1週間スケジュール | Hiroki Naganuma]]
+- [[https://hiroki11x.github.io/posts/misc/routine/][博士課程学生のための研究・ビザ手続き両立1週間スケジュール | Hiroki Naganuma]]
+- https://note.com/hiroki11x/n/n3b74922fed88
+- https://hiroki11x.github.io/posts/research_topics/career/looking_for_next_position_ja/
+  - こんな感じのポートフォリオを書く
+- [[https://gakuiryugaku.net/seminar/4621][「コンピューターサイエンス専攻の海外PhD進学に向けて」長沼大樹さん – 海外大学院学生会]]
+  - スライドも参考になる
+** INBOX DRAM, HBM
+- [[https://www.pro.logitec.co.jp/column/u20191220.html][DRAMとは？メモリを選ぶうえで理解しておきたい基礎知識を解説]]
+  - DRAM, SRAM
+    SRAMの方が高価
+    DRAMは揮発性メモリ
+    PCやカメラやテレビのメモリに使われている
+- [[https://ja.wikipedia.org/wiki/High_Bandwidth_Memory][High Bandwidth Memory - Wikipedia]]
+- file:///Users/nkn4ryu/Downloads/DGKKZO9574584018042026EA2000.pdf

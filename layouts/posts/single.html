@@ -5,7 +5,7 @@
   </h1>
   {{ partial "docs/post-meta" . }}
   <div class="book-post-content markdown-inner">
-    {{- .Content | replaceRE `src="../../../static` `src="` | safeHTML -}}
+    {{- .Content | replaceRE `src="(\.\./)+static` `src="` | safeHTML -}}
   </div>
 </article>
 {{ end }}
