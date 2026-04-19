@@ -25,3 +25,12 @@ package-lock.json
 # Misc
 _sass/vendors
 assets/js/dist
+
+# Emacs temporary/backup files
+*~
+\#*\#
+.\#*
+*.elc
+.org-id-locations
+auto-save-list/
+.dir-locals.el
