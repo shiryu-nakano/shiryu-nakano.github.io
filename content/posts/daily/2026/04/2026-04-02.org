@@ -1,0 +1,17 @@
+#+TITLE: 2026-04-02
+#+URL: /posts/daily/2026/04/02/
+#+filetags: :daily:
+#+OPTIONS: toc:nil num:nil ^:nil tags:nil todo:nil H:10
+#+OPTIONS: broken-links:mark
+#+OPTIONS: tex:t
+#+OPTIONS: html-postamble:nil
+#+OPTIONS: links:nil
+
+* LOG
+- 1420-1519
+  - read paper but no consentration
+    - because of bag fix of nb --tag
+- 1520-
+  - try again to read master thesis by OKUBO
+  - LLMMATCHのzoomに参加した
+    - 参加してみてもいいかも，もしくは9月からでもいいかも→学会など調べておくこと

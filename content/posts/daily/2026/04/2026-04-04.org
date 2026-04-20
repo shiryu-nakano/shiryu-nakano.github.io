@@ -1,0 +1,31 @@
+#+TITLE: 2026-04-04
+#+URL: /posts/daily/2026/04/04/
+#+filetags: :daily:
+#+OPTIONS: toc:nil num:nil ^:nil tags:nil todo:nil H:10
+#+OPTIONS: broken-links:mark
+#+OPTIONS: tex:t
+#+OPTIONS: html-postamble:nil
+#+OPTIONS: links:nil
+
+* LOG
+- 自分で研究テーマを作るしかない
+    - implicit biasから発展させたい
+    - 2年後の博士の1本目にできたらいいな
+
+- DSBをどのように明らかにするか
+    - DSBとは何か？
+
+
+- neuripsに通すには具体的にどんなことをすればいいか？
+-----
+1. i have to know what kind of paper the neurips accepts.
+    - I reviewed neurips 2024 and 2025 using claude ai, but there were no SLT related paper in main track of the Neurips. Just one paper has accepted in spotlight.
+2. what should I do in research level?
+
+
+** What decided on MTG yesterday
+- [ ] PRML chapter 3
+
+** idea
+LLCを再定義する必要があるのではないか？
+そのためにはLLCを理解する必要がある

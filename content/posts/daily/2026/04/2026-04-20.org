@@ -1,0 +1,289 @@
+#+TITLE: 2026-04-20
+#+URL: /posts/daily/2026/04/20/
+#+filetags: :daily:
+#+OPTIONS: toc:nil num:nil ^:nil tags:nil todo:nil H:10
+#+OPTIONS: broken-links:mark
+#+OPTIONS: tex:t
+#+OPTIONS: html-postamble:nil
+#+OPTIONS: links:nil
+
+
+
+* 直近の予定と締め切り
+- 直近のタスク
+  - [ ] PINNsを体験する
+    - [[https://www.udemy.com/course/physics-informed-neural-network-pinns/learn/lecture/39867700#overview][Course: Physics Informed Neural Networks (PINNs) | Udemy]]
+    - https://www.msiism.jp/article/physics-informed-machine-learning1.html
+    - [[https://zenn.dev/tatsukikodama/articles/ca050afe41058b][シンプルな物理知ニューラルネットワーク (PINN: Physics-Informed Neural Network)]]
+    - 他もブログのものをやる
+
+- 直近の予定
+- 4/20(月)：2h
+- 4/21(火)：セミナーのため0
+- 4/22(水)：2.5h
+  ここまで15時間程度
+  - マーキュリー利用申請締め切り
+- 4/23(木)：2h 19-21
+- 4/24(金)：2h 週報提出→やること多い
+- 4/25 sat
+- 4/26 sun
+- 4/27 mon
+- 28 tue LAB seminar
+- 29 wed SLT seminar
+- 30 thur Arpin 
+- 5/1 fri
+
+
+
+* TASK
+- [ ] 積分100
+  - https://drive.google.com/file/d/1sJye9GxOzSwOeI2WTBXV2VP6RZ52fatR/view
+
+    
+** misc[6/8]
+- [ ] 奨学金関係→昼休み？
+- [X] シラバス調べる
+  - 調べる→情報収集のみに集中する
+- [X] 時間割をきめること
+- [X] gxp
+- [X] arcra
+- [ ] 引き継ぎ→修論を読む
+  - [ ] プログラムを読む
+  - [ ] ベイズpythonをやる
+- [X] gci 金融も通った
+  - [X] 事前準備的なもの？
+
+- [X] LLMComunityに入る
+  - [X] [[https://linktr.ee/matsuolab_community#382761485]]
+    
+** 大学関係 事務系[1/4]
+- [X] RAシフト提出　5月分
+↓研究倫理教育→研究室でやること
+
+- week19
+- [ ] [[https://mail.google.com/mail/u/0/#inbox/FMfcgzQgLFlPmFMZphschTvJpsgFqpML]]
+- [ ] [[https://mail.google.com/mail/u/0/#inbox/FMfcgzQgLFlPJqBFQxhqsMPcNWFkttDq]]
+ 
+  
+- [ ] jpbankカードメールが来ていたか探す
+- 入学手続き書類
+  - [X] 魁星の在学証明書
+  - [ ] 返信待ち
+
+** udemy[0/3]
+この順番でやりたい．
+
+- [ ] ベイズ
+
+- [ ] kaggle
+
+- [ ] ベイズ2
+
+** 動画で学習する[0/1]
+- [ ] 予備のり
+  - [ ] 群論
+  - [ ] 線形
+  - [ ] 解析
+  - [ ] 複素解析
+  - [ ] ベクトル解析
+*** 行列の積（39本の動画） [1/5]
+- [X] 1
+- [ ] 2
+- [ ] 3
+- [ ] 4
+- [ ] 5
+
+** 松尾研セミナー[1/2]
+- [ ] GCI spring→事前学習
+  - [ ] 教材のダウンロードをしておく
+  - [ ] 説明を見る
+
+- [X] deep leaning
+  - [X] 事前準備
+  - [X] slack登録
+
+- 金融
+  - [X] 事前登録
+
+
+
+
+
+
+
+
+
+
+
+* タスク整理
+
+** 来週week19以降でも別に良いもの
+- [ ] 奨学金の手続き
+  - [[/posts/univ/jasso_m1/][リンク]]
+  
+- [ ] inboxは別のファイルにしたい
+  - inboxに追加するコマンドがある．いまは最新のlogファイルに書くようになってるが，これも変更したい．
+- [ ] Hitotsubshiの授業用のディレクトリはgoogle driveにある（実際はシンボリックリンク）ので，latexの生成がうまくいかないということだと思う．
+  - この問題をいつか解決したい．
+- [ ] org-roamとgithubの共存をどのようにするか考える
+- [ ] inboxへの追加
+- [ ] inboxを開く
+- [ ] やり方をまとめておく→何の？昨日（4/19）やったこと
+- inboxとかの処理どうしようかな
+- 来週中マスト
+  - [ ] Aprin
+
+
+- Unveiling Induction Heads: Provable Training Dynamics and Feature Learning in Transformers
+  
+
+** 課題関係 [1/8]
+- [X] 研究計画のスライド作成　2hくらい？
+- [ ] 統計実践課題1 平常レポート
+- [ ] 課題2
+- [ ] 金融→課題
+- [ ] GCIの事前
+- [ ] deeplearning初回→再来週まで？
+- [ ] 公的統計のレポート確認しておくこと
+- [ ] 特論のレポート
+
+
+*** 統計分析発展実践
+**** 平常れぽ1
+DEADLINE: <2026-04-22 Wed>
+#+ATTR_ORG: :width 400
+[[file:../../../../../static/images/posts/daily/2026/04/20260419_164737.png]]
+
+4/30（木）・5/1（金）の2日間を，平常レポート2の作成に際した個別の壁打ち会に充てます．
+
+原則として，1人あたり30分時間を確保します．
+4/24（金）に実施予定の「データの可視化」回までの内容を理解できていないと，平常レポート2に加えて最終レポートの作成も困難になりますので，今までで理解できていない点について，キャッチアップを図る機会としてください．
+
+開催場所は，原則として私の研究室（第3研究館203）とします．
+対面開催の都合が付かない方に関しては，Zoomでの開催も可とします．
+日程を登録する際に，その旨をコメントとして追記してください．
+
+任意参加としますので，壁打ち会の機会が必要な方については，4/26（日）までに以下のURLから日時毎の参加可否を登録してください．
+https://chosuke.net/main.aspx?g=84d3119789841d6b71
+
+
+  
+*** 公的統計
+- [ ] 物価のpdfを読む
+  - https://drive.google.com/open?id=1RISmztg-6RiJJj_xAVxiYxPxipTyVitg&usp=drive_fs
+
+
+* 数日以内のもの（とりあえずこれが終われば今週はOKなもの）
+- [ ] マーキュリータワーの利用申請4/22まで！！ 
+- [ ] 週報を提出する→これはレンプレを作成しておく必要がある．明日やる．
+- [ ] 本返す→今日
+- [ ] Spring Deep の課題
+- [X] インターネット利用申請.→教員の許可が必要
+- [ ] 楽天カードのポイント設定→別にあとでよし
+- [ ] 統計分析発展実践のレポート1は今週中
+- [ ] 水曜日にdeep, financialの課題を終わらせる
+- [X] VPN申請
+
+
+* 喫緊のタスク（明日やるもの）
+
+* LOG
+- [[id:B4DDD380-A2CF-448B-938D-4387254BF64C][project-DSB]] 
+  - [[/Users/nkn4ryu/Documents/project_B4/project_B4_Doshisha/LOG]]
+
+# http://localhost:1313/posts/daily/hima-wo-tsukutte-himatsubushi/
+
+
+研究日誌：
+- https://github.com/shiryu-nakano/project_B4_Doshisha/blob/experiment/dsb_local/LOG/week17/2026-04-20.org
+
+** ながれ
+- C-c z fで，目的のroamのpageにjump
+  - C-c z iで，pageのリンクを貼る
+  
+- 1445で休憩する
+- 1500になったらRA
+  - vpn申請
+  - https://claude.ai/chat/c5c38bbd-9837-426a-9237-40a60d6e10ad
+    - 明日続きをやる
+    
+- 16時になったらマーキュリーの利用申請する
+  - 1745になってしまった．まだやってない．．．
+
+
+
+** 勉強について計画した
+勉強するときは学部生の気持ちで
+
+読書思考トレーニング
+
+教科書
+毎日違うのを読むのはこうりつがわるい
+まずやる。やってから考える
+
+まずすべきは？
+何を軸にして考える？
+1. 勉強会などのプレッシャー
+2. 講義で用いる教科書　これはバカにできない。逆にこのタイミングでやらないと一生やらないことになる
+3. 自分がやりたかった本
+　やりたい理由を細分化する　
+　　ただ趣味でやりたい場合、長期的に計画にいれる。直近でやらないと決まるが、長期的な計画に入れておくことはとても大切
+　　今後のためにやっておく必要があると思っている場合→その理由も含めて再考する
+　その理由によって変わるが、自分が心から望む方向性とあっている場合は優先度が上がる
+4. 資格
+　資格は締切が決まっていることが大切。つまり受験日が決まってること。
+5. OJTで出てきた
+　　例えば論文読んでで必要になった場合→間違ってもそれを全てやろうとしないこと。必要なところにピンポイントで合わせて、それを読んでもわからない場合は必要なところまで戻る
+とはいえやはりセミナーで用いるものが優先度上がる
+強弱をつけること。
+
+
+今手元にある書籍は、
+⭐️⭐️⭐️PRML
+⭐️標準ベイズ
+⭐️⭐️ベイズpython
+⭐️pytorch(教えるだけ)
+物理数学
+⭐️⭐️⭐️ベイズ統計の理論と方法
+☆これならわかる最適化→ポイントだけ、今はヘッシアンだけやる
+⭐️⭐️田崎熱力学をやるらしい
+
+講義で使うもの
+時系列計量、合わせてRの時系列も頭にある
+公的統計　ちゃんと読まないと結構きつい
+統計実践　pdfの配布資料でなんとかなると思う
+ベイズ統計　資料と、あとはベイズをやれば良いはず
+
+
+研究の基礎的な部分でいると思われる
+⭐️python機械学習
+
+深層学習の勉強が必要
+ネットでたくさんあるけど普通に日本語で実装すべき
+⭐️⭐️ゼロからDeep
+
+
+
+* 今日の学び
+
+** 時系列ビッグデータ分析
+- 検定を理解してない
+- LRV estimation andraws 1991?
+- ARに基づくときにLRVが出てこないのは，MDSであるから．？？
+  
+The 2-dim. VAR(1) is rewritten as
+$$
+\begin{pmatrix} y_{1,t} \\ y_{2,t} \end{pmatrix} = \begin{pmatrix} c_1 \\ c_2 \end{pmatrix} + \begin{pmatrix} \phi_{11} & \phi_{12} \\ \phi_{21} & \phi_{22} \end{pmatrix} \begin{pmatrix} y_{1,t-1} \\ y_{2,t-1} \end{pmatrix} + \begin{pmatrix} \varepsilon_{1,t} \\ \varepsilon_{2,t} \end{pmatrix}. \tag{19}
+$$
+
+** misc
+大学関係者に，余計なことは絶対に言ってはいけない．．．（特に近い人はだめ）
+
+* 所感
+- 早く起きれなかった．朝の時間を使えると良いが．．．
+
+
+* Reference
+- [[/posts/daily/2026/04/inbox/][inbox/projects]]
+- [[/posts/daily/2026/04/][April]]
+ 

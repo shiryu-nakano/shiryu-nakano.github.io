@@ -1,0 +1,10 @@
+#+TITLE: 2026-04-11
+#+URL: /posts/daily/2026/04/11/
+#+filetags: :daily:
+#+OPTIONS: toc:nil num:nil ^:nil tags:nil todo:nil H:10
+#+OPTIONS: broken-links:mark
+#+OPTIONS: tex:t
+#+OPTIONS: html-postamble:nil
+#+OPTIONS: links:nil
+
+* LOG

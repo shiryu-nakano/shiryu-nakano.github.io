@@ -1,0 +1,30 @@
+#+TITLE: 2026-03-31
+#+URL: /posts/daily/2026/03/31/
+#+filetags: :daily:
+#+OPTIONS: toc:nil num:nil ^:nil tags:nil todo:nil H:10
+#+OPTIONS: broken-links:mark
+#+OPTIONS: tex:t
+#+OPTIONS: html-postamble:nil
+#+OPTIONS: links:nil
+
+* LOG
+- めも
+Crestにおける自分たちの（将来的あるべき）立ち位置はどんなものなのか
+ある程度理解しておく必要がある．
+
+-----
+
+- nbの設定を修正した
+- vscodeを久しぶりに使った
+- Chirpyについて調べる
+  - ブログを書くためのもの
+  - いつもならとりあえず色々調べてから始めているが，とにかく手を動かしてやってみることを優先してみたいので，環境構築を開始してみるか
+
+* 所感
+- 2日間のCRESTのMTGの参加→レポートにしてみる
+  - なぜわざわざそこまでするのか？
+  - こんな貴重な経験ない，
+  - 具体的な研究の進み方（データサイエンスとしての）
+
+
+arcraのバイトも結局最終日まで何もしてないじゃないか。こんな計画性の無さでは講義でいい評価もクソもないではないか。

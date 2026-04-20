@@ -11,9 +11,13 @@
 {{ end }}
 
 {{ define "toc" }}
-  {{ partial "docs/toc" . }}
+  {{ if not (eq (string .Params.booktoc) "false") }}
+    {{ partial "docs/toc" . }}
+  {{ end }}
 {{ end }}
 
 {{ define "footer" }}
-  {{ partial "docs/post-prev-next" . }}
+  {{ if not (eq (string .Params.bookprevnext) "false") }}
+    {{ partial "docs/post-prev-next" . }}
+  {{ end }}
 {{ end }}

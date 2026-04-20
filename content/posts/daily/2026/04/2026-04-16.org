@@ -1,0 +1,24 @@
+#+TITLE: 2026-04-16
+#+URL: /posts/daily/2026/04/16/
+#+filetags: :daily:
+#+OPTIONS: toc:nil num:nil ^:nil tags:nil todo:nil H:10
+#+OPTIONS: broken-links:mark
+#+OPTIONS: tex:t
+#+OPTIONS: html-postamble:nil
+#+OPTIONS: links:nil
+
+* LOG
+- [[https://www.reddit.com/r/emacs/comments/1sgqy7t/new_webbased_orgfile_editor_torg/?%24deep_link=true&correlation_id=5f074bcb-1788-48d9-8297-3005788cc450&post_fullname=t3_1sgqy7t&post_index=0&ref=email_digest&ref_campaign=email_digest&ref_source=email&target_user=Visual-Nobody-3875&utm_content=post_body&%243p=e_as&_branch_match_id=1547637154866040341&utm_medium=Email%20Amazon%20SES&_branch_referrer=H4sIAAAAAAAAA22QT0%2FDMAzFP01369Y1LS1IE0Igjhy5WmniZhH5h5Oq7MJnx2XACSlWnn7PfnJyLiXlu8OBUGtb9jKlvbPh7SDSfdV2Ip0QZN6xjGSNDdLBQu503qYq8VC1z3zWdd3%2FzKvoGRAXeqky30w8hrLJYzbvl6GwCrjCitMkM2qIZGbrEJADIgGX2XIFR%2FdtpxETbCtV4qnQglV7oyIROllsDGA1835uhm5SU30cxrHuRn1bj%2B3tUIum6Zko1fUNz6WYC8yLc0F63OIE%2FK10NW3Q%2BMHO1k04s%2BJnWAfaGszlCkFJn6Q14X83x4UU%2FnoMiySDBZaMxPTV5kW6%2BiVOUV9qMQ49tyzFg4qh8D9xy%2Fcmm7375EAkssHARHHlhNPjmaLHL0iejw62AQAA][New Web-based Org-file editor: Torg : r/emacs]]
+  面白そう
+- [X] 2限の時に調べた，DLTをblogに追加しておくこと
+- [X] 13-15はRAなので，普通に研究する．
+  - 1515~1730くらいまで4限→この時間がだるい
+
+- 1330-1418 AIcia の動画1，2で勉強した
+
+** 所感
+# 自分だけがMを嫌いなだけかもしれないので，不用意な発言はあまりしないようにする．
+# 特定の個人の悪口は意外と回ってしまうものなので，注意すること．
+
+- 研究テーマは自分で探しにいく．勝手に降ってこない．
+- PINNsで，貨幣とか，社会とかと組み合わせたことをやってみたい

@@ -1,0 +1,37 @@
+#+TITLE: 2026-04-15
+#+URL: /posts/daily/2026/04/15/
+#+filetags: :daily:
+#+OPTIONS: toc:nil num:nil ^:nil tags:nil todo:nil H:10
+#+OPTIONS: broken-links:mark
+#+OPTIONS: tex:t
+#+OPTIONS: html-postamble:nil
+#+OPTIONS: links:nil
+
+* LOG
+特異学習理論勉強会
+
+- 事務的な作業 [6/9]
+  - 1430~
+  - アルバイトの口座の登録など．
+  - microsoftのアカウント作成（口座登録のために必要だった）
+  - [X] 弟の在学証明を事務に送る
+  - [X] 支払い
+  - [X] yさんに連絡
+  - [X] バイトの予定を確認してカレンダーに入れる
+  - [X] arcのシフト入れる
+  - [ ] Spring Deep の課題O
+  - [ ] インターネット利用申請
+  - [X] 履修計画の確認→絶対今日やる
+  - [ ] 楽天カードのポイント設定→別にあとでよし
+
+
+** 今日の学び
+- https://proceedings.neurips.cc/paper_files/paper/2022/hash/6f1d43d5a82a37e89b0665b33bf3a182-Abstract-Conference.html
+
+** 所感
+
+# どうにかしてここから出ていけるように．自分を鍛えるための時間をまず2h/dとれるようにしたい
+# ゆくゆくは平均4~5を勉強に割いて，それ以外を研究メインで割けるように設計したい．
+- 時間が足りない
+- 講義の時間帯→これはほぼ確実に参加しているのだから，この時間にできることを最大限やるべき
+- [ ] 科目ごとの過ごし方を決めておきたい

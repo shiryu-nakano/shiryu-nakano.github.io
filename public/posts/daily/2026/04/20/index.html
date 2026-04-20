@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content=" 直近の予定と締め切り 直近のタスク
+PINNsを体験する
+Course: Physics Informed Neural Networks (PINNs) | Udemy https://www.msiism.jp/article/physics-informed-machine-learning1.html シンプルな物理知ニューラルネットワーク (PINN: Physics-Informed Neural Network) 他もブログのものをやる 直近の予定 4/20(月)：2h 4/21(火)：セミナーのため0 4/22(水)：2.5h ここまで15時間程度
+マーキュリー利用申請締め切り 4/23(木)：2h 19-21 4/24(金)：2h 週報提出→やること多い 4/25 sat 4/26 sun 4/27 mon 28 tue LAB seminar 29 wed SLT seminar 30 thur Arpin 5/1 fri TASK 積分100
+https://drive.google.com/file/d/1sJye9GxOzSwOeI2WTBXV2VP6RZ52fatR/view misc[6/8] 奨学金関係→昼休み？ シラバス調べる
+調べる→情報収集のみに集中する 時間割をきめること gxp arcra 引き継ぎ→修論を読む
+プログラムを読む ベイズpythonをやる gci 金融も通った
+事前準備的なもの？ LLMComunityに入る
+https://linktr.ee/matsuolab_community#382761485 大学関係 事務系[1/4] RAシフト提出　5月分 ↓研究倫理教育→研究室でやること
+week19 https://mail.google.com/mail/u/0/#inbox/FMfcgzQgLFlPmFMZphschTvJpsgFqpML https://mail.google.com/mail/u/0/#inbox/FMfcgzQgLFlPJqBFQxhqsMPcNWFkttDq jpbankカードメールが来ていたか探す 入学手続き書類
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/daily/2026/04/20/">
+  <meta property="og:site_name" content="Shiryu NAKANO">
+  <meta property="og:title" content="2026-04-20">
+  <meta property="og:description" content="直近の予定と締め切り 直近のタスク
+PINNsを体験する
+Course: Physics Informed Neural Networks (PINNs) | Udemy https://www.msiism.jp/article/physics-informed-machine-learning1.html シンプルな物理知ニューラルネットワーク (PINN: Physics-Informed Neural Network) 他もブログのものをやる 直近の予定 4/20(月)：2h 4/21(火)：セミナーのため0 4/22(水)：2.5h ここまで15時間程度
+マーキュリー利用申請締め切り 4/23(木)：2h 19-21 4/24(金)：2h 週報提出→やること多い 4/25 sat 4/26 sun 4/27 mon 28 tue LAB seminar 29 wed SLT seminar 30 thur Arpin 5/1 fri TASK 積分100
+https://drive.google.com/file/d/1sJye9GxOzSwOeI2WTBXV2VP6RZ52fatR/view misc[6/8] 奨学金関係→昼休み？ シラバス調べる
+調べる→情報収集のみに集中する 時間割をきめること gxp arcra 引き継ぎ→修論を読む
+プログラムを読む ベイズpythonをやる gci 金融も通った
+事前準備的なもの？ LLMComunityに入る
+https://linktr.ee/matsuolab_community#382761485 大学関係 事務系[1/4] RAシフト提出　5月分 ↓研究倫理教育→研究室でやること
+week19 https://mail.google.com/mail/u/0/#inbox/FMfcgzQgLFlPmFMZphschTvJpsgFqpML https://mail.google.com/mail/u/0/#inbox/FMfcgzQgLFlPJqBFQxhqsMPcNWFkttDq jpbankカードメールが来ていたか探す 入学手続き書類">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+
+
+  <meta itemprop="name" content="2026-04-20">
+  <meta itemprop="description" content="直近の予定と締め切り 直近のタスク
+PINNsを体験する
+Course: Physics Informed Neural Networks (PINNs) | Udemy https://www.msiism.jp/article/physics-informed-machine-learning1.html シンプルな物理知ニューラルネットワーク (PINN: Physics-Informed Neural Network) 他もブログのものをやる 直近の予定 4/20(月)：2h 4/21(火)：セミナーのため0 4/22(水)：2.5h ここまで15時間程度
+マーキュリー利用申請締め切り 4/23(木)：2h 19-21 4/24(金)：2h 週報提出→やること多い 4/25 sat 4/26 sun 4/27 mon 28 tue LAB seminar 29 wed SLT seminar 30 thur Arpin 5/1 fri TASK 積分100
+https://drive.google.com/file/d/1sJye9GxOzSwOeI2WTBXV2VP6RZ52fatR/view misc[6/8] 奨学金関係→昼休み？ シラバス調べる
+調べる→情報収集のみに集中する 時間割をきめること gxp arcra 引き継ぎ→修論を読む
+プログラムを読む ベイズpythonをやる gci 金融も通った
+事前準備的なもの？ LLMComunityに入る
+https://linktr.ee/matsuolab_community#382761485 大学関係 事務系[1/4] RAシフト提出　5月分 ↓研究倫理教育→研究室でやること
+week19 https://mail.google.com/mail/u/0/#inbox/FMfcgzQgLFlPmFMZphschTvJpsgFqpML https://mail.google.com/mail/u/0/#inbox/FMfcgzQgLFlPJqBFQxhqsMPcNWFkttDq jpbankカードメールが来ていたか探す 入学手続き書類">
+  <meta itemprop="wordCount" content="295">
+
+<title>2026-04-20 | Shiryu NAKANO</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/posts/daily/2026/04/20/">
+<link rel="stylesheet" href="/book.min.b267f830fdf65302ecc1702a1178d4f25aa783409b3a25098f3404dd24f37a4d.css" integrity="sha256-smf4MP32UwLswXAqEXjU8lqng0CbOiUJjzQE3STzek0=" crossorigin="anonymous">
+
+
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/ja.search.min.944b94c1cfd54f07b0a31d5ce655f344b1770268eb84769f15ce26aec123ec37.js" integrity="sha256-lEuUwc/VTwewox1c5lXzRLF3AmjrhHafFc4mrsEj7Dc=" crossorigin="anonymous"></script>
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/custom.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "$", right: "$", display: false}
+        ],
+        throwOnError: false
+    });
+});
+</script>
+
+</head>
+<body dir="ltr" class="book-kind-page book-type-posts">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Shiryu NAKANO</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="検索"
+    aria-label="検索"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+  <div class="markdown">
+    <ul>
+<li><a href="/">Home</a></li>
+</ul>
+<!--
+- [Research](/posts/research/)
+- [Life](/posts/life/)
+- [Study](/posts/study/)
+- [Univ](/posts/univ/)
+--->
+  </div>
+
+
+
+</nav>
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>2026-04-20</h3>
+
+  <label for="toc-control">
+    
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+    
+<nav id="TableOfContents">
+<ul>
+<li><a href="#headline-1">直近の予定と締め切り</a>
+</li>
+<li><a href="#headline-2">TASK</a>
+<ul>
+<li><a href="#headline-3">misc<code class="statistic">[6/8]</code></a>
+</li>
+<li><a href="#headline-4">大学関係 事務系<code class="statistic">[1/4]</code></a>
+</li>
+<li><a href="#headline-5">udemy<code class="statistic">[0/3]</code></a>
+</li>
+<li><a href="#headline-6">動画で学習する<code class="statistic">[0/1]</code></a>
+<ul>
+<li><a href="#headline-7">行列の積（39本の動画） <code class="statistic">[1/5]</code></a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-8">松尾研セミナー<code class="statistic">[1/2]</code></a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-9">タスク整理</a>
+<ul>
+<li><a href="#headline-10">来週week19以降でも別に良いもの</a>
+</li>
+<li><a href="#headline-11">課題関係 <code class="statistic">[1/8]</code></a>
+<ul>
+<li><a href="#headline-12">統計分析発展実践</a>
+<ul>
+<li><a href="#headline-13">平常れぽ1</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-14">公的統計</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#headline-15">数日以内のもの（とりあえずこれが終われば今週はOKなもの）</a>
+</li>
+<li><a href="#headline-16">喫緊のタスク（明日やるもの）</a>
+</li>
+<li><a href="#headline-17">LOG</a>
+<ul>
+<li><a href="#headline-18">ながれ</a>
+</li>
+<li><a href="#headline-19">勉強について計画した</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-20">今日の学び</a>
+<ul>
+<li><a href="#headline-21">時系列ビッグデータ分析</a>
+</li>
+<li><a href="#headline-22">misc</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-23">所感</a>
+</li>
+<li><a href="#headline-24">Reference</a>
+</li>
+</ul>
+</nav>
+
+
+  
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown book-post">
+  <h1>
+    2026-04-20
+  </h1>
+  
+
+
+  
+
+  
+
+
+  <div class="book-post-content markdown-inner">
+<div id="outline-container-headline-1" class="outline-2">
+<h2 id="headline-1">
+直近の予定と締め切り
+</h2>
+<div id="outline-text-headline-1" class="outline-text-2">
+<ul>
+<li>
+<p>直近のタスク</p>
+<ul>
+<li class="unchecked">
+<p>PINNsを体験する</p>
+<ul>
+<li><a href="https://www.udemy.com/course/physics-informed-neural-network-pinns/learn/lecture/39867700#overview">Course: Physics Informed Neural Networks (PINNs) | Udemy</a></li>
+<li><a href="https://www.msiism.jp/article/physics-informed-machine-learning1.html">https://www.msiism.jp/article/physics-informed-machine-learning1.html</a></li>
+<li><a href="https://zenn.dev/tatsukikodama/articles/ca050afe41058b">シンプルな物理知ニューラルネットワーク (PINN: Physics-Informed Neural Network)</a></li>
+<li>他もブログのものをやる</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>直近の予定</li>
+<li>4/20(月)：2h</li>
+<li>4/21(火)：セミナーのため0</li>
+<li>
+<p>4/22(水)：2.5h
+ここまで15時間程度</p>
+<ul>
+<li>マーキュリー利用申請締め切り</li>
+</ul>
+</li>
+<li>4/23(木)：2h 19-21</li>
+<li>4/24(金)：2h 週報提出→やること多い</li>
+<li>4/25 sat</li>
+<li>4/26 sun</li>
+<li>4/27 mon</li>
+<li>28 tue LAB seminar</li>
+<li>29 wed SLT seminar</li>
+<li>30 thur Arpin </li>
+<li>5/1 fri</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-2" class="outline-2">
+<h2 id="headline-2">
+TASK
+</h2>
+<div id="outline-text-headline-2" class="outline-text-2">
+<ul>
+<li class="unchecked">
+<p>積分100</p>
+<ul>
+<li><a href="https://drive.google.com/file/d/1sJye9GxOzSwOeI2WTBXV2VP6RZ52fatR/view">https://drive.google.com/file/d/1sJye9GxOzSwOeI2WTBXV2VP6RZ52fatR/view</a></li>
+</ul>
+</li>
+</ul>
+<div id="outline-container-headline-3" class="outline-3">
+<h3 id="headline-3">
+misc<code class="statistic">[6/8]</code>
+</h3>
+<div id="outline-text-headline-3" class="outline-text-3">
+<ul>
+<li class="unchecked">奨学金関係→昼休み？</li>
+<li class="checked">
+<p>シラバス調べる</p>
+<ul>
+<li>調べる→情報収集のみに集中する</li>
+</ul>
+</li>
+<li class="checked">時間割をきめること</li>
+<li class="checked">gxp</li>
+<li class="checked">arcra</li>
+<li class="unchecked">
+<p>引き継ぎ→修論を読む</p>
+<ul>
+<li class="unchecked">プログラムを読む</li>
+<li class="unchecked">ベイズpythonをやる</li>
+</ul>
+</li>
+<li class="checked">
+<p>gci 金融も通った</p>
+<ul>
+<li class="checked">事前準備的なもの？</li>
+</ul>
+</li>
+<li class="checked">
+<p>LLMComunityに入る</p>
+<ul>
+<li class="checked"><a href="https://linktr.ee/matsuolab_community#382761485">https://linktr.ee/matsuolab_community#382761485</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-4" class="outline-3">
+<h3 id="headline-4">
+大学関係 事務系<code class="statistic">[1/4]</code>
+</h3>
+<div id="outline-text-headline-4" class="outline-text-3">
+<ul>
+<li class="checked">RAシフト提出　5月分</li>
+</ul>
+<p>↓研究倫理教育→研究室でやること</p>
+<ul>
+<li>week19</li>
+<li class="unchecked"><a href="https://mail.google.com/mail/u/0/#inbox/FMfcgzQgLFlPmFMZphschTvJpsgFqpML">https://mail.google.com/mail/u/0/#inbox/FMfcgzQgLFlPmFMZphschTvJpsgFqpML</a></li>
+<li class="unchecked"><a href="https://mail.google.com/mail/u/0/#inbox/FMfcgzQgLFlPJqBFQxhqsMPcNWFkttDq">https://mail.google.com/mail/u/0/#inbox/FMfcgzQgLFlPJqBFQxhqsMPcNWFkttDq</a></li>
+</ul>
+<ul>
+<li class="unchecked">jpbankカードメールが来ていたか探す</li>
+<li>
+<p>入学手続き書類</p>
+<ul>
+<li class="checked">魁星の在学証明書</li>
+<li class="unchecked">返信待ち</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-5" class="outline-3">
+<h3 id="headline-5">
+udemy<code class="statistic">[0/3]</code>
+</h3>
+<div id="outline-text-headline-5" class="outline-text-3">
+<p>この順番でやりたい．</p>
+<ul>
+<li class="unchecked">ベイズ</li>
+<li class="unchecked">kaggle</li>
+<li class="unchecked">ベイズ2</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-6" class="outline-3">
+<h3 id="headline-6">
+動画で学習する<code class="statistic">[0/1]</code>
+</h3>
+<div id="outline-text-headline-6" class="outline-text-3">
+<ul>
+<li class="unchecked">
+<p>予備のり</p>
+<ul>
+<li class="unchecked">群論</li>
+<li class="unchecked">線形</li>
+<li class="unchecked">解析</li>
+<li class="unchecked">複素解析</li>
+<li class="unchecked">ベクトル解析</li>
+</ul>
+</li>
+</ul>
+<div id="outline-container-headline-7" class="outline-4">
+<h4 id="headline-7">
+行列の積（39本の動画） <code class="statistic">[1/5]</code>
+</h4>
+<div id="outline-text-headline-7" class="outline-text-4">
+<ul>
+<li class="checked">1</li>
+<li class="unchecked">2</li>
+<li class="unchecked">3</li>
+<li class="unchecked">4</li>
+<li class="unchecked">5</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-8" class="outline-3">
+<h3 id="headline-8">
+松尾研セミナー<code class="statistic">[1/2]</code>
+</h3>
+<div id="outline-text-headline-8" class="outline-text-3">
+<ul>
+<li class="unchecked">
+<p>GCI spring→事前学習</p>
+<ul>
+<li class="unchecked">教材のダウンロードをしておく</li>
+<li class="unchecked">説明を見る</li>
+</ul>
+</li>
+<li class="checked">
+<p>deep leaning</p>
+<ul>
+<li class="checked">事前準備</li>
+<li class="checked">slack登録</li>
+</ul>
+</li>
+<li>
+<p>金融</p>
+<ul>
+<li class="checked">事前登録</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-9" class="outline-2">
+<h2 id="headline-9">
+タスク整理
+</h2>
+<div id="outline-text-headline-9" class="outline-text-2">
+<div id="outline-container-headline-10" class="outline-3">
+<h3 id="headline-10">
+来週week19以降でも別に良いもの
+</h3>
+<div id="outline-text-headline-10" class="outline-text-3">
+<ul>
+<li class="unchecked">
+<p>奨学金の手続き</p>
+<ul>
+<li><a href="/posts/univ/jasso_m1/">リンク</a></li>
+</ul>
+</li>
+<li class="unchecked">
+<p>inboxは別のファイルにしたい</p>
+<ul>
+<li>inboxに追加するコマンドがある．いまは最新のlogファイルに書くようになってるが，これも変更したい．</li>
+</ul>
+</li>
+<li class="unchecked">
+<p>Hitotsubshiの授業用のディレクトリはgoogle driveにある（実際はシンボリックリンク）ので，latexの生成がうまくいかないということだと思う．</p>
+<ul>
+<li>この問題をいつか解決したい．</li>
+</ul>
+</li>
+<li class="unchecked">org-roamとgithubの共存をどのようにするか考える</li>
+<li class="unchecked">inboxへの追加</li>
+<li class="unchecked">inboxを開く</li>
+<li class="unchecked">やり方をまとめておく→何の？昨日（4/19）やったこと</li>
+<li>inboxとかの処理どうしようかな</li>
+<li>
+<p>来週中マスト</p>
+<ul>
+<li class="unchecked">Aprin</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>Unveiling Induction Heads: Provable Training Dynamics and Feature Learning in Transformers</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-11" class="outline-3">
+<h3 id="headline-11">
+課題関係 <code class="statistic">[1/8]</code>
+</h3>
+<div id="outline-text-headline-11" class="outline-text-3">
+<ul>
+<li class="checked">研究計画のスライド作成　2hくらい？</li>
+<li class="unchecked">統計実践課題1 平常レポート</li>
+<li class="unchecked">課題2</li>
+<li class="unchecked">金融→課題</li>
+<li class="unchecked">GCIの事前</li>
+<li class="unchecked">deeplearning初回→再来週まで？</li>
+<li class="unchecked">公的統計のレポート確認しておくこと</li>
+<li class="unchecked">特論のレポート</li>
+</ul>
+<div id="outline-container-headline-12" class="outline-4">
+<h4 id="headline-12">
+統計分析発展実践
+</h4>
+<div id="outline-text-headline-12" class="outline-text-4">
+<div id="outline-container-headline-13" class="outline-5">
+<h5 id="headline-13">
+平常れぽ1
+</h5>
+<div id="outline-text-headline-13" class="outline-text-5">
+<p>DEADLINE: <span class="timestamp">&lt;2026-04-22 Wed&gt;</span></p>
+<p><img src="/images/posts/daily/2026/04/20260419_164737.png" alt="../../../../../static/images/posts/daily/2026/04/20260419_164737.png" title="../../../../../static/images/posts/daily/2026/04/20260419_164737.png" /></p>
+<p>
+4/30（木）・5/1（金）の2日間を，平常レポート2の作成に際した個別の壁打ち会に充てます．</p>
+<p>
+原則として，1人あたり30分時間を確保します．
+4/24（金）に実施予定の「データの可視化」回までの内容を理解できていないと，平常レポート2に加えて最終レポートの作成も困難になりますので，今までで理解できていない点について，キャッチアップを図る機会としてください．</p>
+<p>
+開催場所は，原則として私の研究室（第3研究館203）とします．
+対面開催の都合が付かない方に関しては，Zoomでの開催も可とします．
+日程を登録する際に，その旨をコメントとして追記してください．</p>
+<p>
+任意参加としますので，壁打ち会の機会が必要な方については，4/26（日）までに以下のURLから日時毎の参加可否を登録してください．
+<a href="https://chosuke.net/main.aspx?g=84d3119789841d6b71">https://chosuke.net/main.aspx?g=84d3119789841d6b71</a></p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-14" class="outline-4">
+<h4 id="headline-14">
+公的統計
+</h4>
+<div id="outline-text-headline-14" class="outline-text-4">
+<ul>
+<li class="unchecked">
+<p>物価のpdfを読む</p>
+<ul>
+<li><a href="https://drive.google.com/open?id=1RISmztg-6RiJJj_xAVxiYxPxipTyVitg&amp;usp=drive_fs">https://drive.google.com/open?id=1RISmztg-6RiJJj_xAVxiYxPxipTyVitg&amp;usp=drive_fs</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-15" class="outline-2">
+<h2 id="headline-15">
+数日以内のもの（とりあえずこれが終われば今週はOKなもの）
+</h2>
+<div id="outline-text-headline-15" class="outline-text-2">
+<ul>
+<li class="unchecked">マーキュリータワーの利用申請4/22まで！！ </li>
+<li class="unchecked">週報を提出する→これはレンプレを作成しておく必要がある．明日やる．</li>
+<li class="unchecked">本返す→今日</li>
+<li class="unchecked">Spring Deep の課題</li>
+<li class="checked">インターネット利用申請.→教員の許可が必要</li>
+<li class="unchecked">楽天カードのポイント設定→別にあとでよし</li>
+<li class="unchecked">統計分析発展実践のレポート1は今週中</li>
+<li class="unchecked">水曜日にdeep, financialの課題を終わらせる</li>
+<li class="checked">VPN申請</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-16" class="outline-2">
+<h2 id="headline-16">
+喫緊のタスク（明日やるもの）
+</h2>
+</div>
+<div id="outline-container-headline-17" class="outline-2">
+<h2 id="headline-17">
+LOG
+</h2>
+<div id="outline-text-headline-17" class="outline-text-2">
+<ul>
+<li>
+<p><a href="id:B4DDD380-A2CF-448B-938D-4387254BF64C">project-DSB</a> </p>
+<ul>
+<li><a href="/Users/nkn4ryu/Documents/project_B4/project_B4_Doshisha/LOG">/Users/nkn4ryu/Documents/project_B4/project_B4_Doshisha/LOG</a></li>
+</ul>
+</li>
+</ul>
+<p>
+研究日誌：</p>
+<ul>
+<li><a href="https://github.com/shiryu-nakano/project_B4_Doshisha/blob/experiment/dsb_local/LOG/week17/2026-04-20.org">https://github.com/shiryu-nakano/project_B4_Doshisha/blob/experiment/dsb_local/LOG/week17/2026-04-20.org</a></li>
+</ul>
+<div id="outline-container-headline-18" class="outline-3">
+<h3 id="headline-18">
+ながれ
+</h3>
+<div id="outline-text-headline-18" class="outline-text-3">
+<ul>
+<li>
+<p>C-c z fで，目的のroamのpageにjump</p>
+<ul>
+<li>C-c z iで，pageのリンクを貼る</li>
+</ul>
+</li>
+<li>1445で休憩する</li>
+<li>
+<p>1500になったらRA</p>
+<ul>
+<li>vpn申請</li>
+<li>
+<p><a href="https://claude.ai/chat/c5c38bbd-9837-426a-9237-40a60d6e10ad">https://claude.ai/chat/c5c38bbd-9837-426a-9237-40a60d6e10ad</a></p>
+<ul>
+<li>明日続きをやる</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>16時になったらマーキュリーの利用申請する</p>
+<ul>
+<li>1745になってしまった．まだやってない．．．</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-19" class="outline-3">
+<h3 id="headline-19">
+勉強について計画した
+</h3>
+<div id="outline-text-headline-19" class="outline-text-3">
+<p>勉強するときは学部生の気持ちで</p>
+<p>
+読書思考トレーニング</p>
+<p>
+教科書
+毎日違うのを読むのはこうりつがわるい
+まずやる。やってから考える</p>
+<p>
+まずすべきは？
+何を軸にして考える？</p>
+<ol>
+<li>勉強会などのプレッシャー</li>
+<li>講義で用いる教科書　これはバカにできない。逆にこのタイミングでやらないと一生やらないことになる</li>
+<li>自分がやりたかった本</li>
+</ol>
+<p>　やりたい理由を細分化する　
+　　ただ趣味でやりたい場合、長期的に計画にいれる。直近でやらないと決まるが、長期的な計画に入れておくことはとても大切
+　　今後のためにやっておく必要があると思っている場合→その理由も含めて再考する
+　その理由によって変わるが、自分が心から望む方向性とあっている場合は優先度が上がる</p>
+<ol>
+<li>資格</li>
+</ol>
+<p>　資格は締切が決まっていることが大切。つまり受験日が決まってること。</p>
+<ol>
+<li>OJTで出てきた</li>
+</ol>
+<p>　　例えば論文読んでで必要になった場合→間違ってもそれを全てやろうとしないこと。必要なところにピンポイントで合わせて、それを読んでもわからない場合は必要なところまで戻る
+とはいえやはりセミナーで用いるものが優先度上がる
+強弱をつけること。</p>
+<p>
+今手元にある書籍は、
+⭐️⭐️⭐️PRML
+⭐️標準ベイズ
+⭐️⭐️ベイズpython
+⭐️pytorch(教えるだけ)
+物理数学
+⭐️⭐️⭐️ベイズ統計の理論と方法
+☆これならわかる最適化→ポイントだけ、今はヘッシアンだけやる
+⭐️⭐️田崎熱力学をやるらしい</p>
+<p>
+講義で使うもの
+時系列計量、合わせてRの時系列も頭にある
+公的統計　ちゃんと読まないと結構きつい
+統計実践　pdfの配布資料でなんとかなると思う
+ベイズ統計　資料と、あとはベイズをやれば良いはず</p>
+<p>
+研究の基礎的な部分でいると思われる
+⭐️python機械学習</p>
+<p>
+深層学習の勉強が必要
+ネットでたくさんあるけど普通に日本語で実装すべき
+⭐️⭐️ゼロからDeep</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-20" class="outline-2">
+<h2 id="headline-20">
+今日の学び
+</h2>
+<div id="outline-text-headline-20" class="outline-text-2">
+<div id="outline-container-headline-21" class="outline-3">
+<h3 id="headline-21">
+時系列ビッグデータ分析
+</h3>
+<div id="outline-text-headline-21" class="outline-text-3">
+<ul>
+<li>検定を理解してない</li>
+<li>LRV estimation andraws 1991?</li>
+<li>ARに基づくときにLRVが出てこないのは，MDSであるから．？？</li>
+</ul>
+<p>The 2-dim. VAR(1) is rewritten as
+$$
+\begin{pmatrix} y_{1,t} \\ y_{2,t} \end{pmatrix} = \begin{pmatrix} c_1 \\ c_2 \end{pmatrix} + \begin{pmatrix} \phi_{11} &amp; \phi_{12} \\ \phi_{21} &amp; \phi_{22} \end{pmatrix} \begin{pmatrix} y_{1,t-1} \\ y_{2,t-1} \end{pmatrix} + \begin{pmatrix} \varepsilon_{1,t} \\ \varepsilon_{2,t} \end{pmatrix}. \tag{19}
+$$</p>
+</div>
+</div>
+<div id="outline-container-headline-22" class="outline-3">
+<h3 id="headline-22">
+misc
+</h3>
+<div id="outline-text-headline-22" class="outline-text-3">
+<p>大学関係者に，余計なことは絶対に言ってはいけない．．．（特に近い人はだめ）</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-23" class="outline-2">
+<h2 id="headline-23">
+所感
+</h2>
+<div id="outline-text-headline-23" class="outline-text-2">
+<ul>
+<li>早く起きれなかった．朝の時間を使えると良いが．．．</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-24" class="outline-2">
+<h2 id="headline-24">
+Reference
+</h2>
+<div id="outline-text-headline-24" class="outline-text-2">
+<ul>
+<li><a href="/posts/daily/2026/04/inbox/">inbox/projects</a></li>
+<li><a href="/posts/daily/2026/04/">April</a></li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+    <div class="flex flex-wrap justify-between">
+  <div>
+  
+    <a href="/posts/daily/2026/04/19/" class="flex align-center">
+      <img src="/icons/backward.svg" class="book-icon" alt="Backward" />
+      <span>2026-04-19</span>
+    </a>
+  
+  </div>
+  <div>
+  
+    <a href="/posts/daily/2026/04/inbox/" class="flex align-center">
+      <span>INBOX</span>
+      <img src="/icons/forward.svg" class="book-icon" alt="Forward" />
+    </a>
+  
+  </div>
+</div>
+  
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+    
+<nav id="TableOfContents">
+<ul>
+<li><a href="#headline-1">直近の予定と締め切り</a>
+</li>
+<li><a href="#headline-2">TASK</a>
+<ul>
+<li><a href="#headline-3">misc<code class="statistic">[6/8]</code></a>
+</li>
+<li><a href="#headline-4">大学関係 事務系<code class="statistic">[1/4]</code></a>
+</li>
+<li><a href="#headline-5">udemy<code class="statistic">[0/3]</code></a>
+</li>
+<li><a href="#headline-6">動画で学習する<code class="statistic">[0/1]</code></a>
+<ul>
+<li><a href="#headline-7">行列の積（39本の動画） <code class="statistic">[1/5]</code></a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-8">松尾研セミナー<code class="statistic">[1/2]</code></a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-9">タスク整理</a>
+<ul>
+<li><a href="#headline-10">来週week19以降でも別に良いもの</a>
+</li>
+<li><a href="#headline-11">課題関係 <code class="statistic">[1/8]</code></a>
+<ul>
+<li><a href="#headline-12">統計分析発展実践</a>
+<ul>
+<li><a href="#headline-13">平常れぽ1</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-14">公的統計</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#headline-15">数日以内のもの（とりあえずこれが終われば今週はOKなもの）</a>
+</li>
+<li><a href="#headline-16">喫緊のタスク（明日やるもの）</a>
+</li>
+<li><a href="#headline-17">LOG</a>
+<ul>
+<li><a href="#headline-18">ながれ</a>
+</li>
+<li><a href="#headline-19">勉強について計画した</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-20">今日の学び</a>
+<ul>
+<li><a href="#headline-21">時系列ビッグデータ分析</a>
+</li>
+<li><a href="#headline-22">misc</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-23">所感</a>
+</li>
+<li><a href="#headline-24">Reference</a>
+</li>
+</ul>
+</nav>
+
+
+  
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

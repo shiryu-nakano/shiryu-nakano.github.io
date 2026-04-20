@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content=" LOG めも Crestにおける自分たちの（将来的あるべき）立ち位置はどんなものなのか ある程度理解しておく必要がある．
+nbの設定を修正した vscodeを久しぶりに使った Chirpyについて調べる
+ブログを書くためのもの いつもならとりあえず色々調べてから始めているが，とにかく手を動かしてやってみることを優先してみたいので，環境構築を開始してみるか 所感 2日間のCRESTのMTGの参加→レポートにしてみる
+なぜわざわざそこまでするのか？ こんな貴重な経験ない， 具体的な研究の進み方（データサイエンスとしての） arcraのバイトも結局最終日まで何もしてないじゃないか。こんな計画性の無さでは講義でいい評価もクソもないではないか。
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="https://shiryu-nakano.github.io/posts/daily/2026/03/31/">
+  <meta property="og:site_name" content="Shiryu NAKANO">
+  <meta property="og:title" content="2026-03-31">
+  <meta property="og:description" content="LOG めも Crestにおける自分たちの（将来的あるべき）立ち位置はどんなものなのか ある程度理解しておく必要がある．
+nbの設定を修正した vscodeを久しぶりに使った Chirpyについて調べる
+ブログを書くためのもの いつもならとりあえず色々調べてから始めているが，とにかく手を動かしてやってみることを優先してみたいので，環境構築を開始してみるか 所感 2日間のCRESTのMTGの参加→レポートにしてみる
+なぜわざわざそこまでするのか？ こんな貴重な経験ない， 具体的な研究の進み方（データサイエンスとしての） arcraのバイトも結局最終日まで何もしてないじゃないか。こんな計画性の無さでは講義でいい評価もクソもないではないか。">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+
+
+  <meta itemprop="name" content="2026-03-31">
+  <meta itemprop="description" content="LOG めも Crestにおける自分たちの（将来的あるべき）立ち位置はどんなものなのか ある程度理解しておく必要がある．
+nbの設定を修正した vscodeを久しぶりに使った Chirpyについて調べる
+ブログを書くためのもの いつもならとりあえず色々調べてから始めているが，とにかく手を動かしてやってみることを優先してみたいので，環境構築を開始してみるか 所感 2日間のCRESTのMTGの参加→レポートにしてみる
+なぜわざわざそこまでするのか？ こんな貴重な経験ない， 具体的な研究の進み方（データサイエンスとしての） arcraのバイトも結局最終日まで何もしてないじゃないか。こんな計画性の無さでは講義でいい評価もクソもないではないか。">
+  <meta itemprop="wordCount" content="15">
+
+<title>2026-03-31 | Shiryu NAKANO</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="https://shiryu-nakano.github.io/posts/daily/2026/03/31/">
+<link rel="stylesheet" href="/book.min.b267f830fdf65302ecc1702a1178d4f25aa783409b3a25098f3404dd24f37a4d.css" integrity="sha256-smf4MP32UwLswXAqEXjU8lqng0CbOiUJjzQE3STzek0=" crossorigin="anonymous">
+
+
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/ja.search.min.4b85aa48703b59bbfe82b5fc0a7ec3e5c0664d3744cdd1ef11af60219b53ae34.js" integrity="sha256-S4WqSHA7Wbv&#43;grX8Cn7D5cBmTTdEzdHvEa9gIZtTrjQ=" crossorigin="anonymous"></script>
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/custom.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "$", right: "$", display: false}
+        ],
+        throwOnError: false
+    });
+});
+</script>
+
+</head>
+<body dir="ltr" class="book-kind-page book-type-posts">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Shiryu NAKANO</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="検索"
+    aria-label="検索"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+  <div class="markdown">
+    <ul>
+<li><a href="/">Home</a></li>
+</ul>
+<!--
+- [Research](/posts/research/)
+- [Life](/posts/life/)
+- [Study](/posts/study/)
+- [Univ](/posts/univ/)
+--->
+  </div>
+
+
+
+</nav>
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>2026-03-31</h3>
+
+  <label for="toc-control">
+    
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+    
+<nav id="TableOfContents">
+<ul>
+<li><a href="#headline-1">LOG</a>
+</li>
+<li><a href="#headline-2">所感</a>
+</li>
+</ul>
+</nav>
+
+
+  
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown book-post">
+  <h1>
+    2026-03-31
+  </h1>
+  
+
+
+  
+
+  
+
+
+  <div class="book-post-content markdown-inner">
+<div id="outline-container-headline-1" class="outline-2">
+<h2 id="headline-1">
+LOG
+</h2>
+<div id="outline-text-headline-1" class="outline-text-2">
+<ul>
+<li>めも</li>
+</ul>
+<p>Crestにおける自分たちの（将来的あるべき）立ち位置はどんなものなのか
+ある程度理解しておく必要がある．</p>
+<hr>
+<ul>
+<li>nbの設定を修正した</li>
+<li>vscodeを久しぶりに使った</li>
+<li>
+<p>Chirpyについて調べる</p>
+<ul>
+<li>ブログを書くためのもの</li>
+<li>いつもならとりあえず色々調べてから始めているが，とにかく手を動かしてやってみることを優先してみたいので，環境構築を開始してみるか</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-2" class="outline-2">
+<h2 id="headline-2">
+所感
+</h2>
+<div id="outline-text-headline-2" class="outline-text-2">
+<ul>
+<li>
+<p>2日間のCRESTのMTGの参加→レポートにしてみる</p>
+<ul>
+<li>なぜわざわざそこまでするのか？</li>
+<li>こんな貴重な経験ない，</li>
+<li>具体的な研究の進み方（データサイエンスとしての）</li>
+</ul>
+</li>
+</ul>
+<p>
+arcraのバイトも結局最終日まで何もしてないじゃないか。こんな計画性の無さでは講義でいい評価もクソもないではないか。</p>
+</div>
+</div>
+</div>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+    <div class="flex flex-wrap justify-between">
+  <div>
+  
+    <a href="/posts/daily/2026/03/2026-03-30/" class="flex align-center">
+      <img src="/icons/backward.svg" class="book-icon" alt="Backward" />
+      <span>2026-03-30</span>
+    </a>
+  
+  </div>
+  <div>
+  
+  </div>
+</div>
+  
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+    
+<nav id="TableOfContents">
+<ul>
+<li><a href="#headline-1">LOG</a>
+</li>
+<li><a href="#headline-2">所感</a>
+</li>
+</ul>
+</nav>
+
+
+  
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

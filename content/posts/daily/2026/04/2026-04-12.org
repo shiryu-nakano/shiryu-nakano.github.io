@@ -1,0 +1,31 @@
+#+TITLE: 2026-04-12
+#+URL: /posts/daily/2026/04/12/
+#+filetags: :daily:
+#+OPTIONS: toc:nil num:nil ^:nil tags:nil todo:nil H:10
+#+OPTIONS: broken-links:mark
+#+OPTIONS: tex:t
+#+OPTIONS: html-postamble:nil
+#+OPTIONS: links:nil
+
+* LOG
+
+- org vs md　→　どちらでもhugoにまとめれば問題ないことになった．
+- paper+ankiのjesseの開発→terminalの方が相性いい？
+  - →ならterminalで使えるmdの方がいい？と思った
+
+-----
+- [ ] [[https://joisino.hatenablog.com/entry/theory#%E6%B7%B1%E5%B1%A4%E5%AD%A6%E7%BF%92%E3%81%AE%E7%90%86%E8%AB%96%E3%81%B8][絶対に分かる機械学習理論 - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ]]
+- [ ] log内容を毎日discordに投稿するようにしたい
+
+- [X] org dailyの日々の新しいページの作成処理を確認する
+  - [X] もしも丸ごとコピーになっていなければ，そのように変更しておく  
+  - [X] org-roamのdailyなどを，うまいことsiteの管理下に置けるようにしておきたいが，
+
+
+** memo
+- [ ] 実験（CIFARの解析）
+- [ ] PINNs latent dynamics
+- [-] 論文
+  - [X] 要約
+  - [ ] 詳細
+  - [ ] メモ

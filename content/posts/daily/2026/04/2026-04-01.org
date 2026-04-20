@@ -1,0 +1,21 @@
+#+TITLE: 2026-04-01
+#+URL: /posts/daily/2026/04/01/
+#+filetags: :daily:
+#+OPTIONS: toc:nil num:nil ^:nil tags:nil todo:nil H:10
+#+OPTIONS: broken-links:mark
+#+OPTIONS: tex:t
+#+OPTIONS: html-postamble:nil
+#+OPTIONS: links:nil
+
+* LOG
+- [ ] コメダにあった荷物置き→部屋にあるといいかも
+- [X] 口座の登録
+
+- https://claude.ai/chat/624235d7-5063-4371-9a2b-649fee723150
+  - org->md変換チャット
+- [X] bayes
+  - https://sites.math.rutgers.edu/~zeilberg/EM20/Hoff.pdf
+
+* 所感
+- コメダに行って2時間ほど作業した．
+  - emacsにしようとしてまた大量の時間が溶けた．
