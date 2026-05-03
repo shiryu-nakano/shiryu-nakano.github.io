@@ -1,0 +1,136 @@
+#+TITLE: 2026-05-02
+#+URL: /posts/daily/2026/05/02/
+#+filetags: :daily:
+#+OPTIONS: toc:nil num:nil ^:nil tags:nil todo:nil H:10
+#+OPTIONS: broken-links:mark
+#+OPTIONS: tex:t
+#+OPTIONS: html-postamble:nil
+#+OPTIONS: links:nil
+
+-----
+- [[/posts/daily/2026/05/week19/][week19]]
+  - [[./week19.org]]
+-----
+* LOG
+- 歯医者に行った．治療は結構痛かった．今治療している部分はあと1，2回で終わりらしい．他の部分についてはそれが終わってからになるのだろうか．
+  まだ長い付き合いになりそう．少し家から遠い場所にあるが，逆に良い気分転換になっていると思う．たまに一人で遠出するのは悪くない．
+- 今日は友人の有本と1Pと飲みにいった．日ごろの鬱憤を吐き出せた．社会人の視点を得られてよかった．
+  - 自分がやりたいことをもっと具体的にしたくなった．とにかく手を動かして，やすんで，頭を動かす．
+- 機械学習発展学術の2回のスライドを読んだ．
+  - 動画をついかでみておくか．．．
+  - 先に動画の方が良いかもしれない．．．？
+  - 明日は3回→動画から入る．
+
+
+#+begin_export html
+<!---
+#+end_export
+- [ ] 日報の作成
+- [ ] ガス電気のこと
+- [ ] 課題と締切の整理をおこなう
+
+-----
+- [ ] Aprin→急ぐ
+- [ ] 特論の返信→両方
+
+- [ ] [[https://mail.google.com/mail/u/0/#inbox/FMfcgzQgLFlPmFMZphschTvJpsgFqpML]]
+- 必要そうな論文について
+- https://arxiv.org/abs/2309.07311
+  - [[https://arxiv.org/abs/2012.09839][[2012.09839] Towards Resolving the Implicit Bias of Gradient Descent for Matrix Factorization: Greedy Low-Rank Learning]]
+    - これは，https://claude.ai/chat/3b9d899b-2541-4f3e-ac31-719e432075db
+    - https://arxiv.org/abs/2505.21722
+  - ここら辺の最近の論文とも関連がある
+- [ ]  gxpのレポート→明日でOK?
+- 研究室でコーヒーが作れるので，平日は朝コーヒーを買う必要はない→氷など作っておけばアイスも飲める
+
+- 整理
+  - 勉強したい
+  - 論文読みたい
+  - 業務的にやることがある，RAの時間はホンダの研究を進める必要がある
+    - 11日に説明がある
+  - 13日？
+  - 14日は？
+  - [ ] 週報の提出
+- 
+
+
+- seminar memo
+  - PSP- process structure property
+  - KANとSimboric regressionについて
+    [[https://www.sciencedirect.com/science/article/pii/S1359645424009480][PSP-GEN: Stochastic inversion of the Process–Structure–Property chain in materials design through deep, generative probabilistic modeling - ScienceDirect]]
+  - [[https://qiita.com/Cartelet/items/76e4eb83c0a02a6da13f][本家Examplesで知る、新たなニューラルネットワーク『KAN』の威力 #Python - Qiita]]
+  - https://arxiv.org/pdf/2404.19756
+  - https://arxiv.org/pdf/2001.04536
+  - https://arxiv.org/pdf/2403.18494 
+  - https://arxiv.org/pdf/2403.18494
+
+
+#+begin_export html
+--->
+#+end_export
+
+
+* memo
+
+- https://www.ms.u-tokyo.ac.jp/wings-fmsp/qe-posters.html
+  - 西山さんの研究
+
+- 5/7.8について
+・5月7日(木)は【水曜授業日】です。水曜日の時間割の授業科目が実施されます。
+・5月8日(金)は【火曜授業日】です。火曜日の時間割の授業科目が実施されます。
+
+- https://claude.ai/chat/51c90057-5aac-4f7e-bfe5-d6a7820383ac
+  - implicit regular
+- you are mearsuring model complexity wrong
+  - https://claude.ai/chat/3e7ad1a3-a0a5-49ad-a66d-23f699050bf4
+- https://claude.ai/chat/ca7cac29-deea-4c81-b5b4-e2ba7adef3ad
+  - DSB研究のディスカッション
+- [[https://ja.wikipedia.org/wiki/%E3%82%AC%E3%83%B3%E3%83%99%E3%83%AB%E5%88%86%E5%B8%83][ガンベル分布 - Wikipedia]]
+- [[https://manaba.hit-u.ac.jp/ct/page_1088921c11447][一橋大学 manaba - page]]
+  - FLAGs 博士海外挑戦支援プログラム
+
+
+* 今日の学びweek18
+- [[https://manabitimes.jp/math/1269#3][ノルムの意味とL1，L2，L∞ノルム | 高校数学の美しい物語]]
+- https://claude.ai/chat/26114ad3-63d0-4fe7-9d81-9920ac8ba9fc
+  - [ ] orgで数式のインライン表示が壊れる理由についてメモしておく→zenn
+    - 
+
+* 所感
+- 統計学の方法論→アルゴリズム
+- では理論は？→アルゴリズムの保証を付け加えるもの
+- SGLDは方法論
+- 昨日（4/30）のMTGについて
+  - 線形回帰すらちゃんと理解できていない
+  - どっちみちいつかこれはやらなければならなかった
+  - やるべきことと，やる時の基準を自分の中でアップデートできたので良い機会だった
+  - +でもその場で学生に全部やらせて測るのはかなり畜生だと思った．+ 自分が甘いだけ
+- 特論ではT君の研究が面白そうだった．理論研究の進め方についてすごく勉強になるのではなしてみたい
+
+
+* Reference
+
+- [[/posts/daily/2026/04/inbox/][inbox/projects]]
+  - pc
+
+- link
+  [[../04/links_0423.org]]
+
+- [[/posts/daily/2026/04/][April]]
+  - pc
+    [[~/ghq/github.com/shiryu-nakano/shiryu-nakano.github.io/content/posts/daily/2026/04/_index.md]]
+
+- misc
+  - server
+    - hugo server -D
+ 
+# http://localhost:1313/posts/daily/hima-wo-tsukutte-himatsubushi/
+
+- [[id:B4DDD380-A2CF-448B-938D-4387254BF64C][project-DSB]] 
+  - [[/Users/nkn4ryu/Documents/project_B4/project_B4_Doshisha/LOG]]
+
+- 研究日誌：
+  - https://github.com/shiryu-nakano/project_B4_Doshisha/blob/experiment/dsb_local/LOG/week17/2026-04-20.org
+  
+
+

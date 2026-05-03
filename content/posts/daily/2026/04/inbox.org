@@ -22,35 +22,35 @@
 ** INBOX [[https://joisino.hatenablog.com/entry/theory#%E6%B7%B1%E5%B1%A4%E5%AD%A6%E7%BF%92%E3%81%AE%E7%90%86%E8%AB%96%E3%81%B8][絶対に分かる機iii械学習理論 - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ]]
 ** INBOX log内容を毎日discordに投げたい
 ** INBOX 読みたいもの 
- - [[https://mathlog.info/articles/EzVIGMfJU7M3fGHI8ajK][数学の勉強のやり方 | Mathlog]]
- - [[https://qiita.com/Sicut_study/items/c0096caf21eefcd5c85f][【初心者完全版】0からReact開発して基礎をマスターできる最強チュートリアル 音楽生成アプリ編【図解解説】 #TypeScript - Qiita]] 
- - [[https://studyhacker.net/unconscious-perfectionism#%E3%82%BF%E3%82%A4%E3%83%972%E6%AD%A3%E8%A7%A3%E4%B8%BB%E7%BE%A9%E5%9E%8B%E8%AA%BF%E3%81%B9%E3%82%8C%E3%81%B0%E7%AD%94%E3%81%88%E3%81%8C%E8%A6%8B%E3%81%A4%E3%81%8B%E3%82%8B%E3%81%A8%E3%81%84%E3%81%86%E5%B9%BB%E6%83%B3][あなたに "Done is better than perfect." が出来ない理由——無自覚な完璧主義、4つのタイプと処方箋 - STUDY HACKER（スタディーハッカー）｜社会人の勉強法＆英語学習]]
- - [[https://mathlog.info/articles/tluyvuhcxujw1tbXfU5Q][可換環論の†全て†を幾何に翻訳して鑑賞しよう~前編~ | Mathlog]]
- - https://www.youtube.com/watch?app=desktop&v=87-BNgM-KfQ
- - 
- - [[https://towardsdatascience.com/ai-papers-to-read-in-2025/][AI Papers to Read in 2025 | Towards Data Science*** INBOX instの画i像投稿 
+- [[https://mathlog.info/articles/EzVIGMfJU7M3fGHI8ajK][数学の勉強のやり方 | Mathlog]]
+- [[https://qiita.com/Sicut_study/items/c0096caf21eefcd5c85f][【初心者完全版】0からReact開発して基礎をマスターできる最強チュートリアル 音楽生成アプリ編【図解解説】 #TypeScript - Qiita]] 
+- [[https://studyhacker.net/unconscious-perfectionism#%E3%82%BF%E3%82%A4%E3%83%972%E6%AD%A3%E8%A7%A3%E4%B8%BB%E7%BE%A9%E5%9E%8B%E8%AA%BF%E3%81%B9%E3%82%8C%E3%81%B0%E7%AD%94%E3%81%88%E3%81%8C%E8%A6%8B%E3%81%A4%E3%81%8B%E3%82%8B%E3%81%A8%E3%81%84%E3%81%86%E5%B9%BB%E6%83%B3][あなたに "Done is better than perfect." が出来ない理由——無自覚な完璧主義、4つのタイプと処方箋 - STUDY HACKER（スタディーハッカー）｜社会人の勉強法＆英語学習]]
+- [[https://mathlog.info/articles/tluyvuhcxujw1tbXfU5Q][可換環論の†全て†を幾何に翻訳して鑑賞しよう~前編~ | Mathlog]]
+- https://www.youtube.com/watch?app=desktop&v=87-BNgM-KfQ
+- 
+- [[https://towardsdatascience.com/ai-papers-to-read-in-2025/][AI Papers to Read in 2025 | Towards Data Science*** INBOX instの画i像投稿 
   - [[https://tabiato.co.jp/biz/blog/instagram-api-content-publishing/][Instagram Graph APIで自動投稿！画像もリールもストーリーも！ - 旅アトリーチ]]
 ** INBOX https://arxiv.org/abs/1904.03866
 ** INBOX 借りてたPCのubuntu初期化 
 ** INBOX 銀行印の整理 
-  Created on [2025-12-10 Wed 13:32]
+Created on [2025-12-10 Wed 13:32]
 ** INBOX 機械学習発展 https://tatsy.github.io/1284-sds-advml/
-  Created on [2025-12-11 Thu 19:56]
+Created on [2025-12-11 Thu 19:56]
 ** INBOX テスト駆動開発の本を進める 
-  Created on [2025-12-17 Wed 23:24]
+Created on [2025-12-17 Wed 23:24]
 *** INBOX アプリ1
 *** INBOX アプリ2
 *** INBOX アプリ3
 ** INBOX 2026やりたいことを書いていく 
 ** INBOX Codex，claude codeの本を一回回すこと 
-  Created on [2026-01-05 Mon 14:48]
+Created on [2026-01-05 Mon 14:48]
 ** INBOX 試験の流れをパワポにして，それも貼り付けるようにする．
 ** INBOX 教科書は何を持ってやったことにするのかをあらかじめ決める，目的も設定する
-  Created on [2026-01-08 Thu 15:33]
+Created on [2026-01-08 Thu 15:33]
 ** INBOX エンジニアとしてのポートフォリオ
-  Created on [2026-01-08 Thu 15:35]
+Created on [2026-01-08 Thu 15:35]
 ** INBOX codexのとき，他のウィンドウでもチャットが共有されている問題 
-  Created on [2026-01-08 Thu 18:20]
+Created on [2026-01-08 Thu 18:20]
 ** INBOX arcra volだけでやるのきついかもしれないのでいったんmacでやって感じをつかむことにするか
 ** INBOX gxpの開発を，volで進めることはできないか？→これは十分にタスクを細かくすれば行けるはず
 今すべきこと
@@ -105,15 +105,15 @@ memo: time to make notes of the paper
 
   - 何が問題か？
     → 問い方に問題があるから
-     ①解決できない（or 一般的に難しい問題）であるとき→これは普通に難しいのでこのパターンは除外する．
-      難しい問題は他の人も難しいし，たくさんの人がぶち当たっている問題である可能性が高いので，まずそれに気づく．
-      小さく分割して解決に近づく．
-     ②考えかたが悪い．
-     解決したい問題に対して，まず自分が「解決した」と結論づけられる条件が定まっていないのに
-     何か悶々と考えていても，基本的にネットサーフィンが始まる
-     まず何が解決なのか，範囲を決める．その範囲を決める諸条件は基本的には外的要因を考慮すればいい．
-     外的要因によって定まる領域の外側にはどう頑張ってもいけない．（1日は24時間しかない，とか自分の能力とか，お金の問題とか）
-     ここが定まると，あとは自分がどこからどこまでなら妥協できるかを決めるだけ．
+    ①解決できない（or 一般的に難しい問題）であるとき→これは普通に難しいのでこのパターンは除外する．
+    難しい問題は他の人も難しいし，たくさんの人がぶち当たっている問題である可能性が高いので，まずそれに気づく．
+    小さく分割して解決に近づく．
+    ②考えかたが悪い．
+    解決したい問題に対して，まず自分が「解決した」と結論づけられる条件が定まっていないのに
+    何か悶々と考えていても，基本的にネットサーフィンが始まる
+    まず何が解決なのか，範囲を決める．その範囲を決める諸条件は基本的には外的要因を考慮すればいい．
+    外的要因によって定まる領域の外側にはどう頑張ってもいけない．（1日は24時間しかない，とか自分の能力とか，お金の問題とか）
+    ここが定まると，あとは自分がどこからどこまでなら妥協できるかを決めるだけ．
 
 - それを元に考えることは
   - phdの後，何がしたいのか？
@@ -182,47 +182,47 @@ memo: time to make notes of the paper
 - IKEA に行った
 - 家で作業
 - 帰宅後に作業
-    - torchtitan
-    - NVIDIA に返事
+  - torchtitan
+  - NVIDIA に返事
 - Jean Taron で買い物
 - 散髪
 - 帰宅して夕食
 - 作業
-    - torchtitan
-        - 実験流してて待ち
-            - Mila
-            - Narval (sweep はまだ)
-        - 試行錯誤中
-            - 投げ直して実行待ち
-                - Nibi
-                    - job 投げ直した
-                - Roquel
-                    - torch がないとか言われる、、
-            - 環境整備し直し
-                - Fir
-                    - (disk がめっちゃ遅い)
-                    - scratch 領域で作業してる
-                    - python 3.10.13で環境設定し直し
-        - 一旦保留
-            - Trillium
-                - torchrun の permission 問題
-                - scratch に退避
-                - 非常に使いにくい
-                - https://docs.alliancecan.ca/wiki/Trillium_Quickstart
-            - Squid
-                - セットアップ
-                - データをダウンロードしている
-                - srun とかのコマンドがない
+  - torchtitan
+    - 実験流してて待ち
+      - Mila
+      - Narval (sweep はまだ)
+    - 試行錯誤中
+      - 投げ直して実行待ち
+	- Nibi
+	  - job 投げ直した
+	- Roquel
+	  - torch がないとか言われる、、
+      - 環境整備し直し
+	- Fir
+	  - (disk がめっちゃ遅い)
+	  - scratch 領域で作業してる
+	  - python 3.10.13で環境設定し直し
+    - 一旦保留
+      - Trillium
+	- torchrun の permission 問題
+	- scratch に退避
+	- 非常に使いにくい
+	- https://docs.alliancecan.ca/wiki/Trillium_Quickstart
+      - Squid
+	- セットアップ
+	- データをダウンロードしている
+	- srun とかのコマンドがない
 - 家のこと色々やった
 
 ## **TODO**
 
 - MUON 関連のサーベイ
-    - https://arxiv.org/pdf/2409.20325
+  - https://arxiv.org/pdf/2409.20325
 - LLM 関連
-    - https://www.meti.go.jp/policy/mono_info_service/geniac/selection_1/index.html
+  - https://www.meti.go.jp/policy/mono_info_service/geniac/selection_1/index.html
 - Transformer 理解
-    - https://youtu.be/9Tu8H7wPVWo?si=jbrDE_JA_jFBEIdq
+  - https://youtu.be/9Tu8H7wPVWo?si=jbrDE_JA_jFBEIdq
 
 ## **今日何を学んだか？**
 
@@ -241,11 +241,11 @@ memo: time to make notes of the paper
 
 - 年間スケジュール
     
-    ```
+  ```
     
-    参考 URL: https://hiroki11x.github.io/posts/research_topics/ML_Conference/
+  参考 URL: https://hiroki11x.github.io/posts/research_topics/ML_Conference/
     
-    ```
+  ```
 ** INBOX ベイズ勉強のリスト from notion
 
 https://www.hit-u.ac.jp/hq-mag/innovation/485_20221227/
@@ -371,11 +371,11 @@ ankiに毎日一定の時間を使う
 - udemy ベイズ [[https://www.udemy.com/course/pythonstan/][【PythonとStanで学ぶ】仕組みが分かるベイズ統計学入門]]
   動画11．5時間
   rule
-   単純な視聴で11.5, anki？や定着などのために
-   25時間程度を計画に入れる
-   どのようにすすめるか；
-     計画→4日間
-     動画の視聴
+  単純な視聴で11.5, anki？や定着などのために
+  25時間程度を計画に入れる
+  どのようにすすめるか；
+  計画→4日間
+  動画の視聴
 - udemy ベイズ
 - udemy Kaggle
   - レクチャー: 144
@@ -482,7 +482,7 @@ CMAの経済を終わらせる
 *** 情報幾何
 **** INBOX  https://language-and-engineering.hatenablog.jp/entry/20140619/InformationGeometryPDFPapers
 **** INBOX https://www.jstage.jst.go.jp/article/bjsiam/2/1/2_KJ00005767586/_pdf/-char/ja
-  - 本家
+- 本家
 **** INBOX [[https://language-and-engineering.hatenablog.jp/entry/20140619/InformationGeometryPDFPapers][「情報幾何」に入門するための資料PDF。解説論文と機械学習への応用の紹介 - 主に言語とシステム開発に関して]]
 **** INBOX  [[https://medium.com/@masazdream/%E6%83%85%E5%A0%B1%E5%B9%BE%E4%BD%95%E3%81%AB%E5%85%A5%E9%96%80%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%83%AA%E3%83%B3%E3%82%AF%E9%9B%86-49fdb11360f0][情報幾何に入門するためのリンク集. 情報幾何入門（産総研 脳神経情報研究部門 赤穂昭太郎）… | by Masahiro Imai | Medium]]
 ** 奨学金関係

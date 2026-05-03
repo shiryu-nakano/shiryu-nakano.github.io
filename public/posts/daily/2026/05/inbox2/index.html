@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content=" INBOX DRAM, HBM DRAMとは？メモリを選ぶうえで理解しておきたい基礎知識を解説
+DRAM, SRAM SRAMの方が高価 DRAMは揮発性メモリ PCやカメラやテレビのメモリに使われている High Bandwidth Memory - Wikipedia ///Users/nkn4ryu/Downloads/DGKKZO9574584018042026EA2000.pdf INBOX Deeplearningを学習する時の教材 Understanding Deep Learning
+pdfもあるし，基礎的なpythonのコードも見れる
+https://github.com/udlbook/udlbook/blob/main/Notebooks/Chap02/2_1_Supervised_Learning.ipynb https://rbcborealis.com/research-blogs/the-neural-tangent-kernel/
+このブログ順番に読むだけでも→https://rbcborealis.com/blog/?topics=open&amp;content-type=4 claudeに調べてもらったりもしている．これも結構いい
+https://claude.ai/chat/e5760241-5015-44ff-a692-383babbe7011 Readings | Deep Learning | Electrical Engineering and Computer Science | MIT OpenCourseWare
+MITのやつかなりいいかも．pdfや動画もある https://visionbook.mit.edu/ Why machine learning algorithms are hard to tune (and the fix) 理論より Deep learning theory lecture notes Matus Telgarsky — Deep Learning Theory Lecture Notes (UIUC→NYU Courant) CS 598 DLT として2019年～2022年にかけて繰り返し開講。テキスト形式のlecture notesが new version / old version の2バージョン公開 NYU Courant カバー範囲: Barron&#39;s theorem, depth separation, NTK, implicit regularization, generalization bounds UCLAのCS269コースでも推薦教科書として採用 Uclaml SLT研究との関連: 汎化理論・暗黙的正則化の議論がLLCの「なぜ単純なモデルが選ばれるか」という問いに直接つながる URL: https://mjt.cs.illinois.edu/dlt/
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/daily/2026/05/inbox2/">
+  <meta property="og:site_name" content="Shiryu NAKANO">
+  <meta property="og:title" content="Shiryu NAKANO">
+  <meta property="og:description" content="INBOX DRAM, HBM DRAMとは？メモリを選ぶうえで理解しておきたい基礎知識を解説
+DRAM, SRAM SRAMの方が高価 DRAMは揮発性メモリ PCやカメラやテレビのメモリに使われている High Bandwidth Memory - Wikipedia ///Users/nkn4ryu/Downloads/DGKKZO9574584018042026EA2000.pdf INBOX Deeplearningを学習する時の教材 Understanding Deep Learning
+pdfもあるし，基礎的なpythonのコードも見れる
+https://github.com/udlbook/udlbook/blob/main/Notebooks/Chap02/2_1_Supervised_Learning.ipynb https://rbcborealis.com/research-blogs/the-neural-tangent-kernel/
+このブログ順番に読むだけでも→https://rbcborealis.com/blog/?topics=open&amp;content-type=4 claudeに調べてもらったりもしている．これも結構いい
+https://claude.ai/chat/e5760241-5015-44ff-a692-383babbe7011 Readings | Deep Learning | Electrical Engineering and Computer Science | MIT OpenCourseWare
+MITのやつかなりいいかも．pdfや動画もある https://visionbook.mit.edu/ Why machine learning algorithms are hard to tune (and the fix) 理論より Deep learning theory lecture notes Matus Telgarsky — Deep Learning Theory Lecture Notes (UIUC→NYU Courant) CS 598 DLT として2019年～2022年にかけて繰り返し開講。テキスト形式のlecture notesが new version / old version の2バージョン公開 NYU Courant カバー範囲: Barron&#39;s theorem, depth separation, NTK, implicit regularization, generalization bounds UCLAのCS269コースでも推薦教科書として採用 Uclaml SLT研究との関連: 汎化理論・暗黙的正則化の議論がLLCの「なぜ単純なモデルが選ばれるか」という問いに直接つながる URL: https://mjt.cs.illinois.edu/dlt/">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+
+
+  <meta itemprop="name" content="Shiryu NAKANO">
+  <meta itemprop="description" content="INBOX DRAM, HBM DRAMとは？メモリを選ぶうえで理解しておきたい基礎知識を解説
+DRAM, SRAM SRAMの方が高価 DRAMは揮発性メモリ PCやカメラやテレビのメモリに使われている High Bandwidth Memory - Wikipedia ///Users/nkn4ryu/Downloads/DGKKZO9574584018042026EA2000.pdf INBOX Deeplearningを学習する時の教材 Understanding Deep Learning
+pdfもあるし，基礎的なpythonのコードも見れる
+https://github.com/udlbook/udlbook/blob/main/Notebooks/Chap02/2_1_Supervised_Learning.ipynb https://rbcborealis.com/research-blogs/the-neural-tangent-kernel/
+このブログ順番に読むだけでも→https://rbcborealis.com/blog/?topics=open&amp;content-type=4 claudeに調べてもらったりもしている．これも結構いい
+https://claude.ai/chat/e5760241-5015-44ff-a692-383babbe7011 Readings | Deep Learning | Electrical Engineering and Computer Science | MIT OpenCourseWare
+MITのやつかなりいいかも．pdfや動画もある https://visionbook.mit.edu/ Why machine learning algorithms are hard to tune (and the fix) 理論より Deep learning theory lecture notes Matus Telgarsky — Deep Learning Theory Lecture Notes (UIUC→NYU Courant) CS 598 DLT として2019年～2022年にかけて繰り返し開講。テキスト形式のlecture notesが new version / old version の2バージョン公開 NYU Courant カバー範囲: Barron&#39;s theorem, depth separation, NTK, implicit regularization, generalization bounds UCLAのCS269コースでも推薦教科書として採用 Uclaml SLT研究との関連: 汎化理論・暗黙的正則化の議論がLLCの「なぜ単純なモデルが選ばれるか」という問いに直接つながる URL: https://mjt.cs.illinois.edu/dlt/">
+  <meta itemprop="wordCount" content="100">
+
+<title>Inbox2 | Shiryu NAKANO</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/posts/daily/2026/05/inbox2/">
+<link rel="stylesheet" href="/book.min.b267f830fdf65302ecc1702a1178d4f25aa783409b3a25098f3404dd24f37a4d.css" integrity="sha256-smf4MP32UwLswXAqEXjU8lqng0CbOiUJjzQE3STzek0=" crossorigin="anonymous">
+
+
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/ja.search.min.0b5aaa0d20620a7bb3ec55f54211881d42686b65b380d4ab69a4456d264fd88e.js" integrity="sha256-C1qqDSBiCnuz7FX1QhGIHUJoa2WzgNSraaRFbSZP2I4=" crossorigin="anonymous"></script>
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/custom.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "$", right: "$", display: false}
+        ],
+        throwOnError: false
+    });
+});
+</script>
+
+</head>
+<body dir="ltr" class="book-kind-page book-type-posts">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Shiryu NAKANO</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="検索"
+    aria-label="検索"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+  <div class="markdown">
+    <ul>
+<li><a href="/">Home</a></li>
+</ul>
+<!--
+- [Research](/posts/research/)
+- [Life](/posts/life/)
+- [Study](/posts/study/)
+- [Univ](/posts/univ/)
+--->
+  </div>
+
+
+
+</nav>
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Inbox2</h3>
+
+  <label for="toc-control">
+    
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+    
+<nav id="TableOfContents">
+<ul>
+<li><a href="#headline-1">INBOX DRAM, HBM</a>
+</li>
+<li><a href="#headline-2">INBOX Deeplearningを学習する時の教材</a>
+<ul>
+<li><a href="#headline-3">理論より</a>
+</li>
+<li><a href="#headline-4">RAG</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-5">INBOX </a>
+</li>
+</ul>
+</nav>
+
+
+  
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown book-post">
+  <h1>
+    Inbox2
+  </h1>
+  
+
+
+  
+
+  
+
+
+  <div class="book-post-content markdown-inner">
+<div id="outline-container-headline-1" class="outline-3">
+<h3 id="headline-1">
+INBOX DRAM, HBM
+</h3>
+<div id="outline-text-headline-1" class="outline-text-3">
+<ul>
+<li>
+<p><a href="https://www.pro.logitec.co.jp/column/u20191220.html">DRAMとは？メモリを選ぶうえで理解しておきたい基礎知識を解説</a></p>
+<ul>
+<li>DRAM, SRAM
+SRAMの方が高価
+DRAMは揮発性メモリ
+PCやカメラやテレビのメモリに使われている</li>
+</ul>
+</li>
+<li><a href="https://ja.wikipedia.org/wiki/High_Bandwidth_Memory">High Bandwidth Memory - Wikipedia</a></li>
+<li><a href="///Users/nkn4ryu/Downloads/DGKKZO9574584018042026EA2000.pdf">///Users/nkn4ryu/Downloads/DGKKZO9574584018042026EA2000.pdf</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-2" class="outline-3">
+<h3 id="headline-2">
+INBOX Deeplearningを学習する時の教材
+</h3>
+<div id="outline-text-headline-2" class="outline-text-3">
+<ul>
+<li class="unchecked">
+<p><a href="https://udlbook.github.io/udlbook/">Understanding Deep Learning</a></p>
+<ul>
+<li>
+<p>pdfもあるし，基礎的なpythonのコードも見れる</p>
+<ul>
+<li><a href="https://github.com/udlbook/udlbook/blob/main/Notebooks/Chap02/2_1_Supervised_Learning.ipynb">https://github.com/udlbook/udlbook/blob/main/Notebooks/Chap02/2_1_Supervised_Learning.ipynb</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><a href="https://rbcborealis.com/research-blogs/the-neural-tangent-kernel/">https://rbcborealis.com/research-blogs/the-neural-tangent-kernel/</a></p>
+<ul>
+<li>このブログ順番に読むだけでも→<a href="https://rbcborealis.com/blog/?topics=open&amp;content-type=4">https://rbcborealis.com/blog/?topics=open&amp;content-type=4</a></li>
+</ul>
+</li>
+<li>
+<p>claudeに調べてもらったりもしている．これも結構いい</p>
+<ul>
+<li><a href="https://claude.ai/chat/e5760241-5015-44ff-a692-383babbe7011">https://claude.ai/chat/e5760241-5015-44ff-a692-383babbe7011</a></li>
+</ul>
+</li>
+<li>
+<p><a href="https://ocw.mit.edu/courses/6-7960-deep-learning-fall-2024/pages/readings/">Readings | Deep Learning | Electrical Engineering and Computer Science | MIT OpenCourseWare</a></p>
+<ul>
+<li>MITのやつかなりいいかも．pdfや動画もある</li>
+<li><a href="https://visionbook.mit.edu/">https://visionbook.mit.edu/</a></li>
+</ul>
+</li>
+<li><a href="https://www.engraved.blog/why-machine-learning-algorithms-are-hard-to-tune/">Why machine learning algorithms are hard to tune (and the fix)</a></li>
+</ul>
+<div id="outline-container-headline-3" class="outline-4">
+<h4 id="headline-3">
+理論より
+</h4>
+<div id="outline-text-headline-3" class="outline-text-4">
+<ul>
+<li><a href="https://mjt.cs.illinois.edu/dlt/">Deep learning theory lecture notes</a></li>
+</ul>
+<ol>
+<li>Matus Telgarsky — Deep Learning Theory Lecture Notes (UIUC→NYU Courant)</li>
+</ol>
+<p>CS 598 DLT として2019年～2022年にかけて繰り返し開講。テキスト形式のlecture notesが new version / old version の2バージョン公開 NYU Courant
+カバー範囲: Barron&#39;s theorem, depth separation, NTK, implicit regularization, generalization bounds
+UCLAのCS269コースでも推薦教科書として採用 Uclaml
+SLT研究との関連: 汎化理論・暗黙的正則化の議論がLLCの「なぜ単純なモデルが選ばれるか」という問いに直接つながる
+URL: <a href="https://mjt.cs.illinois.edu/dlt/">https://mjt.cs.illinois.edu/dlt/</a></p>
+</div>
+</div>
+<div id="outline-container-headline-4" class="outline-4">
+<h4 id="headline-4">
+RAG
+</h4>
+<div id="outline-text-headline-4" class="outline-text-4">
+<p><a href="///Users/nkn4ryu/Downloads/Mental_Health_RAG_Chatbot_Workshop_v2.pdf">///Users/nkn4ryu/Downloads/Mental_Health_RAG_Chatbot_Workshop_v2.pdf</a></p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-5" class="outline-3">
+<h3 id="headline-5">
+INBOX 
+</h3>
+</div>
+</div>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+    <div class="flex flex-wrap justify-between">
+  <div>
+  
+  </div>
+  <div>
+  
+    <a href="/posts/daily/2026/daily_schedule/" class="flex align-center">
+      <span>Daily Schedule</span>
+      <img src="/icons/forward.svg" class="book-icon" alt="Forward" />
+    </a>
+  
+  </div>
+</div>
+  
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+    
+<nav id="TableOfContents">
+<ul>
+<li><a href="#headline-1">INBOX DRAM, HBM</a>
+</li>
+<li><a href="#headline-2">INBOX Deeplearningを学習する時の教材</a>
+<ul>
+<li><a href="#headline-3">理論より</a>
+</li>
+<li><a href="#headline-4">RAG</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-5">INBOX </a>
+</li>
+</ul>
+</nav>
+
+
+  
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

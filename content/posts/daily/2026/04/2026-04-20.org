@@ -188,15 +188,15 @@ https://chosuke.net/main.aspx?g=84d3119789841d6b71
 * 喫緊のタスク（明日やるもの）
 
 * LOG
-- [[id:B4DDD380-A2CF-448B-938D-4387254BF64C][project-DSB]] 
-  - [[/Users/nkn4ryu/Documents/project_B4/project_B4_Doshisha/LOG]]
 
 # http://localhost:1313/posts/daily/hima-wo-tsukutte-himatsubushi/
 
+- [[id:B4DDD380-A2CF-448B-938D-4387254BF64C][project-DSB]] 
+  - [[/Users/nkn4ryu/Documents/project_B4/project_B4_Doshisha/LOG]]
 
-研究日誌：
-- https://github.com/shiryu-nakano/project_B4_Doshisha/blob/experiment/dsb_local/LOG/week17/2026-04-20.org
-
+- 研究日誌：
+  - https://github.com/shiryu-nakano/project_B4_Doshisha/blob/experiment/dsb_local/LOG/week17/2026-04-20.org
+  
 ** ながれ
 - C-c z fで，目的のroamのpageにjump
   - C-c z iで，pageのリンクを貼る
@@ -209,6 +209,9 @@ https://chosuke.net/main.aspx?g=84d3119789841d6b71
     
 - 16時になったらマーキュリーの利用申請する
   - 1745になってしまった．まだやってない．．．
+
+- 2240
+  - 明日の授業で発表する内容の資料作成
 
 
 
@@ -238,29 +241,29 @@ https://chosuke.net/main.aspx?g=84d3119789841d6b71
 強弱をつけること。
 
 
-今手元にある書籍は、
-⭐️⭐️⭐️PRML
-⭐️標準ベイズ
-⭐️⭐️ベイズpython
-⭐️pytorch(教えるだけ)
-物理数学
-⭐️⭐️⭐️ベイズ統計の理論と方法
-☆これならわかる最適化→ポイントだけ、今はヘッシアンだけやる
-⭐️⭐️田崎熱力学をやるらしい
+- 今手元にある書籍は、
+  - ⭐️⭐️⭐️PRML
+  - ⭐️標準ベイズ
+  - ⭐️⭐️ベイズpython
+  - ⭐️pytorch(教えるだけ)
+  - 物理数学
+  - ⭐️⭐️⭐️ベイズ統計の理論と方法
+  - ☆これならわかる最適化→ポイントだけ、今はヘッシアンだけやる
+  - ⭐️⭐️田崎熱力学をやるらしい
 
-講義で使うもの
-時系列計量、合わせてRの時系列も頭にある
-公的統計　ちゃんと読まないと結構きつい
-統計実践　pdfの配布資料でなんとかなると思う
-ベイズ統計　資料と、あとはベイズをやれば良いはず
+- 講義で使うもの
+  - 時系列計量、合わせてRの時系列も頭にある
+  - 公的統計　ちゃんと読まないと結構きつい
+  - 統計実践　pdfの配布資料でなんとかなると
+  - ベイズ統計　資料と、あとはベイズをやれば良いはず
 
 
-研究の基礎的な部分でいると思われる
-⭐️python機械学習
+- 研究の基礎的な部分でいると思われる
+  - ⭐️python機械学習
 
-深層学習の勉強が必要
-ネットでたくさんあるけど普通に日本語で実装すべき
-⭐️⭐️ゼロからDeep
+- 深層学習の勉強が必要
+  - ネットでたくさんあるけど普通に日本語で実装すべき
+  - ⭐️⭐️ゼロからDeep
 
 
 

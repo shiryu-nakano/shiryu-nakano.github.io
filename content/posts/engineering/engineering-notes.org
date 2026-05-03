@@ -5,7 +5,13 @@
 * Overview
 
 - 今まで参加してきたプロジェクトで学んだことや参照したリンクなどのまとめ
-- これまでの開発経験（研究プロジェクトとは切り分けています）
+#+BEGIN_EXPORT html
+<details><summary>
+これまでの開発経験（研究プロジェクトとは切り分けています）
+</summary>
+#+END_EXPORT
+
+
   - 2023-2026（株式会社空間精度研究所）：離散数学を用いた数理最適化アルゴリズムの開発，最適化アルゴリズムを搭載したソフトウェア設計・開発
     - 使用言語：C# 
   - 2024- （株式会社ARCRA）：詳細は都合により公開できません．複数のプロジェクトに参加しているので，学んだことをトピックごとに列挙します．
@@ -18,18 +24,28 @@
     - 私が所属している [[https://arcanain.github.io/arcanain-documentation/][Arcanain]] はグロースエクスパートナーズ株式会社様のご支援により活動を続けております．
     
   - [[https://www.linkedin.com/in/shiryu-nakano-637a9834a/][Linkedin]]
+#+BEGIN_EXPORT html
+</details>
+#+END_EXPORT
+
 
 
 * Topics 
 
-** ROS2の環境構築
+*** Environments
+- ROS2の環境構築
+- [[https://zenn.dev/nkncru/scraps/fa8ad457b1ae17][pyenv virtualenv]]
 
-** 異常検知
+*** 異常検知
 
-** 
+*** git系の操作
+- [[https://zenn.dev/nkncru/scraps/bf0f3b47ec7828][git 系コマンドなどのメモ]]
+- 
+
+*** exercise
+- https://github.com/rougier/numpy-100/blob/master/100_Numpy_exercises.md
 -----
 
-[[Https://qiita.com/cirusthenter/items/2e508c5fb3e824312918][論文の読み方 [和訳] #論文読み - Qiita]]
 
 
 * インターン・アルバイトの記録

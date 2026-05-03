@@ -33,21 +33,11 @@ math: true
   - > 博士課程をサバイブするために参考になりそう/モチベになりそうな記事や資料のリスト。 日本語で読めるCS関連のものが中心です。 卒修論に役立つものも掲載しますし、その後のキャリアの話も掲載します。
   - この記事にあるmdを一つのnotion DBか何かにして，全て読み終わるまでランダムでリコメンドしてもいいかもしれない．
 
+
+
 - https://psearch.joisino.net/
   - Paper Search from Venues
   - 有名なやつ（古典）から読む
--  
+- [論文の読み方 和訳 #論文読み - Qiita](Https://qiita.com/cirusthenter/items/2e508c5fb3e824312918)
 
 
----
-## 事前準備
-勉強は好きなので，趣味としていろんな本を読みたい．
-
-
-- https://github.com/takahashihiroshi/takahashihiroshi.github.io/blob/master/contents/for_ml_beginners.md
-- [人工知能を学ぶためのロードマップ - 東京大学松尾・岩澤研究室（松尾研）- Matsuo Lab](https://weblab.t.u-tokyo.ac.jp/lecture/learning-roadmap/)
-- [ベイズ統計学を勉強する参考書のフロー #データサイエンス - Qiita](https://qiita.com/ssugasawa/items/0e0d76de3ed92c7410e6)
--  [統計・機械学習の理論を学ぶ手順 #数学 - Qiita](https://qiita.com/kueda_cs/items/28008db6491c71ac5659)
-- [大学数学の文献案内 - 数論幾何の理解を目指して - - パンの木を植えて](https://seasawher.hatenablog.com/entry/2020/04/25/175335)
-- [ITエンジニアのための機械学習理論入門読了者が Kaggle やってみた #Python - Qiita](https://qiita.com/takaaki_inada/items/5f8f505be2945137d191)
-- 

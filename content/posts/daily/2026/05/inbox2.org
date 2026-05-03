@@ -1,0 +1,37 @@
+** INBOX DRAM, HBM
+- [[https://www.pro.logitec.co.jp/column/u20191220.html][DRAMとは？メモリを選ぶうえで理解しておきたい基礎知識を解説]]
+  - DRAM, SRAM
+    SRAMの方が高価
+    DRAMは揮発性メモリ
+    PCやカメラやテレビのメモリに使われている
+- [[https://ja.wikipedia.org/wiki/High_Bandwidth_Memory][High Bandwidth Memory - Wikipedia]]
+- file:///Users/nkn4ryu/Downloads/DGKKZO9574584018042026EA2000.pdf
+** INBOX Deeplearningを学習する時の教材
+- [ ] [[https://udlbook.github.io/udlbook/][Understanding Deep Learning]]
+  - pdfもあるし，基礎的なpythonのコードも見れる
+    - https://github.com/udlbook/udlbook/blob/main/Notebooks/Chap02/2_1_Supervised_Learning.ipynb
+
+- https://rbcborealis.com/research-blogs/the-neural-tangent-kernel/
+  - このブログ順番に読むだけでも→https://rbcborealis.com/blog/?topics=open&content-type=4
+
+- claudeに調べてもらったりもしている．これも結構いい
+  - https://claude.ai/chat/e5760241-5015-44ff-a692-383babbe7011
+- [[https://ocw.mit.edu/courses/6-7960-deep-learning-fall-2024/pages/readings/][Readings | Deep Learning | Electrical Engineering and Computer Science | MIT OpenCourseWare]]
+  - MITのやつかなりいいかも．pdfや動画もある
+  - https://visionbook.mit.edu/
+- [[https://www.engraved.blog/why-machine-learning-algorithms-are-hard-to-tune/][Why machine learning algorithms are hard to tune (and the fix)]]
+
+*** 理論より
+- [[https://mjt.cs.illinois.edu/dlt/][Deep learning theory lecture notes]]
+
+4. Matus Telgarsky — Deep Learning Theory Lecture Notes (UIUC→NYU Courant)
+
+CS 598 DLT として2019年～2022年にかけて繰り返し開講。テキスト形式のlecture notesが new version / old version の2バージョン公開 NYU Courant
+カバー範囲: Barron's theorem, depth separation, NTK, implicit regularization, generalization bounds
+UCLAのCS269コースでも推薦教科書として採用 Uclaml
+SLT研究との関連: 汎化理論・暗黙的正則化の議論がLLCの「なぜ単純なモデルが選ばれるか」という問いに直接つながる
+URL: https://mjt.cs.illinois.edu/dlt/
+
+*** RAG
+file:///Users/nkn4ryu/Downloads/Mental_Health_RAG_Chatbot_Workshop_v2.pdf
+** INBOX 

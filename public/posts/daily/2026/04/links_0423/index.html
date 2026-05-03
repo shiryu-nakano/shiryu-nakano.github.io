@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="https://claude.ai/chat/a006a2e8-727e-440c-a7cc-ecaffed73998 https://proceedings.neurips.cc/paper_files/paper/2024/hash/00532321a253959cedc4f971b5524131-Abstract-Conference.html https://claude.ai/chat/44d0ff75-c761-441e-98e3-d964935d2b6a https://proceedings.mlr.press/v97/ghorbani19b/ghorbani19b.pdf https://qiita.com/toshi_4886/items/def7c6f48d0c17c33848#monte-carlo-dropout https://arxiv.org/pdf/1907.10732 https://qiita.com/Seiji_Tanaka/items/5c8041dbd7da1510fbe9 https://qiita.com/yendo0206/items/9ce023c2e4973fe579d4 https://mathwords.net/vcjigen#google_vignette https://github.com/shiryu-nakano/Papers/issues/1 https://www.youtube.com/watch?v=wi9mjnDfS7Y https://www.docswell.com/s/DeepLearning2023/Z8GRML-dla-bayesian-perspective-on-generalization-and-stochasticgradient-descent-81735888#p1 https://www.docswell.com/s/DeepLearning2023/ZYW2GL-2024-05-09-142714#p1 https://sites.google.com/view/icml2019-generalization/home?pli=1 https://www.youtube.com/watch?v=AQVFMYIzyo8&amp;list=PLhDAH9aTfnxKfmufxF59vaZECZJD5j6rd&amp;index=15 https://ibis.t.u-tokyo.ac.jp/suzuki/lecture/2020/intensive2/Kyusyu_2020_Deep.pdf https://www.lesswrong.com/posts/CmcarN6fGgTGwGuFp/dialogue-introduction-to-singular-learning-theory https://arxiv.org/html/2502.05475v1 https://www.google.com/search?q=persistent&#43;landscape&amp;sca_esv=298796d921a32d3f&amp;sxsrf=ANbL-n7qW-t_UUp0_Rzf_-hC1D9hdB-orA:1776224681520&amp;ei=qQnfaeKyH47i2roPoKvoyA4&amp;start=10&amp;sa=N&amp;sstk=Af77f_esXZhEKAcM-8U7FPHR7FCR-VOXLcJ_GisSQDmzc7SsDxavBxOZKO-LgmANXWeqNpdVyfPK78ZEYbQYufLumlLDzq2-K2kENA&amp;ved=2ahUKEwiiq7vJ-O6TAxUOsVYBHaAVGukQ8NMDegQIJxAW&amp;biw=1326&amp;bih=804&amp;dpr=2 https://www.google.com/search?q=%E3%83%99%E3%83%83%E3%83%81%E6%95%B0&amp;oq=%E3%83%99%E3%83%83%E3%83%81%E6%95%B0&amp;gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIICAMQABgHGB4yCAgEEAAYBxgeMggIBRAAGAcYHjIICAYQABgHGB4yCAgHEAAYBxgeMggICBAAGAcYHjIKCAkQABgEGAcYHtIBCDkyNjNqMGo3qAIAsAIA&amp;sourceid=chrome&amp;ie=UTF-8 https://zenn.dev/manase/scraps/5fbebeac1f210d https://files.readable.jp/4160713874464042980ac1b2a0a86e95/al-190710732v1.pdf?_gl=1*agkhb8*_gcl_au*NTE1NjQ4NjA4LjE3NzY4NDI0NDM. https://claude.ai/chat/fbac6534-5682-45b5-86bb-2f4a497c74e3 https://www.docswell.com/s/DeepLearning2023/Z8GRML-dla-bayesian-perspective-on-generalization-and-stochasticgradient-descent-81735888#p11 https://michaelnielsen.org/ https://nnadl-ja.github.io/nnadl_site_ja/chap3.html https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_4B3GS105/_article/-char/ja/ https://gist.github.com/MasamichiIdeue/c772be2e4f5807c2ad955b81a87fe500 https://zenn.dev/xiangze/articles/ec77899b200758 https://claude.ai/chat/1a8cc43d-2a26-44a6-bd52-46dc3b177704 https://qiita.com/ToppaD/items/30c30b4435793f9d4e20 https://www.anarchive-beta.com/entry/2022/09/03/153000 https://www.youtube.com/watch?v=2FHmdkEl-jQ&amp;list=PLhDAH9aTfnxKfmufxF59vaZECZJD5j6rd&amp;index=6 https://www.nsc.nagoya-cu.ac.jp/~noto/linear.pdf https://qiita.com/KodaiS/items/b72ed968c480ee0f6aef https://www.youtube.com/watch?v=tWE3R01HkO0 https://www.youtube.com/playlist?list=PL5WufEA7WHQGX7Su06JzbPDXUQGOd0wlq https://arxiv.org/abs/1710.11029 https://www.takeokunn.org/posts/permanent/20231219122351-how_to_manage_blog_by_org_roam/ https://claude.ai/chat/fc8ff9e4-2e0c-4efd-b6e6-fe11c035b4f8 https://arxiv.org/abs/2604.19740 https://notebooklm.google.com/notebook/ede39cda-2c02-4b8c-b71c-a1864a5293bc https://www.lib.hit-u.ac.jp/20200416/21706/ ///Users/nkn4ryu/Downloads/DGKKZO9583512023042026MM8000.pdf https://www.google.com/search?sca_esv=b2645f01ee3a3dc1&amp;sxsrf=ANbL-n7SAkQukso1FQ8WxKpw2-xNv78PFA:1776912481973&amp;udm=7&amp;fbs=ADc_l-bkJFLzWK3dzFPjoEpUZp-GE_D3p7BWMQ01e5-W4WiHoVxRrqbFyp6WVjmGmwOojMiwY--_7KLMvrtemuppVxyB9P_xXiCw-PyTl8PU1xwYGYR5OYfWbY7nK787s78oYCsiV4G3-4dlQeiYckI-mra62g25TPYnJCvkBIaFcavA4kc03f0oDmOBwCMKUKz-Zb4QJegDb6aJQnoAWi6tuLQW3DPSSpe-wHb2lM5bS3L0V57h5SQ&amp;q=%E3%83%AA%E3%83%83%E3%82%B8%E5%9B%9E%E5%B8%B0&#43;%E3%83%A9%E3%83%83%E3%82%BD%E5%9B%9E%E5%B8%B0&amp;sa=X&amp;sqi=2&amp;ved=2ahUKEwijwqPq-oKUAxXrma8BHTeIOAwQtKgLegQIExAB&amp;biw=1424&amp;bih=858&amp;dpr=2#ip=1 https://qiita.com/oki_kosuke/items/fb8bb418167f2ab1744e https://qiita.com/oki_kosuke/items/438a9ab2e6077148f9f9 https://www.youtube.com/watch?v=3vfiMRjgzZ8 http://localhost:1313/posts/daily/2026/04/18/ https://science-log.com/%E6%95%B0%E5%AD%A6/%E3%80%90%E6%9C%80%E9%81%A9%E5%8C%96%E5%95%8F%E9%A1%8C%E3%81%AE%E5%9F%BA%E7%A4%8E%E3%80%91%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%88%E3%83%B3%E6%B3%95%E3%81%A8%E3%83%98%E3%83%83%E3%82%BB%E8%A1%8C%E5%88%97/ https://drive.google.com/drive/my-drive https://curved-rambutan-a71.notion.site/DL-Basic-Deep-Learning-2026-Spring-Student-Guide-2c0cfa7cece7815abbf2ec472e53a669 https://qiita.com/fhiyo/items/6e02c24101a71237537e https://deepage.net/features/numpy-max.html
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/daily/2026/04/links_0423/">
+  <meta property="og:site_name" content="Shiryu NAKANO">
+  <meta property="og:title" content="Shiryu NAKANO">
+  <meta property="og:description" content="https://claude.ai/chat/a006a2e8-727e-440c-a7cc-ecaffed73998 https://proceedings.neurips.cc/paper_files/paper/2024/hash/00532321a253959cedc4f971b5524131-Abstract-Conference.html https://claude.ai/chat/44d0ff75-c761-441e-98e3-d964935d2b6a https://proceedings.mlr.press/v97/ghorbani19b/ghorbani19b.pdf https://qiita.com/toshi_4886/items/def7c6f48d0c17c33848#monte-carlo-dropout https://arxiv.org/pdf/1907.10732 https://qiita.com/Seiji_Tanaka/items/5c8041dbd7da1510fbe9 https://qiita.com/yendo0206/items/9ce023c2e4973fe579d4 https://mathwords.net/vcjigen#google_vignette https://github.com/shiryu-nakano/Papers/issues/1 https://www.youtube.com/watch?v=wi9mjnDfS7Y https://www.docswell.com/s/DeepLearning2023/Z8GRML-dla-bayesian-perspective-on-generalization-and-stochasticgradient-descent-81735888#p1 https://www.docswell.com/s/DeepLearning2023/ZYW2GL-2024-05-09-142714#p1 https://sites.google.com/view/icml2019-generalization/home?pli=1 https://www.youtube.com/watch?v=AQVFMYIzyo8&amp;list=PLhDAH9aTfnxKfmufxF59vaZECZJD5j6rd&amp;index=15 https://ibis.t.u-tokyo.ac.jp/suzuki/lecture/2020/intensive2/Kyusyu_2020_Deep.pdf https://www.lesswrong.com/posts/CmcarN6fGgTGwGuFp/dialogue-introduction-to-singular-learning-theory https://arxiv.org/html/2502.05475v1 https://www.google.com/search?q=persistent&#43;landscape&amp;sca_esv=298796d921a32d3f&amp;sxsrf=ANbL-n7qW-t_UUp0_Rzf_-hC1D9hdB-orA:1776224681520&amp;ei=qQnfaeKyH47i2roPoKvoyA4&amp;start=10&amp;sa=N&amp;sstk=Af77f_esXZhEKAcM-8U7FPHR7FCR-VOXLcJ_GisSQDmzc7SsDxavBxOZKO-LgmANXWeqNpdVyfPK78ZEYbQYufLumlLDzq2-K2kENA&amp;ved=2ahUKEwiiq7vJ-O6TAxUOsVYBHaAVGukQ8NMDegQIJxAW&amp;biw=1326&amp;bih=804&amp;dpr=2 https://www.google.com/search?q=%E3%83%99%E3%83%83%E3%83%81%E6%95%B0&amp;oq=%E3%83%99%E3%83%83%E3%83%81%E6%95%B0&amp;gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIICAMQABgHGB4yCAgEEAAYBxgeMggIBRAAGAcYHjIICAYQABgHGB4yCAgHEAAYBxgeMggICBAAGAcYHjIKCAkQABgEGAcYHtIBCDkyNjNqMGo3qAIAsAIA&amp;sourceid=chrome&amp;ie=UTF-8 https://zenn.dev/manase/scraps/5fbebeac1f210d https://files.readable.jp/4160713874464042980ac1b2a0a86e95/al-190710732v1.pdf?_gl=1*agkhb8*_gcl_au*NTE1NjQ4NjA4LjE3NzY4NDI0NDM. https://claude.ai/chat/fbac6534-5682-45b5-86bb-2f4a497c74e3 https://www.docswell.com/s/DeepLearning2023/Z8GRML-dla-bayesian-perspective-on-generalization-and-stochasticgradient-descent-81735888#p11 https://michaelnielsen.org/ https://nnadl-ja.github.io/nnadl_site_ja/chap3.html https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_4B3GS105/_article/-char/ja/ https://gist.github.com/MasamichiIdeue/c772be2e4f5807c2ad955b81a87fe500 https://zenn.dev/xiangze/articles/ec77899b200758 https://claude.ai/chat/1a8cc43d-2a26-44a6-bd52-46dc3b177704 https://qiita.com/ToppaD/items/30c30b4435793f9d4e20 https://www.anarchive-beta.com/entry/2022/09/03/153000 https://www.youtube.com/watch?v=2FHmdkEl-jQ&amp;list=PLhDAH9aTfnxKfmufxF59vaZECZJD5j6rd&amp;index=6 https://www.nsc.nagoya-cu.ac.jp/~noto/linear.pdf https://qiita.com/KodaiS/items/b72ed968c480ee0f6aef https://www.youtube.com/watch?v=tWE3R01HkO0 https://www.youtube.com/playlist?list=PL5WufEA7WHQGX7Su06JzbPDXUQGOd0wlq https://arxiv.org/abs/1710.11029 https://www.takeokunn.org/posts/permanent/20231219122351-how_to_manage_blog_by_org_roam/ https://claude.ai/chat/fc8ff9e4-2e0c-4efd-b6e6-fe11c035b4f8 https://arxiv.org/abs/2604.19740 https://notebooklm.google.com/notebook/ede39cda-2c02-4b8c-b71c-a1864a5293bc https://www.lib.hit-u.ac.jp/20200416/21706/ ///Users/nkn4ryu/Downloads/DGKKZO9583512023042026MM8000.pdf https://www.google.com/search?sca_esv=b2645f01ee3a3dc1&amp;sxsrf=ANbL-n7SAkQukso1FQ8WxKpw2-xNv78PFA:1776912481973&amp;udm=7&amp;fbs=ADc_l-bkJFLzWK3dzFPjoEpUZp-GE_D3p7BWMQ01e5-W4WiHoVxRrqbFyp6WVjmGmwOojMiwY--_7KLMvrtemuppVxyB9P_xXiCw-PyTl8PU1xwYGYR5OYfWbY7nK787s78oYCsiV4G3-4dlQeiYckI-mra62g25TPYnJCvkBIaFcavA4kc03f0oDmOBwCMKUKz-Zb4QJegDb6aJQnoAWi6tuLQW3DPSSpe-wHb2lM5bS3L0V57h5SQ&amp;q=%E3%83%AA%E3%83%83%E3%82%B8%E5%9B%9E%E5%B8%B0&#43;%E3%83%A9%E3%83%83%E3%82%BD%E5%9B%9E%E5%B8%B0&amp;sa=X&amp;sqi=2&amp;ved=2ahUKEwijwqPq-oKUAxXrma8BHTeIOAwQtKgLegQIExAB&amp;biw=1424&amp;bih=858&amp;dpr=2#ip=1 https://qiita.com/oki_kosuke/items/fb8bb418167f2ab1744e https://qiita.com/oki_kosuke/items/438a9ab2e6077148f9f9 https://www.youtube.com/watch?v=3vfiMRjgzZ8 http://localhost:1313/posts/daily/2026/04/18/ https://science-log.com/%E6%95%B0%E5%AD%A6/%E3%80%90%E6%9C%80%E9%81%A9%E5%8C%96%E5%95%8F%E9%A1%8C%E3%81%AE%E5%9F%BA%E7%A4%8E%E3%80%91%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%88%E3%83%B3%E6%B3%95%E3%81%A8%E3%83%98%E3%83%83%E3%82%BB%E8%A1%8C%E5%88%97/ https://drive.google.com/drive/my-drive https://curved-rambutan-a71.notion.site/DL-Basic-Deep-Learning-2026-Spring-Student-Guide-2c0cfa7cece7815abbf2ec472e53a669 https://qiita.com/fhiyo/items/6e02c24101a71237537e https://deepage.net/features/numpy-max.html">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+
+
+  <meta itemprop="name" content="Shiryu NAKANO">
+  <meta itemprop="description" content="https://claude.ai/chat/a006a2e8-727e-440c-a7cc-ecaffed73998 https://proceedings.neurips.cc/paper_files/paper/2024/hash/00532321a253959cedc4f971b5524131-Abstract-Conference.html https://claude.ai/chat/44d0ff75-c761-441e-98e3-d964935d2b6a https://proceedings.mlr.press/v97/ghorbani19b/ghorbani19b.pdf https://qiita.com/toshi_4886/items/def7c6f48d0c17c33848#monte-carlo-dropout https://arxiv.org/pdf/1907.10732 https://qiita.com/Seiji_Tanaka/items/5c8041dbd7da1510fbe9 https://qiita.com/yendo0206/items/9ce023c2e4973fe579d4 https://mathwords.net/vcjigen#google_vignette https://github.com/shiryu-nakano/Papers/issues/1 https://www.youtube.com/watch?v=wi9mjnDfS7Y https://www.docswell.com/s/DeepLearning2023/Z8GRML-dla-bayesian-perspective-on-generalization-and-stochasticgradient-descent-81735888#p1 https://www.docswell.com/s/DeepLearning2023/ZYW2GL-2024-05-09-142714#p1 https://sites.google.com/view/icml2019-generalization/home?pli=1 https://www.youtube.com/watch?v=AQVFMYIzyo8&amp;list=PLhDAH9aTfnxKfmufxF59vaZECZJD5j6rd&amp;index=15 https://ibis.t.u-tokyo.ac.jp/suzuki/lecture/2020/intensive2/Kyusyu_2020_Deep.pdf https://www.lesswrong.com/posts/CmcarN6fGgTGwGuFp/dialogue-introduction-to-singular-learning-theory https://arxiv.org/html/2502.05475v1 https://www.google.com/search?q=persistent&#43;landscape&amp;sca_esv=298796d921a32d3f&amp;sxsrf=ANbL-n7qW-t_UUp0_Rzf_-hC1D9hdB-orA:1776224681520&amp;ei=qQnfaeKyH47i2roPoKvoyA4&amp;start=10&amp;sa=N&amp;sstk=Af77f_esXZhEKAcM-8U7FPHR7FCR-VOXLcJ_GisSQDmzc7SsDxavBxOZKO-LgmANXWeqNpdVyfPK78ZEYbQYufLumlLDzq2-K2kENA&amp;ved=2ahUKEwiiq7vJ-O6TAxUOsVYBHaAVGukQ8NMDegQIJxAW&amp;biw=1326&amp;bih=804&amp;dpr=2 https://www.google.com/search?q=%E3%83%99%E3%83%83%E3%83%81%E6%95%B0&amp;oq=%E3%83%99%E3%83%83%E3%83%81%E6%95%B0&amp;gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIICAMQABgHGB4yCAgEEAAYBxgeMggIBRAAGAcYHjIICAYQABgHGB4yCAgHEAAYBxgeMggICBAAGAcYHjIKCAkQABgEGAcYHtIBCDkyNjNqMGo3qAIAsAIA&amp;sourceid=chrome&amp;ie=UTF-8 https://zenn.dev/manase/scraps/5fbebeac1f210d https://files.readable.jp/4160713874464042980ac1b2a0a86e95/al-190710732v1.pdf?_gl=1*agkhb8*_gcl_au*NTE1NjQ4NjA4LjE3NzY4NDI0NDM. https://claude.ai/chat/fbac6534-5682-45b5-86bb-2f4a497c74e3 https://www.docswell.com/s/DeepLearning2023/Z8GRML-dla-bayesian-perspective-on-generalization-and-stochasticgradient-descent-81735888#p11 https://michaelnielsen.org/ https://nnadl-ja.github.io/nnadl_site_ja/chap3.html https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_4B3GS105/_article/-char/ja/ https://gist.github.com/MasamichiIdeue/c772be2e4f5807c2ad955b81a87fe500 https://zenn.dev/xiangze/articles/ec77899b200758 https://claude.ai/chat/1a8cc43d-2a26-44a6-bd52-46dc3b177704 https://qiita.com/ToppaD/items/30c30b4435793f9d4e20 https://www.anarchive-beta.com/entry/2022/09/03/153000 https://www.youtube.com/watch?v=2FHmdkEl-jQ&amp;list=PLhDAH9aTfnxKfmufxF59vaZECZJD5j6rd&amp;index=6 https://www.nsc.nagoya-cu.ac.jp/~noto/linear.pdf https://qiita.com/KodaiS/items/b72ed968c480ee0f6aef https://www.youtube.com/watch?v=tWE3R01HkO0 https://www.youtube.com/playlist?list=PL5WufEA7WHQGX7Su06JzbPDXUQGOd0wlq https://arxiv.org/abs/1710.11029 https://www.takeokunn.org/posts/permanent/20231219122351-how_to_manage_blog_by_org_roam/ https://claude.ai/chat/fc8ff9e4-2e0c-4efd-b6e6-fe11c035b4f8 https://arxiv.org/abs/2604.19740 https://notebooklm.google.com/notebook/ede39cda-2c02-4b8c-b71c-a1864a5293bc https://www.lib.hit-u.ac.jp/20200416/21706/ ///Users/nkn4ryu/Downloads/DGKKZO9583512023042026MM8000.pdf https://www.google.com/search?sca_esv=b2645f01ee3a3dc1&amp;sxsrf=ANbL-n7SAkQukso1FQ8WxKpw2-xNv78PFA:1776912481973&amp;udm=7&amp;fbs=ADc_l-bkJFLzWK3dzFPjoEpUZp-GE_D3p7BWMQ01e5-W4WiHoVxRrqbFyp6WVjmGmwOojMiwY--_7KLMvrtemuppVxyB9P_xXiCw-PyTl8PU1xwYGYR5OYfWbY7nK787s78oYCsiV4G3-4dlQeiYckI-mra62g25TPYnJCvkBIaFcavA4kc03f0oDmOBwCMKUKz-Zb4QJegDb6aJQnoAWi6tuLQW3DPSSpe-wHb2lM5bS3L0V57h5SQ&amp;q=%E3%83%AA%E3%83%83%E3%82%B8%E5%9B%9E%E5%B8%B0&#43;%E3%83%A9%E3%83%83%E3%82%BD%E5%9B%9E%E5%B8%B0&amp;sa=X&amp;sqi=2&amp;ved=2ahUKEwijwqPq-oKUAxXrma8BHTeIOAwQtKgLegQIExAB&amp;biw=1424&amp;bih=858&amp;dpr=2#ip=1 https://qiita.com/oki_kosuke/items/fb8bb418167f2ab1744e https://qiita.com/oki_kosuke/items/438a9ab2e6077148f9f9 https://www.youtube.com/watch?v=3vfiMRjgzZ8 http://localhost:1313/posts/daily/2026/04/18/ https://science-log.com/%E6%95%B0%E5%AD%A6/%E3%80%90%E6%9C%80%E9%81%A9%E5%8C%96%E5%95%8F%E9%A1%8C%E3%81%AE%E5%9F%BA%E7%A4%8E%E3%80%91%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%88%E3%83%B3%E6%B3%95%E3%81%A8%E3%83%98%E3%83%83%E3%82%BB%E8%A1%8C%E5%88%97/ https://drive.google.com/drive/my-drive https://curved-rambutan-a71.notion.site/DL-Basic-Deep-Learning-2026-Spring-Student-Guide-2c0cfa7cece7815abbf2ec472e53a669 https://qiita.com/fhiyo/items/6e02c24101a71237537e https://deepage.net/features/numpy-max.html">
+  <meta itemprop="wordCount" content="54">
+
+<title>Links 0423 | Shiryu NAKANO</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/posts/daily/2026/04/links_0423/">
+<link rel="stylesheet" href="/book.min.b267f830fdf65302ecc1702a1178d4f25aa783409b3a25098f3404dd24f37a4d.css" integrity="sha256-smf4MP32UwLswXAqEXjU8lqng0CbOiUJjzQE3STzek0=" crossorigin="anonymous">
+
+
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/ja.search.min.0b5aaa0d20620a7bb3ec55f54211881d42686b65b380d4ab69a4456d264fd88e.js" integrity="sha256-C1qqDSBiCnuz7FX1QhGIHUJoa2WzgNSraaRFbSZP2I4=" crossorigin="anonymous"></script>
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/custom.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "$", right: "$", display: false}
+        ],
+        throwOnError: false
+    });
+});
+</script>
+
+</head>
+<body dir="ltr" class="book-kind-page book-type-posts">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Shiryu NAKANO</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="検索"
+    aria-label="検索"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+  <div class="markdown">
+    <ul>
+<li><a href="/">Home</a></li>
+</ul>
+<!--
+- [Research](/posts/research/)
+- [Life](/posts/life/)
+- [Study](/posts/study/)
+- [Univ](/posts/univ/)
+--->
+  </div>
+
+
+
+</nav>
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Links 0423</h3>
+
+  <label for="toc-control">
+    
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+    
+
+
+
+  
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown book-post">
+  <h1>
+    Links 0423
+  </h1>
+  
+
+
+  
+
+  
+
+
+  <div class="book-post-content markdown-inner"><p><a href="https://claude.ai/chat/a006a2e8-727e-440c-a7cc-ecaffed73998">https://claude.ai/chat/a006a2e8-727e-440c-a7cc-ecaffed73998</a>
+<a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/00532321a253959cedc4f971b5524131-Abstract-Conference.html">https://proceedings.neurips.cc/paper_files/paper/2024/hash/00532321a253959cedc4f971b5524131-Abstract-Conference.html</a>
+<a href="https://claude.ai/chat/44d0ff75-c761-441e-98e3-d964935d2b6a">https://claude.ai/chat/44d0ff75-c761-441e-98e3-d964935d2b6a</a>
+<a href="https://proceedings.mlr.press/v97/ghorbani19b/ghorbani19b.pdf">https://proceedings.mlr.press/v97/ghorbani19b/ghorbani19b.pdf</a>
+<a href="https://qiita.com/toshi_4886/items/def7c6f48d0c17c33848#monte-carlo-dropout">https://qiita.com/toshi_4886/items/def7c6f48d0c17c33848#monte-carlo-dropout</a>
+<a href="https://arxiv.org/pdf/1907.10732">https://arxiv.org/pdf/1907.10732</a>
+<a href="https://qiita.com/Seiji_Tanaka/items/5c8041dbd7da1510fbe9">https://qiita.com/Seiji_Tanaka/items/5c8041dbd7da1510fbe9</a>
+<a href="https://qiita.com/yendo0206/items/9ce023c2e4973fe579d4">https://qiita.com/yendo0206/items/9ce023c2e4973fe579d4</a>
+<a href="https://mathwords.net/vcjigen#google_vignette">https://mathwords.net/vcjigen#google_vignette</a>
+<a href="https://github.com/shiryu-nakano/Papers/issues/1">https://github.com/shiryu-nakano/Papers/issues/1</a>
+<a href="https://www.youtube.com/watch?v=wi9mjnDfS7Y">https://www.youtube.com/watch?v=wi9mjnDfS7Y</a>
+<a href="https://www.docswell.com/s/DeepLearning2023/Z8GRML-dla-bayesian-perspective-on-generalization-and-stochasticgradient-descent-81735888#p1">https://www.docswell.com/s/DeepLearning2023/Z8GRML-dla-bayesian-perspective-on-generalization-and-stochasticgradient-descent-81735888#p1</a>
+<a href="https://www.docswell.com/s/DeepLearning2023/ZYW2GL-2024-05-09-142714#p1">https://www.docswell.com/s/DeepLearning2023/ZYW2GL-2024-05-09-142714#p1</a>
+<a href="https://sites.google.com/view/icml2019-generalization/home?pli=1">https://sites.google.com/view/icml2019-generalization/home?pli=1</a>
+<a href="https://www.youtube.com/watch?v=AQVFMYIzyo8&amp;list=PLhDAH9aTfnxKfmufxF59vaZECZJD5j6rd&amp;index=15">https://www.youtube.com/watch?v=AQVFMYIzyo8&amp;list=PLhDAH9aTfnxKfmufxF59vaZECZJD5j6rd&amp;index=15</a>
+<a href="https://ibis.t.u-tokyo.ac.jp/suzuki/lecture/2020/intensive2/Kyusyu_2020_Deep.pdf">https://ibis.t.u-tokyo.ac.jp/suzuki/lecture/2020/intensive2/Kyusyu_2020_Deep.pdf</a>
+<a href="https://www.lesswrong.com/posts/CmcarN6fGgTGwGuFp/dialogue-introduction-to-singular-learning-theory">https://www.lesswrong.com/posts/CmcarN6fGgTGwGuFp/dialogue-introduction-to-singular-learning-theory</a>
+<a href="https://arxiv.org/html/2502.05475v1">https://arxiv.org/html/2502.05475v1</a>
+<a href="https://www.google.com/search?q=persistent+landscape&amp;sca_esv=298796d921a32d3f&amp;sxsrf=ANbL-n7qW-t_UUp0_Rzf_-hC1D9hdB-orA:1776224681520&amp;ei=qQnfaeKyH47i2roPoKvoyA4&amp;start=10&amp;sa=N&amp;sstk=Af77f_esXZhEKAcM-8U7FPHR7FCR-VOXLcJ_GisSQDmzc7SsDxavBxOZKO-LgmANXWeqNpdVyfPK78ZEYbQYufLumlLDzq2-K2kENA&amp;ved=2ahUKEwiiq7vJ-O6TAxUOsVYBHaAVGukQ8NMDegQIJxAW&amp;biw=1326&amp;bih=804&amp;dpr=2">https://www.google.com/search?q=persistent+landscape&amp;sca_esv=298796d921a32d3f&amp;sxsrf=ANbL-n7qW-t_UUp0_Rzf_-hC1D9hdB-orA:1776224681520&amp;ei=qQnfaeKyH47i2roPoKvoyA4&amp;start=10&amp;sa=N&amp;sstk=Af77f_esXZhEKAcM-8U7FPHR7FCR-VOXLcJ_GisSQDmzc7SsDxavBxOZKO-LgmANXWeqNpdVyfPK78ZEYbQYufLumlLDzq2-K2kENA&amp;ved=2ahUKEwiiq7vJ-O6TAxUOsVYBHaAVGukQ8NMDegQIJxAW&amp;biw=1326&amp;bih=804&amp;dpr=2</a>
+<a href="https://www.google.com/search?q=">https://www.google.com/search?q=</a>%E3%83%99%E3%83%83%E3%83%81%E6%95%B0&amp;oq=%E3%83%99%E3%83%83%E3%83%81%E6%95%B0&amp;gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIICAMQABgHGB4yCAgEEAAYBxgeMggIBRAAGAcYHjIICAYQABgHGB4yCAgHEAAYBxgeMggICBAAGAcYHjIKCAkQABgEGAcYHtIBCDkyNjNqMGo3qAIAsAIA&amp;sourceid=chrome&amp;ie=UTF-8
+<a href="https://zenn.dev/manase/scraps/5fbebeac1f210d">https://zenn.dev/manase/scraps/5fbebeac1f210d</a>
+<a href="https://files.readable.jp/4160713874464042980ac1b2a0a86e95/al-190710732v1.pdf?_gl=1*agkhb8*_gcl_au*NTE1NjQ4NjA4LjE3NzY4NDI0NDM.">https://files.readable.jp/4160713874464042980ac1b2a0a86e95/al-190710732v1.pdf?_gl=1*agkhb8*_gcl_au*NTE1NjQ4NjA4LjE3NzY4NDI0NDM.</a>
+<a href="https://claude.ai/chat/fbac6534-5682-45b5-86bb-2f4a497c74e3">https://claude.ai/chat/fbac6534-5682-45b5-86bb-2f4a497c74e3</a>
+<a href="https://www.docswell.com/s/DeepLearning2023/Z8GRML-dla-bayesian-perspective-on-generalization-and-stochasticgradient-descent-81735888#p11">https://www.docswell.com/s/DeepLearning2023/Z8GRML-dla-bayesian-perspective-on-generalization-and-stochasticgradient-descent-81735888#p11</a>
+<a href="https://michaelnielsen.org/">https://michaelnielsen.org/</a>
+<a href="https://nnadl-ja.github.io/nnadl_site_ja/chap3.html">https://nnadl-ja.github.io/nnadl_site_ja/chap3.html</a>
+<a href="https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_4B3GS105/_article/-char/ja/">https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_4B3GS105/_article/-char/ja/</a>
+<a href="https://gist.github.com/MasamichiIdeue/c772be2e4f5807c2ad955b81a87fe500">https://gist.github.com/MasamichiIdeue/c772be2e4f5807c2ad955b81a87fe500</a>
+<a href="https://zenn.dev/xiangze/articles/ec77899b200758">https://zenn.dev/xiangze/articles/ec77899b200758</a>
+<a href="https://claude.ai/chat/1a8cc43d-2a26-44a6-bd52-46dc3b177704">https://claude.ai/chat/1a8cc43d-2a26-44a6-bd52-46dc3b177704</a>
+<a href="https://qiita.com/ToppaD/items/30c30b4435793f9d4e20">https://qiita.com/ToppaD/items/30c30b4435793f9d4e20</a>
+<a href="https://www.anarchive-beta.com/entry/2022/09/03/153000">https://www.anarchive-beta.com/entry/2022/09/03/153000</a>
+<a href="https://www.youtube.com/watch?v=2FHmdkEl-jQ&amp;list=PLhDAH9aTfnxKfmufxF59vaZECZJD5j6rd&amp;index=6">https://www.youtube.com/watch?v=2FHmdkEl-jQ&amp;list=PLhDAH9aTfnxKfmufxF59vaZECZJD5j6rd&amp;index=6</a>
+<a href="https://www.nsc.nagoya-cu.ac.jp/~noto/linear.pdf">https://www.nsc.nagoya-cu.ac.jp/~noto/linear.pdf</a>
+<a href="https://qiita.com/KodaiS/items/b72ed968c480ee0f6aef">https://qiita.com/KodaiS/items/b72ed968c480ee0f6aef</a>
+<a href="https://www.youtube.com/watch?v=tWE3R01HkO0">https://www.youtube.com/watch?v=tWE3R01HkO0</a>
+<a href="https://www.youtube.com/playlist?list=PL5WufEA7WHQGX7Su06JzbPDXUQGOd0wlq">https://www.youtube.com/playlist?list=PL5WufEA7WHQGX7Su06JzbPDXUQGOd0wlq</a>
+<a href="https://arxiv.org/abs/1710.11029">https://arxiv.org/abs/1710.11029</a>
+<a href="https://www.takeokunn.org/posts/permanent/20231219122351-how_to_manage_blog_by_org_roam/">https://www.takeokunn.org/posts/permanent/20231219122351-how_to_manage_blog_by_org_roam/</a>
+<a href="https://claude.ai/chat/fc8ff9e4-2e0c-4efd-b6e6-fe11c035b4f8">https://claude.ai/chat/fc8ff9e4-2e0c-4efd-b6e6-fe11c035b4f8</a>
+<a href="https://arxiv.org/abs/2604.19740">https://arxiv.org/abs/2604.19740</a>
+<a href="https://notebooklm.google.com/notebook/ede39cda-2c02-4b8c-b71c-a1864a5293bc">https://notebooklm.google.com/notebook/ede39cda-2c02-4b8c-b71c-a1864a5293bc</a>
+<a href="https://www.lib.hit-u.ac.jp/20200416/21706/">https://www.lib.hit-u.ac.jp/20200416/21706/</a>
+<a href="///Users/nkn4ryu/Downloads/DGKKZO9583512023042026MM8000.pdf">///Users/nkn4ryu/Downloads/DGKKZO9583512023042026MM8000.pdf</a>
+<a href="https://www.google.com/search?sca_esv=b2645f01ee3a3dc1&amp;sxsrf=ANbL-n7SAkQukso1FQ8WxKpw2-xNv78PFA:1776912481973&amp;udm=7&amp;fbs=ADc_l-bkJFLzWK3dzFPjoEpUZp-GE_D3p7BWMQ01e5-W4WiHoVxRrqbFyp6WVjmGmwOojMiwY--_7KLMvrtemuppVxyB9P_xXiCw-PyTl8PU1xwYGYR5OYfWbY7nK787s78oYCsiV4G3-4dlQeiYckI-mra62g25TPYnJCvkBIaFcavA4kc03f0oDmOBwCMKUKz-Zb4QJegDb6aJQnoAWi6tuLQW3DPSSpe-wHb2lM5bS3L0V57h5SQ&amp;q=">https://www.google.com/search?sca_esv=b2645f01ee3a3dc1&amp;sxsrf=ANbL-n7SAkQukso1FQ8WxKpw2-xNv78PFA:1776912481973&amp;udm=7&amp;fbs=ADc_l-bkJFLzWK3dzFPjoEpUZp-GE_D3p7BWMQ01e5-W4WiHoVxRrqbFyp6WVjmGmwOojMiwY--_7KLMvrtemuppVxyB9P_xXiCw-PyTl8PU1xwYGYR5OYfWbY7nK787s78oYCsiV4G3-4dlQeiYckI-mra62g25TPYnJCvkBIaFcavA4kc03f0oDmOBwCMKUKz-Zb4QJegDb6aJQnoAWi6tuLQW3DPSSpe-wHb2lM5bS3L0V57h5SQ&amp;q=</a>%E3%83%AA%E3%83%83%E3%82%B8%E5%9B%9E%E5%B8%B0+%E3%83%A9%E3%83%83%E3%82%BD%E5%9B%9E%E5%B8%B0&amp;sa=X&amp;sqi=2&amp;ved=2ahUKEwijwqPq-oKUAxXrma8BHTeIOAwQtKgLegQIExAB&amp;biw=1424&amp;bih=858&amp;dpr=2#ip=1
+<a href="https://qiita.com/oki_kosuke/items/fb8bb418167f2ab1744e">https://qiita.com/oki_kosuke/items/fb8bb418167f2ab1744e</a>
+<a href="https://qiita.com/oki_kosuke/items/438a9ab2e6077148f9f9">https://qiita.com/oki_kosuke/items/438a9ab2e6077148f9f9</a>
+<a href="https://www.youtube.com/watch?v=3vfiMRjgzZ8">https://www.youtube.com/watch?v=3vfiMRjgzZ8</a>
+<a href="http://localhost:1313/posts/daily/2026/04/18/">http://localhost:1313/posts/daily/2026/04/18/</a>
+<a href="https://science-log.com/">https://science-log.com/</a>%E6%95%B0%E5%AD%A6/%E3%80%90%E6%9C%80%E9%81%A9%E5%8C%96%E5%95%8F%E9%A1%8C%E3%81%AE%E5%9F%BA%E7%A4%8E%E3%80%91%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%88%E3%83%B3%E6%B3%95%E3%81%A8%E3%83%98%E3%83%83%E3%82%BB%E8%A1%8C%E5%88%97/
+<a href="https://drive.google.com/drive/my-drive">https://drive.google.com/drive/my-drive</a>
+<a href="https://curved-rambutan-a71.notion.site/DL-Basic-Deep-Learning-2026-Spring-Student-Guide-2c0cfa7cece7815abbf2ec472e53a669">https://curved-rambutan-a71.notion.site/DL-Basic-Deep-Learning-2026-Spring-Student-Guide-2c0cfa7cece7815abbf2ec472e53a669</a>
+<a href="https://qiita.com/fhiyo/items/6e02c24101a71237537e">https://qiita.com/fhiyo/items/6e02c24101a71237537e</a>
+<a href="https://deepage.net/features/numpy-max.html">https://deepage.net/features/numpy-max.html</a></p>
+</div>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+    <div class="flex flex-wrap justify-between">
+  <div>
+  
+  </div>
+  <div>
+  
+    <a href="/posts/daily/2026/04/01/" class="flex align-center">
+      <span>2026-04-01</span>
+      <img src="/icons/forward.svg" class="book-icon" alt="Forward" />
+    </a>
+  
+  </div>
+</div>
+  
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+    
+
+
+
+  
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

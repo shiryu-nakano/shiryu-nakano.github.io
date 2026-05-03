@@ -1,0 +1,42 @@
+#+TITLE:
+#+URL: /posts/study/deepbasic_2026_spring/
+
+
+
+* Overview
+
+- [[https://drive.google.com/drive/folders/1ThdDL9oiE3_ncCgPHcdlcNtmU8dZnKPA?usp=drive_link][ドライブ上の作業ディレクトリ]]
+  - 基本的に資料も実装のコードもdrive上で編集・実行する
+    - ipynbはcolabで
+  - pc上
+    - [[/Users/nkn4ryu/Library/CloudStorage/GoogleDrive-shiryu.nakano@gmail.com/My Drive/Projects/DLBasics2026Spring]]  
+
+
+
+
+
+* memo/task
+- [ ] ロジスティック回帰
+- [ ] ソフトマックス回帰
+- [ ] NNの実装 
+
+  
+* LOG
+** 0423 第3回
+- 第二回の課題時のメモ
+  - https://claude.ai/chat/2b3e457b-a0f5-4bb5-aced-4dc8ff18a635
+    - ソフトマックス回帰でFashionMNISTを学習させる課題，スコアが上がらなかったので相談した．
+    - 学習率をスケジューリングしたら上がった 
+
+
+
+- サボっていたが，ちゃんと行列計算としてのイメージと，アーキテクチャのイメージがすぐ出てくるようにしたい．
+- 実装ではテンソルのイメージをしておくこと
+- 実装の演習は結構ためになる．ちゃんと手が動くようにするのと，書かれていることは全て説明できるようにしておくこと．
+- 紙とペンで理解すること
+
+
+* Ref
+
+- [[/posts/study/matsuo_lab_lecture/][松尾研の他の講座のメモ]]
+  - 

@@ -1,0 +1,119 @@
+#+title: 2026年5月
+#+URL: /posts/daily/2026/05/
+
+* 日報
+
+- [[/posts/daily/2026/05/01/][2026-05-01]]
+- [[/posts/daily/2026/05/02/][2026-05-02]]
+- [[/posts/daily/2026/05/03/][2026-05-03]]
+- [[/posts/daily/2026/05/04/][2026-05-04]]
+- [[/posts/daily/2026/05/05/][2026-05-05]]
+- [[/posts/daily/2026/05/06/][2026-05-06]]
+- [[/posts/daily/2026/05/07/][2026-05-07]]
+- [[/posts/daily/2026/05/08/][2026-05-08]]
+- [[/posts/daily/2026/05/09/][2026-05-09]]
+- [[/posts/daily/2026/05/10/][2026-05-10]]
+- [[/posts/daily/2026/05/11/][2026-05-11]]
+- [[/posts/daily/2026/05/12/][2026-05-12]]
+- [[/posts/daily/2026/05/13/][2026-05-13]]
+- [[/posts/daily/2026/05/14/][2026-05-14]]
+- [[/posts/daily/2026/05/15/][2026-05-15]]
+- [[/posts/daily/2026/05/16/][2026-05-16]]
+- [[/posts/daily/2026/05/17/][2026-05-17]]
+- [[/posts/daily/2026/05/18/][2026-05-18]]
+- [[/posts/daily/2026/05/19/][2026-05-19]]
+- [[/posts/daily/2026/05/20/][2026-05-20]]
+- [[/posts/daily/2026/05/21/][2026-05-21]]
+- [[/posts/daily/2026/05/22/][2026-05-22]]
+- [[/posts/daily/2026/05/23/][2026-05-23]]
+- [[/posts/daily/2026/05/24/][2026-05-24]]
+- [[/posts/daily/2026/05/25/][2026-05-25]]
+- [[/posts/daily/2026/05/26/][2026-05-26]]
+- [[/posts/daily/2026/05/27/][2026-05-27]]
+- [[/posts/daily/2026/05/28/][2026-05-28]]
+- [[/posts/daily/2026/05/29/][2026-05-29]]
+- [[/posts/daily/2026/05/30/][2026-05-30]]
+- [[/posts/daily/2026/05/31/][2026-05-31]]
+
+* Routine
+今月：
+
+- 新聞読む
+  - [[https://t21-nikkei-co-jp.hit-u.idm.oclc.org/g3/CMNDF11.do?Xid=%2Fzyo%2FI%2BoeIySJkO9rUZf%2BDz13eIrYpqa%2BMDi%2BGQS7Ux%2BY36VUrrySvocsc6eyk1du036Db5SbHqaHbWwlKqmCj6b9l9XRhHa&Pkey=pkey4][日経テレコン21]]
+    - [[https://opac.lib.hit-u.ac.jp/opac/gateway/list/purpose/3/?lang=1&page=2&list_disp=20][Hitotsubashi University Library Database List]]
+    - 一回読んでから解説してもらう
+      #+begin_quote
+      この記事を解説して下さい．特に日経新聞を普段読まない人がつまづきがちなキーワードの解説を行ってください
+      #+end_quote
+
+- 論文読む
+  - [[https://joisino.hatenablog.com/entry/2023/04/10/170519#Readable-%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6][論文読みの日課について - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ]]
+
+- 日々アイデアを書き留めていくこと
+- Atcoder
+- 読書 → 就寝前と電車
+
+- ベイズpython
+
+- 論文を毎日読む
+- 日々アイデアを書き留めていくこと
+- Atcoder
+- 読書
+- ベイズpython
+
+* Projects
+5月中のメインのプロジェクト
+- Deep Leaning basic 2026 Spring
+  - [[/Users/nkn4ryu/ghq/github.com/shiryu-nakano/shiryu-nakano.github.io/content/posts/study/materials/deepbasic_2026_spring.org][materials]]
+
+- GCI
+  - path
+
+- Finance and Machine Learning
+  - add path
+
+- IMPORTANT
+  - 生活リズムを安定させる→まず毎日の記録と可視化
+- WIP
+  - 卒論の発展
+    - Neuripsに投稿できるかどうか？
+    - 少なくともpreprintに出すこと
+
+- 研究の引き継ぎ
+  - [ ] PRML 1
+  - [ ] PRML 3
+  - [ ] 修論をチェックする
+  - [ ] bayes with python
+
+- SLT本勉強
+やり方→
+  - [ ] 1
+  - [ ] 2
+  - [ ] 3
+  - [ ] 4
+  - [ ] 5
+  - [ ] 6
+
+- Pinnsを使う
+  - PINN
+    - latentの事？
+      - 意味がわからない
+  - https://claude.ai/chat/4376827a-60b4-4d91-a219-e537ead6db87
+  - [[https://qiita.com/TetsuyaOishi_Dr/items/4ac4c363a85e4729021e][Physics-Informed Neural Networks (PINNs)による減衰振動の運動方程式の解法とその図解]]
+  - [[https://arxiv.org/abs/1711.10561][Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations]]
+  - https://iopscience.iop.org/article/10.1088/1361-6579/adf1d3/pdf
+  - [[https://arxiv.org/abs/2411.15111][Learnable Activation Functions in Physics-Informed Neural Networks for Solving Partial Differential Equations]]
+
+- ベイズモデリング
+  - 共有されている論文を読んでおくこと
+  - pythonのベイズをやる
+
+* TASK
+#+begin_quote
+ここに書き出し，随時整理して日報に書いて日毎に割り振る
+#+end_quote
+
+- [ ] いつか→orgでpythonの実行できるように設定する．特にこの時にuvを使いたい
+- [ ]
+
+* MISC

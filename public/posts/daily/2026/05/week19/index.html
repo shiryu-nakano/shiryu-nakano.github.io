@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content=" GWにやりたいこと APRINの提出 AI for Science 統計実践の課題 公的統計の課題 機械学習の学習 特論の研究計画書提出 特論の返信 GCI deep ML finance 直近の予定と締め切り 30 thur Arpin 5/8 AI for Science
+応募書類・事前確認用の提出 応募書類・事前確認用の提出（提出期限：5月11日（月））【研究科内提出期限：5月8日(金)午前9時】 応募書類・最終版の提出（提出期限：5月15日（金）正午） 5/11 H MTG 5/15 統計実践の課題 5/20 公的統計 TASK 積分100
+https://drive.google.com/file/d/1sJye9GxOzSwOeI2WTBXV2VP6RZ52fatR/view 直近のタスク
+PINNsを体験する
+Course: Physics Informed Neural Networks (PINNs) | Udemy https://www.msiism.jp/article/physics-informed-machine-learning1.html シンプルな物理知ニューラルネットワーク (PINN: Physics-Informed Neural Network) 他もブログのものをやる 引き継ぎ→修論を読む
+修論の英語版を読む→その前にMLの学習をする！ プログラムを読む: ベイズpythonをやる 平均近似の動画 AI Saftyについて調べること
+自動運転t 企業をちょっとでも調べておくこと 動画で学習する[0/1] 予備のり
+群論 WIP 線形 LAST 解析 NEXT 複素解析 NEXT3 ベクトル解析 NEXT2 行列の積（39本の動画） [1/5] 1 2 3 4 5 来週week19以降でも別に良いもの 奨学金の手続き
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/daily/2026/05/week19/">
+  <meta property="og:site_name" content="Shiryu NAKANO">
+  <meta property="og:title" content="week19 GW">
+  <meta property="og:description" content="GWにやりたいこと APRINの提出 AI for Science 統計実践の課題 公的統計の課題 機械学習の学習 特論の研究計画書提出 特論の返信 GCI deep ML finance 直近の予定と締め切り 30 thur Arpin 5/8 AI for Science
+応募書類・事前確認用の提出 応募書類・事前確認用の提出（提出期限：5月11日（月））【研究科内提出期限：5月8日(金)午前9時】 応募書類・最終版の提出（提出期限：5月15日（金）正午） 5/11 H MTG 5/15 統計実践の課題 5/20 公的統計 TASK 積分100
+https://drive.google.com/file/d/1sJye9GxOzSwOeI2WTBXV2VP6RZ52fatR/view 直近のタスク
+PINNsを体験する
+Course: Physics Informed Neural Networks (PINNs) | Udemy https://www.msiism.jp/article/physics-informed-machine-learning1.html シンプルな物理知ニューラルネットワーク (PINN: Physics-Informed Neural Network) 他もブログのものをやる 引き継ぎ→修論を読む
+修論の英語版を読む→その前にMLの学習をする！ プログラムを読む: ベイズpythonをやる 平均近似の動画 AI Saftyについて調べること
+自動運転t 企業をちょっとでも調べておくこと 動画で学習する[0/1] 予備のり
+群論 WIP 線形 LAST 解析 NEXT 複素解析 NEXT3 ベクトル解析 NEXT2 行列の積（39本の動画） [1/5] 1 2 3 4 5 来週week19以降でも別に良いもの 奨学金の手続き">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+
+
+  <meta itemprop="name" content="week19 GW">
+  <meta itemprop="description" content="GWにやりたいこと APRINの提出 AI for Science 統計実践の課題 公的統計の課題 機械学習の学習 特論の研究計画書提出 特論の返信 GCI deep ML finance 直近の予定と締め切り 30 thur Arpin 5/8 AI for Science
+応募書類・事前確認用の提出 応募書類・事前確認用の提出（提出期限：5月11日（月））【研究科内提出期限：5月8日(金)午前9時】 応募書類・最終版の提出（提出期限：5月15日（金）正午） 5/11 H MTG 5/15 統計実践の課題 5/20 公的統計 TASK 積分100
+https://drive.google.com/file/d/1sJye9GxOzSwOeI2WTBXV2VP6RZ52fatR/view 直近のタスク
+PINNsを体験する
+Course: Physics Informed Neural Networks (PINNs) | Udemy https://www.msiism.jp/article/physics-informed-machine-learning1.html シンプルな物理知ニューラルネットワーク (PINN: Physics-Informed Neural Network) 他もブログのものをやる 引き継ぎ→修論を読む
+修論の英語版を読む→その前にMLの学習をする！ プログラムを読む: ベイズpythonをやる 平均近似の動画 AI Saftyについて調べること
+自動運転t 企業をちょっとでも調べておくこと 動画で学習する[0/1] 予備のり
+群論 WIP 線形 LAST 解析 NEXT 複素解析 NEXT3 ベクトル解析 NEXT2 行列の積（39本の動画） [1/5] 1 2 3 4 5 来週week19以降でも別に良いもの 奨学金の手続き">
+  <meta itemprop="wordCount" content="173">
+
+<title>week19 GW | Shiryu NAKANO</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/posts/daily/2026/05/week19/">
+<link rel="stylesheet" href="/book.min.b267f830fdf65302ecc1702a1178d4f25aa783409b3a25098f3404dd24f37a4d.css" integrity="sha256-smf4MP32UwLswXAqEXjU8lqng0CbOiUJjzQE3STzek0=" crossorigin="anonymous">
+
+
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/ja.search.min.0b5aaa0d20620a7bb3ec55f54211881d42686b65b380d4ab69a4456d264fd88e.js" integrity="sha256-C1qqDSBiCnuz7FX1QhGIHUJoa2WzgNSraaRFbSZP2I4=" crossorigin="anonymous"></script>
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/custom.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "$", right: "$", display: false}
+        ],
+        throwOnError: false
+    });
+});
+</script>
+
+</head>
+<body dir="ltr" class="book-kind-page book-type-posts">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Shiryu NAKANO</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="検索"
+    aria-label="検索"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+  <div class="markdown">
+    <ul>
+<li><a href="/">Home</a></li>
+</ul>
+<!--
+- [Research](/posts/research/)
+- [Life](/posts/life/)
+- [Study](/posts/study/)
+- [Univ](/posts/univ/)
+--->
+  </div>
+
+
+
+</nav>
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>week19 GW</h3>
+
+  <label for="toc-control">
+    
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+    
+
+
+
+  
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown book-post">
+  <h1>
+    week19 GW
+  </h1>
+  
+
+
+  
+
+  
+
+
+  <div class="book-post-content markdown-inner"><div id="outline-container-headline-1" class="outline-2">
+<h2 id="headline-1">
+GWにやりたいこと
+</h2>
+<div id="outline-text-headline-1" class="outline-text-2">
+<ul>
+<li class="unchecked">APRINの提出</li>
+<li class="unchecked">AI for Science</li>
+<li class="unchecked">統計実践の課題</li>
+<li class="unchecked">公的統計の課題</li>
+<li class="unchecked">機械学習の学習</li>
+<li class="unchecked">特論の研究計画書提出</li>
+<li class="unchecked">特論の返信</li>
+<li class="unchecked">GCI</li>
+<li class="unchecked">deep</li>
+<li class="unchecked">ML finance</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-2" class="outline-2">
+<h2 id="headline-2">
+直近の予定と締め切り
+</h2>
+<div id="outline-text-headline-2" class="outline-text-2">
+<ul>
+<li>30 thur Arpin </li>
+<li>
+<p>5/8 AI for Science</p>
+<ol>
+<li>応募書類・事前確認用の提出</li>
+<li>応募書類・事前確認用の提出（提出期限：5月11日（月））【研究科内提出期限：5月8日(金)午前9時】</li>
+<li>応募書類・最終版の提出（提出期限：5月15日（金）正午）</li>
+</ol>
+</li>
+<li></li>
+<li>5/11 H MTG</li>
+<li>5/15 統計実践の課題</li>
+<li>5/20 公的統計</li>
+<li></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-3" class="outline-2">
+<h2 id="headline-3">
+TASK
+</h2>
+<div id="outline-text-headline-3" class="outline-text-2">
+<ul>
+<li class="unchecked">
+<p>積分100</p>
+<ul>
+<li><a href="https://drive.google.com/file/d/1sJye9GxOzSwOeI2WTBXV2VP6RZ52fatR/view">https://drive.google.com/file/d/1sJye9GxOzSwOeI2WTBXV2VP6RZ52fatR/view</a></li>
+</ul>
+</li>
+<li>
+<p>直近のタスク</p>
+<ul>
+<li class="unchecked">
+<p>PINNsを体験する</p>
+<ul>
+<li><a href="https://www.udemy.com/course/physics-informed-neural-network-pinns/learn/lecture/39867700#overview">Course: Physics Informed Neural Networks (PINNs) | Udemy</a></li>
+<li><a href="https://www.msiism.jp/article/physics-informed-machine-learning1.html">https://www.msiism.jp/article/physics-informed-machine-learning1.html</a></li>
+<li><a href="https://zenn.dev/tatsukikodama/articles/ca050afe41058b">シンプルな物理知ニューラルネットワーク (PINN: Physics-Informed Neural Network)</a></li>
+<li>他もブログのものをやる</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="unchecked">
+<p>引き継ぎ→修論を読む</p>
+<ul>
+<li class="unchecked">修論の英語版を読む→その前にMLの学習をする！</li>
+<li class="unchecked">プログラムを読む:</li>
+<li class="unchecked">ベイズpythonをやる</li>
+</ul>
+</li>
+<li class="unchecked">平均近似の動画</li>
+<li class="unchecked">
+<p>AI Saftyについて調べること</p>
+<ul>
+<li>自動運転t</li>
+</ul>
+</li>
+<li>企業をちょっとでも調べておくこと</li>
+</ul>
+<div id="outline-container-headline-4" class="outline-3">
+<h3 id="headline-4">
+動画で学習する<code class="statistic">[0/1]</code>
+</h3>
+<div id="outline-text-headline-4" class="outline-text-3">
+<ul>
+<li class="unchecked">
+<p>予備のり</p>
+<ul>
+<li class="unchecked">群論 WIP</li>
+<li class="unchecked">線形 LAST</li>
+<li class="unchecked">解析 NEXT</li>
+<li class="unchecked">複素解析 NEXT3</li>
+<li class="unchecked">ベクトル解析 NEXT2</li>
+</ul>
+</li>
+</ul>
+<div id="outline-container-headline-5" class="outline-4">
+<h4 id="headline-5">
+行列の積（39本の動画） <code class="statistic">[1/5]</code>
+</h4>
+<div id="outline-text-headline-5" class="outline-text-4">
+<ul>
+<li class="checked">1</li>
+<li class="unchecked">2</li>
+<li class="unchecked">3</li>
+<li class="unchecked">4</li>
+<li class="unchecked">5</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-6" class="outline-2">
+<h2 id="headline-6">
+来週week19以降でも別に良いもの
+</h2>
+<div id="outline-text-headline-6" class="outline-text-2">
+<ul>
+<li class="unchecked">
+<p>奨学金の手続き</p>
+<ul>
+<li><a href="/posts/univ/jasso_m1/">リンク</a></li>
+</ul>
+</li>
+<li class="unchecked">
+<p>inboxは別のファイルにしたい</p>
+<ul>
+<li>inboxに追加するコマンドがある．いまは最新のlogファイルに書くようになってるが，これも変更したい．</li>
+</ul>
+</li>
+<li class="unchecked">
+<p>Hitotsubshiの授業用のディレクトリはgoogle driveにある（実際はシンボリックリンク）ので，latexの生成がうまくいかないということだと思う．</p>
+<ul>
+<li>この問題をいつか解決したい．</li>
+</ul>
+</li>
+<li class="unchecked">org-roamとgithubの共存をどのようにするか考える</li>
+<li class="unchecked">inboxへの追加</li>
+<li class="unchecked">inboxを開く</li>
+<li class="unchecked">やり方をまとめておく→何の？昨日（4/19）やったこと</li>
+<li>inboxとかの処理どうしようかな</li>
+</ul>
+<ul>
+<li>Unveiling Induction Heads: Provable Training Dynamics and Feature Learning in Transformers</li>
+</ul>
+<div id="outline-container-headline-7" class="outline-3">
+<h3 id="headline-7">
+課題関係 <code class="statistic">[2/8]</code>
+</h3>
+<div id="outline-text-headline-7" class="outline-text-3">
+<ul>
+<li class="checked">研究計画のスライド作成　2hくらい？</li>
+<li class="checked">統計実践課題1 平常レポート</li>
+<li class="unchecked">課題2</li>
+<li class="unchecked">ML金融</li>
+<li class="unchecked">GCI</li>
+<li class="unchecked">deeplearningの課題</li>
+</ul>
+<ul>
+<li class="unchecked">公的統計のレポート確認しておくこと</li>
+<li class="unchecked">特論ポスター作成→ASAP</li>
+</ul>
+<div id="outline-container-headline-8" class="outline-4">
+<h4 id="headline-8">
+公的統計
+</h4>
+<div id="outline-text-headline-8" class="outline-text-4">
+<ul>
+<li class="unchecked">
+<p>物価のpdfを読む</p>
+<ul>
+<li><a href="https://drive.google.com/open?id=1RISmztg-6RiJJj_xAVxiYxPxipTyVitg&amp;usp=drive_fs">https://drive.google.com/open?id=1RISmztg-6RiJJj_xAVxiYxPxipTyVitg&amp;usp=drive_fs</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-9" class="outline-2">
+<h2 id="headline-9">
+詳細
+</h2>
+<div id="outline-text-headline-9" class="outline-text-2">
+<ul>
+<li class="indeterminate">youtube行列の積の動画→1日3本みてノート取る<code class="statistic">[0/0]</code></li>
+<li class="indeterminate">
+<p>群論→1日一本見れば今週中に終わる<code class="statistic">[0/9]</code></p>
+<ul>
+<li class="indeterminate">
+<p>1</p>
+<ul>
+<li class="checked">watch</li>
+<li class="unchecked">note</li>
+</ul>
+</li>
+<li class="indeterminate">
+<p>2</p>
+<ul>
+<li class="checked">watch </li>
+<li class="unchecked">note</li>
+</ul>
+</li>
+<li class="indeterminate">
+<p>3 対称群</p>
+<ul>
+<li class="checked">watch </li>
+<li class="unchecked">note</li>
+</ul>
+</li>
+<li class="unchecked">
+<p>4 部分群</p>
+<ul>
+<li class="unchecked">watch</li>
+<li class="unchecked">note</li>
+</ul>
+</li>
+<li class="unchecked">
+<p>5</p>
+<ul>
+<li class="unchecked">watch</li>
+<li class="unchecked">note</li>
+</ul>
+</li>
+<li class="unchecked">
+<p>6</p>
+<ul>
+<li class="unchecked">watch</li>
+<li class="unchecked">note</li>
+</ul>
+</li>
+<li class="unchecked">
+<p>7</p>
+<ul>
+<li class="unchecked">watch</li>
+<li class="unchecked">note</li>
+</ul>
+</li>
+<li class="unchecked">
+<p>8</p>
+<ul>
+<li class="unchecked">watch</li>
+<li class="unchecked">note</li>
+</ul>
+</li>
+<li class="unchecked">
+<p>9</p>
+<ul>
+<li class="unchecked">watch</li>
+<li class="unchecked">note</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>研究倫理</p>
+<ul>
+<li>
+<p>27</p>
+<ul>
+<li class="checked">1</li>
+<li class="unchecked">2</li>
+<li class="unchecked">3</li>
+</ul>
+</li>
+<li>
+<p>28</p>
+<ul>
+<li class="unchecked">4</li>
+<li class="unchecked">5</li>
+<li class="unchecked">6</li>
+</ul>
+</li>
+<li>
+<p>29</p>
+<ul>
+<li class="unchecked">7</li>
+<li class="unchecked">8</li>
+<li class="unchecked">9</li>
+</ul>
+</li>
+<li>
+<p>30</p>
+<ul>
+<li class="unchecked">10</li>
+<li class="unchecked">11</li>
+<li class="unchecked">12</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="unchecked">
+<p>gxpのレポートの構成を考える</p>
+<ol>
+<li>予測変換の部分を導入してみる</li>
+<li>セマンティックセグメンテーション</li>
+<li>
+<p>切り替えノード</p>
+<ol>
+<li>これについて，グラフでの状態管理？は実装できた．次に途中だったのは，Corによる管理をやろうとして�</li>
+</ol>
+</li>
+</ol>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+    <div class="flex flex-wrap justify-between">
+  <div>
+  
+    <a href="/posts/daily/2026/05/link0501/" class="flex align-center">
+      <img src="/icons/backward.svg" class="book-icon" alt="Backward" />
+      <span>URL 0501</span>
+    </a>
+  
+  </div>
+  <div>
+  
+  </div>
+</div>
+  
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+    
+
+
+
+  
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content=" 概要 現在（2026/4/9）受講中のもの
+GCI Deep Learning 金融市場取引と機械学習2026Spring 参加しているコミュニティ: 上記それぞれのSlackとLLM Community
+Deep Learning Basic 2026 Spring TASK TODO E資格対策部協会　参加登録 詳細情報は手引きに記載，フォームはOmnicampusにある 追加の突破テストを8割とって合格する必要があるらしい コース登録: https://drive.google.com/drive/folders/1-ixMXKUsXlLHhia9BjhzPTkH971g3q2w スライドの説明: https://docs.google.com/presentation/d/1Ybuymtmd4eJZ99Fxd5opmo43kRIcWUFS/edit?usp=sharing&amp;ouid=102053363529064969901&amp;rtpof=true&amp;sd=true E資格フォルダ: https://drive.google.com/drive/folders/1-ixMXKUsXlLHhia9BjhzPTkH971g3q2w?usp=drive_link TODO 任意のプレ講座 日程 回 日時 担当 カリキュラム 第1回 2026/4/9(木) 16:50〜18:35 松尾豊 人工知能の概要とディープラーニングの意義 第2回 2026/4/16(木) 16:50〜18:35 河野慎 鄭晟徹 機械学習基礎 第3回 2026/4/23(木) 16:50〜18:35 小林由弥 池田悠也 ニューラルネットワーク基礎 第4回 2026/4/30(木) 16:50〜18:35 谷口尚平 野辺宣翔 ニューラルネットワークの最適化・正則化 第5回 2026/5/14(木) 16:50〜18:35 大島佑太 市川大樹 畳み込みニューラルネットワーク 第6回 2026/5/21(木) 16:50〜18:35 三宅大貴 市川大樹 深層学習と画像認識 第7回 2026/5/28(木) 16:50〜18:35 中野聡大 飯山燈 回帰結合型ニューラルネットワークと系列データ処理 第8回 2026/6/4(木) 16:50〜18:35 高城頌太 市川大樹 Transformer基礎 第9回 2026/6/18(木) 16:50〜18:35 小島武 野辺宣翔 大規模言語モデルと自然言語処理 第10回 2026/6/25(木) 16:50〜18:35 岩澤有祐 高波亮介 表現学習と自己教師あり学習 第11回 2026/7/2(木) 16:50〜18:35 今泉允聡 深層学習の理論 第12回 2026/7/9(木) 16:50〜18:35 北村俊徳 深層強化学習 第13回 2026/7/16(木) 16:50〜18:35 鈴木雅大 野辺宣翔 深層生成モデル LOG 第1回 &lt;2026-04-09 Thu&gt; HW: https://drive.google.com/drive/folders/1HjOol4VVdLlGyufTRB0v1r3V42cgoYk4 GCI 2026 Summer TASK TODO 事前学習教材をやって提出する DEADLINE: &lt;2026-06-09 Tue 17:00&gt; 教材: https://drive.google.com/drive/folders/14Oywkm6GZ7dKD69eSNUCT7fyLE9JuyeG?usp=sharing （第7回までに自習） 特に「2. Pythonの基礎・実践」は第2回講義（4/28）までに学習推奨 アンケート提出先: Omnicampus → 第0回_GCI事前学習 事前学習について Python基礎・実践・統計・機械学習の基礎を幅広くカバー 実行環境: Google Colaboratory（無料版） Google Colabの使用方法: https://drive.google.com/drive/folders/1ZxpjSGBX3uzUJ6v74nA_rOuQCc-oldy9 不明点はSlackのqaチャンネルへ 日程 回 日時 担当 カリキュラム 第1回 4/21 塚本 導入（データサイエンス・本講義の概要）※18:45-20:45 第2回 4/28 金澤 Python基礎（プログラミング文法／演算・条件分岐・関数） 第3回 5/12 熊澤 Pythonによる科学計算（Numpy） 第4回 5/19 嵐 Pythonによるデータ加工処理の基礎（Pandas） 第5回 5/26 中内 Pythonによるデータ可視化の基礎（Matplotlib） 第6回 6/2 熊澤 教師あり学習（回帰と分類） 第7回 6/9 世良 特徴量エンジニアリング 第8回 6/16 ゲスト ゲスト講師 第9回 6/23 坂上 教師なし学習/時系列（クラスタリング・PCAなど） 第10回 6/30 中内 モデルの検証方法とチューニング方法 第11回 7/7 横山 AIのビジネス活用提案〜最終課題導入〜 第12回 7/14 塚本 マーケティング基礎・応用 第13回 7/21 塚本 SQL（データベース構築の目的理解・実装） 第14回 7/28 ゲスト ゲスト講師 第15回 8/4 ゲスト ゲスト講師 金融市場取引と機械学習 日程 回 日時 担当 カリキュラム 第1回 2026/04/10(金) 14:00〜16:00 金 剛洙 金融市場予測と機械学習 第2回 2026/04/17(金) 14:00〜16:00 河村 飛来 データセット作成 第3回 2026/04/24(金) 14:00〜16:00 永積 輝 ラベリング 第4回 2026/05/01(金) 14:00〜16:00 関岡 冴俊 バックテスト 第5回 2026/05/08(金) 14:00〜16:00 孫田 陽翔 総合演習 第6回 2026/05/15(金) 14:00〜16:00 中筋 渉太 CTA運用入門 第7回 2026/05/22(金) 14:00〜16:00 久保 健治 中川 慧 特別回：資産運用における確率的最適化/TBD 第8回 2026/05/29(金) 14:00〜16:00 鳥海 渓 竹本 悠城 特別回：クオンツ投資戦略の理論から実践まで 第9回 2026/06/05(金) 14:00〜16:00 鳥海 渓 竹本 悠城 特別回：株式運用モデルの実施とポストLLM時代の戦略投資 E資格 概要 深層学習コースを修了し，さらに試験を突破すればE資格が取得できる。 Omnicampusにある全てのコースを合格すればOK。 手引き後半に学習のコツ・YouTube解説・PDF教材あり。
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/study/materials/matsuo_lab_letrure/">
+  <meta property="og:site_name" content="Shiryu NAKANO">
+  <meta property="og:title" content="受講中コース管理">
+  <meta property="og:description" content="概要 現在（2026/4/9）受講中のもの
+GCI Deep Learning 金融市場取引と機械学習2026Spring 参加しているコミュニティ: 上記それぞれのSlackとLLM Community
+Deep Learning Basic 2026 Spring TASK TODO E資格対策部協会　参加登録 詳細情報は手引きに記載，フォームはOmnicampusにある 追加の突破テストを8割とって合格する必要があるらしい コース登録: https://drive.google.com/drive/folders/1-ixMXKUsXlLHhia9BjhzPTkH971g3q2w スライドの説明: https://docs.google.com/presentation/d/1Ybuymtmd4eJZ99Fxd5opmo43kRIcWUFS/edit?usp=sharing&amp;ouid=102053363529064969901&amp;rtpof=true&amp;sd=true E資格フォルダ: https://drive.google.com/drive/folders/1-ixMXKUsXlLHhia9BjhzPTkH971g3q2w?usp=drive_link TODO 任意のプレ講座 日程 回 日時 担当 カリキュラム 第1回 2026/4/9(木) 16:50〜18:35 松尾豊 人工知能の概要とディープラーニングの意義 第2回 2026/4/16(木) 16:50〜18:35 河野慎 鄭晟徹 機械学習基礎 第3回 2026/4/23(木) 16:50〜18:35 小林由弥 池田悠也 ニューラルネットワーク基礎 第4回 2026/4/30(木) 16:50〜18:35 谷口尚平 野辺宣翔 ニューラルネットワークの最適化・正則化 第5回 2026/5/14(木) 16:50〜18:35 大島佑太 市川大樹 畳み込みニューラルネットワーク 第6回 2026/5/21(木) 16:50〜18:35 三宅大貴 市川大樹 深層学習と画像認識 第7回 2026/5/28(木) 16:50〜18:35 中野聡大 飯山燈 回帰結合型ニューラルネットワークと系列データ処理 第8回 2026/6/4(木) 16:50〜18:35 高城頌太 市川大樹 Transformer基礎 第9回 2026/6/18(木) 16:50〜18:35 小島武 野辺宣翔 大規模言語モデルと自然言語処理 第10回 2026/6/25(木) 16:50〜18:35 岩澤有祐 高波亮介 表現学習と自己教師あり学習 第11回 2026/7/2(木) 16:50〜18:35 今泉允聡 深層学習の理論 第12回 2026/7/9(木) 16:50〜18:35 北村俊徳 深層強化学習 第13回 2026/7/16(木) 16:50〜18:35 鈴木雅大 野辺宣翔 深層生成モデル LOG 第1回 &lt;2026-04-09 Thu&gt; HW: https://drive.google.com/drive/folders/1HjOol4VVdLlGyufTRB0v1r3V42cgoYk4 GCI 2026 Summer TASK TODO 事前学習教材をやって提出する DEADLINE: &lt;2026-06-09 Tue 17:00&gt; 教材: https://drive.google.com/drive/folders/14Oywkm6GZ7dKD69eSNUCT7fyLE9JuyeG?usp=sharing （第7回までに自習） 特に「2. Pythonの基礎・実践」は第2回講義（4/28）までに学習推奨 アンケート提出先: Omnicampus → 第0回_GCI事前学習 事前学習について Python基礎・実践・統計・機械学習の基礎を幅広くカバー 実行環境: Google Colaboratory（無料版） Google Colabの使用方法: https://drive.google.com/drive/folders/1ZxpjSGBX3uzUJ6v74nA_rOuQCc-oldy9 不明点はSlackのqaチャンネルへ 日程 回 日時 担当 カリキュラム 第1回 4/21 塚本 導入（データサイエンス・本講義の概要）※18:45-20:45 第2回 4/28 金澤 Python基礎（プログラミング文法／演算・条件分岐・関数） 第3回 5/12 熊澤 Pythonによる科学計算（Numpy） 第4回 5/19 嵐 Pythonによるデータ加工処理の基礎（Pandas） 第5回 5/26 中内 Pythonによるデータ可視化の基礎（Matplotlib） 第6回 6/2 熊澤 教師あり学習（回帰と分類） 第7回 6/9 世良 特徴量エンジニアリング 第8回 6/16 ゲスト ゲスト講師 第9回 6/23 坂上 教師なし学習/時系列（クラスタリング・PCAなど） 第10回 6/30 中内 モデルの検証方法とチューニング方法 第11回 7/7 横山 AIのビジネス活用提案〜最終課題導入〜 第12回 7/14 塚本 マーケティング基礎・応用 第13回 7/21 塚本 SQL（データベース構築の目的理解・実装） 第14回 7/28 ゲスト ゲスト講師 第15回 8/4 ゲスト ゲスト講師 金融市場取引と機械学習 日程 回 日時 担当 カリキュラム 第1回 2026/04/10(金) 14:00〜16:00 金 剛洙 金融市場予測と機械学習 第2回 2026/04/17(金) 14:00〜16:00 河村 飛来 データセット作成 第3回 2026/04/24(金) 14:00〜16:00 永積 輝 ラベリング 第4回 2026/05/01(金) 14:00〜16:00 関岡 冴俊 バックテスト 第5回 2026/05/08(金) 14:00〜16:00 孫田 陽翔 総合演習 第6回 2026/05/15(金) 14:00〜16:00 中筋 渉太 CTA運用入門 第7回 2026/05/22(金) 14:00〜16:00 久保 健治 中川 慧 特別回：資産運用における確率的最適化/TBD 第8回 2026/05/29(金) 14:00〜16:00 鳥海 渓 竹本 悠城 特別回：クオンツ投資戦略の理論から実践まで 第9回 2026/06/05(金) 14:00〜16:00 鳥海 渓 竹本 悠城 特別回：株式運用モデルの実施とポストLLM時代の戦略投資 E資格 概要 深層学習コースを修了し，さらに試験を突破すればE資格が取得できる。 Omnicampusにある全てのコースを合格すればOK。 手引き後半に学習のコツ・YouTube解説・PDF教材あり。">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-04-09T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-04-09T00:00:00+00:00">
+
+
+  <meta itemprop="name" content="受講中コース管理">
+  <meta itemprop="description" content="概要 現在（2026/4/9）受講中のもの
+GCI Deep Learning 金融市場取引と機械学習2026Spring 参加しているコミュニティ: 上記それぞれのSlackとLLM Community
+Deep Learning Basic 2026 Spring TASK TODO E資格対策部協会　参加登録 詳細情報は手引きに記載，フォームはOmnicampusにある 追加の突破テストを8割とって合格する必要があるらしい コース登録: https://drive.google.com/drive/folders/1-ixMXKUsXlLHhia9BjhzPTkH971g3q2w スライドの説明: https://docs.google.com/presentation/d/1Ybuymtmd4eJZ99Fxd5opmo43kRIcWUFS/edit?usp=sharing&amp;ouid=102053363529064969901&amp;rtpof=true&amp;sd=true E資格フォルダ: https://drive.google.com/drive/folders/1-ixMXKUsXlLHhia9BjhzPTkH971g3q2w?usp=drive_link TODO 任意のプレ講座 日程 回 日時 担当 カリキュラム 第1回 2026/4/9(木) 16:50〜18:35 松尾豊 人工知能の概要とディープラーニングの意義 第2回 2026/4/16(木) 16:50〜18:35 河野慎 鄭晟徹 機械学習基礎 第3回 2026/4/23(木) 16:50〜18:35 小林由弥 池田悠也 ニューラルネットワーク基礎 第4回 2026/4/30(木) 16:50〜18:35 谷口尚平 野辺宣翔 ニューラルネットワークの最適化・正則化 第5回 2026/5/14(木) 16:50〜18:35 大島佑太 市川大樹 畳み込みニューラルネットワーク 第6回 2026/5/21(木) 16:50〜18:35 三宅大貴 市川大樹 深層学習と画像認識 第7回 2026/5/28(木) 16:50〜18:35 中野聡大 飯山燈 回帰結合型ニューラルネットワークと系列データ処理 第8回 2026/6/4(木) 16:50〜18:35 高城頌太 市川大樹 Transformer基礎 第9回 2026/6/18(木) 16:50〜18:35 小島武 野辺宣翔 大規模言語モデルと自然言語処理 第10回 2026/6/25(木) 16:50〜18:35 岩澤有祐 高波亮介 表現学習と自己教師あり学習 第11回 2026/7/2(木) 16:50〜18:35 今泉允聡 深層学習の理論 第12回 2026/7/9(木) 16:50〜18:35 北村俊徳 深層強化学習 第13回 2026/7/16(木) 16:50〜18:35 鈴木雅大 野辺宣翔 深層生成モデル LOG 第1回 &lt;2026-04-09 Thu&gt; HW: https://drive.google.com/drive/folders/1HjOol4VVdLlGyufTRB0v1r3V42cgoYk4 GCI 2026 Summer TASK TODO 事前学習教材をやって提出する DEADLINE: &lt;2026-06-09 Tue 17:00&gt; 教材: https://drive.google.com/drive/folders/14Oywkm6GZ7dKD69eSNUCT7fyLE9JuyeG?usp=sharing （第7回までに自習） 特に「2. Pythonの基礎・実践」は第2回講義（4/28）までに学習推奨 アンケート提出先: Omnicampus → 第0回_GCI事前学習 事前学習について Python基礎・実践・統計・機械学習の基礎を幅広くカバー 実行環境: Google Colaboratory（無料版） Google Colabの使用方法: https://drive.google.com/drive/folders/1ZxpjSGBX3uzUJ6v74nA_rOuQCc-oldy9 不明点はSlackのqaチャンネルへ 日程 回 日時 担当 カリキュラム 第1回 4/21 塚本 導入（データサイエンス・本講義の概要）※18:45-20:45 第2回 4/28 金澤 Python基礎（プログラミング文法／演算・条件分岐・関数） 第3回 5/12 熊澤 Pythonによる科学計算（Numpy） 第4回 5/19 嵐 Pythonによるデータ加工処理の基礎（Pandas） 第5回 5/26 中内 Pythonによるデータ可視化の基礎（Matplotlib） 第6回 6/2 熊澤 教師あり学習（回帰と分類） 第7回 6/9 世良 特徴量エンジニアリング 第8回 6/16 ゲスト ゲスト講師 第9回 6/23 坂上 教師なし学習/時系列（クラスタリング・PCAなど） 第10回 6/30 中内 モデルの検証方法とチューニング方法 第11回 7/7 横山 AIのビジネス活用提案〜最終課題導入〜 第12回 7/14 塚本 マーケティング基礎・応用 第13回 7/21 塚本 SQL（データベース構築の目的理解・実装） 第14回 7/28 ゲスト ゲスト講師 第15回 8/4 ゲスト ゲスト講師 金融市場取引と機械学習 日程 回 日時 担当 カリキュラム 第1回 2026/04/10(金) 14:00〜16:00 金 剛洙 金融市場予測と機械学習 第2回 2026/04/17(金) 14:00〜16:00 河村 飛来 データセット作成 第3回 2026/04/24(金) 14:00〜16:00 永積 輝 ラベリング 第4回 2026/05/01(金) 14:00〜16:00 関岡 冴俊 バックテスト 第5回 2026/05/08(金) 14:00〜16:00 孫田 陽翔 総合演習 第6回 2026/05/15(金) 14:00〜16:00 中筋 渉太 CTA運用入門 第7回 2026/05/22(金) 14:00〜16:00 久保 健治 中川 慧 特別回：資産運用における確率的最適化/TBD 第8回 2026/05/29(金) 14:00〜16:00 鳥海 渓 竹本 悠城 特別回：クオンツ投資戦略の理論から実践まで 第9回 2026/06/05(金) 14:00〜16:00 鳥海 渓 竹本 悠城 特別回：株式運用モデルの実施とポストLLM時代の戦略投資 E資格 概要 深層学習コースを修了し，さらに試験を突破すればE資格が取得できる。 Omnicampusにある全てのコースを合格すればOK。 手引き後半に学習のコツ・YouTube解説・PDF教材あり。">
+  <meta itemprop="datePublished" content="2026-04-09T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2026-04-09T00:00:00+00:00">
+  <meta itemprop="wordCount" content="284">
+
+<title>受講中コース管理 | Shiryu NAKANO</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/posts/study/materials/matsuo_lab_letrure/">
+<link rel="stylesheet" href="/book.min.b267f830fdf65302ecc1702a1178d4f25aa783409b3a25098f3404dd24f37a4d.css" integrity="sha256-smf4MP32UwLswXAqEXjU8lqng0CbOiUJjzQE3STzek0=" crossorigin="anonymous">
+
+
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/ja.search.min.0c4f6b99819e171c342a624f208b37ae0323fbfb3828c204721603e27bad0efc.js" integrity="sha256-DE9rmYGeFxw0KmJPIIs3rgMj&#43;/s4KMIEchYD4nutDvw=" crossorigin="anonymous"></script>
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/custom.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "$", right: "$", display: false}
+        ],
+        throwOnError: false
+    });
+});
+</script>
+
+</head>
+<body dir="ltr" class="book-kind-page book-type-posts">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Shiryu NAKANO</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="検索"
+    aria-label="検索"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+  <div class="markdown">
+    <ul>
+<li><a href="/">Home</a></li>
+</ul>
+<!--
+- [Research](/posts/research/)
+- [Life](/posts/life/)
+- [Study](/posts/study/)
+- [Univ](/posts/univ/)
+--->
+  </div>
+
+
+
+</nav>
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>受講中コース管理</h3>
+
+  <label for="toc-control">
+    
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+    
+<nav id="TableOfContents">
+<ul>
+<li><a href="#headline-1">概要</a>
+</li>
+<li><a href="#headline-2">Deep Learning Basic 2026 Spring</a>
+<ul>
+<li><a href="#headline-3">TASK</a>
+<ul>
+<li><a href="#headline-4">E資格対策部協会　参加登録</a>
+</li>
+<li><a href="#headline-5">任意のプレ講座</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-6">日程</a>
+</li>
+<li><a href="#headline-7">LOG</a>
+<ul>
+<li><a href="#headline-8">第1回 <span class="timestamp">&lt;2026-04-09 Thu&gt;</span></a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#headline-9">GCI 2026 Summer</a>
+<ul>
+<li><a href="#headline-10">TASK</a>
+<ul>
+<li><a href="#headline-11">事前学習教材をやって提出する</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-12">事前学習について</a>
+</li>
+<li><a href="#headline-13">日程</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-14">金融市場取引と機械学習</a>
+<ul>
+<li><a href="#headline-15">日程</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-16">E資格</a>
+<ul>
+<li><a href="#headline-17">概要</a>
+</li>
+<li><a href="#headline-18">教材リンク</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+
+
+  
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown book-post">
+  <h1>
+    受講中コース管理
+  </h1>
+  
+  <div class="flex align-center text-small book-post-date">
+    <img src="/icons/calendar.svg" class="book-icon" alt="Calendar" />
+    <span>4月 9, 2026</span>
+  </div>
+
+
+
+  
+
+  
+
+
+  <div class="book-post-content markdown-inner">
+<div id="outline-container-headline-1" class="outline-2">
+<h2 id="headline-1">
+概要
+</h2>
+<div id="outline-text-headline-1" class="outline-text-2">
+<p>
+現在（2026/4/9）受講中のもの</p>
+<ol>
+<li>GCI</li>
+<li>Deep Learning</li>
+<li>金融市場取引と機械学習2026Spring</li>
+</ol>
+<p>参加しているコミュニティ: 上記それぞれのSlackとLLM Community</p>
+</div>
+</div>
+<div id="outline-container-headline-2" class="outline-2">
+<h2 id="headline-2">
+Deep Learning Basic 2026 Spring
+</h2>
+<div id="outline-text-headline-2" class="outline-text-2">
+<div id="outline-container-headline-3" class="outline-3">
+<h3 id="headline-3">
+TASK
+</h3>
+<div id="outline-text-headline-3" class="outline-text-3">
+<div id="outline-container-headline-4" class="outline-4">
+<h4 id="headline-4">
+<span class="todo status-todo">TODO</span>
+E資格対策部協会　参加登録
+</h4>
+<div id="outline-text-headline-4" class="outline-text-4">
+<ul>
+<li>詳細情報は手引きに記載，フォームはOmnicampusにある</li>
+<li>追加の突破テストを8割とって合格する必要があるらしい</li>
+<li>コース登録: <a href="https://drive.google.com/drive/folders/1-ixMXKUsXlLHhia9BjhzPTkH971g3q2w">https://drive.google.com/drive/folders/1-ixMXKUsXlLHhia9BjhzPTkH971g3q2w</a></li>
+<li>スライドの説明: <a href="https://docs.google.com/presentation/d/1Ybuymtmd4eJZ99Fxd5opmo43kRIcWUFS/edit?usp=sharing&amp;ouid=102053363529064969901&amp;rtpof=true&amp;sd=true">https://docs.google.com/presentation/d/1Ybuymtmd4eJZ99Fxd5opmo43kRIcWUFS/edit?usp=sharing&amp;ouid=102053363529064969901&amp;rtpof=true&amp;sd=true</a></li>
+<li>E資格フォルダ: <a href="https://drive.google.com/drive/folders/1-ixMXKUsXlLHhia9BjhzPTkH971g3q2w?usp=drive_link">https://drive.google.com/drive/folders/1-ixMXKUsXlLHhia9BjhzPTkH971g3q2w?usp=drive_link</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-5" class="outline-4">
+<h4 id="headline-5">
+<span class="todo status-todo">TODO</span>
+任意のプレ講座
+</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-6" class="outline-3">
+<h3 id="headline-6">
+日程
+</h3>
+<div id="outline-text-headline-6" class="outline-text-3">
+<table>
+<thead>
+<tr>
+<th>回</th>
+<th>日時</th>
+<th>担当</th>
+<th>カリキュラム</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第1回</td>
+<td>2026/4/9(木) 16:50〜18:35</td>
+<td>松尾豊</td>
+<td>人工知能の概要とディープラーニングの意義</td>
+</tr>
+<tr>
+<td>第2回</td>
+<td>2026/4/16(木) 16:50〜18:35</td>
+<td>河野慎 鄭晟徹</td>
+<td>機械学習基礎</td>
+</tr>
+<tr>
+<td>第3回</td>
+<td>2026/4/23(木) 16:50〜18:35</td>
+<td>小林由弥 池田悠也</td>
+<td>ニューラルネットワーク基礎</td>
+</tr>
+<tr>
+<td>第4回</td>
+<td>2026/4/30(木) 16:50〜18:35</td>
+<td>谷口尚平 野辺宣翔</td>
+<td>ニューラルネットワークの最適化・正則化</td>
+</tr>
+<tr>
+<td>第5回</td>
+<td>2026/5/14(木) 16:50〜18:35</td>
+<td>大島佑太 市川大樹</td>
+<td>畳み込みニューラルネットワーク</td>
+</tr>
+<tr>
+<td>第6回</td>
+<td>2026/5/21(木) 16:50〜18:35</td>
+<td>三宅大貴 市川大樹</td>
+<td>深層学習と画像認識</td>
+</tr>
+<tr>
+<td>第7回</td>
+<td>2026/5/28(木) 16:50〜18:35</td>
+<td>中野聡大 飯山燈</td>
+<td>回帰結合型ニューラルネットワークと系列データ処理</td>
+</tr>
+<tr>
+<td>第8回</td>
+<td>2026/6/4(木) 16:50〜18:35</td>
+<td>高城頌太 市川大樹</td>
+<td>Transformer基礎</td>
+</tr>
+<tr>
+<td>第9回</td>
+<td>2026/6/18(木) 16:50〜18:35</td>
+<td>小島武 野辺宣翔</td>
+<td>大規模言語モデルと自然言語処理</td>
+</tr>
+<tr>
+<td>第10回</td>
+<td>2026/6/25(木) 16:50〜18:35</td>
+<td>岩澤有祐 高波亮介</td>
+<td>表現学習と自己教師あり学習</td>
+</tr>
+<tr>
+<td>第11回</td>
+<td>2026/7/2(木) 16:50〜18:35</td>
+<td>今泉允聡</td>
+<td>深層学習の理論</td>
+</tr>
+<tr>
+<td>第12回</td>
+<td>2026/7/9(木) 16:50〜18:35</td>
+<td>北村俊徳</td>
+<td>深層強化学習</td>
+</tr>
+<tr>
+<td>第13回</td>
+<td>2026/7/16(木) 16:50〜18:35</td>
+<td>鈴木雅大 野辺宣翔</td>
+<td>深層生成モデル</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-headline-7" class="outline-3">
+<h3 id="headline-7">
+LOG
+</h3>
+<div id="outline-text-headline-7" class="outline-text-3">
+<div id="outline-container-headline-8" class="outline-4">
+<h4 id="headline-8">
+第1回 <span class="timestamp">&lt;2026-04-09 Thu&gt;</span>
+</h4>
+<div id="outline-text-headline-8" class="outline-text-4">
+<ul>
+<li>HW: <a href="https://drive.google.com/drive/folders/1HjOol4VVdLlGyufTRB0v1r3V42cgoYk4">https://drive.google.com/drive/folders/1HjOol4VVdLlGyufTRB0v1r3V42cgoYk4</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-9" class="outline-2">
+<h2 id="headline-9">
+GCI 2026 Summer
+</h2>
+<div id="outline-text-headline-9" class="outline-text-2">
+<div id="outline-container-headline-10" class="outline-3">
+<h3 id="headline-10">
+TASK
+</h3>
+<div id="outline-text-headline-10" class="outline-text-3">
+<div id="outline-container-headline-11" class="outline-4">
+<h4 id="headline-11">
+<span class="todo status-todo">TODO</span>
+事前学習教材をやって提出する
+</h4>
+<div id="outline-text-headline-11" class="outline-text-4">
+<ul>
+<li>DEADLINE: <span class="timestamp">&lt;2026-06-09 Tue 17:00&gt;</span></li>
+<li>教材: <a href="https://drive.google.com/drive/folders/14Oywkm6GZ7dKD69eSNUCT7fyLE9JuyeG?usp=sharing">https://drive.google.com/drive/folders/14Oywkm6GZ7dKD69eSNUCT7fyLE9JuyeG?usp=sharing</a> （第7回までに自習）</li>
+<li>特に「2. Pythonの基礎・実践」は第2回講義（4/28）までに学習推奨</li>
+<li>アンケート提出先: Omnicampus → 第0回_GCI事前学習</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-12" class="outline-3">
+<h3 id="headline-12">
+事前学習について
+</h3>
+<div id="outline-text-headline-12" class="outline-text-3">
+<ul>
+<li>Python基礎・実践・統計・機械学習の基礎を幅広くカバー</li>
+<li>実行環境: <a href="https://colab.research.google.com/">Google Colaboratory</a>（無料版）</li>
+<li>Google Colabの使用方法: <a href="https://drive.google.com/drive/folders/1ZxpjSGBX3uzUJ6v74nA_rOuQCc-oldy9">https://drive.google.com/drive/folders/1ZxpjSGBX3uzUJ6v74nA_rOuQCc-oldy9</a></li>
+<li>不明点はSlackのqaチャンネルへ</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-13" class="outline-3">
+<h3 id="headline-13">
+日程
+</h3>
+<div id="outline-text-headline-13" class="outline-text-3">
+<table>
+<thead>
+<tr>
+<th>回</th>
+<th>日時</th>
+<th>担当</th>
+<th>カリキュラム</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第1回</td>
+<td>4/21</td>
+<td>塚本</td>
+<td>導入（データサイエンス・本講義の概要）※18:45-20:45</td>
+</tr>
+<tr>
+<td>第2回</td>
+<td>4/28</td>
+<td>金澤</td>
+<td>Python基礎（プログラミング文法／演算・条件分岐・関数）</td>
+</tr>
+<tr>
+<td>第3回</td>
+<td>5/12</td>
+<td>熊澤</td>
+<td>Pythonによる科学計算（Numpy）</td>
+</tr>
+<tr>
+<td>第4回</td>
+<td>5/19</td>
+<td>嵐</td>
+<td>Pythonによるデータ加工処理の基礎（Pandas）</td>
+</tr>
+<tr>
+<td>第5回</td>
+<td>5/26</td>
+<td>中内</td>
+<td>Pythonによるデータ可視化の基礎（Matplotlib）</td>
+</tr>
+<tr>
+<td>第6回</td>
+<td>6/2</td>
+<td>熊澤</td>
+<td>教師あり学習（回帰と分類）</td>
+</tr>
+<tr>
+<td>第7回</td>
+<td>6/9</td>
+<td>世良</td>
+<td>特徴量エンジニアリング</td>
+</tr>
+<tr>
+<td>第8回</td>
+<td>6/16</td>
+<td>ゲスト</td>
+<td>ゲスト講師</td>
+</tr>
+<tr>
+<td>第9回</td>
+<td>6/23</td>
+<td>坂上</td>
+<td>教師なし学習/時系列（クラスタリング・PCAなど）</td>
+</tr>
+<tr>
+<td>第10回</td>
+<td>6/30</td>
+<td>中内</td>
+<td>モデルの検証方法とチューニング方法</td>
+</tr>
+<tr>
+<td>第11回</td>
+<td>7/7</td>
+<td>横山</td>
+<td>AIのビジネス活用提案〜最終課題導入〜</td>
+</tr>
+<tr>
+<td>第12回</td>
+<td>7/14</td>
+<td>塚本</td>
+<td>マーケティング基礎・応用</td>
+</tr>
+<tr>
+<td>第13回</td>
+<td>7/21</td>
+<td>塚本</td>
+<td>SQL（データベース構築の目的理解・実装）</td>
+</tr>
+<tr>
+<td>第14回</td>
+<td>7/28</td>
+<td>ゲスト</td>
+<td>ゲスト講師</td>
+</tr>
+<tr>
+<td>第15回</td>
+<td>8/4</td>
+<td>ゲスト</td>
+<td>ゲスト講師</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-14" class="outline-2">
+<h2 id="headline-14">
+金融市場取引と機械学習
+</h2>
+<div id="outline-text-headline-14" class="outline-text-2">
+<div id="outline-container-headline-15" class="outline-3">
+<h3 id="headline-15">
+日程
+</h3>
+<div id="outline-text-headline-15" class="outline-text-3">
+<table>
+<thead>
+<tr>
+<th>回</th>
+<th>日時</th>
+<th>担当</th>
+<th>カリキュラム</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第1回</td>
+<td>2026/04/10(金) 14:00〜16:00</td>
+<td>金 剛洙</td>
+<td>金融市場予測と機械学習</td>
+</tr>
+<tr>
+<td>第2回</td>
+<td>2026/04/17(金) 14:00〜16:00</td>
+<td>河村 飛来</td>
+<td>データセット作成</td>
+</tr>
+<tr>
+<td>第3回</td>
+<td>2026/04/24(金) 14:00〜16:00</td>
+<td>永積 輝</td>
+<td>ラベリング</td>
+</tr>
+<tr>
+<td>第4回</td>
+<td>2026/05/01(金) 14:00〜16:00</td>
+<td>関岡 冴俊</td>
+<td>バックテスト</td>
+</tr>
+<tr>
+<td>第5回</td>
+<td>2026/05/08(金) 14:00〜16:00</td>
+<td>孫田 陽翔</td>
+<td>総合演習</td>
+</tr>
+<tr>
+<td>第6回</td>
+<td>2026/05/15(金) 14:00〜16:00</td>
+<td>中筋 渉太</td>
+<td>CTA運用入門</td>
+</tr>
+<tr>
+<td>第7回</td>
+<td>2026/05/22(金) 14:00〜16:00</td>
+<td>久保 健治 中川 慧</td>
+<td>特別回：資産運用における確率的最適化/TBD</td>
+</tr>
+<tr>
+<td>第8回</td>
+<td>2026/05/29(金) 14:00〜16:00</td>
+<td>鳥海 渓 竹本 悠城</td>
+<td>特別回：クオンツ投資戦略の理論から実践まで</td>
+</tr>
+<tr>
+<td>第9回</td>
+<td>2026/06/05(金) 14:00〜16:00</td>
+<td>鳥海 渓 竹本 悠城</td>
+<td>特別回：株式運用モデルの実施とポストLLM時代の戦略投資</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-16" class="outline-2">
+<h2 id="headline-16">
+E資格
+</h2>
+<div id="outline-text-headline-16" class="outline-text-2">
+<div id="outline-container-headline-17" class="outline-3">
+<h3 id="headline-17">
+概要
+</h3>
+<div id="outline-text-headline-17" class="outline-text-3">
+<p>
+深層学習コースを修了し，さらに試験を突破すればE資格が取得できる。
+Omnicampusにある全てのコースを合格すればOK。
+手引き後半に学習のコツ・YouTube解説・PDF教材あり。</p>
+</div>
+</div>
+<div id="outline-container-headline-18" class="outline-3">
+<h3 id="headline-18">
+教材リンク
+</h3>
+<div id="outline-text-headline-18" class="outline-text-3">
+<ul>
+<li>DL Spring共有教材フォルダ: <a href="https://drive.google.com/drive/folders/1-ixMXKUsXlLHhia9BjhzPTkH971g3q2w">https://drive.google.com/drive/folders/1-ixMXKUsXlLHhia9BjhzPTkH971g3q2w</a></li>
+<li>重点PDF: <a href="https://drive.google.com/file/d/1JnzjnTJxfGFcXukrFgDeBdC5oTGv4g7W/view?usp=sharing">https://drive.google.com/file/d/1JnzjnTJxfGFcXukrFgDeBdC5oTGv4g7W/view?usp=sharing</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+    <div class="flex flex-wrap justify-between">
+  <div>
+  
+  </div>
+  <div>
+  
+    <a href="/posts/study/overview/" class="flex align-center">
+      <span>Overview</span>
+      <img src="/icons/forward.svg" class="book-icon" alt="Forward" />
+    </a>
+  
+  </div>
+</div>
+  
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+    
+<nav id="TableOfContents">
+<ul>
+<li><a href="#headline-1">概要</a>
+</li>
+<li><a href="#headline-2">Deep Learning Basic 2026 Spring</a>
+<ul>
+<li><a href="#headline-3">TASK</a>
+<ul>
+<li><a href="#headline-4">E資格対策部協会　参加登録</a>
+</li>
+<li><a href="#headline-5">任意のプレ講座</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-6">日程</a>
+</li>
+<li><a href="#headline-7">LOG</a>
+<ul>
+<li><a href="#headline-8">第1回 <span class="timestamp">&lt;2026-04-09 Thu&gt;</span></a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#headline-9">GCI 2026 Summer</a>
+<ul>
+<li><a href="#headline-10">TASK</a>
+<ul>
+<li><a href="#headline-11">事前学習教材をやって提出する</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-12">事前学習について</a>
+</li>
+<li><a href="#headline-13">日程</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-14">金融市場取引と機械学習</a>
+<ul>
+<li><a href="#headline-15">日程</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-16">E資格</a>
+<ul>
+<li><a href="#headline-17">概要</a>
+</li>
+<li><a href="#headline-18">教材リンク</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+
+
+  
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

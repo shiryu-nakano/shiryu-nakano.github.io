@@ -1,0 +1,206 @@
+#+TITLE: week19 GW
+#+URL: /posts/daily/2026/05/week19/
+
+#+filetags: :daily:
+#+OPTIONS: toc:nil num:nil ^:nil tags:nil todo:nil H:10
+#+OPTIONS: broken-links:mark
+#+OPTIONS: tex:t
+#+OPTIONS: html-postamble:nil
+#+OPTIONS: links:nil
+
+* GWにやりたいこと
+- [ ] APRINの提出
+- [ ] AI for Science
+- [ ] 統計実践の課題
+- [ ] 公的統計の課題
+- [ ] 機械学習の学習
+- [ ] 特論の研究計画書提出
+- [ ] 特論の返信
+- [ ] GCI
+- [ ] deep
+- [ ] ML finance
+
+* 直近の予定と締め切り
+- 30 thur Arpin 
+- 5/8 AI for Science
+  1. 応募書類・事前確認用の提出
+  2. 応募書類・事前確認用の提出（提出期限：5月11日（月））【研究科内提出期限：5月8日(金)午前9時】
+  3. 応募書類・最終版の提出（提出期限：5月15日（金）正午）
+- 
+- 5/11 H MTG
+- 5/15 統計実践の課題
+- 5/20 公的統計
+- 
+
+
+
+* TASK
+
+- [ ] 積分100
+  - https://drive.google.com/file/d/1sJye9GxOzSwOeI2WTBXV2VP6RZ52fatR/view
+
+- 直近のタスク
+  - [ ] PINNsを体験する
+    - [[https://www.udemy.com/course/physics-informed-neural-network-pinns/learn/lecture/39867700#overview][Course: Physics Informed Neural Networks (PINNs) | Udemy]]
+    - https://www.msiism.jp/article/physics-informed-machine-learning1.html
+    - [[https://zenn.dev/tatsukikodama/articles/ca050afe41058b][シンプルな物理知ニューラルネットワーク (PINN: Physics-Informed Neural Network)]]
+    - 他もブログのものをやる
+
+- [ ] 引き継ぎ→修論を読む
+  - [ ] 修論の英語版を読む→その前にMLの学習をする！
+  - [ ] プログラムを読む:
+  - [ ] ベイズpythonをやる
+- [ ] 平均近似の動画
+- [ ] AI Saftyについて調べること
+  - 自動運転t
+
+- 企業をちょっとでも調べておくこと
+
+
+
+ 
+** 動画で学習する[0/1]
+- [ ] 予備のり
+  - [ ] 群論 WIP
+  - [ ] 線形 LAST
+  - [ ] 解析 NEXT
+  - [ ] 複素解析 NEXT3
+  - [ ] ベクトル解析 NEXT2
+*** 行列の積（39本の動画） [1/5]
+- [X] 1
+- [ ] 2
+- [ ] 3
+- [ ] 4
+- [ ] 5
+
+
+
+
+
+
+
+
+
+
+
+
+* 来週week19以降でも別に良いもの
+- [ ] 奨学金の手続き
+  - [[/posts/univ/jasso_m1/][リンク]]
+  
+- [ ] inboxは別のファイルにしたい
+  - inboxに追加するコマンドがある．いまは最新のlogファイルに書くようになってるが，これも変更したい．
+- [ ] Hitotsubshiの授業用のディレクトリはgoogle driveにある（実際はシンボリックリンク）ので，latexの生成がうまくいかないということだと思う．
+  - この問題をいつか解決したい．
+- [ ] org-roamとgithubの共存をどのようにするか考える
+- [ ] inboxへの追加
+- [ ] inboxを開く
+- [ ] やり方をまとめておく→何の？昨日（4/19）やったこと
+- inboxとかの処理どうしようかな
+
+
+- Unveiling Induction Heads: Provable Training Dynamics and Feature Learning in Transformers
+  
+
+** 課題関係 [2/8]
+- [X] 研究計画のスライド作成　2hくらい？
+- [X] 統計実践課題1 平常レポート
+- [ ] 課題2
+
+- [ ] ML金融
+- [ ] GCI
+- [ ] deeplearningの課題
+
+
+- [ ] 公的統計のレポート確認しておくこと
+- [ ] 特論ポスター作成→ASAP
+
+*** 公的統計
+- [ ] 物価のpdfを読む
+  - https://drive.google.com/open?id=1RISmztg-6RiJJj_xAVxiYxPxipTyVitg&usp=drive_fs
+
+
+* 詳細
+- [-] youtube行列の積の動画→1日3本みてノート取る[0/0]
+- [-] 群論→1日一本見れば今週中に終わる[0/9]
+  - [-] 1
+    - [X] watch
+    - [ ] note
+  - [-] 2
+    - [X] watch 
+    - [ ] note
+  - [-] 3 対称群
+    - [X] watch 
+    - [ ] note
+  - [ ] 4 部分群
+    - [ ] watch
+    - [ ] note
+  - [ ] 5
+    - [ ] watch
+    - [ ] note
+  - [ ] 6
+    - [ ] watch
+    - [ ] note
+  - [ ] 7
+    - [ ] watch
+    - [ ] note
+  - [ ] 8
+    - [ ] watch
+    - [ ] note
+  - [ ] 9
+    - [ ] watch
+    - [ ] note
+
+- 研究倫理
+  - 27
+    - [X] 1
+    - [ ] 2
+    - [ ] 3
+      
+  - 28
+    - [ ] 4
+    - [ ] 5
+    - [ ] 6
+  - 29
+    - [ ] 7
+    - [ ] 8
+    - [ ] 9
+
+  - 30
+    - [ ] 10
+    - [ ] 11
+    - [ ] 12
+
+
+
+- [ ] gxpのレポートの構成を考える
+  1. 予測変換の部分を導入してみる
+  2. セマンティックセグメンテーション
+  3. 切り替えノード
+     1. これについて，グラフでの状態管理？は実装できた．次に途中だったのは，Corによる管理をやろうとしていたのだった
+	https://github.com/shiryu-nakano/lifecycle_manager_node/tree/main/src
+
+     
+    
+- みたい
+  https://www.web.nhk/tv/an/sekaimachi/pl/series-tep-NJVPP9ZYK6/ep/P5RGL8XJL5
+  
+  
+* 喫緊のタスク
+1週間8時間＊6=48時間以上は頑張ろう
+- [ ] 本返す
+- [X] すぐに手元で実行できるようなpythonの環境とワークスペースを作ること
+- [ ] Arcanainのプロトタイプ作成
+- [X] 特論の発表のポスター作成
+  - テーマは，特異学習理論に基づく深層NNの分布単純性バイアスの解析とする
+- [ ] SLTの1章をtexする10h
+- [ ] SLTの2章をtexする10h
+
+
+* いつか
+** udemy[0/3]
+この順番でやりたい．
+- [ ] ベイズ
+- [ ] kaggle
+- [ ] ベイズ2
+ 

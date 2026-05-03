@@ -1,0 +1,414 @@
+#+TITLE: inbox 2
+#+URL: /posts/daily/2026/05/inbox/
+
+** C-c n a でDONEを殲滅できます
+** INBOX gtdは毎週どこかの時間で進めるようにするiiといいかも→zenn 
+  [2025-12-02 Tue 16:38]*** INBOX 長沼さんの記事
+https://hiroki11x.github.io/posts/2025/09/10/todo
+** INBOX [[https://joisino.hatenablog.com/entry/theory#%E6%B7%B1%E5%B1%A4%E5%AD%A6%E7%BF%92%E3%81%AE%E7%90%86%E8%AB%96%E3%81%B8][絶対に分かる機iii械学習理論 - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ]*** INBOX log内容を毎日discordに投げたい 
+** INBOX 読みたいもの 
+ - [[https://mathlog.info/articles/EzVIGMfJU7M3fGHI8ajK][数学の勉強のやり方 | Mathlog]]
+ - [[https://qiita.com/Sicut_study/items/c0096caf21eefcd5c85f][【初心者完全版】0からReact開発して基礎をマスターできる最強チュートリアル 音楽生成アプリ編【図解解説】 #TypeScript - Qiita]] 
+ - [[https://studyhacker.net/unconscious-perfectionism#%E3%82%BF%E3%82%A4%E3%83%972%E6%AD%A3%E8%A7%A3%E4%B8%BB%E7%BE%A9%E5%9E%8B%E8%AA%BF%E3%81%B9%E3%82%8C%E3%81%B0%E7%AD%94%E3%81%88%E3%81%8C%E8%A6%8B%E3%81%A4%E3%81%8B%E3%82%8B%E3%81%A8%E3%81%84%E3%81%86%E5%B9%BB%E6%83%B3][あなたに "Done is better than perfect." が出来ない理由——無自覚な完璧主義、4つのタイプと処方箋 - STUDY HACKER（スタディーハッカー）｜社会人の勉強法＆英語学習]]
+ - [[https://mathlog.info/articles/tluyvuhcxujw1tbXfU5Q][可換環論の†全て†を幾何に翻訳して鑑賞しよう~前編~ | Mathlog]]
+ - https://www.youtube.com/watch?app=desktop&v=87-BNgM-KfQ
+ - 
+ - [[https://towardsdatascience.com/ai-papers-to-read-in-2025/][AI Papers to Read in 2025 | Towards Data Science*** INBOX instの画i像投稿 
+  - [[https://tabiato.co.jp/biz/blog/instagram-api-content-publishing/][Instagram Graph APIで自動投稿！画像もリールもストーリーも！ - 旅アトリーチ]]
+** INBOX https://arxiv.org/abs/1904.03866
+** INBOX タスク表示→サブタスクが見えてしまっているので修正すること
+** INBOX Downlooadsにたくさんpdf埋まってるので，google driveに挙げておくこと 
+  Created on [2025-12-08 Mon 14:03]
+** INBOX 借りてたPCのubuntu初期化 
+DEADLINE: <2025-12-28 Sun>
+  Created on [2025-12-08 Mon 20:03]
+** INBOX 勉強として，動画を見ること→動画のリスト 
+  Created on [2025-12-10 Wed 12:29]
+** INBOX 銀行印の整理 
+  Created on [2025-12-10 Wed 13:32]
+** INBOX 機械学習発展 https://tatsy.github.io/1284-sds-advml/
+  Created on [2025-12-11 Thu 19:56]
+** INBOX テスト駆動開発の本を進める 
+  Created on [2025-12-17 Wed 23:24]
+*** INBOX アプリ1
+*** INBOX アプリ2
+*** INBOX アプリ3
+** INBOX 2026やりたいことを書いていく 
+** INBOX Codex，claude codeの本を一回回すこと 
+  Created on [2026-01-05 Mon 14:48]
+** INBOX 試験の流れをパワポにして，それも貼り付けるようにする．
+** INBOX 教科書は何を持ってやったことにするのかをあらかじめ決める，目的も設定する
+  Created on [2026-01-08 Thu 15:33]
+** INBOX エンジニアとしてのポートフォリオ
+  Created on [2026-01-08 Thu 15:35]
+** INBOX codexのとき，他のウィンドウでもチャットが共有されている問題 
+  Created on [2026-01-08 Thu 18:20]
+** INBOX arcra volだけでやるのきついかもしれないのでいったんmacでやって感じをつかむことにするか
+** INBOX gxpの開発を，volで進めることはできないか？→これは十分にタスクを細かくすれば行けるはず
+今すべきこと
+*** INBOX パワポ作成
+*** INBOX システム図の作成
+
+** WIP ７時半に起きたい
+** INBOX ARCRA MTG 20260319
+task
+新しいのが来るっぽい
+
+Q
+- 今のタスクOCR, AI Agent
+-
+  
+
+- RAGのプロジェクト
+- やりたいこと（お題）
+
+
+#+ATTR_ORG: :width 500
+[[file:2026-03-19.org_image/20260319_182314.png]]
+
+- サーバーに
+  EC2建てて，7Bの24B　LLM,VLMをAWSのec2などで動作させる方法とコスト
+  セキュリティ面リスク→notion
+  リサーチ3時間程度
+  構築12時間
+** INBOX make able to fold programs
+** WIP 論文の読み方
+https://joisino.hatenablog.com/entry/2023/04/10/170519#%E6%97%A5%E8%AA%B2%E3%81%AE%E6%B5%81%E3%82%8C
+
+*** abstract
+- 毎朝1本必ず読む
+- use readable
+- choose paper following some rules
+  
+*** point1 論文の選び方
+毎日1本必ず読むことを達成するために，自分の忙しさや状況を考慮して柔軟に選び方を変えること
+*** point2 take notes
+#+ATTR_ORG: :width 40
+[[file:2026-03-20.org_image/20260320_120306.png]]
+読むこと以上に時間をかけている．優秀な研究者でさえそのくらいしているのだから，
+自分もそれに倣う他ない．
+
+*** point3 measure time
+track the time you take to read the paper.
+When you do this, there is a rule recommended.
+the rule is that time should be sepaarted into several parts.
+abstract: time to scan the paper
+deteils: time to understand the deteil of the paper
+memo: time to make notes of the paper
+
+
+#+ATTR_ORG: :width 40
+[[file:2026-03-20.org_image/20260320_120441.png]]
+*** get some expressions from paper
+** INBOX 予備乗り群論の次に，暗号と台数
+** INBOX 時間とお金についてのめも
+- 書くことによって考える
+  考えごとがうまくいかない時の考え方の変え方
+  考え事がたくさんある
+  - 自分では変えられない外的要因などの問題を抱えているとき
+    人間関係，環境の変化
+
+  - 解決したい問題があるとき
+    互いに排反ではないかもしれないが，このような場合に頭を整理したくなるときがある．
+    しかし，「考え事」を始めたにも関わらず思考が発散し，誰かが答えを書いていることに期待してネットサーフィンを
+    開始して数時間溶かしてしまうことがあった．
+
+  - こういうことをなくしたい．
+    発散的な思考は無意味ではない．クリエイティビティはむしろ発散的思考の産物と捉えることができたりもする・
+    現実的な時間で，現実的に解決や妥結に達したい時に，この頭の使い方を始めると大抵うまくいかない．
+
+  - 何が問題か？
+    → 問い方に問題があるから
+     ①解決できない（or 一般的に難しい問題）であるとき→これは普通に難しいのでこのパターンは除外する．
+      難しい問題は他の人も難しいし，たくさんの人がぶち当たっている問題である可能性が高いので，まずそれに気づく．
+      小さく分割して解決に近づく．
+     ②考えかたが悪い．
+     解決したい問題に対して，まず自分が「解決した」と結論づけられる条件が定まっていないのに
+     何か悶々と考えていても，基本的にネットサーフィンが始まる
+     まず何が解決なのか，範囲を決める．その範囲を決める諸条件は基本的には外的要因を考慮すればいい．
+     外的要因によって定まる領域の外側にはどう頑張ってもいけない．（1日は24時間しかない，とか自分の能力とか，お金の問題とか）
+     ここが定まると，あとは自分がどこからどこまでなら妥協できるかを決めるだけ．
+
+- それを元に考えることは
+  - phdの後，何がしたいのか？
+    - それを決めるために何を知りたいか
+    - 当たり前だがこれは変わっていく
+  - お金の問題→ってどんな問題ですか？
+    - お金が足りない→どのくらい足りない？
+      可処分が月10万円くらいあると嬉しい
+      では現状の安定した収入はいくらで固定費はいくら？
+      - 安定収入
+	5万円 gxp, 5万円 arcra,
+	10万円
+      - Fixed Costs
+	- 58000 = rent home
+	- 10000 = Nisa
+	- 6000 = meru pay
+	- gym = 4620
+	- rebo = 13000
+	- claude ai = 16000
+	- amazon prime = 1580 (prime + kindle)
+	- Netflix
+	- DetoxLock
+	- TickTick
+	- 大体 12．5万円
+      - thus,
+	I have to earn at least 230,000 yen/month
+	- 80,000 y/month = 奨学金
+	- 100,000 = part time job (current)
+	- difference = 50,000 = 25hour/month
+	  
+    - 時間の問題→ってどんな問題？
+      - お金の問題と合わさって複合的になる
+	I have to earn at least 250,000 y/m.
+	I need to work on arcra at least 20 hours per week so I have to spend about 3 hours per day for arcra.
+
+      - I have several routine (including currently cultivating ones)
+	- Work at Labratory (spend )
+	- 
+	- paper reading 2.5 hours at labratory
+	- study math
+	  - this is (formulatively seperated from studying for research)
+	- study for certification
+	- English
+	- other things
+	  - atcoder
+	  - news paper
+	  - Kaggle
+	  - english conversation
+	  - it is very hard to do all the stuffs in a day.
+** WIP Hiroki Naganuma**](https://hiroki11x.github.io//posts/)
+メモの参考にする
+## **Schedule**
+
+- 直近の Schedule
+
+## **予定**
+
+## **数日中には終わらせたいこと**
+
+- Canada Compute Cluster が使えてない
+
+## **一日の流れ**
+
+- 昨日は早く寝て、今朝は八時には起きた
+- 朝から椅子取りに行った
+- IKEA に行った
+- 家で作業
+- 帰宅後に作業
+    - torchtitan
+    - NVIDIA に返事
+- Jean Taron で買い物
+- 散髪
+- 帰宅して夕食
+- 作業
+    - torchtitan
+        - 実験流してて待ち
+            - Mila
+            - Narval (sweep はまだ)
+        - 試行錯誤中
+            - 投げ直して実行待ち
+                - Nibi
+                    - job 投げ直した
+                - Roquel
+                    - torch がないとか言われる、、
+            - 環境整備し直し
+                - Fir
+                    - (disk がめっちゃ遅い)
+                    - scratch 領域で作業してる
+                    - python 3.10.13で環境設定し直し
+        - 一旦保留
+            - Trillium
+                - torchrun の permission 問題
+                - scratch に退避
+                - 非常に使いにくい
+                - https://docs.alliancecan.ca/wiki/Trillium_Quickstart
+            - Squid
+                - セットアップ
+                - データをダウンロードしている
+                - srun とかのコマンドがない
+- 家のこと色々やった
+
+## **TODO**
+
+- MUON 関連のサーベイ
+    - https://arxiv.org/pdf/2409.20325
+- LLM 関連
+    - https://www.meti.go.jp/policy/mono_info_service/geniac/selection_1/index.html
+- Transformer 理解
+    - https://youtu.be/9Tu8H7wPVWo?si=jbrDE_JA_jFBEIdq
+
+## **今日何を学んだか？**
+
+## **喫緊の TODOS**
+
+## **所感**
+
+## **Deadlines**
+
+## **Reference**
+
+- [TODO - 09/10](https://hiroki11x.github.io/posts/2025/09/10/todo)
+- [研究プロジェクト Notion](https://www.notion.so/035120e5528043a3b9a86351663f5731?pvs=21)
+
+## **Deadline**
+
+- 年間スケジュール
+    
+    ```
+    
+    参考 URL: https://hiroki11x.github.io/posts/research_topics/ML_Conference/
+    
+    ```
+** INBOX ベイズ勉強のリスト from notion
+
+https://www.hit-u.ac.jp/hq-mag/innovation/485_20221227/
+
+https://note.com/shunsock/n/n1be47770d0b1
+
+https://qiita.com/mtanaka-kumw/items/5ac71fd46283a6800493
+
+https://qiita.com/ssugasawa/items/0e0d76de3ed92c7410e6
+
+https://lib.kobe-u.ac.jp/kulip/22842/
+
+https://qiita.com/ssugasawa/items/dffd68a7bb744a96a8d6
+
+https://www.amazon.co.jp/Bayesian-Econometric-Methods-Exercises/dp/1108437494/ref=pd_lpo_14_t_0/356-9149762-0335915?_encoding=UTF8&pd_rd_i=1108437494&pd_rd_r=73af9043-218f-46fb-a56d-257ef365fbd5&pd_rd_w=opknD&pd_rd_wg=7Wdq0&pf_rd_p=cb2cef9d-b0a3-4b58-a575-45abfc5e07e8&pf_rd_r=3NNHAGW6C25TKHEM460M&psc=1&refRID=3NNHAGW6C25TKHEM460M#detailBullets_feature_div
+
+https://qiita.com/ueniki/items/ebdafbd123c714dabf10
+
+https://qiita.com/ueniki/items/6338f8de53ee65637b32
+
+https://www.morikita.co.jp/books/mid/009703
+
+https://zenn.dev/tokin_tokin/articles/de726a1030f699
+
+---
+
+https://taro-masuda.hatenablog.com/entry/2021/12/20/123109
+
+https://qiita.com/drken/items/089b8443305df047b44e
+
+https://qiita.com/sugakuyaro/items/56d9578a4c8ed336b020
+** INBOX 暗記しているという定義の曖昧さと思考の流暢さをモデリングできるかも 
+** INBOX ideaof reasrch
+DSBの研究の続きとして rich-lazyでlazy度合いを定量化できる時に，あるlazy度における，モデルが推論に用いることのできるデータの モーメント統計量の上限（みたいなもの）を理論的に解析する研究． くそそも白そう
+** INBOX [[https://zenn.dev/muse_energy/books/0ec42f73ce5689/viewer/a12e88][はじめに｜Leanの型理論(など)のメモの本]] いつかやりたい
+** INBOX プロジェクトごとのメモを，rg-caputeで描けるようにしたい 
+** INBOX inboxに書く機能はこれでいい？
+どう使いたいんだっけ？というと
+小さなメモを素早く書けるようにしたい→C-c n i で 最新の日付のdaily noteのinboxに新しいエントリーを追加する機能がある
+
+これはたすくのめもも，何か小さなメモも書けるものなので活用するといいかも？
+inboxは，やっぱり日報ではなくて他のinboxというページを作製しておくほうがいいのかもしれない
+
+任意のタイミングで記述できる機能としては何がある？
+
+*** INBOX claude にあとで聞いてみる
+内容→今のinitを読んで，org modeに関する機能を全て抽出して書き出して下さい
+** INBOX logを開くだけでなくて，logのLOGに入力する内容を書き入れるcaptureの機能もあるといい
+さらにそれをそれぞれのプロジェクトのlogに投げ入れる機能もあると尚良い？
+プロジェクトに配置されている，プロジェクト管理のページは，一定の形式で書かれているというルールを課す．
+** INBOX 高次元統計学→HDPとかビッグデータ時系列分析
+
+https://zenn.dev/totopironote/articles/f13fe705f52d42
+[[https://zenn.dev/totopironote/articles/f13fe705f52d42][高次元データとは?]]
+
+https://www.math.tsukuba.ac.jp/~aoshima-lab/jp/kikaku2022aoshima.pdf
+https://www.ms.u-tokyo.ac.jp/~kyuta/hdstoch_v8.pdf
+https://www.ms.u-tokyo.ac.jp/~kyuta/hdstoch_v8.pdf
+
+
+https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-2.pdf
+** INBOX データ駆動科学，物理学のためのデータサイエンスなど
+
+https://www.amazon.co.jp/%E3%83%87%E3%83%BC%E3%82%BF%E9%A7%86%E5%8B%95%E7%A7%91%E5%AD%A6%E5%85%A5%E9%96%80-%E4%BC%8A%E8%97%A4%E8%81%A1/dp/4627818912
+** INBOX 集中的に，短期的に一気に読み込む＋ankiにもそこで入力する
+ankiに毎日一定の時間を使う
+** INBOX 研究紹介スライドと論文本誌の修正
+** INBOX 交換モンテカルロ法の勉強，ベイズpythonをさっさと終わらす
+** INBOX emacsのプロフェッショナルになるしかない
+** INBOX 研究で色々参考になる人のサイトをまとめる
+- https://hiroki11x.github.io/posts/technical_topic/
+- [[https://hiroki11x.github.io/posts/misc/routine/][博士課程学生のための研究・ビザ手続き両立1週間スケジュール | Hiroki Naganuma]]
+- [[https://hiroki11x.github.io/posts/misc/routine/][博士課程学生のための研究・ビザ手続き両立1週間スケジュール | Hiroki Naganuma]]
+- https://note.com/hiroki11x/n/n3b74922fed88
+- https://hiroki11x.github.io/posts/research_topics/career/looking_for_next_position_ja/
+  - こんな感じのポートフォリオを書く
+- [[https://gakuiryugaku.net/seminar/4621][「コンピューターサイエンス専攻の海外PhD進学に向けて」長沼大樹さん – 海外大学院学生会]]
+  - スライドも参考になる
+** INBOX DRAM, HBM
+- [[https://www.pro.logitec.co.jp/column/u20191220.html][DRAMとは？メモリを選ぶうえで理解しておきたい基礎知識を解説]]
+  - DRAM, SRAM
+    SRAMの方が高価
+    DRAMは揮発性メモリ
+    PCやカメラやテレビのメモリに使われている
+- [[https://ja.wikipedia.org/wiki/High_Bandwidth_Memory][High Bandwidth Memory - Wikipedia]]
+- file:///Users/nkn4ryu/Downloads/DGKKZO9574584018042026EA2000.pdf
+** INBOX Deeplearningを学習する時の教材
+- [ ] [[https://udlbook.github.io/udlbook/][Understanding Deep Learning]]
+  - pdfもあるし，基礎的なpythonのコードも見れる
+    - https://github.com/udlbook/udlbook/blob/main/Notebooks/Chap02/2_1_Supervised_Learning.ipynb
+
+- https://rbcborealis.com/research-blogs/the-neural-tangent-kernel/
+  - このブログ順番に読むだけでも→https://rbcborealis.com/blog/?topics=open&content-type=4
+
+- claudeに調べてもらったりもしている．これも結構いい
+  - https://claude.ai/chat/e5760241-5015-44ff-a692-383babbe7011
+- [[https://ocw.mit.edu/courses/6-7960-deep-learning-fall-2024/pages/readings/][Readings | Deep Learning | Electrical Engineering and Computer Science | MIT OpenCourseWare]]
+  - MITのやつかなりいいかも．pdfや動画もある
+  - https://visionbook.mit.edu/
+- [[https://www.engraved.blog/why-machine-learning-algorithms-are-hard-to-tune/][Why machine learning algorithms are hard to tune (and the fix)]]
+
+*** 理論より
+- [[https://mjt.cs.illinois.edu/dlt/][Deep learning theory lecture notes]]
+
+4. Matus Telgarsky — Deep Learning Theory Lecture Notes (UIUC→NYU Courant)
+
+CS 598 DLT として2019年～2022年にかけて繰り返し開講。テキスト形式のlecture notesが new version / old version の2バージョン公開 NYU Courant
+カバー範囲: Barron's theorem, depth separation, NTK, implicit regularization, generalization bounds
+UCLAのCS269コースでも推薦教科書として採用 Uclaml
+SLT研究との関連: 汎化理論・暗黙的正則化の議論がLLCの「なぜ単純なモデルが選ばれるか」という問いに直接つながる
+URL: https://mjt.cs.illinois.edu/dlt/
+
+*** RAG
+file:///Users/nkn4ryu/Downloads/Mental_Health_RAG_Chatbot_Workshop_v2.pdf
+** INBOX 
+** INBOX DRAM, HBM
+- [[https://www.pro.logitec.co.jp/column/u20191220.html][DRAMとは？メモリを選ぶうえで理解しておきたい基礎知識を解説]]
+  - DRAM, SRAM
+    SRAMの方が高価
+    DRAMは揮発性メモリ
+    PCやカメラやテレビのメモリに使われている
+- [[https://ja.wikipedia.org/wiki/High_Bandwidth_Memory][High Bandwidth Memory - Wikipedia]]
+- file:///Users/nkn4ryu/Downloads/DGKKZO9574584018042026EA2000.pdf
+** INBOX Deeplearningを学習する時の教材
+- [ ] [[https://udlbook.github.io/udlbook/][Understanding Deep Learning]]
+  - pdfもあるし，基礎的なpythonのコードも見れる
+    - https://github.com/udlbook/udlbook/blob/main/Notebooks/Chap02/2_1_Supervised_Learning.ipynb
+
+- https://rbcborealis.com/research-blogs/the-neural-tangent-kernel/
+  - このブログ順番に読むだけでも→https://rbcborealis.com/blog/?topics=open&content-type=4
+
+- claudeに調べてもらったりもしている．これも結構いい
+  - https://claude.ai/chat/e5760241-5015-44ff-a692-383babbe7011
+- [[https://ocw.mit.edu/courses/6-7960-deep-learning-fall-2024/pages/readings/][Readings | Deep Learning | Electrical Engineering and Computer Science | MIT OpenCourseWare]]
+  - MITのやつかなりいいかも．pdfや動画もある
+  - https://visionbook.mit.edu/
+- [[https://www.engraved.blog/why-machine-learning-algorithms-are-hard-to-tune/][Why machine learning algorithms are hard to tune (and the fix)]]
+
+*** 理論より
+- [[https://mjt.cs.illinois.edu/dlt/][Deep learning theory lecture notes]]
+
+4. Matus Telgarsky — Deep Learning Theory Lecture Notes (UIUC→NYU Courant)
+
+CS 598 DLT として2019年～2022年にかけて繰り返し開講。テキスト形式のlecture notesが new version / old version の2バージョン公開 NYU Courant
+カバー範囲: Barron's theorem, depth separation, NTK, implicit regularization, generalization bounds
+UCLAのCS269コースでも推薦教科書として採用 Uclaml
+SLT研究との関連: 汎化理論・暗黙的正則化の議論がLLCの「なぜ単純なモデルが選ばれるか」という問いに直接つながる
+URL: https://mjt.cs.illinois.edu/dlt/
+
+*** RAG
+file:///Users/nkn4ryu/Downloads/Mental_Health_RAG_Chatbot_Workshop_v2.pdf
+** INBOX 

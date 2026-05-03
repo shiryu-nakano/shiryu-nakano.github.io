@@ -1,10 +1,25 @@
 #+TITLE: Paper To Read
 #+URL: /posts/research/paper_stock/
 
+* Overview
+- ここに記録していく
+  - https://docs.google.com/spreadsheets/d/1uzVfhFT_m817u3qym3Ya4_d6GiNt_tCOxvM0Q9NeSz4/edit?usp=sharing
+  - https://github.com/shiryu-nakano/Papers
+    
+-----
+
+** Optimization
+- [ ] [[https://arxiv.org/abs/1812.04754][[1812.04754] Gradient Descent Happens in a Tiny Subspace]]
+- [ ] [[https://arxiv.org/abs/1901.10159][[1901.10159] An Investigation into Neural Net Optimization via Hessian Eigenvalue Density]]
+- [ ] [[https://arxiv.org/abs/1706.10239][[1706.10239] Towards Understanding Generalization of Deep Learning: Perspective of Loss Landscapes]]
+
+  
+
+
 - [ ] [[https://arxiv.org/abs/2306.11922][[2306.11922] No Wrong Turns: The Simple Geometry Of Neural Networks Optimization Paths]]
 - [ ] [[https://arxiv.org/abs/2603.27432][[2603.27432] The Geometric Cost of Normalization: Affine Bounds on the Bayesian Complexity of Neural Networks]]
 
-** DSB
+** Simplicity Bias
 - [ ] [[https://arxiv.org/abs/2410.19637][[2410.19637] A distributional simplicity bias in the learning dynamics of transformers]]
 
 - [X] [[https://scholar.google.com/scholar?start=20&hl=ja&as_sdt=2005&sciodt=0,5&cites=5568799983092346925&scipsc=][Belrose: Neural networks learn statistics of increasing... - Google Scholar]]
@@ -21,7 +36,9 @@
 
 - [ ] [[https://arxiv.org/abs/1805.08522][[1805.08522] Deep learning generalizes because the parameter-function map is biased towards simple functions]]
 
-- [ ] 
+- [ ] [[https://arxiv.org/abs/2603.25839][[2603.25839] A Compression Perspective on Simplicity Bias]]
+
+- [ ]  
 
 ** SLT for Deep Learning
 - [ ] [[https://www.lesswrong.com/posts/6g8cAftfQufLmFDYT/you-re-measuring-model-complexity-wrong][You're Measuring Model Complexity Wrong — LessWrong]]
@@ -58,10 +75,10 @@
 - [ ] [[https://arxiv.org/abs/1801.05894][[1801.05894] Deep Learning: An Introduction for Applied Mathematicians]]
 - [ ] [[https://arxiv.org/abs/2603.05228][[2603.05228] The Geometric Inductive Bias of Grokking: Bypassing Phase Transitions via Architectural Topology]]
 
------
-
-[[https://github.com/Hiroki11x/Papers]]
-これを参考にしたい．
 
 
-[[https://hiroki11x.github.io/posts/paper_list/][読まなきゃと思ってる Paper List | Hiroki Naganuma]]
+* Reference
+- [[https://github.com/Hiroki11x/Papers]]
+  - これを参考にしたい 
+- [[https://joisino.hatenablog.com/entry/2023/04/10/170519#Readable-%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6][論文読みの日課について - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ]]
+- [[https://hiroki11x.github.io/posts/paper_list/][読まなきゃと思ってる Paper List | Hiroki Naganuma]]

@@ -15,6 +15,6 @@
 - [[https://www.sciencedirect.com/science/article/pii/S0893608026003217][An efficient wavelet-based physics-informed neural network for multiscale problems - ScienceDirect]]
 - [[https://www.themoonlight.io/en/review/advancing-generalization-in-pinns-through-latent-space-representations][[Literature Review] Advancing Generalization in PINNs through Latent-Space Representations]]
 - [[https://arxiv.org/abs/1711.10561][[1711.10561] Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations]]
-- 
+- [[https://arxiv.org/abs/1711.10561][[1711.10561] Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations]]
 
 

@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content=" Overview まずVPNに接続する
+https://drive.google.com/file/d/1_htS6AvJraEf3Lxut-G-20HjvyrMms2X/view?usp=drive_link VPNに接続できたらターミナルでkomainu（セグメントB）を踏み台にしてセグメントAの計算機サーバーに入る． hakugei
+1 ssh -J nakano@133.46.233.35 nakano@133.46.232.31 gpu0
+1 ssh -J nakano@133.46.233.35 nakano@133.46.232.40 gpu1
+1 ssh -J nakano@133.46.233.35 nakano@133.46.232.41 学内で行う初期設定 図の左側のSDS内ネットワークにいるので，vpn接続する必要はなく， 通常通りターミナルからセグメントAに接続できる．
+1 ssh -v nakano@133.46.233.35 komainuは，図のセグメントBです．つまり，後から外部からセグメントBのkomainu→セグメントAの計算機サーバーに接続するために，いまは内部からセグメントBのkomainuに入り，さらにそこでセグメントAに繋ぐための設定をしている． まずこれがうまくいけば，
+自分のアカウントでkomainuにsshで接続できることが確認できた つぎに，
+komainuを経由して（踏み台にして）hakugeiやその他の計算機サーバーにssh接続できる を確認する．komainuから出て，（つまりローカルに戻って）以下を叩く．
+1 ssh -J nakano@133.46.233.35 nakano@133.46.232.31 これが通れば，komainu（セグメントB）からhakugei（セグメントA）にsshで入れることが確認できている．
+追加で，gpu0,gpu1にも接続可能かどうかを確かめる．
+1 2 # gpu0 ssh -v -J nakano@133.46.233.35 nakano@133.46.232.40 1 2 # gpu1 ssh -v -J nakano@133.46.233.35 nakano@133.46.232.41 全て通れば，あとはvpnに接続できさえすればOK.これは次のセクションを参照．
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/univ/network/">
+  <meta property="og:site_name" content="Shiryu NAKANO">
+  <meta property="og:title" content="Network">
+  <meta property="og:description" content="Overview まずVPNに接続する
+https://drive.google.com/file/d/1_htS6AvJraEf3Lxut-G-20HjvyrMms2X/view?usp=drive_link VPNに接続できたらターミナルでkomainu（セグメントB）を踏み台にしてセグメントAの計算機サーバーに入る． hakugei
+1 ssh -J nakano@133.46.233.35 nakano@133.46.232.31 gpu0
+1 ssh -J nakano@133.46.233.35 nakano@133.46.232.40 gpu1
+1 ssh -J nakano@133.46.233.35 nakano@133.46.232.41 学内で行う初期設定 図の左側のSDS内ネットワークにいるので，vpn接続する必要はなく， 通常通りターミナルからセグメントAに接続できる．
+1 ssh -v nakano@133.46.233.35 komainuは，図のセグメントBです．つまり，後から外部からセグメントBのkomainu→セグメントAの計算機サーバーに接続するために，いまは内部からセグメントBのkomainuに入り，さらにそこでセグメントAに繋ぐための設定をしている． まずこれがうまくいけば，
+自分のアカウントでkomainuにsshで接続できることが確認できた つぎに，
+komainuを経由して（踏み台にして）hakugeiやその他の計算機サーバーにssh接続できる を確認する．komainuから出て，（つまりローカルに戻って）以下を叩く．
+1 ssh -J nakano@133.46.233.35 nakano@133.46.232.31 これが通れば，komainu（セグメントB）からhakugei（セグメントA）にsshで入れることが確認できている．
+追加で，gpu0,gpu1にも接続可能かどうかを確かめる．
+1 2 # gpu0 ssh -v -J nakano@133.46.233.35 nakano@133.46.232.40 1 2 # gpu1 ssh -v -J nakano@133.46.233.35 nakano@133.46.232.41 全て通れば，あとはvpnに接続できさえすればOK.これは次のセクションを参照．">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+
+
+  <meta itemprop="name" content="Network">
+  <meta itemprop="description" content="Overview まずVPNに接続する
+https://drive.google.com/file/d/1_htS6AvJraEf3Lxut-G-20HjvyrMms2X/view?usp=drive_link VPNに接続できたらターミナルでkomainu（セグメントB）を踏み台にしてセグメントAの計算機サーバーに入る． hakugei
+1 ssh -J nakano@133.46.233.35 nakano@133.46.232.31 gpu0
+1 ssh -J nakano@133.46.233.35 nakano@133.46.232.40 gpu1
+1 ssh -J nakano@133.46.233.35 nakano@133.46.232.41 学内で行う初期設定 図の左側のSDS内ネットワークにいるので，vpn接続する必要はなく， 通常通りターミナルからセグメントAに接続できる．
+1 ssh -v nakano@133.46.233.35 komainuは，図のセグメントBです．つまり，後から外部からセグメントBのkomainu→セグメントAの計算機サーバーに接続するために，いまは内部からセグメントBのkomainuに入り，さらにそこでセグメントAに繋ぐための設定をしている． まずこれがうまくいけば，
+自分のアカウントでkomainuにsshで接続できることが確認できた つぎに，
+komainuを経由して（踏み台にして）hakugeiやその他の計算機サーバーにssh接続できる を確認する．komainuから出て，（つまりローカルに戻って）以下を叩く．
+1 ssh -J nakano@133.46.233.35 nakano@133.46.232.31 これが通れば，komainu（セグメントB）からhakugei（セグメントA）にsshで入れることが確認できている．
+追加で，gpu0,gpu1にも接続可能かどうかを確かめる．
+1 2 # gpu0 ssh -v -J nakano@133.46.233.35 nakano@133.46.232.40 1 2 # gpu1 ssh -v -J nakano@133.46.233.35 nakano@133.46.232.41 全て通れば，あとはvpnに接続できさえすればOK.これは次のセクションを参照．">
+  <meta itemprop="wordCount" content="131">
+
+<title>Network | Shiryu NAKANO</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/posts/univ/network/">
+<link rel="stylesheet" href="/book.min.b267f830fdf65302ecc1702a1178d4f25aa783409b3a25098f3404dd24f37a4d.css" integrity="sha256-smf4MP32UwLswXAqEXjU8lqng0CbOiUJjzQE3STzek0=" crossorigin="anonymous">
+
+
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/ja.search.min.0b5aaa0d20620a7bb3ec55f54211881d42686b65b380d4ab69a4456d264fd88e.js" integrity="sha256-C1qqDSBiCnuz7FX1QhGIHUJoa2WzgNSraaRFbSZP2I4=" crossorigin="anonymous"></script>
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/custom.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "$", right: "$", display: false}
+        ],
+        throwOnError: false
+    });
+});
+</script>
+
+</head>
+<body dir="ltr" class="book-kind-page book-type-posts">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Shiryu NAKANO</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="検索"
+    aria-label="検索"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+  <div class="markdown">
+    <ul>
+<li><a href="/">Home</a></li>
+</ul>
+<!--
+- [Research](/posts/research/)
+- [Life](/posts/life/)
+- [Study](/posts/study/)
+- [Univ](/posts/univ/)
+--->
+  </div>
+
+
+
+</nav>
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Network</h3>
+
+  <label for="toc-control">
+    
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+    
+<nav id="TableOfContents">
+<ul>
+<li><a href="#headline-1">Overview</a>
+</li>
+<li><a href="#headline-2">学内で行う初期設定</a>
+</li>
+<li><a href="#headline-3">VPNに接続する</a>
+</li>
+<li><a href="#headline-4">reference</a>
+<ul>
+<li><a href="#headline-5">現在の構成は以下の通り</a>
+</li>
+<li><a href="#headline-6">一覧</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+
+
+  
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown book-post">
+  <h1>
+    Network
+  </h1>
+  
+
+
+  
+
+  
+
+
+  <div class="book-post-content markdown-inner">
+<div id="outline-container-headline-1" class="outline-2">
+<h2 id="headline-1">
+Overview
+</h2>
+<div id="outline-text-headline-1" class="outline-text-2">
+<ul>
+<li>
+<p>まずVPNに接続する</p>
+<ul>
+<li><a href="https://drive.google.com/file/d/1_htS6AvJraEf3Lxut-G-20HjvyrMms2X/view?usp=drive_link">https://drive.google.com/file/d/1_htS6AvJraEf3Lxut-G-20HjvyrMms2X/view?usp=drive_link</a></li>
+</ul>
+</li>
+<li>VPNに接続できたらターミナルでkomainu（セグメントB）を踏み台にしてセグメントAの計算機サーバーに入る．</li>
+<li>
+<p>hakugei</p>
+<div class="src src-text">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>  ssh -J nakano@133.46.233.35 nakano@133.46.232.31</span></span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>gpu0</p>
+<div class="src src-text">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>  ssh -J nakano@133.46.233.35 nakano@133.46.232.40</span></span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>gpu1</p>
+<div class="src src-text">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>  ssh -J nakano@133.46.233.35 nakano@133.46.232.41</span></span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-2" class="outline-2">
+<h2 id="headline-2">
+学内で行う初期設定
+</h2>
+<div id="outline-text-headline-2" class="outline-text-2">
+<p>
+図の左側のSDS内ネットワークにいるので，vpn接続する必要はなく，
+通常通りターミナルからセグメントAに接続できる．</p>
+<div class="src src-bash">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>  ssh -v nakano@133.46.233.35</span></span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+<p>
+komainuは，図のセグメントBです．つまり，後から外部からセグメントBのkomainu→セグメントAの計算機サーバーに接続するために，いまは内部からセグメントBのkomainuに入り，さらにそこでセグメントAに繋ぐための設定をしている．
+まずこれがうまくいけば，</p>
+<ul>
+<li class="checked">自分のアカウントでkomainuにsshで接続できることが確認できた</li>
+</ul>
+<p>つぎに，</p>
+<ul>
+<li class="unchecked">komainuを経由して（踏み台にして）hakugeiやその他の計算機サーバーにssh接続できる</li>
+</ul>
+<p>を確認する．komainuから出て，（つまりローカルに戻って）以下を叩く．</p>
+<div class="src src-bash">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>  ssh -J nakano@133.46.233.35 nakano@133.46.232.31</span></span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+<p>
+これが通れば，komainu（セグメントB）からhakugei（セグメントA）にsshで入れることが確認できている．</p>
+<p>
+追加で，gpu0,gpu1にも接続可能かどうかを確かめる．</p>
+<div class="src src-bash">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>  <span style="color:#75715e"># gpu0</span>
+</span></span><span style="display:flex;"><span>  ssh -v -J nakano@133.46.233.35 nakano@133.46.232.40</span></span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+<div class="src src-python">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>  <span style="color:#75715e"># gpu1</span>
+</span></span><span style="display:flex;"><span>  ssh <span style="color:#f92672">-</span>v <span style="color:#f92672">-</span>J nakano<span style="color:#f92672">@</span><span style="color:#ae81ff">133.46.233.35</span> nakano<span style="color:#f92672">@</span><span style="color:#ae81ff">133.46.232.41</span></span></span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+<p>
+全て通れば，あとはvpnに接続できさえすればOK.これは次のセクションを参照．</p>
+</div>
+</div>
+<div id="outline-container-headline-3" class="outline-2">
+<h2 id="headline-3">
+VPNに接続する
+</h2>
+<div id="outline-text-headline-3" class="outline-text-2">
+<ul>
+<li>
+<p>学内アカウントでこちらを確認すればOK</p>
+<ul>
+<li><a href="https://mail.google.com/mail/u/0/?tab=rm&amp;ogbl#inbox/FMfcgzQgLXlCvGfBfhdQPVlPlmVzBpDx">https://mail.google.com/mail/u/0/?tab=rm&amp;ogbl#inbox/FMfcgzQgLXlCvGfBfhdQPVlPlmVzBpDx</a></li>
+<li>
+<p>学外からVPN接続するための方法</p>
+<ul>
+<li><a href="https://drive.google.com/file/d/1_htS6AvJraEf3Lxut-G-20HjvyrMms2X/view?usp=drive_link">https://drive.google.com/file/d/1_htS6AvJraEf3Lxut-G-20HjvyrMms2X/view?usp=drive_link</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>memo</p>
+<ul>
+<li><a href="https://docs.google.com/document/d/1gk0mpZsCFMgnvXvkRBtFLb7pLfM2gmXAFRVroXY1EEQ/edit?usp=sharing">https://docs.google.com/document/d/1gk0mpZsCFMgnvXvkRBtFLb7pLfM2gmXAFRVroXY1EEQ/edit?usp=sharing</a></li>
+<li><a href="https://claude.ai/chat/f176d73b-4b0b-489e-8533-066ad127e244">https://claude.ai/chat/f176d73b-4b0b-489e-8533-066ad127e244</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-4" class="outline-2">
+<h2 id="headline-4">
+reference
+</h2>
+<div id="outline-text-headline-4" class="outline-text-2">
+<div id="outline-container-headline-5" class="outline-3">
+<h3 id="headline-5">
+現在の構成は以下の通り
+</h3>
+<div id="outline-text-headline-5" class="outline-text-3">
+<p><img src="/images/posts/univ/20260422_134542.png" alt="../../../static/images/posts/univ/20260422_134542.png" title="../../../static/images/posts/univ/20260422_134542.png" /></p>
+</div>
+</div>
+<div id="outline-container-headline-6" class="outline-3">
+<h3 id="headline-6">
+一覧
+</h3>
+<div id="outline-text-headline-6" class="outline-text-3">
+<table>
+<thead>
+<tr>
+<th>名前</th>
+<th>IP (住所)</th>
+<th>セグメント</th>
+<th>役割</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>vpn01</td>
+<td>133.46.233.13</td>
+<td>B</td>
+<td>VPN 認証用 (2FA 登録のために一度だけ SSH した)</td>
+</tr>
+<tr>
+<td>komainu</td>
+<td>133.46.233.35</td>
+<td>B</td>
+<td>踏み台 (ゲートウェイ)。外から唯一入れる入口</td>
+</tr>
+<tr>
+<td>hakugei</td>
+<td>133.46.232.31</td>
+<td>A</td>
+<td>CPU サーバ。研究室のメイン作業機</td>
+</tr>
+<tr>
+<td>s23</td>
+<td>133.46.232.41</td>
+<td>A</td>
+<td>GPU サーバ (RTX A6000 x8)</td>
+</tr>
+<tr>
+<td>s29</td>
+<td>133.46.232.40</td>
+<td>A</td>
+<td>GPU サーバ (A100 x4)</td>
+</tr>
+<tr>
+<td>(H100 機)</td>
+<td>-</td>
+<td>A</td>
+<td>GPU サーバ (H100 x1)</td>
+</tr>
+<tr>
+<td>hg001-3</td>
+<td>192.168.20.1-3</td>
+<td>ローカル LAN</td>
+<td>hakugei 配下の計算ノード</td>
+</tr>
+<tr>
+<td>ファイルサーバ</td>
+<td>192.168.20.101</td>
+<td>ローカル LAN</td>
+<td>146TB ストレージ</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+    <div class="flex flex-wrap justify-between">
+  <div>
+  
+    <a href="/posts/univ/guidance/" class="flex align-center">
+      <img src="/icons/backward.svg" class="book-icon" alt="Backward" />
+      <span>Master Courseのガイダンスの時のメモ</span>
+    </a>
+  
+  </div>
+  <div>
+  
+    <a href="/posts/univ/jasso_m1/" class="flex align-center">
+      <span>日本学生支援機構の貸与奨学金</span>
+      <img src="/icons/forward.svg" class="book-icon" alt="Forward" />
+    </a>
+  
+  </div>
+</div>
+  
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+    
+<nav id="TableOfContents">
+<ul>
+<li><a href="#headline-1">Overview</a>
+</li>
+<li><a href="#headline-2">学内で行う初期設定</a>
+</li>
+<li><a href="#headline-3">VPNに接続する</a>
+</li>
+<li><a href="#headline-4">reference</a>
+<ul>
+<li><a href="#headline-5">現在の構成は以下の通り</a>
+</li>
+<li><a href="#headline-6">一覧</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+
+
+  
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

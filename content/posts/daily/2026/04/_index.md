@@ -73,6 +73,17 @@ url: /posts/daily/2026/04/
 
 # Projects
 4月中のメインのプロジェクト
+- Deep Leaning basic 2026 Spring
+  - [/Users/nkn4ryu/ghq/github.com/shiryu-nakano/shiryu-nakano.github.io/content/posts/study/materials](/Users/nkn4ryu/ghq/github.com/shiryu-nakano/shiryu-nakano.github.io/content/posts/study/materials/deepbasic_2026_spring.org)
+  
+- GCI 
+  - path 
+  
+- Finance and Machine Learning
+  - add path
+
+
+
 - IMPORTANT
   - 生活リズムを安定させる→まず毎日の記録と可視化
 - WIP
@@ -96,14 +107,27 @@ url: /posts/daily/2026/04/
   - [ ] 5
   - [ ] 6
 
-- NEXT
+
+
+- Pinnsを使う
   - PINN
     - latentの事？
       - 意味がわからない
-
+  - https://claude.ai/chat/4376827a-60b4-4d91-a219-e537ead6db87
+  - [Physics-Informed Neural Networks (PINNs)による減衰振動の運動方程式の解法とその図解 #Python - Qiita](https://qiita.com/TetsuyaOishi_Dr/items/4ac4c363a85e4729021e)
+  - [[1711.10561] Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations](https://arxiv.org/abs/1711.10561)
+  - https://iopscience.iop.org/article/10.1088/1361-6579/adf1d3/pdf
+  - [[2411.15111] Learnable Activation Functions in Physics-Informed Neural Networks for Solving Partial Differential Equations](https://arxiv.org/abs/2411.15111)
+  
+- ベイズモデリング
+  - 共有されている論文を読んでおくこと
+  - pythonのベイズをやる
 
 
 # TASK
 > ここに書き出し，随時整理して日報に書いて日毎に割り振る
+
+- [ ] いつか→orgでpythonの実行できるように設定する．特にこの時にuvを使いたい
+- [ ] 
 
 # MISC

@@ -1,0 +1,338 @@
+#+TITLE: 2026-04-27
+#+URL: /posts/daily/2026/04/27/
+#+filetags: :daily:
+#+OPTIONS: toc:nil num:nil ^:nil tags:nil todo:nil H:10
+#+OPTIONS: broken-links:mark
+#+OPTIONS: tex:t
+#+OPTIONS: html-postamble:nil
+#+OPTIONS: links:nil
+
+
+
+* 直近の予定と締め切り
+- 4/27 mon
+- 28 tue LAB seminar
+- 29 wed SLT seminar
+- 30 thur Arpin 
+- 5/1 fri
+- 
+- 5/4 Neurips締切？
+- 5/8
+  AI for Science
+  1. 応募書類・事前確認用の提出
+  2. 応募書類・事前確認用の提出（提出期限：5月11日（月））【研究科内提出期限：5月8日(金)午前9時】
+  3. 応募書類・最終版の提出（提出期限：5月15日（金）正午）
+
+
+* TASK
+
+- [ ] mailの管理→転送の設定？
+- [ ] 積分100
+  - https://drive.google.com/file/d/1sJye9GxOzSwOeI2WTBXV2VP6RZ52fatR/view
+
+- 直近のタスク
+  - [ ] PINNsを体験する
+    - [[https://www.udemy.com/course/physics-informed-neural-network-pinns/learn/lecture/39867700#overview][Course: Physics Informed Neural Networks (PINNs) | Udemy]]
+    - https://www.msiism.jp/article/physics-informed-machine-learning1.html
+    - [[https://zenn.dev/tatsukikodama/articles/ca050afe41058b][シンプルな物理知ニューラルネットワーク (PINN: Physics-Informed Neural Network)]]
+    - 他もブログのものをやる
+
+
+
+
+** misc[6/8]
+- [ ] 引き継ぎ→修論を読む
+  - [ ] プログラムを読む
+  - [ ] ベイズpythonをやる
+    
+
+** udemy[0/3]
+この順番でやりたい．
+- [ ] ベイズ
+- [ ] kaggle
+- [ ] ベイズ2
+  
+** 動画で学習する[0/1]
+- [ ] 予備のり
+  - [ ] 群論
+  - [ ] 線形
+  - [ ] 解析
+  - [ ] 複素解析
+  - [ ] ベクトル解析
+*** 行列の積（39本の動画） [1/5]
+- [X] 1
+- [ ] 2
+- [ ] 3
+- [ ] 4
+- [ ] 5
+
+
+
+
+
+
+
+
+
+
+
+
+* 来週week19以降でも別に良いもの
+- [ ] 奨学金の手続き
+  - [[/posts/univ/jasso_m1/][リンク]]
+  
+- [ ] inboxは別のファイルにしたい
+  - inboxに追加するコマンドがある．いまは最新のlogファイルに書くようになってるが，これも変更したい．
+- [ ] Hitotsubshiの授業用のディレクトリはgoogle driveにある（実際はシンボリックリンク）ので，latexの生成がうまくいかないということだと思う．
+  - この問題をいつか解決したい．
+- [ ] org-roamとgithubの共存をどのようにするか考える
+- [ ] inboxへの追加
+- [ ] inboxを開く
+- [ ] やり方をまとめておく→何の？昨日（4/19）やったこと
+- inboxとかの処理どうしようかな
+
+
+- Unveiling Induction Heads: Provable Training Dynamics and Feature Learning in Transformers
+  
+
+** 課題関係 [2/8]
+- [X] 研究計画のスライド作成　2hくらい？
+- [X] 統計実践課題1 平常レポート
+- [ ] 課題2
+
+- [ ] ML金融
+- [ ] GCI
+- [ ] deeplearningの課題
+
+
+- [ ] 公的統計のレポート確認しておくこと
+- [ ] 特論ポスター作成→ASAP
+
+*** 公的統計
+- [ ] 物価のpdfを読む
+  - https://drive.google.com/open?id=1RISmztg-6RiJJj_xAVxiYxPxipTyVitg&usp=drive_fs
+
+
+* 今週
+- [-] youtube行列の積の動画→1日3本みてノート取る[1/9]
+  - [ ] 群論→1日一本見れば今週中に終わる
+  - [ ] 2
+  - [X] 3
+  - [ ] 4
+  - [ ] 5
+  - [ ] 6
+  - [ ] 7
+  - [ ] 8
+  - [ ] 8
+- [X] jpbankカードメールが来ていたか探す
+- 研究倫理
+  - 27
+    - [X] 1
+    - [ ] 2
+    - [ ] 3
+      
+  - 28
+    - [ ] 4
+    - [ ] 5
+    - [ ] 6
+  - 29
+    - [ ] 7
+    - [ ] 8
+    - [ ] 9
+
+  - 30
+    - [ ] 10
+    - [ ] 11
+    - [ ] 12
+- [ ] gxpのレポートの構成を考える
+  1. 予測変換の部分を導入してみる
+  2. セマンティックセグメンテーション
+  3. 切り替えノード
+     1. これについて，グラフでの状態管理？は実装できた．次に途中だったのは，Corによる管理をやろうとしていたのだった
+	https://github.com/shiryu-nakano/lifecycle_manager_node/tree/main/src
+
+     
+    
+ 
+  
+* 喫緊のタスク
+- [ ] 本返す
+- [ ] すぐに手元で実行できるようなpythonの環境とワークスペースを作ること
+- [ ] Arcanainのプロトタイプ作成
+
+- [ ] 特論の発表のポスター作成
+  - テーマは，特異学習理論に基づく深層NNの分布単純性バイアスの解析とする
+- [ ] SLTの1章をtex
+
+
+* LOG
+- 0930くらいに起きた
+  - 2限に出席
+- 1430~ 雑務（30分で終わらせたい）
+  - [X] [[https://mail.google.com/mail/u/0/#inbox/FMfcgzQgLFlPJqBFQxhqsMPcNWFkttDq]]
+    Aprin アカウント設定
+  - [ ] [[https://mail.google.com/mail/u/0/#inbox/FMfcgzQgLFlPmFMZphschTvJpsgFqpML]]
+    - 12単元全てやる必要があるので分散させる
+    - 1 をやった．1458
+    - [ ] 2
+    - [ ] 3
+- 午後は研究室
+  - 郵便局に行った
+  - emacsの数式表示がおかしい理由を特定した．
+    latex出力用の設定がorgに入っているとうまくいかない
+- 必要そうな論文
+  - https://arxiv.org/abs/2309.07311
+  - [[https://arxiv.org/abs/2012.09839][[2012.09839] Towards Resolving the Implicit Bias of Gradient Descent for Matrix Factorization: Greedy Low-Rank Learning]]
+    - これは，https://claude.ai/chat/3b9d899b-2541-4f3e-ac31-719e432075db
+    - https://arxiv.org/abs/2505.21722
+    - ここら辺の最近の論文とも関連がある
+- 1840くらいに研究室から帰って，1935に吉祥寺のカフェに来た．
+  移動中に，群論の動画を一つみた．
+- 20時からの予定
+  - やっとくこと（あすのゼミまでにやりたいこと）
+    - 明日のゼミの資料に目を通す
+    - 実験をまわしたい→その前に昼考えた案で確かめたい
+    - arcraの仕事が残ってるみたい
+    - gxpのレポート→明日でOK?
+    - SLTの勉強→明日のセミナーが終わった時点で，もう全く時間がない．
+    - aprin→2，3をやる
+
+
+
+* memo
+- 5/7.8について
+・5月7日(木)は【水曜授業日】です。水曜日の時間割の授業科目が実施されます。
+・5月8日(金)は【火曜授業日】です。火曜日の時間割の授業科目が実施されます。
+
+
+- https://claude.ai/chat/51c90057-5aac-4f7e-bfe5-d6a7820383ac
+  - implicit regular
+- you are mearsuring model complexity wrong
+  - https://claude.ai/chat/3e7ad1a3-a0a5-49ad-a66d-23f699050bf4
+- https://claude.ai/chat/ca7cac29-deea-4c81-b5b4-e2ba7adef3ad
+  - DSB研究のディスカッション
+- [[https://ja.wikipedia.org/wiki/%E3%82%AC%E3%83%B3%E3%83%99%E3%83%AB%E5%88%86%E5%B8%83][ガンベル分布 - Wikipedia]]
+- [[https://manaba.hit-u.ac.jp/ct/page_1088921c11447][一橋大学 manaba - page]]
+  - FLAGs 博士海外挑戦支援プログラム
+
+
+
+
+
+* 今日の学びweek18
+- [[https://manabitimes.jp/math/1269#3][ノルムの意味とL1，L2，L∞ノルム | 高校数学の美しい物語]]
+- https://claude.ai/chat/26114ad3-63d0-4fe7-9d81-9920ac8ba9fc
+  - [ ] orgで数式のインライン表示が壊れる理由についてメモしておく→zenn
+    - 
+  
+* 所感
+統計学の方法論→アルゴリズム
+では理論は？→アルゴリズムの保証を付け加えるもの
+
+SGLDは方法論
+→？
+
+
+* Reference
+- [[/posts/daily/2026/04/inbox/][inbox/projects]]
+  - pc
+
+- link
+  [[./links_0423.org]]
+
+- [[/posts/daily/2026/04/][April]]
+  - pc
+    [[~/ghq/github.com/shiryu-nakano/shiryu-nakano.github.io/content/posts/daily/2026/04/_index.md]]
+
+- misc
+  - server
+    - hugo server -D
+ 
+# http://localhost:1313/posts/daily/hima-wo-tsukutte-himatsubushi/
+
+- [[id:B4DDD380-A2CF-448B-938D-4387254BF64C][project-DSB]] 
+  - [[/Users/nkn4ryu/Documents/project_B4/project_B4_Doshisha/LOG]]
+
+- 研究日誌：
+  - https://github.com/shiryu-nakano/project_B4_Doshisha/blob/experiment/dsb_local/LOG/week17/2026-04-20.org
+  
+
+
+
+#+BEGIN_EXPORT html
+<details><summary>本について</summary>
+#+END_EXPORT
+
+** 本
+
+- [ ] 買ってみたい：読書思考トレーニング
+
+教科書
+毎日違うのを読むのはこうりつがわるい
+まずやる。やってから考える
+
+まずすべきは？
+何を軸にして考える？
+1. 勉強会などのプレッシャー
+2. 講義で用いる教科書　これはバカにできない。逆にこのタイミングでやらないと一生やらないことになる
+3. 自分がやりたかった本
+　やりたい理由を細分化する　
+　　ただ趣味でやりたい場合、長期的に計画にいれる。直近でやらないと決まるが、長期的な計画に入れておくことはとても大切
+　　今後のためにやっておく必要があると思っている場合→その理由も含めて再考する
+　その理由によって変わるが、自分が心から望む方向性とあっている場合は優先度が上がる
+4. 資格
+　資格は締切が決まっていることが大切。つまり受験日が決まってること。
+5. OJTで出てきた
+　　例えば論文読んでで必要になった場合→間違ってもそれを全てやろうとしないこと。必要なところにピンポイントで合わせて、それを読んでもわからない場合は必要なところまで戻る
+とはいえやはりセミナーで用いるものが優先度上がる
+強弱をつけること。
+
+最近手元にあるもの
+- 教科書
+  - 物価指数
+  - 時系列
+  - SLT
+  - PRML
+- その他自習
+  - 集合と位相をなぜまなぶのか
+  - 最適化
+  - python 機械学習
+  - python ベイズ
+- 読み物として
+  - （集合と位相をなぜ学ぶのか）
+  - 深層学習の原理
+  - ソフトウェアエンジニア
+
+
+- 今手元にある書籍は、
+  - ⭐️⭐️⭐️PRML
+  - ⭐️標準ベイズ
+  - ⭐️⭐️ベイズpython
+  - ⭐️pytorch(教えるだけ)
+  - 物理数学
+  - ⭐️⭐️⭐️ベイズ統計の理論と方法
+  - ☆これならわかる最適化→ポイントだけ、今はヘッシアンだけやる
+  - ⭐️⭐️田崎熱力学をやるらしい
+
+- 講義で使うもの
+  - 時系列計量、合わせてRの時系列も頭にある
+  - 公的統計　ちゃんと読まないと結構きつい
+  - 統計実践　pdfの配布資料でなんとかなると
+  - ベイズ統計　資料と、あとはベイズをやれば良いはず
+
+
+- 研究の基礎的な部分でいると思われる
+  - ⭐️python機械学習
+
+- 深層学習の勉強が必要
+  - ネットでたくさんあるけど普通に日本語で実装すべき
+  - ⭐️⭐️ゼロからDeep
+
+
+
+
+#+BEGIN_EXPORT html
+</details>
+#+END_EXPORT
+
+

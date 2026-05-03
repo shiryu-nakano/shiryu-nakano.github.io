@@ -3,8 +3,15 @@ title: "Overview"
 url: /posts/study/overview/
 ---
 
-  - GCI
-  - 教科書？
+
+
+# Overview
+勉強したことをまとめて貯めていくページ．<br>
+<!--
+[Lecture Notes · The Rising Sea](https://therisingsea.org/post/notes/)に刺激を受けてまとめるようにしています．
+-->
+
+
   - 数学
   - Udemy
   - Atcoder
@@ -12,8 +19,6 @@ url: /posts/study/overview/
   - 資格とか？
 
 
-
----
 # Methodology
 
 じっくり読む本
@@ -30,14 +35,6 @@ ankiシステムりよう
 
 - あとで
   - pdf imlのもの→　driveのリンク
-
-## Strategy
-- [統計・機械学習の理論を学ぶ手順 #数学 - Qiita](https://qiita.com/kueda_cs/items/28008db6491c71ac5659#%E5%88%9D%E6%AD%A9%E3%81%AE%E5%88%9D%E6%AD%A9)
-- [経済学を学ぶ・学びたい大学生におすすめの数学](https://www.youtube.com/watch?v=RuvwvZwIoL8)
-- [業種別の学習ロードマップ - 東京大学松尾・岩澤研究室（松尾研）- Matsuo Lab](https://weblab.t.u-tokyo.ac.jp/lecture/learning-roadmap-job/)
-
-
-
 
 ---
 # 教材（20260401）
@@ -82,6 +79,7 @@ ankiシステムりよう
 - https://user.keio.ac.jp/~nagakura/zemi/ts9_slide_2015.pdf
   - ARCH, GARCH
 - [時系列解析講義資料](https://www.mi.u-tokyo.ac.jp/mds-oudan/lecture_document_2019_math7/time_series_analysis_2019.html)
+
 - 
 
 
@@ -116,7 +114,8 @@ ankiシステムりよう
 - [ ] https://www.ism.ac.jp/~fukumizu/papers/fuku_kuriki_jnns03.pdf
 
 - [ ] [ガウス過程の基礎と教師なし学習](https://www.ism.ac.jp/~daichi/lectures/H26-GaussianProcess/gp-lecture2-daichi.pdf)
-- [ ] 
+- [ ] [ITエンジニアのための機械学習理論入門読了者が Kaggle やってみた #Python - Qiita](https://qiita.com/takaaki_inada/items/5f8f505be2945137d191)
+
 
 ## 動画
 - [ ] [【PyMCで学ぶ】データサイエンスのための実践ベイズ統計モデリング](https://www.udemy.com/course/pymc-bayes/)
@@ -151,18 +150,32 @@ ankiシステムりよう
 - 暗号から学ぶ代数学
 
 
----
-# 記録
-> 勉強した記録をメモ．自分にしかわからないように書かれていますが．．．
+## 記録
+> 勉強の備忘録．自分にしかわからないような書き方をしている場合があります．
+> 著作権などの関係で全ての資料が公開されている訳ではありません．
 
 - ゼロから作るDeepLearning
 - 現代数理統計学の基礎（久保川）
 - ベイズ統計の理論と方法
 - 深層学習の原理に迫る
 
+- 松尾研の講義
+  - [深層学習基礎講座 2026 Spring](/posts/study/deepbasic_2026_spring/)
+  - [GCI 2026 Summer](/posts/study/gci_2026_summer/)
+  - [金融市場取引と機械学習](posts/study/ml_finance_2026/)
+- Udemy
+- 基本情報技術者試験
+  - 用事があって4日間で受けた
 
 
 
----
-- https://www.youtube.com/shorts/zWOh4zM1-Bw
-  - 本読みたい時→tipに移動すること
+## Reference
+本を探す時に参考にした
+- [統計・機械学習の理論を学ぶ手順 #数学 - Qiita](https://qiita.com/kueda_cs/items/28008db6491c71ac5659#%E5%88%9D%E6%AD%A9%E3%81%AE%E5%88%9D%E6%AD%A9)
+- [経済学を学ぶ・学びたい大学生におすすめの数学](https://www.youtube.com/watch?v=RuvwvZwIoL8)
+- [ベイズ統計学を勉強する参考書のフロー #データサイエンス - Qiita](https://qiita.com/ssugasawa/items/0e0d76de3ed92c7410e6)
+- [機械学習の研究者を目指す人へ](https://github.com/takahashihiroshi/takahashihiroshi.github.io/blob/master/contents/for_ml_beginners.md)
+- [人工知能を学ぶためのロードマップ - 東京大学松尾・岩澤研究室（松尾研）- Matsuo Lab](https://weblab.t.u-tokyo.ac.jp/lecture/learning-roadmap/)
+- [大学数学の文献案内 - 数論幾何の理解を目指して - - パンの木を植えて](https://seasawher.hatenablog.com/entry/2020/04/25/175335)
+
+

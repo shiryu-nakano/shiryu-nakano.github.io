@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shiryu NAKANO</title>
-    <link>https://shiryu-nakano.github.io/posts/daily/2025/</link>
+    <link>http://localhost:1313/posts/daily/2025/</link>
     <description>Recent content on Shiryu NAKANO</description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <atom:link href="https://shiryu-nakano.github.io/posts/daily/2025/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/daily/2025/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

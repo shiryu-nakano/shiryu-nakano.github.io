@@ -1,0 +1,20 @@
+#+TITLE:
+#+URL: /posts/study/ml_finance_2026/
+
+
+* Overview
+
+- [[https://drive.google.com/drive/folders/1ThdDL9oiE3_ncCgPHcdlcNtmU8dZnKPA?usp=drive_link][ドライブ上の作業ディレクトリ]
+  - 基本的に資料も実装のコードもdrive上で編集・実行する
+    - ipynbはcolabで
+  - pc上
+    - [[/Users/nkn4ryu/Library/CloudStorage/GoogleDrive-shiryu.nakano@gmail.com/My Drive/Projects/]  
+
+
+
+
+* LOG
+
+* Ref
+
+- [[/posts/study/matsuo_lab_lecture/][松尾研の他の講座のメモ]]
