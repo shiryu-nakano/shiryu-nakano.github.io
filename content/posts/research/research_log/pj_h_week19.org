@@ -1,0 +1,33 @@
+#+TITLE: pj h log '26 week 19 
+#+URL: /posts/research-log/h/26w19/y
+
+#+filetags: :daily:
+#+OPTIONS: num:nil ^:nil tags:nil todo:nil H:10
+#+OPTIONS: broken-links:mark
+#+OPTIONS: tex:t
+#+OPTIONS: html-postamble:nil
+#+OPTIONS: links:nil
+
+
+#  #+OPTIONS: toc:nil num:nil ^:nil tags:nil todo:nil H:10
+
+# self http://localhost:1313/posts/research-log/h/26w19/y
+# home http://localhost:1313/posts/research-log/2026/
+
+
+* Overview
+- 来週11（月）が初回MTGのためそろそろ作業を始めておく必要がある
+
+ひとまずパッと出てきたTODO
+- [ ] FINDRの論文を読む
+  - 読み方→3回読みする．3回目は実装するつもりで読む
+- [ ] 実装を見る
+  - 自分で実装してみる→トレーニング
+- [ ] MRIのデータがどんなものかさっぱりわからない
+  - MRIのデータ→オープンデータある？
+  - MRIをDNNに適用したもの
+
+
+* misc
+- [[/posts/research-log/2026][go back]]
+  - [[./2026.org]]

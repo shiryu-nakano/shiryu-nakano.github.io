@@ -1,0 +1,113 @@
+#+TITLE: 論文とリンクのリスト
+#+URL: /posts/daily/2026/05/paper_links/
+
+#+filetags: :daily:
+#+OPTIONS: toc:nil num:nil ^:nil tags:nil todo:nil H:10
+#+OPTIONS: broken-links:mark
+#+OPTIONS: tex:t
+#+OPTIONS: html-postamble:nil
+#+OPTIONS: links:nil
+* Overview
+幅優先探索でたくさん論文とウェブ記事をリストアップしたので項目ごとにメモして，深さ優先に読む
+
+* 今一番→機械学習の勉強
+- [[https://qiita.com/Uchiita_27/items/391c59012a20069538d3][PRML読破を支える神講座（Udemy） #機械学習 - Qiita]]
+- https://www.learnpytorch.io/08_pytorch_paper_replicating/
+- 
+- 
+* 今一番→論文よみ
+- [[https://saiamrit.github.io/technical-blog/research/reading_papers/2021/07/31/read-papers.html#3-pass-approach-to-read-a-research-paper][How to read Machine Learning and Deep Learning Research papers | Technical Blog]]
+- https://note.com/yongyuanxi/n/n5ae96a19e702
+  - サーベイを書く意味 
+- https://www.learnpytorch.io/08_pytorch_paper_replicating/
+- [[https://ensekitt.hatenablog.com/entry/2017/12/15/200000][arXivを浅く広く読むためにやっていることを紹介する話 - EnsekiTT Blog]]
+- [[https://blog.monochromegane.com/blog/2021/05/15/survey-method/][研究の位置づけを明確にする集中型の論文サーベイ方法 · THINKING MEGANE]]
+- [[https://ainow.ai/2019/11/28/180522/][アンドリュー・エン教授のアドバイスによる機械学習キャリアの築き方と研究論文の読み方 | AI専門ニュースメディア AINOW]]
+- [[https://www.kdnuggets.com/2019/09/advice-building-machine-learning-career-research-papers-andrew-ng.html][Advice on building a machine learning career and reading research papers by Prof. Andrew Ng - KDnuggets]]
+- https://www.youtube.com/watch?v=733m6qBH-jI
+- [[https://zenn.dev/kotoba_tech/articles/e4f0b6203fe869#%E6%9C%80%E5%BE%8C%E3%81%AB%EF%BC%88%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%81%AEwriting%E6%95%99%E8%82%B2%E3%81%AF%22%E5%9E%8B%E3%81%AF%E3%82%81%22%E3%81%A7%E3%81%82%E3%82%8B%EF%BC%89][機械学習、NLP論文の書き方（英語）]]
+- [[https://karino2.github.io/2018/08/28/113733.html][論文を読む能力 - なーんだ、ただの水たまりじゃないか]]
+- [[https://blog.monochromegane.com/blog/2019/11/27/guidepost_for_writing_paper/][論文執筆の道しるべ · THINKING MEGANE]]
+
+* DC1に向けた記事
+- https://www.ai-gakkai.or.jp/jsai2020/wp-content/uploads/sites/10/2020/06/jsai2020_tutorial_suzuki.pdf
+- [[https://aclrollingreview.org/reviewerguidelines][ARR Reviewer Guidelines – ACL Rolling Review – A peer review platform for the Association for Computational Linguistics]]
+- https://www.jstage.jst.go.jp/article/jjsp/33/2/33_98/_pdf/-char/ja
+- https://docswell.com/s/tonets/59N1EX-gakushin2027#p9
+- https://www.rpd.titech.ac.jp/jsps_tokken/ohue2023-2_3.pdf
+- https://www.ai-gakkai.or.jp/jsai2020/wp-content/uploads/sites/10/2020/06/jsai2020_tutorial_suzuki.pdf
+- [[https://aclrollingreview.org/reviewerguidelines][ARR Reviewer Guidelines – ACL Rolling Review – A peer review platform for the Association for Computational Linguistics]]
+- [[https://deviparikh.medium.com/how-we-write-rebuttals-dc84742fece1][How we write rebuttals. By Devi Parikh, Dhruv Batra, Stefan Lee | by Devi Parikh | Medium]]
+- [[https://blog.monochromegane.com/blog/2019/11/27/guidepost_for_writing_paper/][論文執筆の道しるべ · THINKING MEGANE]]
+- 
+* AI Safety
+- 計画
+  - https://claude.ai/chat/bb91ef8e-1c37-4845-a118-031a9659439b
+- https://docs.google.com/presentation/d/1ziFWP5DNxFFBP4YMtC54Wm3kR8IDmn2oDhea1nqALYE/edit?slide=id.p6#slide=id.p6
+- [[https://zenn.dev/kandkirby/articles/6378a70316e7d7][AIの未来とリスクについて一緒に学びませんか？]]
+- [[https://www.neelnanda.io/mechanistic-interpretability/glossary][A Comprehensive Mechanistic Interpretability Explainer & Glossary — Neel Nanda]]
+- https://timaeus.co/
+
+- [[https://zenn.dev/rtakatsky/articles/b1dba521879845#9.-%E5%AD%A6%E7%BF%92%E3%81%95%E3%82%8C%E3%82%8B%E7%89%B9%E5%BE%B4%E9%87%8F%E3%81%AE%E7%A0%94%E7%A9%B6][機械論的解釈可能性の紹介]]
+- https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_3L6OS3201/_pdf/-char/ja
+- https://www.youtube.com/watch?v=ITDO7CGuujU
+- https://icml.cc/virtual/2024/workshop/29944
+- [[https://icml-nextgenaisafety.github.io/][Next Gen AI Safety 2024 @ ICML Vienna]]
+- https://speakerdeck.com/schroneko/ai-safety-nobi-yao-xing-toju-ti-de-nagong-ji-sonodui-ce-nituite?slide=28
+- https://arxiv.org/html/2504.18328v1
+- https://arxiv.org/pdf/2504.18328v1
+- 
+- 
+  
+- file:///Users/nkn4ryu/Downloads/AI_Safety_%E3%81%AE%E5%BF%85%E8%A6%81%E6%80%A7%E3%81%A8%E5%85%B7%E4%BD%93%E7%9A%84%E3%81%AA%E6%94%BB%E6%92%83_%E3%81%9D%E3%81%AE%E5%AF%BE%E7%AD%96%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6tmp.pdf
+- https://my.ai.se/resources/awesome-ai-security
+- [[https://www.alignmentforum.org/posts/WFnyxSL543c9bxGMm/how-to-get-into-ai-safety-research][How to get into AI safety research — AI Alignment Forum]]
+- https://arxiv.org/pdf/2505.02313v1
+- https://arxiv.org/pdf/2505.02313v1
+- https://timaeus.co/
+- [[https://timaeus.co/learn][Timaeus | Learn about SLT]]
+- [[https://alignment.anthropic.com/2025/recommended-directions/][Recommendations for Technical AI Safety Research Directions]]
+- [[https://sahin.io/ar/blog/the-complete-guide-to-ai-safety-research][The Complete Guide to AI Safety Research — Sahin Boydas]]
+- https://www.alignmentforum.org/posts/WFnyxSL543c9bxGMm/how-to-get-into-ai-safety-research
+- https://www.youtube.com/watch?v=ji1G90kUel8
+- 
+
+
+** NeuroAI for AI Safety  
+- https://www.docswell.com/s/DeepLearning2023/K4VN2J-2025-01-09-140426#p1
+- 
+- 
+- 
+* 特異ベイズ理論
+- [[https://chijan.hatenablog.jp/entry/workstudentadc2024#f-0afc3fd3][理論系修士卒がそれなりの満足度のデータサイエンティストをしながら理論の社会人博士を短縮で取得した後にAI研究開発職へ転職して専門を活かした仕事をしている話 - カイヤン雑記帳]]
+- [[https://zenn.dev/xiangze/articles/c95b6105f985ae][パラメーター空間の数え方と汎化(と特異学習理論)]]
+- [[https://timaeus.co/research/2026-01-20-patterning][Patterning: The Dual of Interpretability | Timaeus Research]]
+
+
+
+- https://www.ms.u-tokyo.ac.jp/wings-fmsp/qe-posters.html
+  - 西山さん\\https://www.ms.u-tokyo.ac.jp/wings-fmsp/qe/2025-07.pdf
+
+- https://www.docswell.com/s/nhayashi1994/52RR1K-BayesStatAbstIntro
+
+- https://statmodeling.hatenablog.com/entry/WBIC-approximation
+- https://mercury.yukawa.kyoto-u.ac.jp/~bussei.kenkyu/wp/wp-content/uploads/6300-072214.pdf
+- 
+
+
+* attitude
+- [[https://bluedot.org/][BlueDot Impact | Have a positive impact on the trajectory of AI]]
+- [[https://zenn.dev/ambr_inc/articles/2a66396441de53][AIエンジニアの学習方法論　③英語で情報を得るために]]
+- https://www.3050grafix.com/blog/3134/
+- https://note.com/tosh365/n/n634d453da0a0
+- [[https://qiita.com/kueda_cs/items/28008db6491c71ac5659][統計・機械学習の理論を学ぶ手順 #数学 - Qiita]]
+- https://www.maebashi-it.ac.jp/~niikuni/
+- [[https://qiita.com/ssugasawa/items/0e0d76de3ed92c7410e6#%E3%82%B9%E3%83%86%E3%83%83%E3%83%971-%E3%81%BE%E3%81%9A%E5%8F%96%E3%82%8A%E7%B5%84%E3%82%80%E3%81%B9%E3%81%8D%E3%81%93%E3%81%A8][ベイズ統計学を勉強する参考書のフロー #データサイエンス - Qiita]]
+- [[https://blog.monochromegane.com/blog/2018/08/16/reason/][理性の人 · THINKING MEGANE]]
+- 
+- 
+
+
+* misc
+- https://www.jstage.jst.go.jp/article/jnns/30/2/30_84/_pdf/-char/ja
+- 

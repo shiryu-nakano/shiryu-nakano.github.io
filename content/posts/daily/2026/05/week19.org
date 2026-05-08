@@ -8,26 +8,42 @@
 #+OPTIONS: html-postamble:nil
 #+OPTIONS: links:nil
 
-* GWにやりたいこと
-- [ ] APRINの提出
-- [ ] AI for Science
-- [ ] 統計実践の課題
-- [ ] 公的統計の課題
-- [ ] 機械学習の学習
-- [ ] 特論の研究計画書提出
-- [ ] 特論の返信
+- ref
+  - https://drive.google.com/file/d/1MpLwFAOFs_wrWb5n8K46My5AFu3O4xZY/view?usp=sharing
+  - [[/posts/daily/2026/05/paper_links/][links]]
+
+
+* GWにやりたいこと[5/16]
+- [X] APRINの提出
+- [X] AI for Science 5/8→来月に変更
+- [ ] 統計実践の課題 5/15 来週末 
+- [ ] 公的統計の課題　いつ？？
+- [ ] 機械学習の学習 5/13
+- [ ] 特論の研究計画書提出 | 日曜締め切り
+- [-] 特論の査読 1 | 土日
+  - [X] 一旦読む
+  - [ ] 査読
+- [ ] 特論の査読 2 | 土日
+  - [ ] 一旦読む
+  - [ ] 査読
+- [X] 特論の返信 1
+- [X] 特論の返信 2
 - [ ] GCI
-- [ ] deep
-- [ ] ML finance
+- [ ] deep 
+- [X] ML finance
+  
+- [ ] SLT cp1
+- [ ] SLT cp2
+- [ ] GXP 記事提出 
 
 * 直近の予定と締め切り
-- 30 thur Arpin 
 - 5/8 AI for Science
   1. 応募書類・事前確認用の提出
   2. 応募書類・事前確認用の提出（提出期限：5月11日（月））【研究科内提出期限：5月8日(金)午前9時】
   3. 応募書類・最終版の提出（提出期限：5月15日（金）正午）
-- 
 - 5/11 H MTG
+  - 研究計画書作成
+  - 研究計画書査読
 - 5/15 統計実践の課題
 - 5/20 公的統計
 - 
@@ -88,16 +104,6 @@
 - [ ] 奨学金の手続き
   - [[/posts/univ/jasso_m1/][リンク]]
   
-- [ ] inboxは別のファイルにしたい
-  - inboxに追加するコマンドがある．いまは最新のlogファイルに書くようになってるが，これも変更したい．
-- [ ] Hitotsubshiの授業用のディレクトリはgoogle driveにある（実際はシンボリックリンク）ので，latexの生成がうまくいかないということだと思う．
-  - この問題をいつか解決したい．
-- [ ] org-roamとgithubの共存をどのようにするか考える
-- [ ] inboxへの追加
-- [ ] inboxを開く
-- [ ] やり方をまとめておく→何の？昨日（4/19）やったこと
-- inboxとかの処理どうしようかな
-
 
 - Unveiling Induction Heads: Provable Training Dynamics and Feature Learning in Transformers
   
@@ -198,6 +204,17 @@
 
 
 * いつか
+- [ ] inboxは別のファイルにしたい
+  - inboxに追加するコマンドがある．いまは最新のlogファイルに書くようになってるが，これも変更したい．
+- [ ] Hitotsubshiの授業用のディレクトリはgoogle driveにある（実際はシンボリックリンク）ので，latexの生成がうまくいかないということだと思う．
+  - この問題をいつか解決したい．
+- [ ] org-roamとgithubの共存をどのようにするか考える
+- [ ] inboxへの追加
+- [ ] inboxを開く
+- [ ] やり方をまとめておく→何の？昨日（4/19）やったこと
+- inboxとかの処理どうしようかな
+
+
 ** udemy[0/3]
 この順番でやりたい．
 - [ ] ベイズ

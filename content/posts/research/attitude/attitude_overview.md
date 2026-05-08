@@ -20,8 +20,7 @@ math: true
 
 ---
 
-## 研究関連
-
+## Link
 - [君たちはどう研究するか - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ](https://joisino.hatenablog.com/entry/2023/10/29/164650#%E7%A0%94%E7%A9%B6%E3%83%86%E3%83%BC%E3%83%9E%E3%81%AE%E6%B1%BA%E3%82%81%E6%96%B9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
 - [研究の進め方 ランダムネスとの付き合い方について - Speaker Deck](https://speakerdeck.com/joisino/randomness?slide=55)
   - [バックアップ](https://drive.google.com/file/d/1dLYZfxCEJWq8v9tQIfKJBOvPU998lLrS/view?usp=drive_link)

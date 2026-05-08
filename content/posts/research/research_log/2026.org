@@ -1,0 +1,31 @@
+#+TITLE: research log 2026 
+#+URL: /posts/research-log/2026/
+
+#+filetags: :daily:
+#+OPTIONS: num:nil ^:nil tags:nil todo:nil H:10
+#+OPTIONS: broken-links:mark
+#+OPTIONS: tex:t
+#+OPTIONS: html-postamble:nil
+#+OPTIONS: links:nil
+# #+OPTIONS: toc:nil num:nil ^:nil tags:nil todo:nil H:10
+
+* overview
+今年は苦労している．
+記録の媒体は1つではないので，期間・プロジェクトごとにまとめてリンクをまとめる
+
+
+- http://localhost:1313/posts/engineering/notes/#headline-2
+
+** pj LLC and DSB 2025/9 ~
+
+
+** pj H 2026/4 ~ 
+- [[./pj_h_week19.org][week19 0505~]]
+- [[/posts/research-log/h/26w19/y][w]]
+
+
+
+
+** pj bayes specdecomb 2026/4 ~
+
+

@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content=" Overview 幅優先探索でたくさん論文とウェブ記事をリストアップしたので項目ごとにメモして，深さ優先に読む
+今一番→機械学習の勉強 PRML読破を支える神講座（Udemy） #機械学習 - Qiita https://www.learnpytorch.io/08_pytorch_paper_replicating/ 今一番→論文よみ How to read Machine Learning and Deep Learning Research papers | Technical Blog https://note.com/yongyuanxi/n/n5ae96a19e702
+サーベイを書く意味 https://www.learnpytorch.io/08_pytorch_paper_replicating/ arXivを浅く広く読むためにやっていることを紹介する話 - EnsekiTT Blog 研究の位置づけを明確にする集中型の論文サーベイ方法 · THINKING MEGANE アンドリュー・エン教授のアドバイスによる機械学習キャリアの築き方と研究論文の読み方 | AI専門ニュースメディア AINOW Advice on building a machine learning career and reading research papers by Prof. Andrew Ng - KDnuggets https://www.youtube.com/watch?v=733m6qBH-jI 機械学習、NLP論文の書き方（英語） 論文を読む能力 - なーんだ、ただの水たまりじゃないか 論文執筆の道しるべ · THINKING MEGANE DC1に向けた記事 https://www.ai-gakkai.or.jp/jsai2020/wp-content/uploads/sites/10/2020/06/jsai2020_tutorial_suzuki.pdf ARR Reviewer Guidelines – ACL Rolling Review – A peer review platform for the Association for Computational Linguistics https://www.jstage.jst.go.jp/article/jjsp/33/2/33_98/_pdf/-char/ja https://docswell.com/s/tonets/59N1EX-gakushin2027#p9 https://www.rpd.titech.ac.jp/jsps_tokken/ohue2023-2_3.pdf https://www.ai-gakkai.or.jp/jsai2020/wp-content/uploads/sites/10/2020/06/jsai2020_tutorial_suzuki.pdf ARR Reviewer Guidelines – ACL Rolling Review – A peer review platform for the Association for Computational Linguistics How we write rebuttals. By Devi Parikh, Dhruv Batra, Stefan Lee | by Devi Parikh | Medium 論文執筆の道しるべ · THINKING MEGANE AI Safety 計画
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/daily/2026/05/paper_links/">
+  <meta property="og:site_name" content="Shiryu NAKANO">
+  <meta property="og:title" content="論文とリンクのリスト">
+  <meta property="og:description" content="Overview 幅優先探索でたくさん論文とウェブ記事をリストアップしたので項目ごとにメモして，深さ優先に読む
+今一番→機械学習の勉強 PRML読破を支える神講座（Udemy） #機械学習 - Qiita https://www.learnpytorch.io/08_pytorch_paper_replicating/ 今一番→論文よみ How to read Machine Learning and Deep Learning Research papers | Technical Blog https://note.com/yongyuanxi/n/n5ae96a19e702
+サーベイを書く意味 https://www.learnpytorch.io/08_pytorch_paper_replicating/ arXivを浅く広く読むためにやっていることを紹介する話 - EnsekiTT Blog 研究の位置づけを明確にする集中型の論文サーベイ方法 · THINKING MEGANE アンドリュー・エン教授のアドバイスによる機械学習キャリアの築き方と研究論文の読み方 | AI専門ニュースメディア AINOW Advice on building a machine learning career and reading research papers by Prof. Andrew Ng - KDnuggets https://www.youtube.com/watch?v=733m6qBH-jI 機械学習、NLP論文の書き方（英語） 論文を読む能力 - なーんだ、ただの水たまりじゃないか 論文執筆の道しるべ · THINKING MEGANE DC1に向けた記事 https://www.ai-gakkai.or.jp/jsai2020/wp-content/uploads/sites/10/2020/06/jsai2020_tutorial_suzuki.pdf ARR Reviewer Guidelines – ACL Rolling Review – A peer review platform for the Association for Computational Linguistics https://www.jstage.jst.go.jp/article/jjsp/33/2/33_98/_pdf/-char/ja https://docswell.com/s/tonets/59N1EX-gakushin2027#p9 https://www.rpd.titech.ac.jp/jsps_tokken/ohue2023-2_3.pdf https://www.ai-gakkai.or.jp/jsai2020/wp-content/uploads/sites/10/2020/06/jsai2020_tutorial_suzuki.pdf ARR Reviewer Guidelines – ACL Rolling Review – A peer review platform for the Association for Computational Linguistics How we write rebuttals. By Devi Parikh, Dhruv Batra, Stefan Lee | by Devi Parikh | Medium 論文執筆の道しるべ · THINKING MEGANE AI Safety 計画">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+
+
+  <meta itemprop="name" content="論文とリンクのリスト">
+  <meta itemprop="description" content="Overview 幅優先探索でたくさん論文とウェブ記事をリストアップしたので項目ごとにメモして，深さ優先に読む
+今一番→機械学習の勉強 PRML読破を支える神講座（Udemy） #機械学習 - Qiita https://www.learnpytorch.io/08_pytorch_paper_replicating/ 今一番→論文よみ How to read Machine Learning and Deep Learning Research papers | Technical Blog https://note.com/yongyuanxi/n/n5ae96a19e702
+サーベイを書く意味 https://www.learnpytorch.io/08_pytorch_paper_replicating/ arXivを浅く広く読むためにやっていることを紹介する話 - EnsekiTT Blog 研究の位置づけを明確にする集中型の論文サーベイ方法 · THINKING MEGANE アンドリュー・エン教授のアドバイスによる機械学習キャリアの築き方と研究論文の読み方 | AI専門ニュースメディア AINOW Advice on building a machine learning career and reading research papers by Prof. Andrew Ng - KDnuggets https://www.youtube.com/watch?v=733m6qBH-jI 機械学習、NLP論文の書き方（英語） 論文を読む能力 - なーんだ、ただの水たまりじゃないか 論文執筆の道しるべ · THINKING MEGANE DC1に向けた記事 https://www.ai-gakkai.or.jp/jsai2020/wp-content/uploads/sites/10/2020/06/jsai2020_tutorial_suzuki.pdf ARR Reviewer Guidelines – ACL Rolling Review – A peer review platform for the Association for Computational Linguistics https://www.jstage.jst.go.jp/article/jjsp/33/2/33_98/_pdf/-char/ja https://docswell.com/s/tonets/59N1EX-gakushin2027#p9 https://www.rpd.titech.ac.jp/jsps_tokken/ohue2023-2_3.pdf https://www.ai-gakkai.or.jp/jsai2020/wp-content/uploads/sites/10/2020/06/jsai2020_tutorial_suzuki.pdf ARR Reviewer Guidelines – ACL Rolling Review – A peer review platform for the Association for Computational Linguistics How we write rebuttals. By Devi Parikh, Dhruv Batra, Stefan Lee | by Devi Parikh | Medium 論文執筆の道しるべ · THINKING MEGANE AI Safety 計画">
+  <meta itemprop="wordCount" content="253">
+
+<title>論文とリンクのリスト | Shiryu NAKANO</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/posts/daily/2026/05/paper_links/">
+<link rel="stylesheet" href="/book.min.b267f830fdf65302ecc1702a1178d4f25aa783409b3a25098f3404dd24f37a4d.css" integrity="sha256-smf4MP32UwLswXAqEXjU8lqng0CbOiUJjzQE3STzek0=" crossorigin="anonymous">
+
+
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/ja.search.min.1bad46185801f0e8d10b70c06b2d126fb165d357c9b31f8588153ffe5d615daf.js" integrity="sha256-G61GGFgB8OjRC3DAay0Sb7Fl01fJsx&#43;FiBU//l1hXa8=" crossorigin="anonymous"></script>
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/custom.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "$", right: "$", display: false}
+        ],
+        throwOnError: false
+    });
+});
+</script>
+
+</head>
+<body dir="ltr" class="book-kind-page book-type-posts">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Shiryu NAKANO</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="検索"
+    aria-label="検索"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+  <div class="markdown">
+    <ul>
+<li><a href="/">Home</a></li>
+</ul>
+<!--
+- [Research](/posts/research/)
+- [Life](/posts/life/)
+- [Study](/posts/study/)
+- [Univ](/posts/univ/)
+--->
+  </div>
+
+
+
+</nav>
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>論文とリンクのリスト</h3>
+
+  <label for="toc-control">
+    
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+    
+
+
+
+  
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown book-post">
+  <h1>
+    論文とリンクのリスト
+  </h1>
+  
+
+
+  
+
+  
+
+
+  <div class="book-post-content markdown-inner"><div id="outline-container-headline-1" class="outline-2">
+<h2 id="headline-1">
+Overview
+</h2>
+<div id="outline-text-headline-1" class="outline-text-2">
+<p>幅優先探索でたくさん論文とウェブ記事をリストアップしたので項目ごとにメモして，深さ優先に読む</p>
+</div>
+</div>
+<div id="outline-container-headline-2" class="outline-2">
+<h2 id="headline-2">
+今一番→機械学習の勉強
+</h2>
+<div id="outline-text-headline-2" class="outline-text-2">
+<ul>
+<li><a href="https://qiita.com/Uchiita_27/items/391c59012a20069538d3">PRML読破を支える神講座（Udemy） #機械学習 - Qiita</a></li>
+<li><a href="https://www.learnpytorch.io/08_pytorch_paper_replicating/">https://www.learnpytorch.io/08_pytorch_paper_replicating/</a></li>
+<li></li>
+<li></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-3" class="outline-2">
+<h2 id="headline-3">
+今一番→論文よみ
+</h2>
+<div id="outline-text-headline-3" class="outline-text-2">
+<ul>
+<li><a href="https://saiamrit.github.io/technical-blog/research/reading_papers/2021/07/31/read-papers.html#3-pass-approach-to-read-a-research-paper">How to read Machine Learning and Deep Learning Research papers | Technical Blog</a></li>
+<li>
+<p><a href="https://note.com/yongyuanxi/n/n5ae96a19e702">https://note.com/yongyuanxi/n/n5ae96a19e702</a></p>
+<ul>
+<li>サーベイを書く意味 </li>
+</ul>
+</li>
+<li><a href="https://www.learnpytorch.io/08_pytorch_paper_replicating/">https://www.learnpytorch.io/08_pytorch_paper_replicating/</a></li>
+<li><a href="https://ensekitt.hatenablog.com/entry/2017/12/15/200000">arXivを浅く広く読むためにやっていることを紹介する話 - EnsekiTT Blog</a></li>
+<li><a href="https://blog.monochromegane.com/blog/2021/05/15/survey-method/">研究の位置づけを明確にする集中型の論文サーベイ方法 · THINKING MEGANE</a></li>
+<li><a href="https://ainow.ai/2019/11/28/180522/">アンドリュー・エン教授のアドバイスによる機械学習キャリアの築き方と研究論文の読み方 | AI専門ニュースメディア AINOW</a></li>
+<li><a href="https://www.kdnuggets.com/2019/09/advice-building-machine-learning-career-research-papers-andrew-ng.html">Advice on building a machine learning career and reading research papers by Prof. Andrew Ng - KDnuggets</a></li>
+<li><a href="https://www.youtube.com/watch?v=733m6qBH-jI">https://www.youtube.com/watch?v=733m6qBH-jI</a></li>
+<li><a href="https://zenn.dev/kotoba_tech/articles/e4f0b6203fe869#%E6%9C%80%E5%BE%8C%E3%81%AB%EF%BC%88%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%81%AEwriting%E6%95%99%E8%82%B2%E3%81%AF%22%E5%9E%8B%E3%81%AF%E3%82%81%22%E3%81%A7%E3%81%82%E3%82%8B%EF%BC%89">機械学習、NLP論文の書き方（英語）</a></li>
+<li><a href="https://karino2.github.io/2018/08/28/113733.html">論文を読む能力 - なーんだ、ただの水たまりじゃないか</a></li>
+<li><a href="https://blog.monochromegane.com/blog/2019/11/27/guidepost_for_writing_paper/">論文執筆の道しるべ · THINKING MEGANE</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-4" class="outline-2">
+<h2 id="headline-4">
+DC1に向けた記事
+</h2>
+<div id="outline-text-headline-4" class="outline-text-2">
+<ul>
+<li><a href="https://www.ai-gakkai.or.jp/jsai2020/wp-content/uploads/sites/10/2020/06/jsai2020_tutorial_suzuki.pdf">https://www.ai-gakkai.or.jp/jsai2020/wp-content/uploads/sites/10/2020/06/jsai2020_tutorial_suzuki.pdf</a></li>
+<li><a href="https://aclrollingreview.org/reviewerguidelines">ARR Reviewer Guidelines – ACL Rolling Review – A peer review platform for the Association for Computational Linguistics</a></li>
+<li><a href="https://www.jstage.jst.go.jp/article/jjsp/33/2/33_98/_pdf/-char/ja">https://www.jstage.jst.go.jp/article/jjsp/33/2/33_98/_pdf/-char/ja</a></li>
+<li><a href="https://docswell.com/s/tonets/59N1EX-gakushin2027#p9">https://docswell.com/s/tonets/59N1EX-gakushin2027#p9</a></li>
+<li><a href="https://www.rpd.titech.ac.jp/jsps_tokken/ohue2023-2_3.pdf">https://www.rpd.titech.ac.jp/jsps_tokken/ohue2023-2_3.pdf</a></li>
+<li><a href="https://www.ai-gakkai.or.jp/jsai2020/wp-content/uploads/sites/10/2020/06/jsai2020_tutorial_suzuki.pdf">https://www.ai-gakkai.or.jp/jsai2020/wp-content/uploads/sites/10/2020/06/jsai2020_tutorial_suzuki.pdf</a></li>
+<li><a href="https://aclrollingreview.org/reviewerguidelines">ARR Reviewer Guidelines – ACL Rolling Review – A peer review platform for the Association for Computational Linguistics</a></li>
+<li><a href="https://deviparikh.medium.com/how-we-write-rebuttals-dc84742fece1">How we write rebuttals. By Devi Parikh, Dhruv Batra, Stefan Lee | by Devi Parikh | Medium</a></li>
+<li><a href="https://blog.monochromegane.com/blog/2019/11/27/guidepost_for_writing_paper/">論文執筆の道しるべ · THINKING MEGANE</a></li>
+<li></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-5" class="outline-2">
+<h2 id="headline-5">
+AI Safety
+</h2>
+<div id="outline-text-headline-5" class="outline-text-2">
+<ul>
+<li>
+<p>計画</p>
+<ul>
+<li><a href="https://claude.ai/chat/bb91ef8e-1c37-4845-a118-031a9659439b">https://claude.ai/chat/bb91ef8e-1c37-4845-a118-031a9659439b</a></li>
+</ul>
+</li>
+<li><a href="https://docs.google.com/presentation/d/1ziFWP5DNxFFBP4YMtC54Wm3kR8IDmn2oDhea1nqALYE/edit?slide=id.p6#slide=id.p6">https://docs.google.com/presentation/d/1ziFWP5DNxFFBP4YMtC54Wm3kR8IDmn2oDhea1nqALYE/edit?slide=id.p6#slide=id.p6</a></li>
+<li><a href="https://zenn.dev/kandkirby/articles/6378a70316e7d7">AIの未来とリスクについて一緒に学びませんか？</a></li>
+<li><a href="https://www.neelnanda.io/mechanistic-interpretability/glossary">A Comprehensive Mechanistic Interpretability Explainer &amp; Glossary — Neel Nanda</a></li>
+<li><a href="https://timaeus.co/">https://timaeus.co/</a></li>
+<li><a href="https://zenn.dev/rtakatsky/articles/b1dba521879845#9.-%E5%AD%A6%E7%BF%92%E3%81%95%E3%82%8C%E3%82%8B%E7%89%B9%E5%BE%B4%E9%87%8F%E3%81%AE%E7%A0%94%E7%A9%B6">機械論的解釈可能性の紹介</a></li>
+<li><a href="https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_3L6OS3201/_pdf/-char/ja">https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_3L6OS3201/_pdf/-char/ja</a></li>
+<li><a href="https://www.youtube.com/watch?v=ITDO7CGuujU">https://www.youtube.com/watch?v=ITDO7CGuujU</a></li>
+<li><a href="https://icml.cc/virtual/2024/workshop/29944">https://icml.cc/virtual/2024/workshop/29944</a></li>
+<li><a href="https://icml-nextgenaisafety.github.io/">Next Gen AI Safety 2024 @ ICML Vienna</a></li>
+<li><a href="https://speakerdeck.com/schroneko/ai-safety-nobi-yao-xing-toju-ti-de-nagong-ji-sonodui-ce-nituite?slide=28">https://speakerdeck.com/schroneko/ai-safety-nobi-yao-xing-toju-ti-de-nagong-ji-sonodui-ce-nituite?slide=28</a></li>
+<li><a href="https://arxiv.org/html/2504.18328v1">https://arxiv.org/html/2504.18328v1</a></li>
+<li><a href="https://arxiv.org/pdf/2504.18328v1">https://arxiv.org/pdf/2504.18328v1</a></li>
+<li></li>
+<li></li>
+<li><a href="///Users/nkn4ryu/Downloads/AI_Safety_">///Users/nkn4ryu/Downloads/AI_Safety_</a>%E3%81%AE%E5%BF%85%E8%A6%81%E6%80%A7%E3%81%A8%E5%85%B7%E4%BD%93%E7%9A%84%E3%81%AA%E6%94%BB%E6%92%83_%E3%81%9D%E3%81%AE%E5%AF%BE%E7%AD%96%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6tmp.pdf</li>
+<li><a href="https://my.ai.se/resources/awesome-ai-security">https://my.ai.se/resources/awesome-ai-security</a></li>
+<li><a href="https://www.alignmentforum.org/posts/WFnyxSL543c9bxGMm/how-to-get-into-ai-safety-research">How to get into AI safety research — AI Alignment Forum</a></li>
+<li><a href="https://arxiv.org/pdf/2505.02313v1">https://arxiv.org/pdf/2505.02313v1</a></li>
+<li><a href="https://arxiv.org/pdf/2505.02313v1">https://arxiv.org/pdf/2505.02313v1</a></li>
+<li><a href="https://timaeus.co/">https://timaeus.co/</a></li>
+<li><a href="https://timaeus.co/learn">Timaeus | Learn about SLT</a></li>
+<li><a href="https://alignment.anthropic.com/2025/recommended-directions/">Recommendations for Technical AI Safety Research Directions</a></li>
+<li><a href="https://sahin.io/ar/blog/the-complete-guide-to-ai-safety-research">The Complete Guide to AI Safety Research — Sahin Boydas</a></li>
+<li><a href="https://www.alignmentforum.org/posts/WFnyxSL543c9bxGMm/how-to-get-into-ai-safety-research">https://www.alignmentforum.org/posts/WFnyxSL543c9bxGMm/how-to-get-into-ai-safety-research</a></li>
+<li><a href="https://www.youtube.com/watch?v=ji1G90kUel8">https://www.youtube.com/watch?v=ji1G90kUel8</a></li>
+<li></li>
+</ul>
+<div id="outline-container-headline-6" class="outline-3">
+<h3 id="headline-6">
+NeuroAI for AI Safety  
+</h3>
+<div id="outline-text-headline-6" class="outline-text-3">
+<ul>
+<li><a href="https://www.docswell.com/s/DeepLearning2023/K4VN2J-2025-01-09-140426#p1">https://www.docswell.com/s/DeepLearning2023/K4VN2J-2025-01-09-140426#p1</a></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-7" class="outline-2">
+<h2 id="headline-7">
+特異ベイズ理論
+</h2>
+<div id="outline-text-headline-7" class="outline-text-2">
+<ul>
+<li><a href="https://chijan.hatenablog.jp/entry/workstudentadc2024#f-0afc3fd3">理論系修士卒がそれなりの満足度のデータサイエンティストをしながら理論の社会人博士を短縮で取得した後にAI研究開発職へ転職して専門を活かした仕事をしている話 - カイヤン雑記帳</a></li>
+<li><a href="https://zenn.dev/xiangze/articles/c95b6105f985ae">パラメーター空間の数え方と汎化(と特異学習理論)</a></li>
+<li><a href="https://timaeus.co/research/2026-01-20-patterning">Patterning: The Dual of Interpretability | Timaeus Research</a></li>
+</ul>
+<ul>
+<li>
+<p><a href="https://www.ms.u-tokyo.ac.jp/wings-fmsp/qe-posters.html">https://www.ms.u-tokyo.ac.jp/wings-fmsp/qe-posters.html</a></p>
+<ul>
+<li>西山さん\\<a href="https://www.ms.u-tokyo.ac.jp/wings-fmsp/qe/2025-07.pdf">https://www.ms.u-tokyo.ac.jp/wings-fmsp/qe/2025-07.pdf</a></li>
+</ul>
+</li>
+<li><a href="https://www.docswell.com/s/nhayashi1994/52RR1K-BayesStatAbstIntro">https://www.docswell.com/s/nhayashi1994/52RR1K-BayesStatAbstIntro</a></li>
+<li><a href="https://statmodeling.hatenablog.com/entry/WBIC-approximation">https://statmodeling.hatenablog.com/entry/WBIC-approximation</a></li>
+<li><a href="https://mercury.yukawa.kyoto-u.ac.jp/~bussei.kenkyu/wp/wp-content/uploads/6300-072214.pdf">https://mercury.yukawa.kyoto-u.ac.jp/~bussei.kenkyu/wp/wp-content/uploads/6300-072214.pdf</a></li>
+<li></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-8" class="outline-2">
+<h2 id="headline-8">
+attitude
+</h2>
+<div id="outline-text-headline-8" class="outline-text-2">
+<ul>
+<li><a href="https://bluedot.org/">BlueDot Impact | Have a positive impact on the trajectory of AI</a></li>
+<li><a href="https://zenn.dev/ambr_inc/articles/2a66396441de53">AIエンジニアの学習方法論　③英語で情報を得るために</a></li>
+<li><a href="https://www.3050grafix.com/blog/3134/">https://www.3050grafix.com/blog/3134/</a></li>
+<li><a href="https://note.com/tosh365/n/n634d453da0a0">https://note.com/tosh365/n/n634d453da0a0</a></li>
+<li><a href="https://qiita.com/kueda_cs/items/28008db6491c71ac5659">統計・機械学習の理論を学ぶ手順 #数学 - Qiita</a></li>
+<li><a href="https://www.maebashi-it.ac.jp/~niikuni/">https://www.maebashi-it.ac.jp/~niikuni/</a></li>
+<li><a href="https://qiita.com/ssugasawa/items/0e0d76de3ed92c7410e6#%E3%82%B9%E3%83%86%E3%83%83%E3%83%971-%E3%81%BE%E3%81%9A%E5%8F%96%E3%82%8A%E7%B5%84%E3%82%80%E3%81%B9%E3%81%8D%E3%81%93%E3%81%A8">ベイズ統計学を勉強する参考書のフロー #データサイエンス - Qiita</a></li>
+<li><a href="https://blog.monochromegane.com/blog/2018/08/16/reason/">理性の人 · THINKING MEGANE</a></li>
+<li></li>
+<li></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-9" class="outline-2">
+<h2 id="headline-9">
+misc
+</h2>
+<div id="outline-text-headline-9" class="outline-text-2">
+<ul>
+<li><a href="https://www.jstage.jst.go.jp/article/jnns/30/2/30_84/_pdf/-char/ja">https://www.jstage.jst.go.jp/article/jnns/30/2/30_84/_pdf/-char/ja</a></li>
+<li></li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+    <div class="flex flex-wrap justify-between">
+  <div>
+  
+    <a href="/posts/daily/2026/05/week20/" class="flex align-center">
+      <img src="/icons/backward.svg" class="book-icon" alt="Backward" />
+      <span>week20</span>
+    </a>
+  
+  </div>
+  <div>
+  
+  </div>
+</div>
+  
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+    
+
+
+
+  
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
