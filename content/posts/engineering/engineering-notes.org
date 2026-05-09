@@ -54,6 +54,8 @@
 - [[/posts/misc/retrospective-intern/][それ以前のアルバイト・インターンの記録]]
 
 -----
+- [[/posts/misc/tsukuchal2025/][つくばチャレンジ2026参加メモ]]
+
 - [[/posts/misc/tsukuchal2025/][つくばチャレンジ2025参加メモ]]
   - [[https://tsukubachallenge.jp/2025/about/symposium][第19回つくばチャレンジシンポジウム | つくばチャレンジ2025]]
     
