@@ -36,6 +36,8 @@
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/daily/</loc>
+  </url><url>
     <loc>http://localhost:1313/posts/study/dmft/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/engineering/notes/</loc>
@@ -64,7 +66,11 @@
   </url><url>
     <loc>http://localhost:1313/posts/research/</loc>
   </url><url>
+    <loc>http://localhost:1313/posts/research-log/26w20/</loc>
+  </url><url>
     <loc>http://localhost:1313/posts/research-log/2026/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/research/scaling-laws/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/engineering/ros2/</loc>
   </url><url>
