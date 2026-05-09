@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Odom msgからPoseだけ取り出すことができる# nav_msgs/Odometry Documentation
+Raw Message Definition # This represents an estimate of a position and velocity in free space. # The pose in this message should be specified in the coordinate frame given by header.frame_id. # The twist in this message should be specified in the coordinate frame given by the child_frame_id Header header string child_frame_id geometry_msgs/PoseWithCovariance pose geometry_msgs/TwistWithCovariance twistgeometry_msgs/PoseWithCovariance poseは、 Pose型と、その共分散行列（不確かさ？）を含んでいる。
+# This represents a pose in free space with uncertainty. Pose pose # Row-major representation of the 6x6 covariance matrix # The orientation parameters use a fixed-axis representation. # In order, the parameters are: # (x, y, z, rotation about X axis, rotation about Y axis, rotation about Z axis) float64[36] covariancec.f. geometry_msgs/PoseWithCovariance Documentation
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/engineering/ros2/">
+  <meta property="og:site_name" content="Shiryu NAKANO">
+  <meta property="og:title" content="Shiryu NAKANO">
+  <meta property="og:description" content="Odom msgからPoseだけ取り出すことができる# nav_msgs/Odometry Documentation
+Raw Message Definition # This represents an estimate of a position and velocity in free space. # The pose in this message should be specified in the coordinate frame given by header.frame_id. # The twist in this message should be specified in the coordinate frame given by the child_frame_id Header header string child_frame_id geometry_msgs/PoseWithCovariance pose geometry_msgs/TwistWithCovariance twistgeometry_msgs/PoseWithCovariance poseは、 Pose型と、その共分散行列（不確かさ？）を含んでいる。
+# This represents a pose in free space with uncertainty. Pose pose # Row-major representation of the 6x6 covariance matrix # The orientation parameters use a fixed-axis representation. # In order, the parameters are: # (x, y, z, rotation about X axis, rotation about Y axis, rotation about Z axis) float64[36] covariancec.f. geometry_msgs/PoseWithCovariance Documentation">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+
+
+  <meta itemprop="name" content="Shiryu NAKANO">
+  <meta itemprop="description" content="Odom msgからPoseだけ取り出すことができる# nav_msgs/Odometry Documentation
+Raw Message Definition # This represents an estimate of a position and velocity in free space. # The pose in this message should be specified in the coordinate frame given by header.frame_id. # The twist in this message should be specified in the coordinate frame given by the child_frame_id Header header string child_frame_id geometry_msgs/PoseWithCovariance pose geometry_msgs/TwistWithCovariance twistgeometry_msgs/PoseWithCovariance poseは、 Pose型と、その共分散行列（不確かさ？）を含んでいる。
+# This represents a pose in free space with uncertainty. Pose pose # Row-major representation of the 6x6 covariance matrix # The orientation parameters use a fixed-axis representation. # In order, the parameters are: # (x, y, z, rotation about X axis, rotation about Y axis, rotation about Z axis) float64[36] covariancec.f. geometry_msgs/PoseWithCovariance Documentation">
+  <meta itemprop="wordCount" content="140">
+
+<title>Shiryu NAKANO | Shiryu NAKANO</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/posts/engineering/ros2/">
+<link rel="stylesheet" href="/book.min.b267f830fdf65302ecc1702a1178d4f25aa783409b3a25098f3404dd24f37a4d.css" integrity="sha256-smf4MP32UwLswXAqEXjU8lqng0CbOiUJjzQE3STzek0=" crossorigin="anonymous">
+
+
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/ja.search.min.a2896c31e88462e22f9ce2203d35ac9d0c609f0a4a5de148b986a07a4c4e5a1f.js" integrity="sha256-oolsMeiEYuIvnOIgPTWsnQxgnwpKXeFIuYagekxOWh8=" crossorigin="anonymous"></script>
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/custom.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "$", right: "$", display: false}
+        ],
+        throwOnError: false
+    });
+});
+</script>
+
+</head>
+<body dir="ltr" class="book-kind-page book-type-posts">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Shiryu NAKANO</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="検索"
+    aria-label="検索"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+  <div class="markdown">
+    <ul>
+<li><a href="/">Home</a></li>
+</ul>
+<!--
+- [Research](/posts/research/)
+- [Life](/posts/life/)
+- [Study](/posts/study/)
+- [Univ](/posts/univ/)
+--->
+  </div>
+
+
+
+</nav>
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Shiryu NAKANO</h3>
+
+  <label for="toc-control">
+    
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+    
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#odom-msgからposeだけ取り出すことができる">Odom msgからPoseだけ取り出すことができる</a></li>
+  </ul>
+</nav>
+
+
+  
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown book-post">
+  <h1>
+    Shiryu NAKANO
+  </h1>
+  
+
+
+  
+
+  
+
+
+  <div class="book-post-content markdown-inner"><h2 id="odom-msgからposeだけ取り出すことができる">Odom msgからPoseだけ取り出すことができる<a class="anchor" href="#odom-msg%e3%81%8b%e3%82%89pose%e3%81%a0%e3%81%91%e5%8f%96%e3%82%8a%e5%87%ba%e3%81%99%e3%81%93%e3%81%a8%e3%81%8c%e3%81%a7%e3%81%8d%e3%82%8b">#</a></h2>
+<p><a href="https://docs.ros.org/en/noetic/api/nav_msgs/html/msg/Odometry.html">nav_msgs/Odometry Documentation</a></p>
+<ul>
+<li>Raw Message Definition</li>
+</ul>
+<pre tabindex="0"><code># This represents an estimate of a position and velocity in free space.  
+# The pose in this message should be specified in the coordinate frame given by header.frame_id.
+# The twist in this message should be specified in the coordinate frame given by the child_frame_id
+Header header
+string child_frame_id
+geometry_msgs/PoseWithCovariance pose
+geometry_msgs/TwistWithCovariance twist</code></pre><p>geometry_msgs/PoseWithCovariance poseは、
+Pose型と、その共分散行列（不確かさ？）を含んでいる。</p>
+<pre tabindex="0"><code># This represents a pose in free space with uncertainty.
+Pose pose
+
+# Row-major representation of the 6x6 covariance matrix
+# The orientation parameters use a fixed-axis representation.
+# In order, the parameters are:
+# (x, y, z, rotation about X axis, rotation about Y axis, rotation about Z axis)
+float64[36] covariance</code></pre><p>c.f. <a href="https://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/PoseWithCovariance.html">geometry_msgs/PoseWithCovariance Documentation</a></p>
+<p><a href="https://docs.ros2.org/foxy/api/geometry_msgs/msg/Pose.html">msg/Pose Documentation</a>
+<a href="https://docs.ros2.org/foxy/api/geometry_msgs/msg/PoseStamped.html">https://docs.ros2.org/foxy/api/geometry_msgs/msg/PoseStamped.html</a></p>
+<ul>
+<li>Raw Message Definition</li>
+</ul>
+<pre tabindex="0"><code># A representation of pose in free space, composed of position and orientation.
+Point position
+Quaternion orientation</code></pre></div>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+    <div class="flex flex-wrap justify-between">
+  <div>
+  
+    <a href="/posts/engineering/notes/" class="flex align-center">
+      <img src="/icons/backward.svg" class="book-icon" alt="Backward" />
+      <span>Engineering Notes</span>
+    </a>
+  
+  </div>
+  <div>
+  
+    <a href="/posts/misc/motivation-of-blog/" class="flex align-center">
+      <span>このブログについて</span>
+      <img src="/icons/forward.svg" class="book-icon" alt="Forward" />
+    </a>
+  
+  </div>
+</div>
+  
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+    
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#odom-msgからposeだけ取り出すことができる">Odom msgからPoseだけ取り出すことができる</a></li>
+  </ul>
+</nav>
+
+
+  
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

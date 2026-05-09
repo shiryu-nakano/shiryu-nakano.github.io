@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content=" Overview 来週11（月）が初回MTGのためそろそろ作業を始めておく必要がある FINDRの論文を読む
+読み方→3回読みする．3回目は実装するつもりで読む ぱっとよんだ ある程度図をかける 再実装 実装を見る
+自分で実装してみる→トレーニング MRIのデータがどんなものかさっぱりわからない
+MRIのデータ→オープンデータある？ MRIをDNNに適用したもの 実装に向けたタスク pytorchでシンプルなMLPを学習させる
+タスクデータを自分で用意する→githubのminilabで VAEについて
+VAE LOG 0505 findrとりあえず読んだ 最終的なゴールを常に意識すること → fMRIのデータをFINERっぽいものに流して，力学系を再構築する機械学習モデルの開発！！！ まずFINDERを理解する（完璧に理解する❌，理解を深めるために実装してみる） misc go back
+./2026.html ">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/research-log/26w20/">
+  <meta property="og:site_name" content="Shiryu NAKANO">
+  <meta property="og:title" content="research h &#39;26 week 20">
+  <meta property="og:description" content="Overview 来週11（月）が初回MTGのためそろそろ作業を始めておく必要がある FINDRの論文を読む
+読み方→3回読みする．3回目は実装するつもりで読む ぱっとよんだ ある程度図をかける 再実装 実装を見る
+自分で実装してみる→トレーニング MRIのデータがどんなものかさっぱりわからない
+MRIのデータ→オープンデータある？ MRIをDNNに適用したもの 実装に向けたタスク pytorchでシンプルなMLPを学習させる
+タスクデータを自分で用意する→githubのminilabで VAEについて
+VAE LOG 0505 findrとりあえず読んだ 最終的なゴールを常に意識すること → fMRIのデータをFINERっぽいものに流して，力学系を再構築する機械学習モデルの開発！！！ まずFINDERを理解する（完璧に理解する❌，理解を深めるために実装してみる） misc go back
+./2026.html">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+
+
+  <meta itemprop="name" content="research h &#39;26 week 20">
+  <meta itemprop="description" content="Overview 来週11（月）が初回MTGのためそろそろ作業を始めておく必要がある FINDRの論文を読む
+読み方→3回読みする．3回目は実装するつもりで読む ぱっとよんだ ある程度図をかける 再実装 実装を見る
+自分で実装してみる→トレーニング MRIのデータがどんなものかさっぱりわからない
+MRIのデータ→オープンデータある？ MRIをDNNに適用したもの 実装に向けたタスク pytorchでシンプルなMLPを学習させる
+タスクデータを自分で用意する→githubのminilabで VAEについて
+VAE LOG 0505 findrとりあえず読んだ 最終的なゴールを常に意識すること → fMRIのデータをFINERっぽいものに流して，力学系を再構築する機械学習モデルの開発！！！ まずFINDERを理解する（完璧に理解する❌，理解を深めるために実装してみる） misc go back
+./2026.html">
+  <meta itemprop="wordCount" content="28">
+
+<title>research h &#39;26 week 20 | Shiryu NAKANO</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/posts/research-log/26w20/">
+<link rel="stylesheet" href="/book.min.b267f830fdf65302ecc1702a1178d4f25aa783409b3a25098f3404dd24f37a4d.css" integrity="sha256-smf4MP32UwLswXAqEXjU8lqng0CbOiUJjzQE3STzek0=" crossorigin="anonymous">
+
+
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/ja.search.min.a2896c31e88462e22f9ce2203d35ac9d0c609f0a4a5de148b986a07a4c4e5a1f.js" integrity="sha256-oolsMeiEYuIvnOIgPTWsnQxgnwpKXeFIuYagekxOWh8=" crossorigin="anonymous"></script>
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/custom.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "$", right: "$", display: false}
+        ],
+        throwOnError: false
+    });
+});
+</script>
+
+</head>
+<body dir="ltr" class="book-kind-page book-type-posts">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Shiryu NAKANO</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="検索"
+    aria-label="検索"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+  <div class="markdown">
+    <ul>
+<li><a href="/">Home</a></li>
+</ul>
+<!--
+- [Research](/posts/research/)
+- [Life](/posts/life/)
+- [Study](/posts/study/)
+- [Univ](/posts/univ/)
+--->
+  </div>
+
+
+
+</nav>
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>research h &#39;26 week 20</h3>
+
+  <label for="toc-control">
+    
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+    
+<nav id="TableOfContents">
+<ul>
+<li><a href="#headline-1">Overview</a>
+<ul>
+<li><a href="#headline-2">実装に向けたタスク</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-3">LOG</a>
+<ul>
+<li><a href="#headline-4">0505</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-5">misc</a>
+</li>
+</ul>
+</nav>
+
+
+  
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown book-post">
+  <h1>
+    research h &#39;26 week 20
+  </h1>
+  
+
+
+  
+
+  
+
+
+  <div class="book-post-content markdown-inner">
+<div id="outline-container-headline-1" class="outline-2">
+<h2 id="headline-1">
+Overview
+</h2>
+<div id="outline-text-headline-1" class="outline-text-2">
+<ul>
+<li>来週11（月）が初回MTGのためそろそろ作業を始めておく必要がある</li>
+<li class="indeterminate">
+<p>FINDRの論文を読む</p>
+<ul>
+<li>読み方→3回読みする．3回目は実装するつもりで読む</li>
+<li class="checked">ぱっとよんだ</li>
+<li class="unchecked">ある程度図をかける</li>
+<li class="unchecked">再実装</li>
+</ul>
+</li>
+<li class="unchecked">
+<p>実装を見る</p>
+<ul>
+<li>自分で実装してみる→トレーニング</li>
+</ul>
+</li>
+<li class="unchecked">
+<p>MRIのデータがどんなものかさっぱりわからない</p>
+<ul>
+<li>MRIのデータ→オープンデータある？</li>
+<li>MRIをDNNに適用したもの</li>
+</ul>
+</li>
+</ul>
+<div id="outline-container-headline-2" class="outline-3">
+<h3 id="headline-2">
+実装に向けたタスク
+</h3>
+<div id="outline-text-headline-2" class="outline-text-3">
+<ul>
+<li class="unchecked">
+<p>pytorchでシンプルなMLPを学習させる</p>
+<ul>
+<li class="unchecked">タスクデータを自分で用意する→githubのminilabで</li>
+</ul>
+</li>
+<li class="unchecked">
+<p>VAEについて</p>
+<ul>
+<li>VAE</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-3" class="outline-2">
+<h2 id="headline-3">
+LOG
+</h2>
+<div id="outline-text-headline-3" class="outline-text-2">
+<div id="outline-container-headline-4" class="outline-3">
+<h3 id="headline-4">
+0505
+</h3>
+<div id="outline-text-headline-4" class="outline-text-3">
+<ul>
+<li>findrとりあえず読んだ</li>
+<li>最終的なゴールを常に意識すること → fMRIのデータをFINERっぽいものに流して，力学系を再構築する機械学習モデルの開発！！！</li>
+<li>まずFINDERを理解する（完璧に理解する❌，理解を深めるために実装してみる）</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-5" class="outline-2">
+<h2 id="headline-5">
+misc
+</h2>
+<div id="outline-text-headline-5" class="outline-text-2">
+<ul>
+<li>
+<p><a href="/posts/research-log/2026">go back</a></p>
+<ul>
+<li><a href="./2026.html">./2026.html</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+    <div class="flex flex-wrap justify-between">
+  <div>
+  
+    <a href="/posts/research-log/h/26w19/y/" class="flex align-center">
+      <img src="/icons/backward.svg" class="book-icon" alt="Backward" />
+      <span>pj h log &#39;26 week 19</span>
+    </a>
+  
+  </div>
+  <div>
+  
+    <a href="/posts/research-log/2026/" class="flex align-center">
+      <span>research log 2026</span>
+      <img src="/icons/forward.svg" class="book-icon" alt="Forward" />
+    </a>
+  
+  </div>
+</div>
+  
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+    
+<nav id="TableOfContents">
+<ul>
+<li><a href="#headline-1">Overview</a>
+<ul>
+<li><a href="#headline-2">実装に向けたタスク</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-3">LOG</a>
+<ul>
+<li><a href="#headline-4">0505</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-5">misc</a>
+</li>
+</ul>
+</nav>
+
+
+  
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

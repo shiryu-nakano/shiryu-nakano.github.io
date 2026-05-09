@@ -8,22 +8,24 @@ https://github.com/alex-shpak/hugo-book
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content=" Overview 来週11（月）が初回MTGのためそろそろ作業を始めておく必要がある ひとまずパッと出てきたTODO
-FINDRの論文を読む
-読み方→3回読みする．3回目は実装するつもりで読む 実装を見る
+<meta name="description" content=" Overview 来週11（月）が初回MTGのためそろそろ作業を始めておく必要がある FINDRの論文を読む
+読み方→3回読みする．3回目は実装するつもりで読む ぱっとよんだ ある程度図をかける 再実装 実装を見る
 自分で実装してみる→トレーニング MRIのデータがどんなものかさっぱりわからない
-MRIのデータ→オープンデータある？ MRIをDNNに適用したもの misc go back
+MRIのデータ→オープンデータある？ MRIをDNNに適用したもの 実装に向けたタスク pytorchでシンプルなMLPを学習させる
+タスクデータを自分で用意する→githubのminilabで VAEについて
+VAE LOG 0505 findrとりあえず読んだ 最終的なゴールを常に意識すること → fMRIのデータをFINERっぽいものに流して，力学系を再構築する機械学習モデルの開発！！！ まずFINDERを理解する（完璧に理解する❌，理解を深めるために実装してみる） misc go back
 ./2026.html ">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/research-log/h/26w19/y/">
   <meta property="og:site_name" content="Shiryu NAKANO">
   <meta property="og:title" content="pj h log &#39;26 week 19">
-  <meta property="og:description" content="Overview 来週11（月）が初回MTGのためそろそろ作業を始めておく必要がある ひとまずパッと出てきたTODO
-FINDRの論文を読む
-読み方→3回読みする．3回目は実装するつもりで読む 実装を見る
+  <meta property="og:description" content="Overview 来週11（月）が初回MTGのためそろそろ作業を始めておく必要がある FINDRの論文を読む
+読み方→3回読みする．3回目は実装するつもりで読む ぱっとよんだ ある程度図をかける 再実装 実装を見る
 自分で実装してみる→トレーニング MRIのデータがどんなものかさっぱりわからない
-MRIのデータ→オープンデータある？ MRIをDNNに適用したもの misc go back
+MRIのデータ→オープンデータある？ MRIをDNNに適用したもの 実装に向けたタスク pytorchでシンプルなMLPを学習させる
+タスクデータを自分で用意する→githubのminilabで VAEについて
+VAE LOG 0505 findrとりあえず読んだ 最終的なゴールを常に意識すること → fMRIのデータをFINERっぽいものに流して，力学系を再構築する機械学習モデルの開発！！！ まずFINDERを理解する（完璧に理解する❌，理解を深めるために実装してみる） misc go back
 ./2026.html">
   <meta property="og:locale" content="ja">
   <meta property="og:type" content="article">
@@ -31,13 +33,14 @@ MRIのデータ→オープンデータある？ MRIをDNNに適用したもの 
 
 
   <meta itemprop="name" content="pj h log &#39;26 week 19">
-  <meta itemprop="description" content="Overview 来週11（月）が初回MTGのためそろそろ作業を始めておく必要がある ひとまずパッと出てきたTODO
-FINDRの論文を読む
-読み方→3回読みする．3回目は実装するつもりで読む 実装を見る
+  <meta itemprop="description" content="Overview 来週11（月）が初回MTGのためそろそろ作業を始めておく必要がある FINDRの論文を読む
+読み方→3回読みする．3回目は実装するつもりで読む ぱっとよんだ ある程度図をかける 再実装 実装を見る
 自分で実装してみる→トレーニング MRIのデータがどんなものかさっぱりわからない
-MRIのデータ→オープンデータある？ MRIをDNNに適用したもの misc go back
+MRIのデータ→オープンデータある？ MRIをDNNに適用したもの 実装に向けたタスク pytorchでシンプルなMLPを学習させる
+タスクデータを自分で用意する→githubのminilabで VAEについて
+VAE LOG 0505 findrとりあえず読んだ 最終的なゴールを常に意識すること → fMRIのデータをFINERっぽいものに流して，力学系を再構築する機械学習モデルの開発！！！ まずFINDERを理解する（完璧に理解する❌，理解を深めるために実装してみる） misc go back
 ./2026.html">
-  <meta itemprop="wordCount" content="14">
+  <meta itemprop="wordCount" content="28">
 
 <title>pj h log &#39;26 week 19 | Shiryu NAKANO</title>
 <link rel="icon" href="/favicon.png" >
@@ -47,7 +50,7 @@ MRIのデータ→オープンデータある？ MRIをDNNに適用したもの 
 
 
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/ja.search.min.1bad46185801f0e8d10b70c06b2d126fb165d357c9b31f8588153ffe5d615daf.js" integrity="sha256-G61GGFgB8OjRC3DAay0Sb7Fl01fJsx&#43;FiBU//l1hXa8=" crossorigin="anonymous"></script>
+  <script defer src="/ja.search.min.a2896c31e88462e22f9ce2203d35ac9d0c609f0a4a5de148b986a07a4c4e5a1f.js" integrity="sha256-oolsMeiEYuIvnOIgPTWsnQxgnwpKXeFIuYagekxOWh8=" crossorigin="anonymous"></script>
 
 
 
@@ -151,8 +154,18 @@ document.addEventListener("DOMContentLoaded", function() {
 <nav id="TableOfContents">
 <ul>
 <li><a href="#headline-1">Overview</a>
+<ul>
+<li><a href="#headline-2">実装に向けたタスク</a>
 </li>
-<li><a href="#headline-2">misc</a>
+</ul>
+</li>
+<li><a href="#headline-3">LOG</a>
+<ul>
+<li><a href="#headline-4">0505</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-5">misc</a>
 </li>
 </ul>
 </nav>
@@ -187,13 +200,13 @@ Overview
 <div id="outline-text-headline-1" class="outline-text-2">
 <ul>
 <li>来週11（月）が初回MTGのためそろそろ作業を始めておく必要がある</li>
-</ul>
-<p>ひとまずパッと出てきたTODO</p>
-<ul>
-<li class="unchecked">
+<li class="indeterminate">
 <p>FINDRの論文を読む</p>
 <ul>
 <li>読み方→3回読みする．3回目は実装するつもりで読む</li>
+<li class="checked">ぱっとよんだ</li>
+<li class="unchecked">ある程度図をかける</li>
+<li class="unchecked">再実装</li>
 </ul>
 </li>
 <li class="unchecked">
@@ -210,13 +223,53 @@ Overview
 </ul>
 </li>
 </ul>
+<div id="outline-container-headline-2" class="outline-3">
+<h3 id="headline-2">
+実装に向けたタスク
+</h3>
+<div id="outline-text-headline-2" class="outline-text-3">
+<ul>
+<li class="unchecked">
+<p>pytorchでシンプルなMLPを学習させる</p>
+<ul>
+<li class="unchecked">タスクデータを自分で用意する→githubのminilabで</li>
+</ul>
+</li>
+<li class="unchecked">
+<p>VAEについて</p>
+<ul>
+<li>VAE</li>
+</ul>
+</li>
+</ul>
 </div>
 </div>
-<div id="outline-container-headline-2" class="outline-2">
-<h2 id="headline-2">
+</div>
+</div>
+<div id="outline-container-headline-3" class="outline-2">
+<h2 id="headline-3">
+LOG
+</h2>
+<div id="outline-text-headline-3" class="outline-text-2">
+<div id="outline-container-headline-4" class="outline-3">
+<h3 id="headline-4">
+0505
+</h3>
+<div id="outline-text-headline-4" class="outline-text-3">
+<ul>
+<li>findrとりあえず読んだ</li>
+<li>最終的なゴールを常に意識すること → fMRIのデータをFINERっぽいものに流して，力学系を再構築する機械学習モデルの開発！！！</li>
+<li>まずFINDERを理解する（完璧に理解する❌，理解を深めるために実装してみる）</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-5" class="outline-2">
+<h2 id="headline-5">
 misc
 </h2>
-<div id="outline-text-headline-2" class="outline-text-2">
+<div id="outline-text-headline-5" class="outline-text-2">
 <ul>
 <li>
 <p><a href="/posts/research-log/2026">go back</a></p>
@@ -246,8 +299,8 @@ misc
   </div>
   <div>
   
-    <a href="/posts/research-log/2026/" class="flex align-center">
-      <span>research log 2026</span>
+    <a href="/posts/research-log/26w20/" class="flex align-center">
+      <span>research h &#39;26 week 20</span>
       <img src="/icons/forward.svg" class="book-icon" alt="Forward" />
     </a>
   
@@ -287,8 +340,18 @@ misc
 <nav id="TableOfContents">
 <ul>
 <li><a href="#headline-1">Overview</a>
+<ul>
+<li><a href="#headline-2">実装に向けたタスク</a>
 </li>
-<li><a href="#headline-2">misc</a>
+</ul>
+</li>
+<li><a href="#headline-3">LOG</a>
+<ul>
+<li><a href="#headline-4">0505</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-5">misc</a>
 </li>
 </ul>
 </nav>

@@ -22,7 +22,9 @@
   </url><url>
     <loc>http://localhost:1313/posts/engineering/emacs/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/research/materials/ai-safty/</loc>
+    <loc>http://localhost:1313/posts/research/material/ai-safety/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/research/materials/kan/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/study/deepbasic_2026_spring/</loc>
   </url><url>
@@ -64,6 +66,8 @@
   </url><url>
     <loc>http://localhost:1313/posts/research-log/2026/</loc>
   </url><url>
+    <loc>http://localhost:1313/posts/engineering/ros2/</loc>
+  </url><url>
     <loc>http://localhost:1313/posts/life/study/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
@@ -79,6 +83,8 @@
     <loc>http://localhost:1313/posts/misc/tsukuchal2024/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/misc/tsukuchal2025/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/misc/tsukuchal2026/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/misc/retrospective-intern/</loc>
   </url><url>

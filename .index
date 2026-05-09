@@ -1,12 +1,12 @@
-_config.yml
-_data
-_plugins
+
+
+
 _site
 assets
 content
 data
-Gemfile
-Gemfile.lock
+
+
 i18n
 LICENSE
 README.md
@@ -15,3 +15,6 @@ static
 themes
 tools
 
+hugo.toml
+layouts
+public

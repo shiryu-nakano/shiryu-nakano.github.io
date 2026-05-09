@@ -1,0 +1,54 @@
+#+TITLE: research h '26 week 20 
+#+URL: /posts/research-log/26w20/
+
+#+filetags: :daily:
+#+OPTIONS: num:nil ^:nil tags:nil todo:nil H:10
+#+OPTIONS: broken-links:mark
+#+OPTIONS: tex:t
+#+OPTIONS: html-postamble:nil
+#+OPTIONS: links:nil
+
+
+#  #+OPTIONS: toc:nil num:nil ^:nil tags:nil todo:nil H:10
+
+# self http://localhost:1313/posts/research-log/h/26w19/y
+# home http://localhost:1313/posts/research-log/2026/
+
+
+* Overview
+- 来週11（月）が初回MTGのためそろそろ作業を始めておく必要がある
+
+- [-] FINDRの論文を読む
+  - 読み方→3回読みする．3回目は実装するつもりで読む
+  - [X] ぱっとよんだ
+  - [ ] ある程度図をかける
+  - [ ] 再実装
+    
+- [ ] 実装を見る
+  - 自分で実装してみる→トレーニング
+- [ ] MRIのデータがどんなものかさっぱりわからない
+  - MRIのデータ→オープンデータある？
+  - MRIをDNNに適用したもの
+
+
+** 実装に向けたタスク
+
+- [ ] pytorchでシンプルなMLPを学習させる
+  - [ ] タスクデータを自分で用意する→githubのminilabで
+- [ ] VAEについて
+  - VAE
+
+* LOG
+
+** 0505
+- findrとりあえず読んだ
+- 最終的なゴールを常に意識すること → fMRIのデータをFINERっぽいものに流して，力学系を再構築する機械学習モデルの開発！！！
+- まずFINDERを理解する（完璧に理解する❌，理解を深めるために実装してみる）
+  
+
+
+
+
+* misc
+- [[/posts/research-log/2026][go back]]
+  - [[./2026.org]]
