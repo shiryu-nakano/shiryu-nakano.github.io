@@ -21,7 +21,7 @@ geometry_msgs/TwistWithCovariance twist
 ```
 
 
-ちなみに、geometry_msgs/PoseWithCovariance poseは、
+geometry_msgs/PoseWithCovariance poseは、
 Pose型と、その共分散行列（不確かさ？）を含んでいる。
 
 ```
@@ -38,6 +38,9 @@ float64[36] covariance
 c.f. [geometry_msgs/PoseWithCovariance Documentation](https://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/PoseWithCovariance.html)
 
 [msg/Pose Documentation](https://docs.ros2.org/foxy/api/geometry_msgs/msg/Pose.html)
+https://docs.ros2.org/foxy/api/geometry_msgs/msg/PoseStamped.html
+
+
 - Raw Message Definition
 
 ```
