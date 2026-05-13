@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "ff6be1494cbeabc5",
+        "id": "b56c3c08d04b570e",
         "type": "tabs",
         "children": [
           {
-            "id": "685de539e2e85db1",
+            "id": "88ca0d36ab8c80c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/daily/2026/05/2026-05-11.md",
+                "file": "content/posts/daily/2026/05/week 21.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-11"
+              "title": "week 21"
+            }
+          },
+          {
+            "id": "63435355068b3c0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/daily/2026/05/無題のファイル.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "無題のファイル"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "取引",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -180,11 +195,53 @@
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
       "command-palette:コマンドパレットを開く": false,
-      "bases:新規ベースを作成": false
+      "bases:新規ベースを作成": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "685de539e2e85db1",
+  "active": "63435355068b3c0f",
   "lastOpenFiles": [
-    "Pasted image 20260511205032.png"
+    "posts/misc/retrospective-intern.md",
+    "content/posts/daily/2026/05/無題のファイル.md",
+    "posts/無題のファイル.md",
+    "content/posts/daily/2026/05/2026-05-13.md",
+    "public/images/misc/Pasted image 20260513232858.png",
+    "static/images/misc/Pasted image 20260513232858.png",
+    "content/posts/daily/2026/05/week 21.md",
+    "public/posts/daily/2026/05/week21/index.html",
+    "public/posts/daily/2026/05/week21",
+    "content/posts/daily/2026/05/week 20.md",
+    "content/posts/misc/2026-05-12.md",
+    "public/posts/misc/2026-05-12/index.html",
+    "public/posts/misc/2026-05-12",
+    "content/posts/univ/deteil.md",
+    "public/images/misc/Pasted image 20260513165704.png",
+    "static/images/misc/Pasted image 20260513165704.png",
+    "public/images/misc/Pasted image 20260513165629.png",
+    "static/images/misc/Pasted image 20260513165629.png",
+    "public/posts/daily/2026/05/13/index.html",
+    "public/posts/daily/2026/05/13",
+    "content/posts/daily/2026/05/2026-05-12.md",
+    "public/posts/daily/2026/05/week-20/index.html",
+    "public/posts/daily/2026/05/week-20",
+    "public/posts/daily/2026/05/無題のファイル/index.html",
+    "public/posts/daily/2026/05/無題のファイル",
+    "content/posts/daily/2026/05/2026-05-11.md",
+    "content/posts/misc/無題のファイル.md",
+    "public/images/misc/Pasted image 20260511221346.png",
+    "static/images/misc/Pasted image 20260511221346.png",
+    "public/images/misc/Pasted image 20260511221332.png",
+    "static/images/misc/Pasted image 20260511221332.png",
+    "content/posts/engineering/engineering-notes.md",
+    "content/posts/research/research_log/2026/2026研究日誌.md",
+    "content/posts/research/_index.md",
+    "content/posts/study/study_overview.md",
+    "content/posts/study/_index.md",
+    "content/posts/life/tips.md",
+    "content/posts/life/study.md",
+    "content/posts/misc/retrospective-intern-undergrad.md",
+    "content/posts/life/_index.md",
+    "content/posts/daily/dailyHome.md"
   ]
 }

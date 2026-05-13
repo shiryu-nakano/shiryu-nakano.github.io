@@ -1,0 +1,11 @@
+{
+  "obsidian-task-marker:task-marker-complete": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Enter"
+    }
+  ]
+}
