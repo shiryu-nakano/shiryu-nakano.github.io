@@ -1,10 +1,14 @@
-#+TITLE: Youtubeで見たい雑多なまとめ
-#+URL: /posts/study/youtube1/
+---
+title: youtube-study
+url: /posts/study/youtube1/
+---
 
-* Overview
+
+## Overview
 特に目的を持ってというわけでもなく，でも見ようと思ってみていない動画をメモする
 
-* LIST
+
+## LIST
 学習系
 
 - [ ]  慶應大学講義　応用確率論　第一回　概要、事象と確率分布
