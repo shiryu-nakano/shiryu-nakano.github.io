@@ -1,19 +1,16 @@
-#+TITLE: 2026-05-08
-#+URL: /posts/daily/2026/05/08/
-
+#+TITLE: 2026-05
+#+URL: /posts/daily/2026/05/achieve/
 #+filetags: :daily:
-# #+OPTIONS: toc:nil num:nil ^:nil tags:nil todo:nil H:10
-#+OPTIONS: num:nil ^:nil tags:nil todo:nil H:10
+#+OPTIONS: toc:nil num:nil ^:nil tags:nil todo:nil H:10
 #+OPTIONS: broken-links:mark
 #+OPTIONS: tex:t
 #+OPTIONS: html-postamble:nil
 #+OPTIONS: links:nil
 
------
-- [[/posts/daily/2026/05/week19/][week19]]
-  - [[./week19.org]]
 
-- may
+
+
+
   - [[./achievement_may.org]]
 -----
 

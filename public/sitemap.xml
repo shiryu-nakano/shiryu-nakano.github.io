@@ -20,8 +20,6 @@
     <loc>http://localhost:1313/posts/life/tips/</loc>
     <lastmod>2026-03-31T13:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/engineering/emacs/</loc>
-  </url><url>
     <loc>http://localhost:1313/posts/misc/2026-05-12/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/misc/%E7%84%A1%E9%A1%8C%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB/</loc>
@@ -45,6 +43,8 @@
     <loc>http://localhost:1313/tags/daily/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/study/dmft/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/engineering/memo/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/engineering/notes/</loc>
   </url><url>
@@ -77,6 +77,8 @@
     <loc>http://localhost:1313/posts/research-log/2026/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/research/scaling-laws/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/engineering/memo/teaching_git/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/engineering/ros2/</loc>
   </url><url>

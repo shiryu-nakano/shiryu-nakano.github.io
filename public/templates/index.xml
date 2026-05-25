@@ -9,10 +9,10 @@
     <atom:link href="http://localhost:1313/templates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/templates/%E7%84%A1%E9%A1%8C%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB/</link>
+      <link>http://localhost:1313/templates/toggle-task/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/templates/%E7%84%A1%E9%A1%8C%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB/</guid>
-      <description></description>
+      <guid>http://localhost:1313/templates/toggle-task/</guid>
+      <description>&lt;p&gt;&amp;lt;%*&#xA;const editor = app.workspace.activeEditor?.editor;&#xA;if (!editor) return;&lt;/p&gt;&#xA;&lt;p&gt;const cursor = editor.getCursor();&#xA;const line = editor.getLine(cursor.line);&lt;/p&gt;&#xA;&lt;p&gt;// パターン1: - [ ] テキスト → チェックする&#xA;const unchecked = line.match(/^(\s*[-*+]\s+)[ ]\s+(.+)$/);&#xA;if (unchecked) {&#xA;const [, prefix, text] = unchecked;&#xA;const ts = window.moment().format(&amp;ldquo;YYYY-MM-DD HH:mm&amp;rdquo;);&#xA;editor.setLine(cursor.line, &lt;code&gt;${prefix}[X] ~~*${text}*~~ [${ts}]&lt;/code&gt;);&#xA;return;&#xA;}&lt;/p&gt;&#xA;&lt;p&gt;// パターン2: - [X] &lt;del&gt;&lt;em&gt;テキスト&lt;/em&gt;&lt;/del&gt; [日時] → アンチェックして元に戻す&#xA;const checked = line.match(/^(\s*[-&lt;em&gt;+]\s+)[[Xx]]\s+&lt;del&gt;*(.+?)*&lt;/del&gt;\s&lt;/em&gt;[\d{4}-\d{2}-\d{2} \d{2}:\d{2}]\s*$/);&#xA;if (checked) {&#xA;const [, prefix, text] = checked;&#xA;editor.setLine(cursor.line, &lt;code&gt;${prefix}[ ] ${text}&lt;/code&gt;);&#xA;return;&#xA;}&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

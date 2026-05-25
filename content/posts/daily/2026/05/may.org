@@ -3,10 +3,7 @@
 
 * 日報
 
-- Week 19
-  - [[week19][/posts/daily/2026/05/week19/]]
-  - [[https://drive.google.com/open?id=1nZklfQtsCNkLNVWgxcJRC6ZB4Cplp6fb&usp=drive_fs][pdf log]]
-  
+- *Week 19* | [[/posts/daily/2026/05/week19/][week19]] | [[https://drive.google.com/open?id=1nZklfQtsCNkLNVWgxcJRC6ZB4Cplp6fb&usp=drive_fs][pdf log]]
 - [[/posts/daily/2026/05/01/][2026-05-01]]
 - [[/posts/daily/2026/05/02/][2026-05-02]]
 - [[/posts/daily/2026/05/03/][2026-05-03]]
@@ -17,11 +14,7 @@
 - [[/posts/daily/2026/05/08/][2026-05-08]] | 週報作成提出
 - [[/posts/daily/2026/05/09/][2026-05-09]]
 - [[/posts/daily/2026/05/10/][2026-05-10]] | 研究計画書提出/査読提出
-- Week 20
-  - week 19 反省
-  - week 20
-  - pdf log
-  
+- *Week 20* | [[/posts/daily/2026/05/week20][week 20]] | [[https://drive.google.com/file/d/1MBTSV30RoujWF3Y-21xsaZLglPvYawQm/view?usp=drive_link][pdf log]]
 - [[/posts/daily/2026/05/11/][2026-05-11]] | pj.H MTG①
 - [[/posts/daily/2026/05/12/][2026-05-12]] | Seminar (ALL PM) 
 - [[/posts/daily/2026/05/13/][2026-05-13]] | 修論中間発表/歯医者1830~@豊島園
@@ -29,12 +22,7 @@
 - [[/posts/daily/2026/05/15/][2026-05-15]] | 週報提出
 - [[/posts/daily/2026/05/16/][2026-05-16]]
 - [[/posts/daily/2026/05/17/][2026-05-17]]
-
-- Week 21
-  - Week 20 反省
-  - Week 21
-  - pdf log
-
+- *Week 21* | [[/posts/daily/2026/05/week21][Week 21]] |
 - [[/posts/daily/2026/05/18/][2026-05-18]] | GCI 1,2 締切
 - [[/posts/daily/2026/05/19/][2026-05-19]]
 - [[/posts/daily/2026/05/20/][2026-05-20]]
@@ -42,6 +30,7 @@
 - [[/posts/daily/2026/05/22/][2026-05-22]]
 - [[/posts/daily/2026/05/23/][2026-05-23]]
 - [[/posts/daily/2026/05/24/][2026-05-24]]
+- *Week 22*
 - [[/posts/daily/2026/05/25/][2026-05-25]]
 - [[/posts/daily/2026/05/26/][2026-05-26]]
 - [[/posts/daily/2026/05/27/][2026-05-27]]

@@ -4,6 +4,7 @@ url: /posts/engineering/notes/
 ---
 
 
+
 <a id="org0e3b579"></a>
 
 ## Overview
@@ -32,22 +33,6 @@ url: /posts/engineering/notes/
 -   [Linkedin](https://www.linkedin.com/in/shiryu-nakano-637a9834a/)
 
 </details>
-
-
-## Topics
-
-
-**Environments**
--   ROS2の環境構築
--   [pyenv virtualenv](https://zenn.dev/nkncru/scraps/fa8ad457b1ae17)
-
-
-**git系の操作**
--   [git 系コマンドなどのメモ(自分のzenn記事)](https://zenn.dev/nkncru/scraps/bf0f3b47ec7828)
-
-**exercise**
--   <https://github.com/rougier/numpy-100/blob/master/100_Numpy_exercises.md>
-
 
 
 <a id="orgdca9b68"></a>
