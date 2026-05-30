@@ -2,6 +2,7 @@
 title: "Shiryu NAKANO / 中野 志颯"
 ---
 
+<!--
 ## About
 
 Interested in Singular Learning Theory (SLT) and Machine Learning.
@@ -12,6 +13,8 @@ Interested in Singular Learning Theory (SLT) and Machine Learning.
 
 - Singular Learning Theory (SLT)
 - Machine Learning
+
+--->
 
 ## Education
 
@@ -25,11 +28,14 @@ Interested in Singular Learning Theory (SLT) and Machine Learning.
 | 2026.4 - 現在 | 一橋大学 ソーシャル・データサイエンス研究科  |
 | 2021.4 - 2026.3 | 同志社大学 理工学部 インテリジェント情報工学科 |
 
+
 ## Publications
 
 - (In preparation)
 
 ## Links
-
+<!--
 - [Posts](/posts/)
+-->
+
 - [GitHub](https://github.com/shiryu-nakano)

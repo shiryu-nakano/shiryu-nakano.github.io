@@ -10,8 +10,18 @@ math: true
 
 
 
----
+## 大学院の研究室生活
+- [大学院での研究生活 | 宇宙物理メモ](https://github-nakasho.github.io/poem/research_in_graduate#%E5%A4%A7%E5%AD%A6%E9%99%A2%E3%81%A7%E3%81%AE%E7%A0%94%E7%A9%B6%E7%94%9F%E6%B4%BB)
 
+
+**ヘルスケア**
+- https://drive.google.com/file/d/1P2AZ2qzxL8UJBJxJMkrl1YoDDdrjST60/view?usp=drive_link
+	- 日経新聞にあった．なんとなく気分が下がってしまってて，自分でも言語化できるほど理由がわからない時の対処法
+
+
+
+
+---
 - 数学系
   - [数学者を目指す](https://note.com/taketo1024/n/n2c3f1fa716ab)
   - [How to prepare for seminars](https://www.ms.u-tokyo.ac.jp/~yasuyuki/sem.htm)
@@ -38,5 +48,4 @@ math: true
   - Paper Search from Venues
   - 有名なやつ（古典）から読む
 - [論文の読み方 和訳 #論文読み - Qiita](Https://qiita.com/cirusthenter/items/2e508c5fb3e824312918)
-
 
