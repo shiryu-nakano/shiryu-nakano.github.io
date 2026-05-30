@@ -22,5 +22,12 @@
       <guid>http://localhost:1313/posts/life/study/</guid>
       <description>&lt;!-- 内容を追加してください --&gt;</description>
     </item>
+    <item>
+      <title>全般不安症</title>
+      <link>http://localhost:1313/posts/file/health/gad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/file/health/gad/</guid>
+      <description>&lt;h2 id=&#34;overview-generalized-anxiety-disorder&#34;&gt;Overview: Generalized Anxiety Disorder&lt;a class=&#34;anchor&#34; href=&#34;#overview-generalized-anxiety-disorder&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;研究室で研究している大学院生は，たまにこうなってしまうことがある．実際自分もこうなった．&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../../../../static/images/misc/Pasted%20image%2020260528201530.png&#34; alt=&#34;&#34; /&gt;&#xA;[引用｜日経新聞]&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

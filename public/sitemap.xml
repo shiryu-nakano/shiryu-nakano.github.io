@@ -40,6 +40,8 @@
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/posts/research/materials/theorydeeplearning/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/daily/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/study/dmft/</loc>
@@ -78,6 +80,8 @@
   </url><url>
     <loc>http://localhost:1313/posts/research/scaling-laws/</loc>
   </url><url>
+    <loc>http://localhost:1313/english/</loc>
+  </url><url>
     <loc>http://localhost:1313/posts/engineering/memo/teaching_git/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/engineering/ros2/</loc>
@@ -103,6 +107,10 @@
     <loc>http://localhost:1313/posts/misc/tsukuchal2026/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/misc/retrospective-intern/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/research/materials/mechinter/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/file/health/gad/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/study/material/duality/</loc>
   </url><url>

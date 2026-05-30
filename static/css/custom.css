@@ -36,3 +36,125 @@ li.unchecked > ul,
 li.checked > ul {
   margin-top: 0.25em;
 }
+
+/* Profile Page Styling */
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.profile-content {
+  text-align: center;
+}
+
+.profile-name {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--body-font-color, #333);
+}
+
+.profile-position {
+  font-size: 1.1rem;
+  color: var(--gray-600, #666);
+  margin: 0.5rem 0;
+}
+
+.profile-affiliation {
+  font-size: 1rem;
+  color: var(--gray-500, #888);
+  margin: 0.25rem 0 1.5rem 0;
+}
+
+/* Social Links */
+.profile-social {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.5rem 0 2rem 0;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--gray-100, #f5f5f5);
+  color: var(--body-font-color, #333);
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  background-color: var(--gray-200, #e0e0e0);
+  transform: translateY(-2px);
+}
+
+.social-link svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Main Content */
+.profile-main {
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.profile-main h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--gray-200, #e0e0e0);
+  padding-bottom: 0.5rem;
+}
+
+.profile-main h1 {
+  display: none; /* Hide the duplicate h1 from markdown content */
+}
+
+.profile-main table {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.profile-main table th,
+.profile-main table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--gray-200, #e0e0e0);
+}
+
+.profile-main table th {
+  font-weight: 600;
+  background-color: var(--gray-50, #fafafa);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .profile-name {
+    font-size: 1.5rem;
+  }
+
+  .profile-position {
+    font-size: 1rem;
+  }
+
+  .profile-social {
+    gap: 0.75rem;
+  }
+
+  .social-link {
+    width: 36px;
+    height: 36px;
+  }
+
+  .social-link svg {
+    width: 18px;
+    height: 18px;
+  }
+}

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="https://sites.google.com/view/ryokarakida/%E8%AC%9B%E7%BE%A9?authuser=0
+https://www.nature.com/articles/s41467-025-61309-9
+https://github.com/CryptoAILab/Awesome-LM-SSP/blob/main/collection/paper/security/poison_&amp;_backdoor.md
+https://github.com/CryptoAILab/Awesome-LM-SSP
+https://aclanthology.org/2025.acl-long.114.pdf
+Singular Learning Theory
+「Deep Learning is Singular, and That’s Good」論文とpyro実装を読む
+この日本語記事の原著は：Deep Learning Is Singular, and That’s Good | IEEE Journals &amp; Magazine | IEEE Xplore You’re Measuring Model Complexity Wrong — LessWrong
+LLCと損失地形の関係 My Criticism of Singular Learning Theory — AI Alignment Forum
+SLTのDeepの統一理論としての不十分性の指摘 SLTは非常に重要な視点と技術を提供するが，完璧ではない．他の知見をもたらす理論との融合がとても重要 Estimating the Local Learning Coefficient — The Dan MacKinlay stable of variably-well-consider’d enterprises
+AI safetyとの関係
+https://www.far.ai/events/sessions/jesse-hoogland-singular-learning-theory-and-ai-safety Investigating the learning coefficient of modular addition: hackathon project — AI Alignment Forum
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/research/materials/theorydeeplearning/">
+  <meta property="og:site_name" content="Shiryu NAKANO">
+  <meta property="og:title" content="Daily">
+  <meta property="og:description" content="https://sites.google.com/view/ryokarakida/%E8%AC%9B%E7%BE%A9?authuser=0
+https://www.nature.com/articles/s41467-025-61309-9
+https://github.com/CryptoAILab/Awesome-LM-SSP/blob/main/collection/paper/security/poison_&amp;_backdoor.md
+https://github.com/CryptoAILab/Awesome-LM-SSP
+https://aclanthology.org/2025.acl-long.114.pdf
+Singular Learning Theory
+「Deep Learning is Singular, and That’s Good」論文とpyro実装を読む
+この日本語記事の原著は：Deep Learning Is Singular, and That’s Good | IEEE Journals &amp; Magazine | IEEE Xplore You’re Measuring Model Complexity Wrong — LessWrong
+LLCと損失地形の関係 My Criticism of Singular Learning Theory — AI Alignment Forum
+SLTのDeepの統一理論としての不十分性の指摘 SLTは非常に重要な視点と技術を提供するが，完璧ではない．他の知見をもたらす理論との融合がとても重要 Estimating the Local Learning Coefficient — The Dan MacKinlay stable of variably-well-consider’d enterprises
+AI safetyとの関係
+https://www.far.ai/events/sessions/jesse-hoogland-singular-learning-theory-and-ai-safety Investigating the learning coefficient of modular addition: hackathon project — AI Alignment Forum">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+
+
+  <meta itemprop="name" content="Daily">
+  <meta itemprop="description" content="https://sites.google.com/view/ryokarakida/%E8%AC%9B%E7%BE%A9?authuser=0
+https://www.nature.com/articles/s41467-025-61309-9
+https://github.com/CryptoAILab/Awesome-LM-SSP/blob/main/collection/paper/security/poison_&amp;_backdoor.md
+https://github.com/CryptoAILab/Awesome-LM-SSP
+https://aclanthology.org/2025.acl-long.114.pdf
+Singular Learning Theory
+「Deep Learning is Singular, and That’s Good」論文とpyro実装を読む
+この日本語記事の原著は：Deep Learning Is Singular, and That’s Good | IEEE Journals &amp; Magazine | IEEE Xplore You’re Measuring Model Complexity Wrong — LessWrong
+LLCと損失地形の関係 My Criticism of Singular Learning Theory — AI Alignment Forum
+SLTのDeepの統一理論としての不十分性の指摘 SLTは非常に重要な視点と技術を提供するが，完璧ではない．他の知見をもたらす理論との融合がとても重要 Estimating the Local Learning Coefficient — The Dan MacKinlay stable of variably-well-consider’d enterprises
+AI safetyとの関係
+https://www.far.ai/events/sessions/jesse-hoogland-singular-learning-theory-and-ai-safety Investigating the learning coefficient of modular addition: hackathon project — AI Alignment Forum">
+  <meta itemprop="wordCount" content="86">
+
+<title>Daily | Shiryu NAKANO</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/posts/research/materials/theorydeeplearning/">
+<link rel="stylesheet" href="/book.min.b267f830fdf65302ecc1702a1178d4f25aa783409b3a25098f3404dd24f37a4d.css" integrity="sha256-smf4MP32UwLswXAqEXjU8lqng0CbOiUJjzQE3STzek0=" crossorigin="anonymous">
+
+
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/ja.search.min.a07f852b9311143500a1308883f4476424f06396492f62f3b893c783e625943a.js" integrity="sha256-oH&#43;FK5MRFDUAoTCIg/RHZCTwY5ZJL2LzuJPHg&#43;YllDo=" crossorigin="anonymous"></script>
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/custom.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "$", right: "$", display: false}
+        ],
+        throwOnError: false
+    });
+});
+</script>
+
+</head>
+<body dir="ltr" class="book-kind-page book-type-posts">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Shiryu NAKANO</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="検索"
+    aria-label="検索"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+  <div class="markdown">
+    <ul>
+<li><a href="/">Home</a></li>
+</ul>
+<!--
+- [Research](/posts/research/)
+- [Life](/posts/life/)
+- [Study](/posts/study/)
+- [Univ](/posts/univ/)
+--->
+  </div>
+
+
+
+</nav>
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Daily</h3>
+
+  <label for="toc-control">
+    
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+    
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#">https://kurasawa.c.ooco.jp/</a></li>
+  </ul>
+</nav>
+
+
+  
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown book-post">
+  <h1>
+    Daily
+  </h1>
+  
+
+
+  
+
+  
+
+
+  <div class="book-post-content markdown-inner"><p><a href="https://sites.google.com/view/ryokarakida/%E8%AC%9B%E7%BE%A9?authuser=0">https://sites.google.com/view/ryokarakida/%E8%AC%9B%E7%BE%A9?authuser=0</a></p>
+<p><a href="https://www.nature.com/articles/s41467-025-61309-9">https://www.nature.com/articles/s41467-025-61309-9</a></p>
+<p><a href="https://github.com/CryptoAILab/Awesome-LM-SSP/blob/main/collection/paper/security/poison_&amp;_backdoor.md">https://github.com/CryptoAILab/Awesome-LM-SSP/blob/main/collection/paper/security/poison_&_backdoor.md</a></p>
+<p><a href="https://github.com/CryptoAILab/Awesome-LM-SSP">https://github.com/CryptoAILab/Awesome-LM-SSP</a></p>
+<p><a href="https://aclanthology.org/2025.acl-long.114.pdf">https://aclanthology.org/2025.acl-long.114.pdf</a></p>
+<p><strong>Singular Learning Theory</strong></p>
+<ul>
+<li>
+<p><a href="https://zenn.dev/xiangze/articles/2249f2221b0a5d">「Deep Learning is Singular, and That&rsquo;s Good」論文とpyro実装を読む</a></p>
+<ul>
+<li>この日本語記事の原著は：<a href="https://ieeexplore.ieee.org/document/9812468">Deep Learning Is Singular, and That’s Good | IEEE Journals &amp; Magazine | IEEE Xplore</a></li>
+</ul>
+</li>
+<li>
+<p><a href="https://www.lesswrong.com/posts/6g8cAftfQufLmFDYT/you-re-measuring-model-complexity-wrong">You’re Measuring Model Complexity Wrong — LessWrong</a></p>
+<ul>
+<li>LLCと損失地形の関係</li>
+</ul>
+</li>
+<li>
+<p><a href="https://www.alignmentforum.org/posts/ALJYj4PpkqyseL7kZ/my-criticism-of-singular-learning-theory">My Criticism of Singular Learning Theory — AI Alignment Forum</a></p>
+<ul>
+<li>SLTのDeepの統一理論としての不十分性の指摘
+<ul>
+<li>SLTは非常に重要な視点と技術を提供するが，完璧ではない．他の知見をもたらす理論との融合がとても重要</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><a href="https://danmackinlay.name/notebook/estimating_llc.html">Estimating the Local Learning Coefficient — The Dan MacKinlay stable of variably-well-consider’d enterprises</a></p>
+</li>
+<li>
+<p>AI safetyとの関係</p>
+<ul>
+<li><a href="https://www.far.ai/events/sessions/jesse-hoogland-singular-learning-theory-and-ai-safety">https://www.far.ai/events/sessions/jesse-hoogland-singular-learning-theory-and-ai-safety</a></li>
+</ul>
+</li>
+<li>
+<p><a href="https://www.alignmentforum.org/posts/4v3hMuKfsGatLXPgt/investigating-the-learning-coefficient-of-modular-addition">Investigating the learning coefficient of modular addition: hackathon project — AI Alignment Forum</a></p>
+</li>
+<li></li>
+</ul>
+<p><strong>Neural Tangent Kernel</strong></p>
+<ul>
+<li><a href="https://github.com/google/neural-tangents">https://github.com/google/neural-tangents</a></li>
+</ul>
+<p><strong>行列計算の教材</strong></p>
+<ul>
+<li><a href="https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf">https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf</a></li>
+<li>
+<h2 id=""><a href="https://kurasawa.c.ooco.jp/">https://kurasawa.c.ooco.jp/</a><a class="anchor" href="#">#</a></h2>
+</li>
+</ul>
+</div>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+    <div class="flex flex-wrap justify-between">
+  <div>
+  
+    <a href="/posts/research/materials/aiforscience/" class="flex align-center">
+      <img src="/icons/backward.svg" class="book-icon" alt="Backward" />
+      <span>AI for Science</span>
+    </a>
+  
+  </div>
+  <div>
+  
+    <a href="/posts/research/notes/" class="flex align-center">
+      <span>Org-mode Test</span>
+      <img src="/icons/forward.svg" class="book-icon" alt="Forward" />
+    </a>
+  
+  </div>
+</div>
+  
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+    
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#">https://kurasawa.c.ooco.jp/</a></li>
+  </ul>
+</nav>
+
+
+  
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
