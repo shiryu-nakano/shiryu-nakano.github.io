@@ -7,7 +7,7 @@ url: /posts/daily/2026/
 
 # Overview
 
-### June
+### [June](/posts/daily/2026/#June)
 
 
 

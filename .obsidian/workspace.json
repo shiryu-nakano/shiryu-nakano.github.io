@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/daily/2026/05/2026-05-31.md",
+                "file": "content/posts/daily/2026/_index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-31"
+              "title": "_index"
             }
           },
           {
@@ -201,14 +201,19 @@
   },
   "active": "337a795e42a22f1d",
   "lastOpenFiles": [
-    "content/posts/daily/2026/06/無題のファイル.md",
+    "content/posts/daily/_index.md",
+    "content/posts/daily/dailyHome.md",
     "content/posts/daily/2026/_index.md",
+    "posts/daily/2026.md",
+    "posts/daily",
+    "posts",
+    "content/posts/daily/2026/05/2026-05-31.md",
+    "content/posts/daily/2026/06/無題のファイル.md",
     "content/posts/daily/2026/daily_schedule.md",
     "public/posts/daily/2026/06/index.html",
     "public/posts/daily/2026/06/無題のファイル/index.html",
     "public/posts/daily/2026/06/無題のファイル",
     "public/posts/daily/2026/06",
-    "content/posts/daily/2026/05/2026-05-31.md",
     "content/posts/daily/2026/05/week 22.md",
     "content/posts/daily/2026/05/2026-05-30.md",
     "public/posts/daily/2026/05/30/index.html",
@@ -216,8 +221,6 @@
     "content/posts/daily/2026/05/2026-05-29.md",
     "public/posts/daily/2026/05/29/index.html",
     "public/posts/daily/2026/05/29",
-    "public/posts/daily/2026/05/31/index.html",
-    "public/posts/daily/2026/05/31",
     "content/english.md",
     "content/posts/daily/2026/05/2026-05-23.md",
     "content/posts/daily/2026/05/2026-05-24.md",
@@ -227,8 +230,6 @@
     "content/posts/daily/2026/05/2026-05-28.md",
     "content/posts/research/materials/深層学習の理論　勉強地図.md",
     "content/posts/research/materials/Mechanistic Interpretability.md",
-    "content/posts/daily/_index.md",
-    "content/posts/daily/dailyHome.md",
     "content/posts/research/attitude/attitude_overview.md",
     "content/posts/life/health/全般不安症.md",
     "public/images/misc/Pasted image 20260528125442.png",
@@ -245,7 +246,6 @@
     "static/images/misc/Pasted image 20260526075326.png",
     "public/images/misc/Pasted image 20260526075308.png",
     "static/images/misc/Pasted image 20260526075308.png",
-    "content/posts/study/materials/双対性.md",
-    "content/posts/daily/2026/05/week 21.md"
+    "content/posts/study/materials/双対性.md"
   ]
 }
