@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/daily/2026/_index.md",
+                "file": "content/_index.md",
                 "mode": "source",
                 "source": false
               },
@@ -201,13 +201,13 @@
   },
   "active": "337a795e42a22f1d",
   "lastOpenFiles": [
+    "content/posts/daily/2026/05/2026-05-31.md",
+    "content/posts/daily/2026/_index.md",
     "content/posts/daily/_index.md",
     "content/posts/daily/dailyHome.md",
-    "content/posts/daily/2026/_index.md",
     "posts/daily/2026.md",
     "posts/daily",
     "posts",
-    "content/posts/daily/2026/05/2026-05-31.md",
     "content/posts/daily/2026/06/無題のファイル.md",
     "content/posts/daily/2026/daily_schedule.md",
     "public/posts/daily/2026/06/index.html",

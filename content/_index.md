@@ -15,24 +15,20 @@ social:
 
 ## About
 
-Interested in Singular Learning Theory (SLT) and Machine Learning.
+**所属** 
 
-特異学習理論（SLT）と機械学習に興味があります。
+**研究領域**　wip
 
 ## Education
-| 期間 | 所属 |
-|:-----|:-----|
-| 2026.4 - 現在 | 一橋大学 ソーシャル・データサイエンス研究科  |
+| 期間              | 所属                       |
+| :-------------- | :----------------------- |
+| 2026.4 - 現在     | 一橋大学 ソーシャル・データサイエンス研究科   |
 | 2021.4 - 2026.3 | 同志社大学 理工学部 インテリジェント情報工学科 |
+| 2017.4 - 2020.3 | 新潟県立長岡高等学校               |
 
 
 ## Publications
 
 - (In preparation)
 
-## Links
-<!--
-- [Posts](/posts/)
--->
 
-- [GitHub](https://github.com/shiryu-nakano)
