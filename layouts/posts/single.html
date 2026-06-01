@@ -17,7 +17,7 @@
 {{ end }}
 
 {{ define "footer" }}
-  {{ if not (eq (string .Params.bookprevnext) "false") }}
+  {{ if eq (string .Params.bookprevnext) "true" }}
     {{ partial "docs/post-prev-next" . }}
   {{ end }}
 {{ end }}
