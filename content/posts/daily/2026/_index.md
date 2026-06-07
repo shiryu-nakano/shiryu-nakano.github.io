@@ -1,6 +1,6 @@
 ---
 title: "2026年"
-bookCollapseSection: true
+bookCollapseSection: false
 url: /posts/daily/2026/
 ---
 

@@ -28,7 +28,7 @@ https://github.com/alex-shpak/hugo-book
 
 
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/ja.search.min.1d0d7833168ef2b9d95ed79719dac93d008b316910ca828bea0822d04fcaff5a.js" integrity="sha256-HQ14MxaO8rnZXteXGdrJPQCLMWkQyoKL6ggi0E/K/1o=" crossorigin="anonymous"></script>
+  <script defer src="/ja.search.min.4f8cadbba3bcac0a1dfde26bde2ce0b7c9056880dada0ffc1033453ede2c9c11.js" integrity="sha256-T4ytu6O8rAod/eJr3izgt8kFaIDa2g/8EDNFPt4snBE=" crossorigin="anonymous"></script>
 
 
 <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/daily/index.xml" title="Shiryu NAKANO" />
@@ -129,6 +129,88 @@ document.addEventListener("DOMContentLoaded", function() {
 
       
       
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/posts/engineering/memo/vpn/">Network</a>
+    </h2>
+    
+
+
+  
+
+  
+  <div class="text-small">
+    
+      <a href="/tags/daily/">Daily</a>
+  </div>
+  
+
+
+    <div class="book-post-content"><h2 id="overview">Overview<a class="anchor" href="#overview">#</a></h2>
+<ul>
+<li>
+<p>まずVPNに接続する</p>
+<ul>
+<li><a href="https://drive.google.com/file/d/1_htS6AvJraEf3Lxut-G-20HjvyrMms2X/view?usp=drive_link">https://drive.google.com/file/d/1_htS6AvJraEf3Lxut-G-20HjvyrMms2X/view?usp=drive_link</a></li>
+</ul>
+</li>
+<li>
+<p>VPNに接続できたらターミナルでkomainu（セグメントB）を踏み台にしてセグメントAの計算機サーバーに入る．</p>
+</li>
+<li>
+<p>hakugei</p>
+<pre tabindex="0"><code>ssh -J nakano@133.46.233.35 nakano@133.46.232.31</code></pre></li>
+<li>
+<p>gpu0</p>
+<pre tabindex="0"><code>ssh -J nakano@133.46.233.35 nakano@133.46.232.40</code></pre></li>
+<li>
+<p>gpu1</p>
+<pre tabindex="0"><code>ssh -J nakano@133.46.233.35 nakano@133.46.232.41</code></pre></li>
+</ul>
+<h2 id="学内で行う初期設定">学内で行う初期設定<a class="anchor" href="#%e5%ad%a6%e5%86%85%e3%81%a7%e8%a1%8c%e3%81%86%e5%88%9d%e6%9c%9f%e8%a8%ad%e5%ae%9a">#</a></h2>
+<p>図の左側のSDS内ネットワークにいるので，vpn接続する必要はなく，
+通常通りターミナルからセグメントAに接続できる．</p>
+<pre tabindex="0"><code>ssh -v nakano@133.46.233.35</code></pre><p>komainuは，図のセグメントBです．つまり，後から外部からセグメントBのkomainu→セグメントAの計算機サーバーに接続するために，いまは内部からセグメントBのkomainuに入り，さらにそこでセグメントAに繋ぐための設定をしている．
+まずこれがうまくいけば，<strong>自分のアカウントでkomainuにsshで接続できることが確認できた</strong>.</p>
+<p>つぎに，</p>
+<ul>
+<li><input disabled="" type="checkbox"> komainuを経由して（踏み台にして）hakugeiやその他の計算機サーバーにssh接続できる</li>
+</ul>
+<p>を確認する．komainuから出て，（つまりローカルに戻って）以下を叩く．</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh -J nakano@133.46.233.35 nakano@133.46.232.31</span></span></code></pre></td></tr></table>
+</div>
+</div><p>これが通れば，komainu（セグメントB）からhakugei（セグメントA）にsshで入れることが確認できている．</p>
+<p>追加で，gpu0,gpu1にも接続可能かどうかを確かめる．</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># gpu0</span>
+</span></span><span style="display:flex;"><span>ssh -v -J nakano@133.46.233.35 nakano@133.46.232.40</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># gpu1</span>
+</span></span><span style="display:flex;"><span>ssh -v -J nakano@133.46.233.35 nakano@133.46.232.41</span></span></code></pre></td></tr></table>
+</div>
+</div><p>全て通れば，あとはvpnに接続できさえすればOK.これは次のセクションを参照．</p>
+<h2 id="vpnに接続する">VPNに接続する<a class="anchor" href="#vpn%e3%81%ab%e6%8e%a5%e7%b6%9a%e3%81%99%e3%82%8b">#</a></h2>
+<ul>
+<li>
+<p>学内アカウントでこちらを確認すればOK</p></div>
+  </article>
   
   <article class="markdown book-post">
     <h2>
@@ -235,7 +317,7 @@ document.addEventListener("DOMContentLoaded", function() {
       
         <li class="flex align-center">
           <a href="/tags/daily/">Daily</a>
-          <span>1</span>
+          <span>2</span>
         </li>
       
       </ul>

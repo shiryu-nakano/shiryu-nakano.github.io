@@ -65,6 +65,13 @@
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;a class=&#34;anchor&#34; href=&#34;#overview&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;特に目的を持ってというわけでもなく，でも見ようと思ってみていない動画をメモする&lt;/p&gt;&#xA;&lt;h2 id=&#34;list&#34;&gt;LIST&lt;a class=&#34;anchor&#34; href=&#34;#list&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;学習系&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 慶應大学講義　応用確率論　第一回　概要、事象と確率分布&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=bHBTEsYC-YM&amp;amp;list=PL7D76A37FD1490743&#34;&gt;https://www.youtube.com/watch?v=bHBTEsYC-YM&amp;list=PL7D76A37FD1490743&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 生命保険数理 ＃01　金利関連&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=zCeay9K9rxk&amp;amp;list=PLBe_TIITFkIpYdZvBUSByhOXF0lB3zGr0&#34;&gt;https://www.youtube.com/watch?v=zCeay9K9rxk&amp;list=PLBe_TIITFkIpYdZvBUSByhOXF0lB3zGr0&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;その他　今後個別に読んでいきたいもの&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
+      <title>世界一流エンジニアの思考法</title>
+      <link>http://localhost:1313/posts/study/books/engineer_method/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/study/books/engineer_method/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;シングルタスク&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;どんなすごい人でも，時間がかかることはかかる．焦らずに時間をかける&lt;/li&gt;&#xA;&lt;li&gt;30分〜1時間を割り当てたら，そのこと「のみ」に取り組む．すぐに終わらないものは，人に問い合わせるなど，物事を進めておいて，待ち状態にして，次のタスクに進む&lt;/li&gt;&#xA;&lt;li&gt;1つのことをやっている時は，他のことを一切せず集中する&lt;/li&gt;&#xA;&lt;li&gt;1つのタスクを中断する場合，次に再開する時に，すぐにその状態に戻れるように記録したり整理したりする&lt;/li&gt;&#xA;&lt;li&gt;タスクの残骸は消す&#xA;&lt;ul&gt;&#xA;&lt;li&gt;ブラウザのタブは必ず閉じる．必要なものはメモする&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;メモの取り方&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;メモを取る時は，そのメモ（気づきや知識）を知りたい人だったらどういう情報が欲しいだろうか？と考えてメモすること&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;タスクの整理&lt;/strong&gt;&#xA;特に複雑な仕事をするとき．&#xA;まずはなんでも「一歩進める」ことを重視する．一歩進めるために&lt;strong&gt;重要なことを1つだけ&lt;/strong&gt;選ぶことを癖付ける．&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>双対性について</title>
       <link>http://localhost:1313/posts/study/material/duality/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

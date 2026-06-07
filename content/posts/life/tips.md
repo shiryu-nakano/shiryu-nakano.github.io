@@ -9,8 +9,7 @@ url: /posts/life/tips/
 
 # 色々なtipsのメモ
 
-- https://note.com/kuweb/n/na6f06cb7fc21
-
+- [シングルタスク](/posts/study/books/engineer_method/)
 
 
 

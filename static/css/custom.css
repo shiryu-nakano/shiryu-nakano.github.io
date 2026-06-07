@@ -98,6 +98,13 @@ li.checked > ul {
   height: 20px;
 }
 
+.lang-button {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: var(--body-font-color, #333);
+}
+
 /* Main Content */
 .profile-main {
   text-align: left;

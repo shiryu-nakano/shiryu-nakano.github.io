@@ -1,5 +1,5 @@
 ---
-title: "Shiryu NAKANO"
+title: "Home"
 bookCollapseSection: true
 url: /posts/
 ---

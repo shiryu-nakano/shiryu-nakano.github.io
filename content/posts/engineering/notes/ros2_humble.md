@@ -1,7 +1,7 @@
 ---
-title: "Shiryu NAKANO"
+title: Shiryu NAKANO
 bookCollapseSection: true
-url: /posts/engineering/ros2/
+url: /posts/engineering/memo/ros2/
 ---
 
 
