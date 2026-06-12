@@ -4,7 +4,7 @@ url: /posts/daily/2026/05/week22/
 ---
 
 
-##  week22 :  5/25~5/31
+##  week23 :  ~6/7
 
 https://calendar.google.com/calendar/u/0/r
 
@@ -26,7 +26,7 @@ https://calendar.google.com/calendar/u/0/r
 
 **課題**
 - 統計実践6/10
-	- week23にやる．
+	- week24にやる．
 
 - 6月→論文紹介と研究紹介が7月にあることを念頭に
 

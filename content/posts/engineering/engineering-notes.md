@@ -39,9 +39,12 @@ layout: profile
 
 -   [つくばチャレンジ2025参加メモ](/posts/misc/tsukuchal2025/)
     -   [第19回つくばチャレンジシンポジウム | つくばチャレンジ2025](https://tsukubachallenge.jp/2025/about/symposium)
+    - [つくばチャレンジ2025参加レポート](https://github.com/Arcanain/arcanain-documentation/blob/report_tsukuba_challenge/reports_tsukuba_challenge/%E3%81%A4%E3%81%8F%E3%81%B0%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B82025.pdf)｜筆頭著者
+    - [つくばチャレンジ2025ポスター](https://github.com/Arcanain/arcanain-documentation/blob/report_tsukuba_challenge/reports_tsukuba_challenge/%E3%81%A4%E3%81%8F%E3%81%B0%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B82025%E3%83%9D%E3%82%B9%E3%82%BF%E3%83%BC.pdf) | シンポジウムの発表資料
 
 -   [つくばチャレンジ2024参加メモ](/posts/misc/tsukuchal2024/)
     -   [第18回つくばチャレンジシンポジウム | つくばチャレンジ2024](https://tsukubachallenge.jp/2024/about/symposium)
+    - [つくばチャレンジ2024参加レポート](https://github.com/Arcanain/arcanain-documentation/blob/report_tsukuba_challenge/reports_tsukuba_challenge/%E3%81%A4%E3%81%8F%E3%81%B0%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B82024.pdf)| 筆頭著者
 
 - [その他アルバイト・インターンの記録](/posts/misc/retrospective-intern/)
 
