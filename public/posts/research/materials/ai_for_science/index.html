@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content=" ai safty current 募集要項のリンク
+締め切りなどの情報
+5/8 研究科の締め切り 5/11 研究代表者は、e-Rad上で所属機関に対する研究インテグリティの確保に係る誓約状況を登録してください。登録が済んでいないと、応募が受理されません。 5/15 応募書類・最終版の提出（提出期限：5月15日（金）正午）各部局および研究支援課による事前確認を経て、 最終版としてe-Radにアップロードした書類をメールに添付し、部局から本件担当に提出。メールの件名は必ず【応募】AI部局名研究代表者名としてください。 提出するもの→excelベース
+記入する内容は？ pending https://mail.google.com/mail/u/0/?tab=rm&amp;ogbl#search/AI&#43;for&#43;Science/FMfcgzQgLXtHpjsWsGntCcwMFnLLZJGb
+問い合わせ用メルアド https://mail.google.com/mail/u/0/?tab=rm&amp;ogbl#search/AI&#43;for&#43;Science/FMfcgzQgLPNbzKGfDJlwcxnHBSPjvwQf
+リーフレットなど https://mail.google.com/mail/u/0/?tab=rm&amp;ogbl#search/AI&#43;for&#43;Science/FMfcgzQgLXmLwZLqxRJfRtpRQTHbLhxL
+締め切りなど AI interview
+https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Cy_7LSFNaEKVWXKSYUTJGNIUB3zurnJOqNMFpkqSnB5UODVKR00yNTlVUk5BWDczSFBFV1c5TlhLNy4u info
+todo# 今の具体的なai safetyの話を理解する→トイモデルについて
+これらのトイモデルや現象について，AI safetyやinterpretabilityの文脈でどの程度研究されているのか？ されていないのか？
+されていないなら，やってみてもいいかもしれない．
+memo# デジタルネイチャー
+AI for Science→意図を汲み取った上で論理展開
+AI Safetyのどこが，AI for Scienceなのか？
+結局はこれもトイモデル
+(a) Distribution shiftがコア問題：これは偶然ではなく、AVの最大の未解決問題（rare events, OOD, sim-to-real）はすべて分布の問題で、あなたのDSB研究と概念的に直結します。DSBは「ネットワークがモーメントを段階的に学ぶ」話なので、AVでの distribution shift / OOD と数学的に同じ構造を扱える。 (b) 安全性が抽象論ではなく定量的：一般的なAI Safetyと違い、AVは「センサが見落とす」「未知環境で誤動作する」など failure mode が明確。LLCを「safety-relevant な何か」に対応づけやすい。 (c) 日本の産業文脈：SPReADは「我が国の勝ち筋」を意識しているので、AVは政策的に通りやすい。 (d) あなたの既存スキルとの接続：SegFormer/DeepLabV3でセマセグやJetson周りに触れた経験は、AV知覚モデルでそのまま活きる。半年スコープでも手が動く。
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/research/materials/ai_for_science/">
+  <meta property="og:site_name" content="Shiryu NAKANO">
+  <meta property="og:title" content="AI for Science">
+  <meta property="og:description" content="ai safty current 募集要項のリンク
+締め切りなどの情報
+5/8 研究科の締め切り 5/11 研究代表者は、e-Rad上で所属機関に対する研究インテグリティの確保に係る誓約状況を登録してください。登録が済んでいないと、応募が受理されません。 5/15 応募書類・最終版の提出（提出期限：5月15日（金）正午）各部局および研究支援課による事前確認を経て、 最終版としてe-Radにアップロードした書類をメールに添付し、部局から本件担当に提出。メールの件名は必ず【応募】AI部局名研究代表者名としてください。 提出するもの→excelベース
+記入する内容は？ pending https://mail.google.com/mail/u/0/?tab=rm&amp;ogbl#search/AI&#43;for&#43;Science/FMfcgzQgLXtHpjsWsGntCcwMFnLLZJGb
+問い合わせ用メルアド https://mail.google.com/mail/u/0/?tab=rm&amp;ogbl#search/AI&#43;for&#43;Science/FMfcgzQgLPNbzKGfDJlwcxnHBSPjvwQf
+リーフレットなど https://mail.google.com/mail/u/0/?tab=rm&amp;ogbl#search/AI&#43;for&#43;Science/FMfcgzQgLXmLwZLqxRJfRtpRQTHbLhxL
+締め切りなど AI interview
+https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Cy_7LSFNaEKVWXKSYUTJGNIUB3zurnJOqNMFpkqSnB5UODVKR00yNTlVUk5BWDczSFBFV1c5TlhLNy4u info
+todo# 今の具体的なai safetyの話を理解する→トイモデルについて
+これらのトイモデルや現象について，AI safetyやinterpretabilityの文脈でどの程度研究されているのか？ されていないのか？
+されていないなら，やってみてもいいかもしれない．
+memo# デジタルネイチャー
+AI for Science→意図を汲み取った上で論理展開
+AI Safetyのどこが，AI for Scienceなのか？
+結局はこれもトイモデル
+(a) Distribution shiftがコア問題：これは偶然ではなく、AVの最大の未解決問題（rare events, OOD, sim-to-real）はすべて分布の問題で、あなたのDSB研究と概念的に直結します。DSBは「ネットワークがモーメントを段階的に学ぶ」話なので、AVでの distribution shift / OOD と数学的に同じ構造を扱える。 (b) 安全性が抽象論ではなく定量的：一般的なAI Safetyと違い、AVは「センサが見落とす」「未知環境で誤動作する」など failure mode が明確。LLCを「safety-relevant な何か」に対応づけやすい。 (c) 日本の産業文脈：SPReADは「我が国の勝ち筋」を意識しているので、AVは政策的に通りやすい。 (d) あなたの既存スキルとの接続：SegFormer/DeepLabV3でセマセグやJetson周りに触れた経験は、AV知覚モデルでそのまま活きる。半年スコープでも手が動く。">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+
+
+  <meta itemprop="name" content="AI for Science">
+  <meta itemprop="description" content="ai safty current 募集要項のリンク
+締め切りなどの情報
+5/8 研究科の締め切り 5/11 研究代表者は、e-Rad上で所属機関に対する研究インテグリティの確保に係る誓約状況を登録してください。登録が済んでいないと、応募が受理されません。 5/15 応募書類・最終版の提出（提出期限：5月15日（金）正午）各部局および研究支援課による事前確認を経て、 最終版としてe-Radにアップロードした書類をメールに添付し、部局から本件担当に提出。メールの件名は必ず【応募】AI部局名研究代表者名としてください。 提出するもの→excelベース
+記入する内容は？ pending https://mail.google.com/mail/u/0/?tab=rm&amp;ogbl#search/AI&#43;for&#43;Science/FMfcgzQgLXtHpjsWsGntCcwMFnLLZJGb
+問い合わせ用メルアド https://mail.google.com/mail/u/0/?tab=rm&amp;ogbl#search/AI&#43;for&#43;Science/FMfcgzQgLPNbzKGfDJlwcxnHBSPjvwQf
+リーフレットなど https://mail.google.com/mail/u/0/?tab=rm&amp;ogbl#search/AI&#43;for&#43;Science/FMfcgzQgLXmLwZLqxRJfRtpRQTHbLhxL
+締め切りなど AI interview
+https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Cy_7LSFNaEKVWXKSYUTJGNIUB3zurnJOqNMFpkqSnB5UODVKR00yNTlVUk5BWDczSFBFV1c5TlhLNy4u info
+todo# 今の具体的なai safetyの話を理解する→トイモデルについて
+これらのトイモデルや現象について，AI safetyやinterpretabilityの文脈でどの程度研究されているのか？ されていないのか？
+されていないなら，やってみてもいいかもしれない．
+memo# デジタルネイチャー
+AI for Science→意図を汲み取った上で論理展開
+AI Safetyのどこが，AI for Scienceなのか？
+結局はこれもトイモデル
+(a) Distribution shiftがコア問題：これは偶然ではなく、AVの最大の未解決問題（rare events, OOD, sim-to-real）はすべて分布の問題で、あなたのDSB研究と概念的に直結します。DSBは「ネットワークがモーメントを段階的に学ぶ」話なので、AVでの distribution shift / OOD と数学的に同じ構造を扱える。 (b) 安全性が抽象論ではなく定量的：一般的なAI Safetyと違い、AVは「センサが見落とす」「未知環境で誤動作する」など failure mode が明確。LLCを「safety-relevant な何か」に対応づけやすい。 (c) 日本の産業文脈：SPReADは「我が国の勝ち筋」を意識しているので、AVは政策的に通りやすい。 (d) あなたの既存スキルとの接続：SegFormer/DeepLabV3でセマセグやJetson周りに触れた経験は、AV知覚モデルでそのまま活きる。半年スコープでも手が動く。">
+  <meta itemprop="wordCount" content="108">
+
+<title>AI for Science | Shiryu NAKANO</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/posts/research/materials/ai_for_science/">
+<link rel="stylesheet" href="/book.min.b267f830fdf65302ecc1702a1178d4f25aa783409b3a25098f3404dd24f37a4d.css" integrity="sha256-smf4MP32UwLswXAqEXjU8lqng0CbOiUJjzQE3STzek0=" crossorigin="anonymous">
+
+
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/ja.search.min.b2ebee25562674e30922f1ef59a49a7e4f55425ed2934adc1de9d470e78ea30f.js" integrity="sha256-suvuJVYmdOMJIvHvWaSafk9VQl7Sk0rcHenUcOeOow8=" crossorigin="anonymous"></script>
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/custom.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "$", right: "$", display: false}
+        ],
+        throwOnError: false
+    });
+});
+</script>
+
+</head>
+<body dir="ltr" class="book-kind-page book-type-posts">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Shiryu NAKANO</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="検索"
+    aria-label="検索"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+  <div class="markdown">
+    <ul>
+<li><a href="/">Home</a></li>
+</ul>
+<!--
+- [Research](/posts/research/)
+- [Life](/posts/life/)
+- [Study](/posts/study/)
+- [Univ](/posts/univ/)
+--->
+  </div>
+
+
+
+</nav>
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>AI for Science</h3>
+
+  <label for="toc-control">
+    
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+    
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#level-0-道具を知る必要がある">level 0 道具を知る必要がある</a></li>
+    <li><a href="#level-2-ai-なんでもいいので1つ問題設定を選ぶ">level 2 AI なんでもいいので1つ問題設定を選ぶ</a></li>
+    <li><a href="#paralell-2-ai-safetyの問題設定をたくさん知る">paralell 2 AI safetyの問題設定をたくさん知る</a>
+      <ul>
+        <li><a href="#まず自分の問題設定としてdnnを使った自動運転で生じる問題点や困難">まず自分の問題設定として，dnnを使った自動運転で生じる問題点や困難</a></li>
+        <li><a href="#他のドメイン">他のドメイン</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+  
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown book-post">
+  <h1>
+    AI for Science
+  </h1>
+  
+
+
+  
+
+  
+
+
+  <div class="book-post-content markdown-inner"><ul>
+<li><input disabled="" type="checkbox"> ai safty
+<ul>
+<li>current
+<ul>
+<li>
+<p><input checked="" disabled="" type="checkbox"> 募集要項のリンク</p>
+</li>
+<li>
+<p><input checked="" disabled="" type="checkbox"> 締め切りなどの情報</p>
+<ul>
+<li>5/8
+研究科の締め切り</li>
+<li>5/11
+研究代表者は、e-Rad上で所属機関に対する研究インテグリティの確保に係る誓約状況を登録してください。登録が済んでいないと、応募が受理されません。</li>
+<li>5/15
+応募書類・最終版の提出（提出期限：5月15日（金）正午）各部局および研究支援課による事前確認を経て、
+最終版としてe-Radにアップロードした書類をメールに添付し、部局から本件担当に提出。メールの件名は必ず【応募】AI<sub>部局名</sub><sub>研究代表者名としてください</sub>。</li>
+</ul>
+</li>
+<li>
+<p><input checked="" disabled="" type="checkbox"> 提出するもの→excelベース</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 記入する内容は？</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><img src="/images/posts/research/materials/20260506_162433.png" alt="img" /></p>
+<ul>
+<li>pending
+<ul>
+<li>
+<p><a href="https://mail.google.com/mail/u/0/?tab=rm&amp;ogbl#search/AI&#43;for&#43;Science/FMfcgzQgLXtHpjsWsGntCcwMFnLLZJGb">https://mail.google.com/mail/u/0/?tab=rm&ogbl#search/AI+for+Science/FMfcgzQgLXtHpjsWsGntCcwMFnLLZJGb</a></p>
+<ul>
+<li>問い合わせ用メルアド</li>
+</ul>
+</li>
+<li>
+<p><a href="https://mail.google.com/mail/u/0/?tab=rm&amp;ogbl#search/AI&#43;for&#43;Science/FMfcgzQgLPNbzKGfDJlwcxnHBSPjvwQf">https://mail.google.com/mail/u/0/?tab=rm&ogbl#search/AI+for+Science/FMfcgzQgLPNbzKGfDJlwcxnHBSPjvwQf</a></p>
+<ul>
+<li>リーフレットなど</li>
+</ul>
+</li>
+<li>
+<p><a href="https://mail.google.com/mail/u/0/?tab=rm&amp;ogbl#search/AI&#43;for&#43;Science/FMfcgzQgLXmLwZLqxRJfRtpRQTHbLhxL">https://mail.google.com/mail/u/0/?tab=rm&ogbl#search/AI+for+Science/FMfcgzQgLXmLwZLqxRJfRtpRQTHbLhxL</a></p>
+<ul>
+<li>締め切りなど</li>
+</ul>
+</li>
+<li>
+<p>AI interview</p>
+<ul>
+<li><a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Cy_7LSFNaEKVWXKSYUTJGNIUB3zurnJOqNMFpkqSnB5UODVKR00yNTlVUk5BWDczSFBFV1c5TlhLNy4u">https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Cy_7LSFNaEKVWXKSYUTJGNIUB3zurnJOqNMFpkqSnB5UODVKR00yNTlVUk5BWDczSFBFV1c5TlhLNy4u</a></li>
+</ul>
+</li>
+<li>
+<p>info</p>
+</li>
+</ul>
+</li>
+</ul>
+<p><img src="/images/posts/daily/2026/05/20260506_154914.png" alt="img" /></p>
+<p><a id="orgdfaf107"></a></p>
+<h1 id="todo">todo<a class="anchor" href="#todo">#</a></h1>
+<ul>
+<li>
+<p><input disabled="" type="checkbox"> 今の具体的なai safetyの話を理解する→トイモデルについて</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> これらのトイモデルや現象について，AI safetyやinterpretabilityの文脈でどの程度研究されているのか？
+されていないのか？</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> されていないなら，やってみてもいいかもしれない．</p>
+</li>
+</ul>
+<p><a id="org8e37937"></a></p>
+<h1 id="memo">memo<a class="anchor" href="#memo">#</a></h1>
+<hr>
+<p>デジタルネイチャー</p>
+<hr>
+<p>AI for Science→意図を汲み取った上で論理展開</p>
+<p>AI Safetyのどこが，AI for Scienceなのか？</p>
+<p>結局はこれもトイモデル</p>
+<hr>
+<p>(a) Distribution shiftがコア問題：これは偶然ではなく、AVの最大の未解決問題（rare events, OOD, sim-to-real）はすべて分布の問題で、あなたのDSB研究と概念的に直結します。DSBは「ネットワークがモーメントを段階的に学ぶ」話なので、AVでの distribution shift / OOD と数学的に同じ構造を扱える。
+(b) 安全性が抽象論ではなく定量的：一般的なAI Safetyと違い、AVは「センサが見落とす」「未知環境で誤動作する」など failure mode が明確。LLCを「safety-relevant な何か」に対応づけやすい。
+(c) 日本の産業文脈：SPReADは「我が国の勝ち筋」を意識しているので、AVは政策的に通りやすい。
+(d) あなたの既存スキルとの接続：SegFormer/DeepLabV3でセマセグやJetson周りに触れた経験は、AV知覚モデルでそのまま活きる。半年スコープでも手が動く。</p>
+<hr>
+<p>SLTがAI saftyにどのように繋がってくるのか？</p>
+<p>論理的になるためには客観的になる必要がある
+客観的になるというのは自分のことではなくて他人のこととして考えること
+ドラクエのキャラクターだと思って動けばいい．</p>
+<hr>
+<p><a id="org45127a5"></a></p>
+<h1 id="trojaned--backdoored-モデル">Trojaned / backdoored モデル<a class="anchor" href="#trojaned--backdoored-%e3%83%a2%e3%83%87%e3%83%ab">#</a></h1>
+<p>意図的にバックドアが仕組まれたNNのこと．通常入力に対しては正しく動くが，特定のトリガーが入った場合にのみ，攻撃者が指定した出力を返すように訓練されている．</p>
+<p><a id="org5d2ec4b"></a></p>
+<h1 id="deceptive-alignment">Deceptive alignment<a class="anchor" href="#deceptive-alignment">#</a></h1>
+<p>欺瞞的なアラインメント</p>
+<p>Hubinger et al. &ldquo;Risks from Learned Optimization&rdquo; (2019) に由来する概念</p>
+<hr>
+<p><a id="org9ea3e18"></a></p>
+<h1 id="steps">Steps<a class="anchor" href="#steps">#</a></h1>
+<p><a id="org3c9b53e"></a></p>
+<h2 id="level-0-道具を知る必要がある">level 0 道具を知る必要がある<a class="anchor" href="#level-0-%e9%81%93%e5%85%b7%e3%82%92%e7%9f%a5%e3%82%8b%e5%bf%85%e8%a6%81%e3%81%8c%e3%81%82%e3%82%8b">#</a></h2>
+<ul>
+<li>mechanistic interpretability の論文</li>
+<li></li>
+</ul>
+<p><a id="orge30949b"></a></p>
+<h2 id="level-2-ai-なんでもいいので1つ問題設定を選ぶ">level 2 AI なんでもいいので1つ問題設定を選ぶ<a class="anchor" href="#level-2-ai-%e3%81%aa%e3%82%93%e3%81%a7%e3%82%82%e3%81%84%e3%81%84%e3%81%ae%e3%81%a71%e3%81%a4%e5%95%8f%e9%a1%8c%e8%a8%ad%e5%ae%9a%e3%82%92%e9%81%b8%e3%81%b6">#</a></h2>
+<p><a id="org9487871"></a></p>
+<h2 id="paralell-2-ai-safetyの問題設定をたくさん知る">paralell 2 AI safetyの問題設定をたくさん知る<a class="anchor" href="#paralell-2-ai-safety%e3%81%ae%e5%95%8f%e9%a1%8c%e8%a8%ad%e5%ae%9a%e3%82%92%e3%81%9f%e3%81%8f%e3%81%95%e3%82%93%e7%9f%a5%e3%82%8b">#</a></h2>
+<p><a id="org72de255"></a></p>
+<h3 id="まず自分の問題設定としてdnnを使った自動運転で生じる問題点や困難">まず自分の問題設定として，dnnを使った自動運転で生じる問題点や困難<a class="anchor" href="#%e3%81%be%e3%81%9a%e8%87%aa%e5%88%86%e3%81%ae%e5%95%8f%e9%a1%8c%e8%a8%ad%e5%ae%9a%e3%81%a8%e3%81%97%e3%81%a6dnn%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%9f%e8%87%aa%e5%8b%95%e9%81%8b%e8%bb%a2%e3%81%a7%e7%94%9f%e3%81%98%e3%82%8b%e5%95%8f%e9%a1%8c%e7%82%b9%e3%82%84%e5%9b%b0%e9%9b%a3">#</a></h3>
+<p>→これとai safety</p>
+<p>自動運転にどんな技術が使われているか，特にDNN</p>
+<p><a id="org430ed33"></a></p>
+<h3 id="他のドメイン">他のドメイン<a class="anchor" href="#%e4%bb%96%e3%81%ae%e3%83%89%e3%83%a1%e3%82%a4%e3%83%b3">#</a></h3>
+<ul>
+<li>AI saffety</li>
+</ul>
+<hr>
+</div>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+    
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#level-0-道具を知る必要がある">level 0 道具を知る必要がある</a></li>
+    <li><a href="#level-2-ai-なんでもいいので1つ問題設定を選ぶ">level 2 AI なんでもいいので1つ問題設定を選ぶ</a></li>
+    <li><a href="#paralell-2-ai-safetyの問題設定をたくさん知る">paralell 2 AI safetyの問題設定をたくさん知る</a>
+      <ul>
+        <li><a href="#まず自分の問題設定としてdnnを使った自動運転で生じる問題点や困難">まず自分の問題設定として，dnnを使った自動運転で生じる問題点や困難</a></li>
+        <li><a href="#他のドメイン">他のドメイン</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+  
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

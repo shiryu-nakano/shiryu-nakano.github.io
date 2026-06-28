@@ -1,6 +1,6 @@
 ---
-title: week 22
-url: /posts/daily/2026/05/week22/
+title: week 23
+url: /posts/daily/2026/05/week23/
 ---
 
 

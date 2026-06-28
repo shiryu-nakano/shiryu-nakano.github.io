@@ -8,29 +8,40 @@ https://github.com/alex-shpak/hugo-book
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content=" Overview かけるほどわかってない
-ref PINNsの元の論文
-Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations ローカルにあるので優先的に読む /Users/nkn4ryu/Downloads/1-s2.0-S0021999118307125-main.pdf [2602.11097] Statistical Learning Analysis of Physics-Informed Neural Networks [2211.08064] Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications An efficient wavelet-based physics-informed neural network for multiscale problems - ScienceDirect [Literature Review] Advancing Generalization in PINNs through Latent-Space Representations [1711.10561] Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations [1711.10561] Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations PSP- process structure property KANとSimboric regressionについて PSP-GEN: Stochastic inversion of the Process–Structure–Property chain in materials design through deep, generative probabilistic modeling - ScienceDirect 本家Examplesで知る、新たなニューラルネットワーク『KAN』の威力 #Python - Qiita https://arxiv.org/pdf/2404.19756 https://arxiv.org/pdf/2001.04536 https://arxiv.org/pdf/2403.18494 https://arxiv.org/pdf/2403.18494 ">
+<meta name="description" content="
+Overview# Reference# PINNsの元の論文
+Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations ローカルにあるので優先的に読む /Users/nkn4ryu/Downloads/1-s2.0-S0021999118307125-main.pdf [2602.11097] Statistical Learning Analysis of Physics-Informed Neural Networks
+[2211.08064] Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications
+An efficient wavelet-based physics-informed neural network for multiscale problems - ScienceDirect
+[Literature Review] Advancing Generalization in PINNs through Latent-Space Representations
+[1711.10561] Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations
+">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/research/materials/pinns/">
   <meta property="og:site_name" content="Shiryu NAKANO">
-  <meta property="og:title" content="PINNs">
-  <meta property="og:description" content="Overview かけるほどわかってない
-ref PINNsの元の論文
-Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations ローカルにあるので優先的に読む /Users/nkn4ryu/Downloads/1-s2.0-S0021999118307125-main.pdf [2602.11097] Statistical Learning Analysis of Physics-Informed Neural Networks [2211.08064] Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications An efficient wavelet-based physics-informed neural network for multiscale problems - ScienceDirect [Literature Review] Advancing Generalization in PINNs through Latent-Space Representations [1711.10561] Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations [1711.10561] Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations PSP- process structure property KANとSimboric regressionについて PSP-GEN: Stochastic inversion of the Process–Structure–Property chain in materials design through deep, generative probabilistic modeling - ScienceDirect 本家Examplesで知る、新たなニューラルネットワーク『KAN』の威力 #Python - Qiita https://arxiv.org/pdf/2404.19756 https://arxiv.org/pdf/2001.04536 https://arxiv.org/pdf/2403.18494 https://arxiv.org/pdf/2403.18494">
+  <meta property="og:title" content="Shiryu NAKANO">
+  <meta property="og:description" content="Overview# Reference# PINNsの元の論文
+Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations ローカルにあるので優先的に読む /Users/nkn4ryu/Downloads/1-s2.0-S0021999118307125-main.pdf [2602.11097] Statistical Learning Analysis of Physics-Informed Neural Networks
+[2211.08064] Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications
+An efficient wavelet-based physics-informed neural network for multiscale problems - ScienceDirect
+[Literature Review] Advancing Generalization in PINNs through Latent-Space Representations
+[1711.10561] Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations">
   <meta property="og:locale" content="ja">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
 
 
-  <meta itemprop="name" content="PINNs">
-  <meta itemprop="description" content="Overview かけるほどわかってない
-ref PINNsの元の論文
-Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations ローカルにあるので優先的に読む /Users/nkn4ryu/Downloads/1-s2.0-S0021999118307125-main.pdf [2602.11097] Statistical Learning Analysis of Physics-Informed Neural Networks [2211.08064] Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications An efficient wavelet-based physics-informed neural network for multiscale problems - ScienceDirect [Literature Review] Advancing Generalization in PINNs through Latent-Space Representations [1711.10561] Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations [1711.10561] Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations PSP- process structure property KANとSimboric regressionについて PSP-GEN: Stochastic inversion of the Process–Structure–Property chain in materials design through deep, generative probabilistic modeling - ScienceDirect 本家Examplesで知る、新たなニューラルネットワーク『KAN』の威力 #Python - Qiita https://arxiv.org/pdf/2404.19756 https://arxiv.org/pdf/2001.04536 https://arxiv.org/pdf/2403.18494 https://arxiv.org/pdf/2403.18494">
-  <meta itemprop="wordCount" content="122">
+  <meta itemprop="name" content="Shiryu NAKANO">
+  <meta itemprop="description" content="Overview# Reference# PINNsの元の論文
+Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations ローカルにあるので優先的に読む /Users/nkn4ryu/Downloads/1-s2.0-S0021999118307125-main.pdf [2602.11097] Statistical Learning Analysis of Physics-Informed Neural Networks
+[2211.08064] Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications
+An efficient wavelet-based physics-informed neural network for multiscale problems - ScienceDirect
+[Literature Review] Advancing Generalization in PINNs through Latent-Space Representations
+[1711.10561] Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations">
+  <meta itemprop="wordCount" content="134">
 
-<title>PINNs | Shiryu NAKANO</title>
+<title>Pinns | Shiryu NAKANO</title>
 <link rel="icon" href="/favicon.png" >
 <link rel="manifest" href="/manifest.json">
 <link rel="canonical" href="http://localhost:1313/posts/research/materials/pinns/">
@@ -38,7 +49,7 @@ Physics-informed neural networks: A deep learning framework for solving forward 
 
 
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/ja.search.min.4f8cadbba3bcac0a1dfde26bde2ce0b7c9056880dada0ffc1033453ede2c9c11.js" integrity="sha256-T4ytu6O8rAod/eJr3izgt8kFaIDa2g/8EDNFPt4snBE=" crossorigin="anonymous"></script>
+  <script defer src="/ja.search.min.b2ebee25562674e30922f1ef59a49a7e4f55425ed2934adc1de9d470e78ea30f.js" integrity="sha256-suvuJVYmdOMJIvHvWaSafk9VQl7Sk0rcHenUcOeOow8=" crossorigin="anonymous"></script>
 
 
 
@@ -124,7 +135,7 @@ document.addEventListener("DOMContentLoaded", function() {
     <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <h3>PINNs</h3>
+  <h3>Pinns</h3>
 
   <label for="toc-control">
     
@@ -140,12 +151,10 @@ document.addEventListener("DOMContentLoaded", function() {
   
     
 <nav id="TableOfContents">
-<ul>
-<li><a href="#headline-1">Overview</a>
-</li>
-<li><a href="#headline-2">ref</a>
-</li>
-</ul>
+  <ul>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#reference">Reference</a></li>
+  </ul>
 </nav>
 
 
@@ -160,7 +169,7 @@ document.addEventListener("DOMContentLoaded", function() {
       
 <article class="markdown book-post">
   <h1>
-    PINNs
+    Pinns
   </h1>
   
 
@@ -170,20 +179,9 @@ document.addEventListener("DOMContentLoaded", function() {
   
 
 
-  <div class="book-post-content markdown-inner">
-<div id="outline-container-headline-1" class="outline-2">
-<h2 id="headline-1">
-Overview
-</h2>
-<div id="outline-text-headline-1" class="outline-text-2">
-<p>かけるほどわかってない</p>
-</div>
-</div>
-<div id="outline-container-headline-2" class="outline-2">
-<h2 id="headline-2">
-ref
-</h2>
-<div id="outline-text-headline-2" class="outline-text-2">
+  <div class="book-post-content markdown-inner"><p><a id="orgd2b88fc"></a></p>
+<h2 id="overview">Overview<a class="anchor" href="#overview">#</a></h2>
+<h2 id="reference">Reference<a class="anchor" href="#reference">#</a></h2>
 <ul>
 <li>
 <p>PINNsの元の論文</p>
@@ -193,23 +191,51 @@ ref
 /Users/nkn4ryu/Downloads/1-s2.0-S0021999118307125-main.pdf</li>
 </ul>
 </li>
-<li><a href="https://arxiv.org/abs/2602.11097">[2602.11097] Statistical Learning Analysis of Physics-Informed Neural Networks</a></li>
-<li><a href="https://arxiv.org/abs/2211.08064">[2211.08064] Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications</a></li>
-<li><a href="https://www.sciencedirect.com/science/article/pii/S0893608026003217">An efficient wavelet-based physics-informed neural network for multiscale problems - ScienceDirect</a></li>
-<li><a href="https://www.themoonlight.io/en/review/advancing-generalization-in-pinns-through-latent-space-representations">[Literature Review] Advancing Generalization in PINNs through Latent-Space Representations</a></li>
-<li><a href="https://arxiv.org/abs/1711.10561">[1711.10561] Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations</a></li>
-<li><a href="https://arxiv.org/abs/1711.10561">[1711.10561] Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations</a></li>
-<li>PSP- process structure property</li>
-<li>KANとSimboric regressionについて
-<a href="https://www.sciencedirect.com/science/article/pii/S1359645424009480">PSP-GEN: Stochastic inversion of the Process–Structure–Property chain in materials design through deep, generative probabilistic modeling - ScienceDirect</a></li>
-<li><a href="https://qiita.com/Cartelet/items/76e4eb83c0a02a6da13f">本家Examplesで知る、新たなニューラルネットワーク『KAN』の威力 #Python - Qiita</a></li>
-<li><a href="https://arxiv.org/pdf/2404.19756">https://arxiv.org/pdf/2404.19756</a></li>
-<li><a href="https://arxiv.org/pdf/2001.04536">https://arxiv.org/pdf/2001.04536</a></li>
-<li><a href="https://arxiv.org/pdf/2403.18494">https://arxiv.org/pdf/2403.18494</a> </li>
-<li><a href="https://arxiv.org/pdf/2403.18494">https://arxiv.org/pdf/2403.18494</a></li>
+<li>
+<p><a href="https://arxiv.org/abs/2602.11097">[2602.11097] Statistical Learning Analysis of Physics-Informed Neural Networks</a></p>
+</li>
+<li>
+<p><a href="https://arxiv.org/abs/2211.08064">[2211.08064] Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications</a></p>
+</li>
+<li>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0893608026003217">An efficient wavelet-based physics-informed neural network for multiscale problems - ScienceDirect</a></p>
+</li>
+<li>
+<p><a href="https://www.themoonlight.io/en/review/advancing-generalization-in-pinns-through-latent-space-representations">[Literature Review] Advancing Generalization in PINNs through Latent-Space Representations</a></p>
+</li>
+<li>
+<p><a href="https://arxiv.org/abs/1711.10561">[1711.10561] Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations</a></p>
+</li>
+<li>
+<p><a href="https://arxiv.org/abs/1711.10561">[1711.10561] Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations</a></p>
+</li>
+<li>
+<p>PSP- process structure property</p>
+</li>
+<li>
+<p>KANとSimboric regressionについて
+<a href="https://www.sciencedirect.com/science/article/pii/S1359645424009480">PSP-GEN: Stochastic inversion of the Process–Structure–Property chain in materials design through deep, generative probabilistic modeling - ScienceDirect</a></p>
+</li>
+<li>
+<p><a href="https://qiita.com/Cartelet/items/76e4eb83c0a02a6da13f">本家Examplesで知る、新たなニューラルネットワーク『KAN』の威力 #Python - Qiita</a></p>
+</li>
+<li>
+<p><a href="https://arxiv.org/pdf/2404.19756">https://arxiv.org/pdf/2404.19756</a></p>
+</li>
+<li>
+<p><a href="https://arxiv.org/pdf/2001.04536">https://arxiv.org/pdf/2001.04536</a></p>
+</li>
+<li>
+<p><a href="https://arxiv.org/pdf/2403.18494">https://arxiv.org/pdf/2403.18494</a></p>
+</li>
+<li>
+<p><a href="https://arxiv.org/abs/2403.18494">[2403.18494] Learning in PINNs: Phase transition, total diffusion, and generalization</a></p>
+</li>
+<li>
+<p><a href="https://arxiv.org/abs/2404.19756">[2404.19756] KAN: Kolmogorov-Arnold Networks</a></p>
+</li>
+<li></li>
 </ul>
-</div>
-</div>
 </div>
 </article>
  
@@ -249,12 +275,10 @@ ref
   
     
 <nav id="TableOfContents">
-<ul>
-<li><a href="#headline-1">Overview</a>
-</li>
-<li><a href="#headline-2">ref</a>
-</li>
-</ul>
+  <ul>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#reference">Reference</a></li>
+  </ul>
 </nav>
 
 

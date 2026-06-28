@@ -33,7 +33,7 @@ math: true
 ## Link
 - [君たちはどう研究するか - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ](https://joisino.hatenablog.com/entry/2023/10/29/164650#%E7%A0%94%E7%A9%B6%E3%83%86%E3%83%BC%E3%83%9E%E3%81%AE%E6%B1%BA%E3%82%81%E6%96%B9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
 - [研究の進め方 ランダムネスとの付き合い方について - Speaker Deck](https://speakerdeck.com/joisino/randomness?slide=55)
-  - [バックアップ](https://drive.google.com/file/d/1dLYZfxCEJWq8v9tQIfKJBOvPU998lLrS/view?usp=drive_link)
+	- [バックアップ](https://drive.google.com/file/d/1dLYZfxCEJWq8v9tQIfKJBOvPU998lLrS/view?usp=drive_link)
 - [機械学習の研究者を目指す人へ](https://github.com/takahashihiroshi/takahashihiroshi.github.io/blob/master/contents/for_ml_beginners.md)
 - [論文読みの日課について - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ](https://joisino.hatenablog.com/entry/2023/04/10/170519)
   - [Paper Search from Venues](https://psearch.joisino.net/)

@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Week 26# https://calendar.google.com/calendar/u/0/r 22 Mon |
+GxP提出 [2026-06-22 16:45] Bayes 再実装の確認 H 実装 https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.99.138103 GCI　提出 Deep 提出 23 Tue | H MTG, ELSI 発表，seminar，Bayes MTG 実質的に水曜日〜金曜日で進捗の大半を産む必要がある．
+LLC→ DSBデータの提示アルゴリズムができればOK，accとllcの推定を見たい bayes→火曜日に決まる honda→火曜日にできなかったこと 研究を進める テーマがふわふわしている 24 Wed　AI for Scienceの出願 まず要項を全てダウンロードしてリポジトリに保存する．リポジトリはいつものやつ． 25 Tur
+26 Fri 27 Sat 週末は予定はないはず→作業進める どこかで気分転換したい Pinns&#43;LLCのサーベイ 仮説を持って取り組むこと．目的なくやるとreel化する LLC＋DSB 29 Sun
+- [ ] LLC&#43;DSBの完了 - [ ] WIP# 作業復旧用のメモ
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/daily/2026/05/week26/">
+  <meta property="og:site_name" content="Shiryu NAKANO">
+  <meta property="og:title" content="week 26">
+  <meta property="og:description" content="Week 26# https://calendar.google.com/calendar/u/0/r 22 Mon |
+GxP提出 [2026-06-22 16:45] Bayes 再実装の確認 H 実装 https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.99.138103 GCI　提出 Deep 提出 23 Tue | H MTG, ELSI 発表，seminar，Bayes MTG 実質的に水曜日〜金曜日で進捗の大半を産む必要がある．
+LLC→ DSBデータの提示アルゴリズムができればOK，accとllcの推定を見たい bayes→火曜日に決まる honda→火曜日にできなかったこと 研究を進める テーマがふわふわしている 24 Wed　AI for Scienceの出願 まず要項を全てダウンロードしてリポジトリに保存する．リポジトリはいつものやつ． 25 Tur
+26 Fri 27 Sat 週末は予定はないはず→作業進める どこかで気分転換したい Pinns&#43;LLCのサーベイ 仮説を持って取り組むこと．目的なくやるとreel化する LLC＋DSB 29 Sun
+- [ ] LLC&#43;DSBの完了 - [ ] WIP# 作業復旧用のメモ">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+
+
+  <meta itemprop="name" content="week 26">
+  <meta itemprop="description" content="Week 26# https://calendar.google.com/calendar/u/0/r 22 Mon |
+GxP提出 [2026-06-22 16:45] Bayes 再実装の確認 H 実装 https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.99.138103 GCI　提出 Deep 提出 23 Tue | H MTG, ELSI 発表，seminar，Bayes MTG 実質的に水曜日〜金曜日で進捗の大半を産む必要がある．
+LLC→ DSBデータの提示アルゴリズムができればOK，accとllcの推定を見たい bayes→火曜日に決まる honda→火曜日にできなかったこと 研究を進める テーマがふわふわしている 24 Wed　AI for Scienceの出願 まず要項を全てダウンロードしてリポジトリに保存する．リポジトリはいつものやつ． 25 Tur
+26 Fri 27 Sat 週末は予定はないはず→作業進める どこかで気分転換したい Pinns&#43;LLCのサーベイ 仮説を持って取り組むこと．目的なくやるとreel化する LLC＋DSB 29 Sun
+- [ ] LLC&#43;DSBの完了 - [ ] WIP# 作業復旧用のメモ">
+  <meta itemprop="wordCount" content="185">
+
+<title>week 26 | Shiryu NAKANO</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/posts/daily/2026/05/week26/">
+<link rel="stylesheet" href="/book.min.b267f830fdf65302ecc1702a1178d4f25aa783409b3a25098f3404dd24f37a4d.css" integrity="sha256-smf4MP32UwLswXAqEXjU8lqng0CbOiUJjzQE3STzek0=" crossorigin="anonymous">
+
+
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/ja.search.min.b2ebee25562674e30922f1ef59a49a7e4f55425ed2934adc1de9d470e78ea30f.js" integrity="sha256-suvuJVYmdOMJIvHvWaSafk9VQl7Sk0rcHenUcOeOow8=" crossorigin="anonymous"></script>
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/custom.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "$", right: "$", display: false}
+        ],
+        throwOnError: false
+    });
+});
+</script>
+
+</head>
+<body dir="ltr" class="book-kind-page book-type-posts">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Shiryu NAKANO</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="検索"
+    aria-label="検索"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+  <div class="markdown">
+    <ul>
+<li><a href="/">Home</a></li>
+</ul>
+<!--
+- [Research](/posts/research/)
+- [Life](/posts/life/)
+- [Study](/posts/study/)
+- [Univ](/posts/univ/)
+--->
+  </div>
+
+
+
+</nav>
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>week 26</h3>
+
+  <label for="toc-control">
+    
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+    
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#week-26">Week 26</a></li>
+    <li><a href="#wip">WIP</a></li>
+    <li><a href="#プロジェクトごとの簡単な整理">プロジェクトごとの簡単な整理</a>
+      <ul>
+        <li><a href="#llc">LLC</a></li>
+        <li><a href="#pj_h-40">PJ_H (40%)</a></li>
+        <li><a href="#bayes">Bayes</a></li>
+        <li><a href="#submit">Submit</a></li>
+      </ul>
+    </li>
+    <li><a href="#memo-来週に持ち越しのタスク">memo/ 来週に持ち越し？のタスク</a></li>
+  </ul>
+</nav>
+
+
+  
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown book-post">
+  <h1>
+    week 26
+  </h1>
+  
+
+
+  
+
+  
+
+
+  <div class="book-post-content markdown-inner"><h2 id="week-26">Week 26<a class="anchor" href="#week-26">#</a></h2>
+<p><img src="/images/misc/Pasted%20image%2020260622101348.png" alt="" /></p>
+<ul>
+<li><a href="https://calendar.google.com/calendar/u/0/r">https://calendar.google.com/calendar/u/0/r</a></li>
+</ul>
+<hr>
+<p><strong>22 Mon</strong>  |</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <del><em>GxP提出</em></del> [2026-06-22 16:45]</li>
+<li><input disabled="" type="checkbox"> Bayes 再実装の確認</li>
+<li><input disabled="" type="checkbox"> H 実装
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.99.138103">https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.99.138103</a></li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> GCI　提出</li>
+<li><input disabled="" type="checkbox"> Deep 提出
+<strong>23 Tue</strong> | H MTG, ELSI 発表，seminar，Bayes MTG</li>
+</ul>
+<hr>
+<p>実質的に水曜日〜金曜日で進捗の大半を産む必要がある．</p>
+<ul>
+<li>LLC→ DSBデータの提示アルゴリズムができればOK，accとllcの推定を見たい</li>
+<li>bayes→火曜日に決まる</li>
+<li>honda→火曜日にできなかったこと</li>
+<li>研究を進める
+<ul>
+<li>テーマがふわふわしている
+<strong>24 Wed</strong>　</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> AI for Scienceの出願
+<ul>
+<li><input disabled="" type="checkbox"> まず要項を全てダウンロードしてリポジトリに保存する．リポジトリはいつものやつ．</li>
+<li><input disabled="" type="checkbox"> </li>
+</ul>
+</li>
+</ul>
+<p><strong>25 Tur</strong></p>
+<ul>
+<li><input disabled="" type="checkbox"> <strong>26 Fri</strong></li>
+<li><input disabled="" type="checkbox"> <strong>27 Sat</strong></li>
+<li>週末は予定はないはず→作業進める
+<ul>
+<li>どこかで気分転換したい</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> Pinns+LLCのサーベイ
+<ul>
+<li><input disabled="" type="checkbox"> 仮説を持って取り組むこと．目的なくやるとreel化する</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> LLC＋DSB</li>
+</ul>
+<p><strong>29 Sun</strong></p>
+<pre><code>- [ ] LLC+DSBの完了
+- [ ] 
+</code></pre>
+<h2 id="wip">WIP<a class="anchor" href="#wip">#</a></h2>
+<p>作業復旧用のメモ</p>
+<ul>
+<li>
+<p>固有値の理解</p>
+<ul>
+<li><a href="https://www.math.s.chiba-u.ac.jp/~yasuda/Chiba/Lec/senkei/tl2009-6.pdf">https://www.math.s.chiba-u.ac.jp/~yasuda/Chiba/Lec/senkei/tl2009-6.pdf</a></li>
+<li>tutorialにもtexがある．書きかけのノートもある</li>
+<li><a href="https://qiita.com/ymsk_CM/items/cca0b8571cdef7f54a62">https://qiita.com/ymsk_CM/items/cca0b8571cdef7f54a62</a></li>
+</ul>
+</li>
+<li>
+<p>tensor flowのtutorial→特にこれはデータ提示の理解のために重要</p>
+<ul>
+<li>tutorial</li>
+</ul>
+</li>
+<li>
+<p>LLCの実験</p>
+<ul>
+<li><a href="https://claude.ai/chat/097bf219-3460-405f-8f30-8894847a96bf">https://claude.ai/chat/097bf219-3460-405f-8f30-8894847a96bf</a></li>
+</ul>
+</li>
+<li>
+<p>深層学習</p>
+<ul>
+<li><a href="https://blog.fltech.dev/entry/2021/04/09/aistats-hayase">https://blog.fltech.dev/entry/2021/04/09/aistats-hayase</a></li>
+<li>手法提案以外の場合は，面白いテーマを自分で探さないと
+<ul>
+<li>block interleave</li>
+<li>エッジオブカオスの話と結びつける
+<ul>
+<li><a href="https://blog.fltech.dev/entry/2021/04/09/aistats-hayase">https://blog.fltech.dev/entry/2021/04/09/aistats-hayase</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://www.jst.go.jp/kisoken/act-x/evaluation/s-houkoku/r04/JST_111F001_19206005_2022_Karakida_PER.pdf">https://www.jst.go.jp/kisoken/act-x/evaluation/s-houkoku/r04/JST_111F001_19206005_2022_Karakida_PER.pdf</a></li>
+</ul>
+</li>
+<li>
+<p>RBFの理解</p>
+<ul>
+<li>miniexperimentsのrbfがある</li>
+</ul>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> review of 2025がまだ残っている・・・</p>
+</li>
+</ul>
+<h2 id="プロジェクトごとの簡単な整理">プロジェクトごとの簡単な整理<a class="anchor" href="#%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e3%81%94%e3%81%a8%e3%81%ae%e7%b0%a1%e5%8d%98%e3%81%aa%e6%95%b4%e7%90%86">#</a></h2>
+<h3 id="llc">LLC<a class="anchor" href="#llc">#</a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> DSBのデータの作成</li>
+</ul>
+<h3 id="pj_h-40">PJ_H (40%)<a class="anchor" href="#pj_h-40">#</a></h3>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <del><em>覚醒かつ安静時の時の値のみを取ってきて解析する 5h</em></del> [2026-06-21 19:16]</li>
+<li><input disabled="" type="checkbox"> 機械学習モデルを動かしてみる 20h</li>
+<li><input disabled="" type="checkbox"> 目的をはっきりさせる 2h</li>
+<li><input disabled="" type="checkbox"> </li>
+</ul>
+<h3 id="bayes">Bayes<a class="anchor" href="#bayes">#</a></h3>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <del><em>RLCTの実装</em></del> [2026-06-21 19:17]
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <del><em>論文の再実装→計画的にやる</em></del> [2026-06-20 13:44]
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <del><em><a href="https://www.jstage.jst.go.jp/article/ipsjtrans/7/0/7_20/_pdf">https://www.jstage.jst.go.jp/article/ipsjtrans/7/0/7_20/_pdf</a></em></del> [2026-06-20 13:44]</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> 再現：この前のMTGで決まった自分の担当はなんだったっけ？？
+<ul>
+<li><input disabled="" type="checkbox"> exp2
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <del><em>fig4</em></del> [2026-06-20 13:44]</li>
+<li><input checked="" disabled="" type="checkbox"> <del><em>fig5</em></del> [2026-06-20 13:44]</li>
+<li><input disabled="" type="checkbox"> fig6→<strong>来週</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="submit">Submit<a class="anchor" href="#submit">#</a></h3>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <del><em>jassoの在学猶予</em></del> [2026-06-15 21:21]</li>
+<li><input checked="" disabled="" type="checkbox"> <del><em>F-MLコンペ提出</em></del> [2026-06-15 21:21]</li>
+<li><input checked="" disabled="" type="checkbox"> <del><em>公的統計の感想提出</em></del> [2026-06-15 21:21]</li>
+<li><input checked="" disabled="" type="checkbox"> <del><em>GCI提出</em></del> [2026-06-15 21:21]</li>
+<li><input checked="" disabled="" type="checkbox"> <del><em>Deep提出</em></del> [2026-06-15 21:21]</li>
+<li><input checked="" disabled="" type="checkbox"> <del><em>原フルタイムシステムズ奨学金</em></del> [2026-06-12 10:02]
+<ul>
+<li><a href="https://www.notion.so/379230dfc3a58064a628c693b0f4b74e?source=copy_link">https://www.notion.so/379230dfc3a58064a628c693b0f4b74e?source=copy_link</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>直近作成する資料</strong></p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <del><em>ELSI①</em></del> [2026-06-29 00:27]
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <del><em>下書きはOK</em></del> [2026-06-29 00:27]</li>
+<li><input checked="" disabled="" type="checkbox"> <del><em>細かい部分の説明を加える</em></del> [2026-06-29 00:27]</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> ELSI②；研究紹介
+<ul>
+<li><input disabled="" type="checkbox"> あえて違うので紹介してみる？PINNsとか
+<ul>
+<li><input disabled="" type="checkbox"> んなことしたらやばいか．死ぬかも</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> ML勉強会資料</li>
+<li><input disabled="" type="checkbox"> SLT勉強会資料
+<ul>
+<li><input disabled="" type="checkbox"> latex</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> 統計学術の論文紹介のスライドも</li>
+<li><input checked="" disabled="" type="checkbox"> <del><em>公的統計課題</em></del> [2026-06-21 19:17]</li>
+</ul>
+<p><strong>留意点</strong></p>
+<ul>
+<li>6月→論文紹介と研究紹介が7月にあることを念頭に
+<ul>
+<li><input disabled="" type="checkbox"> 両方のスライドを半分くらいの完成度で作り上げておくこと</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> ELSIの発表資料
+<ul>
+<li><input disabled="" type="checkbox"> 2回目→研究進捗報告</li>
+</ul>
+</li>
+</ul>
+<h2 id="memo-来週に持ち越しのタスク">memo/ 来週に持ち越し？のタスク<a class="anchor" href="#memo-%e6%9d%a5%e9%80%b1%e3%81%ab%e6%8c%81%e3%81%a1%e8%b6%8a%e3%81%97%e3%81%ae%e3%82%bf%e3%82%b9%e3%82%af">#</a></h2>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://gemini.google.com/app/3e776cccf9d1f959?hl=ja">https://gemini.google.com/app/3e776cccf9d1f959?hl=ja</a>
+<ul>
+<li><input disabled="" type="checkbox"> ghostty or wezterm で　ubuntuに入る時でも使えるようにする</li>
+<li><input disabled="" type="checkbox"> 実行が終わったらdiscordに通知を送る機能</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> Networkのメモを改訂しておく</li>
+<li><input disabled="" type="checkbox"> 金融-機械学習の教材保存
+<ul>
+<li><input disabled="" type="checkbox"> 動画の保存は流石に無理か．．</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> ベイズの課題
+<ul>
+<li><input disabled="" type="checkbox"> 期末課題？</li>
+<li><input disabled="" type="checkbox"> 中間か</li>
+</ul>
+</li>
+</ul>
+<p>他のタスク</p>
+<p>UNVEILING THE BASIN-LIKE LOSS LANDSCAPE IN　LARGE LANGUAGE MODELSこれ読みたい
+<img src="/images/misc/Pasted%20image%2020260617063118.png" alt="" />
+<img src="/images/misc/Pasted%20image%2020260617063132.png" alt="" /></p>
+</div>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+    
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#week-26">Week 26</a></li>
+    <li><a href="#wip">WIP</a></li>
+    <li><a href="#プロジェクトごとの簡単な整理">プロジェクトごとの簡単な整理</a>
+      <ul>
+        <li><a href="#llc">LLC</a></li>
+        <li><a href="#pj_h-40">PJ_H (40%)</a></li>
+        <li><a href="#bayes">Bayes</a></li>
+        <li><a href="#submit">Submit</a></li>
+      </ul>
+    </li>
+    <li><a href="#memo-来週に持ち越しのタスク">memo/ 来週に持ち越し？のタスク</a></li>
+  </ul>
+</nav>
+
+
+  
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

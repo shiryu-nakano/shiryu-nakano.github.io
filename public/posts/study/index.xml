@@ -65,6 +65,13 @@
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;a class=&#34;anchor&#34; href=&#34;#overview&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;特に目的を持ってというわけでもなく，でも見ようと思ってみていない動画をメモする&lt;/p&gt;&#xA;&lt;h2 id=&#34;list&#34;&gt;LIST&lt;a class=&#34;anchor&#34; href=&#34;#list&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;学習系&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 慶應大学講義　応用確率論　第一回　概要、事象と確率分布&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=bHBTEsYC-YM&amp;amp;list=PL7D76A37FD1490743&#34;&gt;https://www.youtube.com/watch?v=bHBTEsYC-YM&amp;list=PL7D76A37FD1490743&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 生命保険数理 ＃01　金利関連&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=zCeay9K9rxk&amp;amp;list=PLBe_TIITFkIpYdZvBUSByhOXF0lB3zGr0&#34;&gt;https://www.youtube.com/watch?v=zCeay9K9rxk&amp;list=PLBe_TIITFkIpYdZvBUSByhOXF0lB3zGr0&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;その他　今後個別に読んでいきたいもの&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
+      <title>固有値・固有ベクトルについて</title>
+      <link>http://localhost:1313/posts/study/eigenvalues_vectors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/study/eigenvalues_vectors/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../../../../static/images/misc/Pasted%20image%2020260620193634.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;&#xA;&lt;p&gt;$$\sum_{i=1}^{N}a_i$$&#xA;&lt;a href=&#34;https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13280024803&#34;&gt;https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13280024803&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://wiis.info/math/linear-algebra/eigenvalue/eigenvalue/&#34;&gt;正方行列の固有値と固有ベクトルの定義 | 線型代数 | 数学 | WIIS&lt;/a&gt;&#xA;&lt;a href=&#34;https://w3e.kanazawa-it.ac.jp/math/category/gyouretu/senkeidaisu/henkan-tex.cgi?target=/math/category/gyouretu/senkeidaisu/eigenspace.html&#34;&gt;固有空間&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>世界一流エンジニアの思考法</title>
       <link>http://localhost:1313/posts/study/books/engineer_method/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
