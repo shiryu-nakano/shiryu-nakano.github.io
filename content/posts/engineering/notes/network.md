@@ -2,7 +2,6 @@
 title: Network
 url: /posts/engineering/memo/vpn/
 tags:
-  - daily
 ---
 
 ## Overview

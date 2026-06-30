@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
+Overview# ここに記録していく https://docs.google.com/spreadsheets/d/1uzVfhFT_m817u3qym3Ya4_d6GiNt_tCOxvM0Q9NeSz4/edit?usp=sharing https://github.com/shiryu-nakano/Papers Optimization# [1812.04754] Gradient Descent Happens in a Tiny Subspace
+[1901.10159] An Investigation into Neural Net Optimization via Hessian Eigenvalue Density
+[1706.10239] Towards Understanding Generalization of Deep Learning: Perspective of Loss Landscapes
+[2306.11922] No Wrong Turns: The Simple Geometry Of Neural Networks Optimization Paths
+[2603.27432] The Geometric Cost of Normalization: Affine Bounds on the Bayesian Complexity of Neural Networks
+Simplicity Bias# [2410.19637] A distributional simplicity bias in the learning dynamics of transformers
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/research/papers/">
+  <meta property="og:site_name" content="Shiryu NAKANO">
+  <meta property="og:title" content="Papers">
+  <meta property="og:description" content="Overview# ここに記録していく https://docs.google.com/spreadsheets/d/1uzVfhFT_m817u3qym3Ya4_d6GiNt_tCOxvM0Q9NeSz4/edit?usp=sharing https://github.com/shiryu-nakano/Papers Optimization# [1812.04754] Gradient Descent Happens in a Tiny Subspace
+[1901.10159] An Investigation into Neural Net Optimization via Hessian Eigenvalue Density
+[1706.10239] Towards Understanding Generalization of Deep Learning: Perspective of Loss Landscapes
+[2306.11922] No Wrong Turns: The Simple Geometry Of Neural Networks Optimization Paths
+[2603.27432] The Geometric Cost of Normalization: Affine Bounds on the Bayesian Complexity of Neural Networks
+Simplicity Bias# [2410.19637] A distributional simplicity bias in the learning dynamics of transformers">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+
+
+  <meta itemprop="name" content="Papers">
+  <meta itemprop="description" content="Overview# ここに記録していく https://docs.google.com/spreadsheets/d/1uzVfhFT_m817u3qym3Ya4_d6GiNt_tCOxvM0Q9NeSz4/edit?usp=sharing https://github.com/shiryu-nakano/Papers Optimization# [1812.04754] Gradient Descent Happens in a Tiny Subspace
+[1901.10159] An Investigation into Neural Net Optimization via Hessian Eigenvalue Density
+[1706.10239] Towards Understanding Generalization of Deep Learning: Perspective of Loss Landscapes
+[2306.11922] No Wrong Turns: The Simple Geometry Of Neural Networks Optimization Paths
+[2603.27432] The Geometric Cost of Normalization: Affine Bounds on the Bayesian Complexity of Neural Networks
+Simplicity Bias# [2410.19637] A distributional simplicity bias in the learning dynamics of transformers">
+  <meta itemprop="wordCount" content="345">
+
+<title>Papers | Shiryu NAKANO</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/posts/research/papers/">
+<link rel="stylesheet" href="/book.min.b267f830fdf65302ecc1702a1178d4f25aa783409b3a25098f3404dd24f37a4d.css" integrity="sha256-smf4MP32UwLswXAqEXjU8lqng0CbOiUJjzQE3STzek0=" crossorigin="anonymous">
+
+
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/ja.search.min.8cb231d642e98c2f8d120eafdcdcd52a4c212d90460c3e660967df5bae553a7a.js" integrity="sha256-jLIx1kLpjC&#43;NEg6v3NzVKkwhLZBGDD5mCWffW65VOno=" crossorigin="anonymous"></script>
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/custom.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "$", right: "$", display: false}
+        ],
+        throwOnError: false
+    });
+});
+</script>
+
+</head>
+<body dir="ltr" class="book-kind-page book-type-posts">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Shiryu NAKANO</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="検索"
+    aria-label="検索"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+  <div class="markdown">
+    <ul>
+<li><a href="/">Home</a></li>
+</ul>
+<!--
+- [Research](/posts/research/)
+- [Life](/posts/life/)
+- [Study](/posts/study/)
+- [Univ](/posts/univ/)
+--->
+  </div>
+
+
+
+</nav>
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Papers</h3>
+
+  <label for="toc-control">
+    
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+    
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#optimization">Optimization</a></li>
+    <li><a href="#simplicity-bias">Simplicity Bias</a></li>
+    <li><a href="#slt-for-deep-learning">SLT for Deep Learning</a></li>
+    <li><a href="#d-murfet">d murfet</a></li>
+    <li><a href="#grocking">Grocking</a></li>
+    <li><a href="#古典">古典</a></li>
+    <li><a href="#他分類しずらいorとりあえず貯めてる">他分類しずらいorとりあえず貯めてる</a></li>
+  </ul>
+</nav>
+
+
+  
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown book-post">
+  <h1>
+    Papers
+  </h1>
+  
+
+
+  
+
+  
+
+
+  <div class="book-post-content markdown-inner"><p><a id="org49c5612"></a></p>
+<h1 id="overview">Overview<a class="anchor" href="#overview">#</a></h1>
+<ul>
+<li>ここに記録していく
+<ul>
+<li><a href="https://docs.google.com/spreadsheets/d/1uzVfhFT_m817u3qym3Ya4_d6GiNt_tCOxvM0Q9NeSz4/edit?usp=sharing">https://docs.google.com/spreadsheets/d/1uzVfhFT_m817u3qym3Ya4_d6GiNt_tCOxvM0Q9NeSz4/edit?usp=sharing</a></li>
+<li><a href="https://github.com/shiryu-nakano/Papers">https://github.com/shiryu-nakano/Papers</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><a id="org3ad3645"></a></p>
+<h2 id="optimization">Optimization<a class="anchor" href="#optimization">#</a></h2>
+<ul>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://arxiv.org/abs/1812.04754">[1812.04754] Gradient Descent Happens in a Tiny Subspace</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://arxiv.org/abs/1901.10159">[1901.10159] An Investigation into Neural Net Optimization via Hessian Eigenvalue Density</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://arxiv.org/abs/1706.10239">[1706.10239] Towards Understanding Generalization of Deep Learning: Perspective of Loss Landscapes</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://arxiv.org/abs/2306.11922">[2306.11922] No Wrong Turns: The Simple Geometry Of Neural Networks Optimization Paths</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://arxiv.org/abs/2603.27432">[2603.27432] The Geometric Cost of Normalization: Affine Bounds on the Bayesian Complexity of Neural Networks</a></p>
+</li>
+</ul>
+<p><a id="orge6cda9d"></a></p>
+<h2 id="simplicity-bias">Simplicity Bias<a class="anchor" href="#simplicity-bias">#</a></h2>
+<ul>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://arxiv.org/abs/2410.19637">[2410.19637] A distributional simplicity bias in the learning dynamics of transformers</a></p>
+</li>
+<li>
+<p><input checked="" disabled="" type="checkbox"> <a href="https://scholar.google.com/scholar?start=20&amp;hl=ja&amp;as_sdt=2005&amp;sciodt=0,5&amp;cites=5568799983092346925&amp;scipsc=">Belrose: Neural networks learn statistics of increasing… - Google Scholar</a></p>
+<ul>
+<li>当該論文を引用している論文調べ</li>
+</ul>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://arxiv.org/abs/2603.12901">[2603.12901] A theory of learning data statistics in diffusion models, from easy to hard</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://arxiv.org/abs/2510.04285">[2510.04285] Probing Geometry of Next Token Prediction Using Cumulant Expansion of the Softmax Entropy</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://arxiv.org/abs/2602.12257">[2602.12257] On the implicit regularization of Langevin dynamics with projected noise</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://openreview.net/forum?id=CPKMwyiyDv">Neural networks trained with SGD learn distributions of increasing complexity | OpenReview</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://proceedings.neurips.cc/paper/2019/hash/b432f34c5a997c8e7c806a895ecc5e25-Abstract.html">SGD on Neural Networks Learns Functions of Increasing Complexity</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://arxiv.org/abs/1805.08522">[1805.08522] Deep learning generalizes because the parameter-function map is biased towards simple functions</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://arxiv.org/abs/2603.25839">[2603.25839] A Compression Perspective on Simplicity Bias</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> </p>
+</li>
+</ul>
+<p><a id="org2884e0d"></a></p>
+<h2 id="slt-for-deep-learning">SLT for Deep Learning<a class="anchor" href="#slt-for-deep-learning">#</a></h2>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://www.lesswrong.com/posts/6g8cAftfQufLmFDYT/you-re-measuring-model-complexity-wrong">You&rsquo;re Measuring Model Complexity Wrong — LessWrong</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://arxiv.org/abs/2410.02984">[2410.02984] Differentiation and Specialization of Attention Heads via the Refined Local Learning Coefficient</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://arxiv.org/abs/2511.04564">[2511.04564] Uncertainties in Physics-informed Inverse Problems: The Hidden Risk in Scientific AI</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://arxiv.org/abs/2406.10234">[2406.10234] Review and Prospect of Algebraic Research in Equivalent Framework between Statistical Mechanics and Machine Learning Theory</a></li>
+<li><input disabled="" type="checkbox"> Computational Complexity of Learning Neural Networks: Smoothness and Degeneracy
+<ul>
+<li><a href="https://neurips.cc/virtual/2023/poster/72775">https://neurips.cc/virtual/2023/poster/72775</a></li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> <a href="https://www.lesswrong.com/posts/3iQyH2kk6Eyn5soGB/singular-learning-theory-for-dummies#fnreffzqgns0gcgn">Singular Learning Theory for Dummies — LessWrong</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://timaeus.co/research/2025-10-13-smdl">Timaeus | Compressibility Measures Complexity: Minimum Description Length Meets Singular Learning Theory</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://neurips.cc/virtual/2024/poster/95029">https://neurips.cc/virtual/2024/poster/95029</a></li>
+<li><input disabled="" type="checkbox"> </li>
+</ul>
+<p><a id="org1c2514a"></a></p>
+<h2 id="d-murfet">d murfet<a class="anchor" href="#d-murfet">#</a></h2>
+<p><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Murfet,&#43;D">https://arxiv.org/search/cs?searchtype=author&query=Murfet,+D</a></p>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Murfet,&#43;D">Search | arXiv e-print repository</a></li>
+</ul>
+<p><a id="org6ce666d"></a></p>
+<h2 id="grocking">Grocking<a class="anchor" href="#grocking">#</a></h2>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://arxiv.org/abs/2603.05228">[2603.05228] The Geometric Inductive Bias of Grokking: Bypassing Phase Transitions via Architectural Topology</a></li>
+</ul>
+<p><a id="org451b525"></a></p>
+<h2 id="古典">古典<a class="anchor" href="#%e5%8f%a4%e5%85%b8">#</a></h2>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://arxiv.org/abs/2301.00808">[2301.00808] ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://arxiv.org/abs/2602.15029">[2602.15029] Symmetry in language statistics shapes the geometry of model representations</a></li>
+</ul>
+<p><a id="org8a8d5dd"></a></p>
+<h2 id="他分類しずらいorとりあえず貯めてる">他分類しずらいorとりあえず貯めてる<a class="anchor" href="#%e4%bb%96%e5%88%86%e9%a1%9e%e3%81%97%e3%81%9a%e3%82%89%e3%81%84or%e3%81%a8%e3%82%8a%e3%81%82%e3%81%88%e3%81%9a%e8%b2%af%e3%82%81%e3%81%a6%e3%82%8b">#</a></h2>
+<ul>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://www2.kek.jp/imss/pf/workshop/kenkyukai/20170119/170113_nagata.pdf">ベイズ推定に基づくスペクトルデータからの情報抽出</a></p>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://mns.k.u-tokyo.ac.jp/pdf/2023jpsj_nabika.pdf">https://mns.k.u-tokyo.ac.jp/pdf/2023jpsj_nabika.pdf</a></li>
+</ul>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://www.ai-gakkai.or.jp/jsai2017/webprogram/2017/pdf/733.pdf">https://www.ai-gakkai.or.jp/jsai2017/webprogram/2017/pdf/733.pdf</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://arxiv.org/abs/2303.14151">[2303.14151] Double Descent Demystified: Identifying, Interpreting &amp; Ablating the Sources of a Deep Learning Puzzle</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://arxiv.org/abs/1801.05894">[1801.05894] Deep Learning: An Introduction for Applied Mathematicians</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://arxiv.org/abs/2603.05228">[2603.05228] The Geometric Inductive Bias of Grokking: Bypassing Phase Transitions via Architectural Topology</a></p>
+</li>
+</ul>
+<p><a id="orgd415428"></a></p>
+<h1 id="reference">Reference<a class="anchor" href="#reference">#</a></h1>
+<ul>
+<li><a href="https://github.com/Hiroki11x/Papers">https://github.com/Hiroki11x/Papers</a>
+<ul>
+<li>これを参考にしたい</li>
+</ul>
+</li>
+<li><a href="https://joisino.hatenablog.com/entry/2023/04/10/170519#Readable-%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">論文読みの日課について - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ</a></li>
+<li><a href="https://hiroki11x.github.io/posts/paper_list/">読まなきゃと思ってる Paper List | Hiroki Naganuma</a></li>
+</ul>
+</div>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+    
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#optimization">Optimization</a></li>
+    <li><a href="#simplicity-bias">Simplicity Bias</a></li>
+    <li><a href="#slt-for-deep-learning">SLT for Deep Learning</a></li>
+    <li><a href="#d-murfet">d murfet</a></li>
+    <li><a href="#grocking">Grocking</a></li>
+    <li><a href="#古典">古典</a></li>
+    <li><a href="#他分類しずらいorとりあえず貯めてる">他分類しずらいorとりあえず貯めてる</a></li>
+  </ul>
+</nav>
+
+
+  
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

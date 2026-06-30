@@ -1,6 +1,6 @@
 ---
 title: week 26
-url: /posts/daily/2026/05/week26/
+url: /posts/daily/2026/06/week26/
 ---
 
 ## Week 26

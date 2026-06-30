@@ -1,6 +1,6 @@
 ---
 title: week 24
-url: /posts/daily/2026/05/week24/
+url: /posts/daily/2026/06/week24/
 ---
 
 

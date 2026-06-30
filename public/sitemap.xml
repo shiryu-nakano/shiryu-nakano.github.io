@@ -54,6 +54,8 @@
   </url><url>
     <loc>http://localhost:1313/posts/univ/general/</loc>
   </url><url>
+    <loc>http://localhost:1313/posts/home/</loc>
+  </url><url>
     <loc>http://localhost:1313/posts/myself/info/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/univ/guidance/</loc>

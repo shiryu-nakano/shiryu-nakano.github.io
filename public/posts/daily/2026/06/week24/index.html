@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="week24: 6/8~6/14(sun)# https://calendar.google.com/calendar/u/0/r
+8 Mon |　9 Tue | 10 Wed | pm:ML 勉強会 11 Thr | 12 Fri | 週報提出 13 Sat | 14 Sun | pm20 MTG honda 今週やること# → https://www.notion.so/GTD-260510-35c230dfc3a5808681a3dfd080eac141?source=copy_link
+LLC論文の再現　優先1→週報# LLCの推定を実現する 20h? [2026-06-13 14:27] 再現は30%くらいはできた [2026-06-13 14:27] いきなり完全な結果を再現することは困難 LLC推定値のスケールが合っていればOKとする PJ_H(40%)# 覚醒かつ安静時の時の値のみを取ってきて解析する 5h 機械学習モデルを動かしてみる 20h 目的をはっきりさせる 2h Bayes# RLCTの実装
+再現：この前のMTGで決まった自分の担当はなんだったっけ？？
+exp2 原フルタイムシステムズ奨学金 [2026-06-12 10:02]
+https://www.notion.so/379230dfc3a58064a628c693b0f4b74e?source=copy_link jassoの返還申請について [2026-06-15 21:16]
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/daily/2026/06/week24/">
+  <meta property="og:site_name" content="Shiryu NAKANO">
+  <meta property="og:title" content="week 24">
+  <meta property="og:description" content="week24: 6/8~6/14(sun)# https://calendar.google.com/calendar/u/0/r
+8 Mon |　9 Tue | 10 Wed | pm:ML 勉強会 11 Thr | 12 Fri | 週報提出 13 Sat | 14 Sun | pm20 MTG honda 今週やること# → https://www.notion.so/GTD-260510-35c230dfc3a5808681a3dfd080eac141?source=copy_link
+LLC論文の再現　優先1→週報# LLCの推定を実現する 20h? [2026-06-13 14:27] 再現は30%くらいはできた [2026-06-13 14:27] いきなり完全な結果を再現することは困難 LLC推定値のスケールが合っていればOKとする PJ_H(40%)# 覚醒かつ安静時の時の値のみを取ってきて解析する 5h 機械学習モデルを動かしてみる 20h 目的をはっきりさせる 2h Bayes# RLCTの実装
+再現：この前のMTGで決まった自分の担当はなんだったっけ？？
+exp2 原フルタイムシステムズ奨学金 [2026-06-12 10:02]
+https://www.notion.so/379230dfc3a58064a628c693b0f4b74e?source=copy_link jassoの返還申請について [2026-06-15 21:16]">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+
+
+  <meta itemprop="name" content="week 24">
+  <meta itemprop="description" content="week24: 6/8~6/14(sun)# https://calendar.google.com/calendar/u/0/r
+8 Mon |　9 Tue | 10 Wed | pm:ML 勉強会 11 Thr | 12 Fri | 週報提出 13 Sat | 14 Sun | pm20 MTG honda 今週やること# → https://www.notion.so/GTD-260510-35c230dfc3a5808681a3dfd080eac141?source=copy_link
+LLC論文の再現　優先1→週報# LLCの推定を実現する 20h? [2026-06-13 14:27] 再現は30%くらいはできた [2026-06-13 14:27] いきなり完全な結果を再現することは困難 LLC推定値のスケールが合っていればOKとする PJ_H(40%)# 覚醒かつ安静時の時の値のみを取ってきて解析する 5h 機械学習モデルを動かしてみる 20h 目的をはっきりさせる 2h Bayes# RLCTの実装
+再現：この前のMTGで決まった自分の担当はなんだったっけ？？
+exp2 原フルタイムシステムズ奨学金 [2026-06-12 10:02]
+https://www.notion.so/379230dfc3a58064a628c693b0f4b74e?source=copy_link jassoの返還申請について [2026-06-15 21:16]">
+  <meta itemprop="wordCount" content="91">
+
+<title>week 24 | Shiryu NAKANO</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/posts/daily/2026/06/week24/">
+<link rel="stylesheet" href="/book.min.b267f830fdf65302ecc1702a1178d4f25aa783409b3a25098f3404dd24f37a4d.css" integrity="sha256-smf4MP32UwLswXAqEXjU8lqng0CbOiUJjzQE3STzek0=" crossorigin="anonymous">
+
+
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/ja.search.min.8cb231d642e98c2f8d120eafdcdcd52a4c212d90460c3e660967df5bae553a7a.js" integrity="sha256-jLIx1kLpjC&#43;NEg6v3NzVKkwhLZBGDD5mCWffW65VOno=" crossorigin="anonymous"></script>
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/custom.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "$", right: "$", display: false}
+        ],
+        throwOnError: false
+    });
+});
+</script>
+
+</head>
+<body dir="ltr" class="book-kind-page book-type-posts">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Shiryu NAKANO</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="検索"
+    aria-label="検索"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+  <div class="markdown">
+    <ul>
+<li><a href="/">Home</a></li>
+</ul>
+<!--
+- [Research](/posts/research/)
+- [Life](/posts/life/)
+- [Study](/posts/study/)
+- [Univ](/posts/univ/)
+--->
+  </div>
+
+
+
+</nav>
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>week 24</h3>
+
+  <label for="toc-control">
+    
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+    
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#week24-68614sun">week24: 6/8~6/14(sun)</a></li>
+    <li><a href="#今週やること"><strong>今週やること</strong></a>
+      <ul>
+        <li><a href="#llc論文の再現優先1週報">LLC論文の再現　優先1→週報</a></li>
+        <li><a href="#pj_h40">PJ_H(40%)</a></li>
+        <li><a href="#bayes">Bayes</a></li>
+      </ul>
+    </li>
+    <li><a href="#今週のタスクmisc">今週のタスク（MISC)</a></li>
+  </ul>
+</nav>
+
+
+  
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown book-post">
+  <h1>
+    week 24
+  </h1>
+  
+
+
+  
+
+  
+
+
+  <div class="book-post-content markdown-inner"><h2 id="week24-68614sun">week24: 6/8~6/14(sun)<a class="anchor" href="#week24-68614sun">#</a></h2>
+<p><a href="https://calendar.google.com/calendar/u/0/r">https://calendar.google.com/calendar/u/0/r</a></p>
+<ul>
+<li>8 Mon |　</li>
+<li>9 Tue |</li>
+<li>10 Wed | pm:ML 勉強会</li>
+<li>11 Thr |</li>
+<li>12 Fri | 週報提出</li>
+<li>13 Sat |</li>
+<li>14 Sun | pm20 MTG honda</li>
+</ul>
+<h2 id="今週やること"><strong>今週やること</strong><a class="anchor" href="#%e4%bb%8a%e9%80%b1%e3%82%84%e3%82%8b%e3%81%93%e3%81%a8">#</a></h2>
+<p>　
+→ <a href="https://www.notion.so/GTD-260510-35c230dfc3a5808681a3dfd080eac141?source=copy_link">https://www.notion.so/GTD-260510-35c230dfc3a5808681a3dfd080eac141?source=copy_link</a></p>
+<h3 id="llc論文の再現優先1週報">LLC論文の再現　優先1→週報<a class="anchor" href="#llc%e8%ab%96%e6%96%87%e3%81%ae%e5%86%8d%e7%8f%be%e5%84%aa%e5%85%881%e9%80%b1%e5%a0%b1">#</a></h3>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <del><em>LLCの推定を実現する 20h?</em></del> [2026-06-13 14:27]
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <del><em>再現は30%くらいはできた</em></del> [2026-06-13 14:27]</li>
+<li>いきなり完全な結果を再現することは困難</li>
+<li>LLC推定値のスケールが合っていればOKとする</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> </li>
+</ul>
+<h3 id="pj_h40">PJ_H(40%)<a class="anchor" href="#pj_h40">#</a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> 覚醒かつ安静時の時の値のみを取ってきて解析する 5h</li>
+<li><input disabled="" type="checkbox"> 機械学習モデルを動かしてみる 20h</li>
+<li><input disabled="" type="checkbox"> 目的をはっきりさせる 2h</li>
+</ul>
+<h3 id="bayes">Bayes<a class="anchor" href="#bayes">#</a></h3>
+<ul>
+<li>
+<p><input disabled="" type="checkbox"> RLCTの実装</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 再現：この前のMTGで決まった自分の担当はなんだったっけ？？</p>
+<ul>
+<li><input disabled="" type="checkbox"> exp2</li>
+</ul>
+</li>
+<li>
+<p><input checked="" disabled="" type="checkbox"> <del><em>原フルタイムシステムズ奨学金</em></del> [2026-06-12 10:02]</p>
+<ul>
+<li><a href="https://www.notion.so/379230dfc3a58064a628c693b0f4b74e?source=copy_link">https://www.notion.so/379230dfc3a58064a628c693b0f4b74e?source=copy_link</a></li>
+</ul>
+</li>
+<li>
+<p><input checked="" disabled="" type="checkbox"> <del><em>jassoの返還申請について</em></del> [2026-06-15 21:16]</p>
+</li>
+<li>
+<p><input checked="" disabled="" type="checkbox"> <del><em><strong>統計実践6/10</strong></em></del> [2026-06-12 10:02]</p>
+</li>
+<li>
+<p><input checked="" disabled="" type="checkbox"> <del><em>公的統計の課題6/9</em></del> [2026-06-12 10:02]</p>
+</li>
+<li>
+<p><input checked="" disabled="" type="checkbox"> <del><em>GCI コンペ提出</em></del> [2026-06-08 16:44]</p>
+</li>
+<li>
+<p><input checked="" disabled="" type="checkbox"> <del><em>F-MLコンペ提出</em></del> [2026-06-15 21:16]</p>
+</li>
+<li>
+<p><input checked="" disabled="" type="checkbox"> <del><em>公的統計の感想提出</em></del> [2026-06-15 21:16]</p>
+</li>
+<li>
+<p>6月→論文紹介と研究紹介が7月にあることを念頭に</p>
+<ul>
+<li><input disabled="" type="checkbox"> 両方のスライドを半分くらいの完成度で作り上げておくこと</li>
+</ul>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> ELSIの発表資料も同様に書く</p>
+</li>
+</ul>
+<h2 id="今週のタスクmisc">今週のタスク（MISC)<a class="anchor" href="#%e4%bb%8a%e9%80%b1%e3%81%ae%e3%82%bf%e3%82%b9%e3%82%afmisc">#</a></h2>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://gemini.google.com/app/3e776cccf9d1f959?hl=ja">https://gemini.google.com/app/3e776cccf9d1f959?hl=ja</a>
+<ul>
+<li><input disabled="" type="checkbox"> ghostty or wezterm で　ubuntuに入る時でも使えるようにする</li>
+<li><input disabled="" type="checkbox"> 実行が終わったらdiscordに通知を送る機能</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> Networkのメモを改訂しておく</li>
+<li><input disabled="" type="checkbox"> 金融-機械学習の教材保存</li>
+</ul>
+</div>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+    
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#week24-68614sun">week24: 6/8~6/14(sun)</a></li>
+    <li><a href="#今週やること"><strong>今週やること</strong></a>
+      <ul>
+        <li><a href="#llc論文の再現優先1週報">LLC論文の再現　優先1→週報</a></li>
+        <li><a href="#pj_h40">PJ_H(40%)</a></li>
+        <li><a href="#bayes">Bayes</a></li>
+      </ul>
+    </li>
+    <li><a href="#今週のタスクmisc">今週のタスク（MISC)</a></li>
+  </ul>
+</nav>
+
+
+  
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
