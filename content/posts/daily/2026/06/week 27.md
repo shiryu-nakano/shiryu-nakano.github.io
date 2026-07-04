@@ -3,6 +3,24 @@ title: week 27
 url: /posts/daily/2026/06/week27/
 ---
 
+## Overview
+
+- **Week 27** | [week 27](/posts/daily/2026/06/week27/)
+- [2026-06-29 Mon](/posts/daily/2026/06/29/) | emacs org で書いた（復活）
+- [2026-06-30 Tue](/posts/daily/2026/06/30/) | seminar, bayes submition
+	- [X] ~~*bayes*~~ [2026-07-01 11:50]
+- [2026-07-01 Wed](/posts/daily/2026/07/01/)
+	- [x] 公的統計提出
+	- [X] ~~*AI for Science*~~ [2026-07-02 12:19]
+- [2026-07-02 Thu](/posts/daily/2026/07/02/)
+	- [X] ~~*AI for Science 提出*~~ [2026-07-02 12:19]
+	- [x] Deep提出
+	- [x] Physical AI提出
+    - [ ] 初期設定など→なんの？
+- [2026-07-03 Fri](/posts/daily/2026/07/03/) | Bayes MTG 
+- [2026-07-04 Sat](/posts/daily/2026/07/04/)
+- [2026-07-05 Sun](/posts/daily/2026/07/05/)
+
 ## Week 27 TASK
 
 ### LLC
@@ -13,7 +31,8 @@ url: /posts/daily/2026/06/week27/
 - [X] ~~*覚醒かつ安静時の時の値のみを取ってきて解析する 5h*~~ [2026-06-21 19:16]
 - [ ] 機械学習モデルを動かしてみる 20h
 - [ ] 目的をはっきりさせる 2h
-- [ ] 
+- [ ] https://notebooklm.google.com/notebook/b71ee6d5-5324-4d89-98e4-275795f5c533
+	- [ ] 休息時間
 ### Bayes
 - [X] ~~*RLCTの実装*~~ [2026-06-21 19:17]
 	- [X] ~~*論文の再実装→計画的にやる*~~ [2026-06-20 13:44]
@@ -24,6 +43,12 @@ url: /posts/daily/2026/06/week27/
 		- [X] ~~*fig5*~~ [2026-06-20 13:44]
 		- [ ] fig6→**来週**
 
+### submit
+- [x] Deep Learning 
+	- [x] https://edu.omnicamp.us/courses/129/assignments/801/
+- [x] Bayes 課題
+- [ ] ELSI
+	- [ ] research introduction
 
 ## 喫緊の論文リスト
 - [ ] DSB
@@ -61,10 +86,6 @@ url: /posts/daily/2026/06/week27/
 - [ ] review of 2025がまだ残っている・・・
 
 
-
-
-
-
 - [ ] ELSI②；研究紹介
 	- [ ] あえて違うので紹介してみる？PINNsとか
 		- [ ] んなことしたらやばいか．死ぬかも
@@ -97,3 +118,24 @@ url: /posts/daily/2026/06/week27/
 UNVEILING THE BASIN-LIKE LOSS LANDSCAPE IN　LARGE LANGUAGE MODELSこれ読みたい
 ![](../../../../../static/images/misc/Pasted%20image%2020260617063118.png)
 ![](../../../../../static/images/misc/Pasted%20image%2020260617063132.png)
+
+
+## Review
+
+**seminar**とその後の議論
+- LLC+DSB
+	- →継続する
+- PINNs
+	- LLCの論文を紹介した→その論文自体問題設定がはっきりしない
+		- LLC→学習過程全体
+		- RLCT→学習後
+		- パラメータごとの不定性に近い値を持っているかもしれない→その部分の理論を整理できるかもしれない
+			- LLCとRLCTの議論を整理しておく方がよさそう
+				- 大関さんが論文出してた
+- h
+	- 論文紹介が優先→出てきたパターンに対しての考察が知りたいらしい
+	- ヒストグラム
+	- べき分布→後でOK
+- [ ] AI  for Science
+	- [ ] すぐに出す
+

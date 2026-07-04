@@ -40,8 +40,6 @@
   </url><url>
     <loc>http://localhost:1313/templates/toggle-task/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/research/materials/ai_for_science/</loc>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/research/materials/theorydeeplearning/</loc>
@@ -62,19 +60,19 @@
   </url><url>
     <loc>http://localhost:1313/posts/research/mcmc/</loc>
   </url><url>
+    <loc>http://localhost:1313/posts/life/music_work/</loc>
+  </url><url>
     <loc>http://localhost:1313/posts/engineering/memo/vpn/</loc>
-  </url><url>
-    <loc>http://localhost:1313/posts/research/notes/</loc>
-  </url><url>
-    <loc>http://localhost:1313/posts/research/org-test/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/study/overview/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/research/paper_stock/</loc>
+    <loc>http://localhost:1313/posts/research/papers/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/study/pdf1/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/study/linear/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/research/materials/how-to-write-a-lot/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/research-log/h/26w19/y/</loc>
   </url><url>
@@ -83,8 +81,6 @@
     <loc>http://localhost:1313/posts/research-log/26w20/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/research-log/2026/</loc>
-  </url><url>
-    <loc>http://localhost:1313/posts/research/scaling-laws/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/engineering/memo/teaching_git/</loc>
   </url><url>

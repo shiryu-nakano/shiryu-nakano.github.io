@@ -39,6 +39,7 @@ url: /posts/daily/2026/06/
 - [2026-06-28](/posts/daily/2026/06/28/)
 - **Week 27** | [week 27](/posts/daily/2026/06/week27/)
 - [2026-06-29](/posts/daily/2026/06/29/) | emacs org で書いた（復活）
+	- やっぱりmdにすることになった．
 - [2026-06-30](/posts/daily/2026/06/30/) | seminar, bayes submition
 
 ## Routine

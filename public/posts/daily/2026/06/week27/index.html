@@ -8,37 +8,22 @@ https://github.com/alex-shpak/hugo-book
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Week 27 TASK# LLC# DSBのデータの作成 ひとまずDSB on CIFER10で PJ_H (40%)# 覚醒かつ安静時の時の値のみを取ってきて解析する 5h [2026-06-21 19:16] 機械学習モデルを動かしてみる 20h 目的をはっきりさせる 2h Bayes# RLCTの実装 [2026-06-21 19:17] 論文の再実装→計画的にやる [2026-06-20 13:44] https://www.jstage.jst.go.jp/article/ipsjtrans/7/0/7_20/_pdf [2026-06-20 13:44] 再現：この前のMTGで決まった自分の担当はなんだったっけ？？ exp2 fig4 [2026-06-20 13:44] fig5 [2026-06-20 13:44] fig6→来週 喫緊の論文リスト# DSB
-研究紹介 Geometry of Forgetting
-https://openreview.net/pdf?id=qKh7Aip3JC https://www.p.u-tokyo.ac.jp/~zbyszek/zrs/Papers/Entries/2007/9/28_Universal_Scaling_Law_in_Human_Behavioral_Organization_files/PhysRevLett.99.138103.pdf
-これは実装までやる https://claude.ai/chat/5b1435a5-db53-4a36-91dc-24fd4f59ce3a https://arxiv.org/pdf/2606.16399
-むずそうなのでこのリストの中だと優先度低め．時間のあるときに WIP# 作業復旧用のメモ
-固有値の理解
+<meta name="description" content="Overview# Week 27 | week 27 2026-06-29 Mon | emacs org で書いた（復活） 2026-06-30 Tue | seminar, bayes submition bayes [2026-07-01 11:50] 2026-07-01 Wed 公的統計提出 AI for Science [2026-07-02 12:19] 2026-07-02 Thu AI for Science 提出 [2026-07-02 12:19] Deep提出 Physical AI提出 初期設定など→なんの？ 2026-07-03 Fri | Bayes MTG 2026-07-04 Sat 2026-07-05 Sun Week 27 TASK# LLC# DSBのデータの作成 ひとまずDSB on CIFER10で PJ_H (40%)# 覚醒かつ安静時の時の値のみを取ってきて解析する 5h [2026-06-21 19:16] 機械学習モデルを動かしてみる 20h 目的をはっきりさせる 2h https://notebooklm.google.com/notebook/b71ee6d5-5324-4d89-98e4-275795f5c533 休息時間 Bayes# RLCTの実装 [2026-06-21 19:17] 論文の再実装→計画的にやる [2026-06-20 13:44] https://www.jstage.jst.go.jp/article/ipsjtrans/7/0/7_20/_pdf [2026-06-20 13:44] 再現：この前のMTGで決まった自分の担当はなんだったっけ？？ exp2 fig4 [2026-06-20 13:44] fig5 [2026-06-20 13:44] fig6→来週 submit# Deep Learning https://edu.omnicamp.us/courses/129/assignments/801/ Bayes 課題 ELSI research introduction 喫緊の論文リスト# DSB
 ">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/daily/2026/06/week27/">
   <meta property="og:site_name" content="Shiryu NAKANO">
   <meta property="og:title" content="week 27">
-  <meta property="og:description" content="Week 27 TASK# LLC# DSBのデータの作成 ひとまずDSB on CIFER10で PJ_H (40%)# 覚醒かつ安静時の時の値のみを取ってきて解析する 5h [2026-06-21 19:16] 機械学習モデルを動かしてみる 20h 目的をはっきりさせる 2h Bayes# RLCTの実装 [2026-06-21 19:17] 論文の再実装→計画的にやる [2026-06-20 13:44] https://www.jstage.jst.go.jp/article/ipsjtrans/7/0/7_20/_pdf [2026-06-20 13:44] 再現：この前のMTGで決まった自分の担当はなんだったっけ？？ exp2 fig4 [2026-06-20 13:44] fig5 [2026-06-20 13:44] fig6→来週 喫緊の論文リスト# DSB
-研究紹介 Geometry of Forgetting
-https://openreview.net/pdf?id=qKh7Aip3JC https://www.p.u-tokyo.ac.jp/~zbyszek/zrs/Papers/Entries/2007/9/28_Universal_Scaling_Law_in_Human_Behavioral_Organization_files/PhysRevLett.99.138103.pdf
-これは実装までやる https://claude.ai/chat/5b1435a5-db53-4a36-91dc-24fd4f59ce3a https://arxiv.org/pdf/2606.16399
-むずそうなのでこのリストの中だと優先度低め．時間のあるときに WIP# 作業復旧用のメモ
-固有値の理解">
+  <meta property="og:description" content="Overview# Week 27 | week 27 2026-06-29 Mon | emacs org で書いた（復活） 2026-06-30 Tue | seminar, bayes submition bayes [2026-07-01 11:50] 2026-07-01 Wed 公的統計提出 AI for Science [2026-07-02 12:19] 2026-07-02 Thu AI for Science 提出 [2026-07-02 12:19] Deep提出 Physical AI提出 初期設定など→なんの？ 2026-07-03 Fri | Bayes MTG 2026-07-04 Sat 2026-07-05 Sun Week 27 TASK# LLC# DSBのデータの作成 ひとまずDSB on CIFER10で PJ_H (40%)# 覚醒かつ安静時の時の値のみを取ってきて解析する 5h [2026-06-21 19:16] 機械学習モデルを動かしてみる 20h 目的をはっきりさせる 2h https://notebooklm.google.com/notebook/b71ee6d5-5324-4d89-98e4-275795f5c533 休息時間 Bayes# RLCTの実装 [2026-06-21 19:17] 論文の再実装→計画的にやる [2026-06-20 13:44] https://www.jstage.jst.go.jp/article/ipsjtrans/7/0/7_20/_pdf [2026-06-20 13:44] 再現：この前のMTGで決まった自分の担当はなんだったっけ？？ exp2 fig4 [2026-06-20 13:44] fig5 [2026-06-20 13:44] fig6→来週 submit# Deep Learning https://edu.omnicamp.us/courses/129/assignments/801/ Bayes 課題 ELSI research introduction 喫緊の論文リスト# DSB">
   <meta property="og:locale" content="ja">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
 
 
   <meta itemprop="name" content="week 27">
-  <meta itemprop="description" content="Week 27 TASK# LLC# DSBのデータの作成 ひとまずDSB on CIFER10で PJ_H (40%)# 覚醒かつ安静時の時の値のみを取ってきて解析する 5h [2026-06-21 19:16] 機械学習モデルを動かしてみる 20h 目的をはっきりさせる 2h Bayes# RLCTの実装 [2026-06-21 19:17] 論文の再実装→計画的にやる [2026-06-20 13:44] https://www.jstage.jst.go.jp/article/ipsjtrans/7/0/7_20/_pdf [2026-06-20 13:44] 再現：この前のMTGで決まった自分の担当はなんだったっけ？？ exp2 fig4 [2026-06-20 13:44] fig5 [2026-06-20 13:44] fig6→来週 喫緊の論文リスト# DSB
-研究紹介 Geometry of Forgetting
-https://openreview.net/pdf?id=qKh7Aip3JC https://www.p.u-tokyo.ac.jp/~zbyszek/zrs/Papers/Entries/2007/9/28_Universal_Scaling_Law_in_Human_Behavioral_Organization_files/PhysRevLett.99.138103.pdf
-これは実装までやる https://claude.ai/chat/5b1435a5-db53-4a36-91dc-24fd4f59ce3a https://arxiv.org/pdf/2606.16399
-むずそうなのでこのリストの中だと優先度低め．時間のあるときに WIP# 作業復旧用のメモ
-固有値の理解">
-  <meta itemprop="wordCount" content="126">
+  <meta itemprop="description" content="Overview# Week 27 | week 27 2026-06-29 Mon | emacs org で書いた（復活） 2026-06-30 Tue | seminar, bayes submition bayes [2026-07-01 11:50] 2026-07-01 Wed 公的統計提出 AI for Science [2026-07-02 12:19] 2026-07-02 Thu AI for Science 提出 [2026-07-02 12:19] Deep提出 Physical AI提出 初期設定など→なんの？ 2026-07-03 Fri | Bayes MTG 2026-07-04 Sat 2026-07-05 Sun Week 27 TASK# LLC# DSBのデータの作成 ひとまずDSB on CIFER10で PJ_H (40%)# 覚醒かつ安静時の時の値のみを取ってきて解析する 5h [2026-06-21 19:16] 機械学習モデルを動かしてみる 20h 目的をはっきりさせる 2h https://notebooklm.google.com/notebook/b71ee6d5-5324-4d89-98e4-275795f5c533 休息時間 Bayes# RLCTの実装 [2026-06-21 19:17] 論文の再実装→計画的にやる [2026-06-20 13:44] https://www.jstage.jst.go.jp/article/ipsjtrans/7/0/7_20/_pdf [2026-06-20 13:44] 再現：この前のMTGで決まった自分の担当はなんだったっけ？？ exp2 fig4 [2026-06-20 13:44] fig5 [2026-06-20 13:44] fig6→来週 submit# Deep Learning https://edu.omnicamp.us/courses/129/assignments/801/ Bayes 課題 ELSI research introduction 喫緊の論文リスト# DSB">
+  <meta itemprop="wordCount" content="206">
 
 <title>week 27 | Shiryu NAKANO</title>
 <link rel="icon" href="/favicon.png" >
@@ -48,7 +33,7 @@ https://openreview.net/pdf?id=qKh7Aip3JC https://www.p.u-tokyo.ac.jp/~zbyszek/zr
 
 
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/ja.search.min.8cb231d642e98c2f8d120eafdcdcd52a4c212d90460c3e660967df5bae553a7a.js" integrity="sha256-jLIx1kLpjC&#43;NEg6v3NzVKkwhLZBGDD5mCWffW65VOno=" crossorigin="anonymous"></script>
+  <script defer src="/ja.search.min.6d6e2e194c2e6342a7d663f5a0d16d99d6c47d1174b93c006e91cc6053a0c196.js" integrity="sha256-bW4uGUwuY0Kn1mP1oNFtmdbEfRF0uTwAbpHMYFOgwZY=" crossorigin="anonymous"></script>
 
 
 
@@ -151,16 +136,19 @@ document.addEventListener("DOMContentLoaded", function() {
     
 <nav id="TableOfContents">
   <ul>
+    <li><a href="#overview">Overview</a></li>
     <li><a href="#week-27-task">Week 27 TASK</a>
       <ul>
         <li><a href="#llc">LLC</a></li>
         <li><a href="#pj_h-40">PJ_H (40%)</a></li>
         <li><a href="#bayes">Bayes</a></li>
+        <li><a href="#submit">submit</a></li>
       </ul>
     </li>
     <li><a href="#喫緊の論文リスト">喫緊の論文リスト</a></li>
     <li><a href="#wip">WIP</a></li>
     <li><a href="#一旦後で">一旦後で</a></li>
+    <li><a href="#review">Review</a></li>
   </ul>
 </nav>
 
@@ -186,7 +174,34 @@ document.addEventListener("DOMContentLoaded", function() {
   
 
 
-  <div class="book-post-content markdown-inner"><h2 id="week-27-task">Week 27 TASK<a class="anchor" href="#week-27-task">#</a></h2>
+  <div class="book-post-content markdown-inner"><h2 id="overview">Overview<a class="anchor" href="#overview">#</a></h2>
+<ul>
+<li><strong>Week 27</strong> | <a href="/posts/daily/2026/06/week27/">week 27</a></li>
+<li><a href="/posts/daily/2026/06/29/">2026-06-29 Mon</a> | emacs org で書いた（復活）</li>
+<li><a href="/posts/daily/2026/06/30/">2026-06-30 Tue</a> | seminar, bayes submition
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <del><em>bayes</em></del> [2026-07-01 11:50]</li>
+</ul>
+</li>
+<li><a href="/posts/daily/2026/07/01/">2026-07-01 Wed</a>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 公的統計提出</li>
+<li><input checked="" disabled="" type="checkbox"> <del><em>AI for Science</em></del> [2026-07-02 12:19]</li>
+</ul>
+</li>
+<li><a href="/posts/daily/2026/07/02/">2026-07-02 Thu</a>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <del><em>AI for Science 提出</em></del> [2026-07-02 12:19]</li>
+<li><input checked="" disabled="" type="checkbox"> Deep提出</li>
+<li><input checked="" disabled="" type="checkbox"> Physical AI提出</li>
+<li><input disabled="" type="checkbox"> 初期設定など→なんの？</li>
+</ul>
+</li>
+<li><a href="/posts/daily/2026/07/03/">2026-07-03 Fri</a> | Bayes MTG</li>
+<li><a href="/posts/daily/2026/07/04/">2026-07-04 Sat</a></li>
+<li><a href="/posts/daily/2026/07/05/">2026-07-05 Sun</a></li>
+</ul>
+<h2 id="week-27-task">Week 27 TASK<a class="anchor" href="#week-27-task">#</a></h2>
 <h3 id="llc">LLC<a class="anchor" href="#llc">#</a></h3>
 <ul>
 <li><input disabled="" type="checkbox"> DSBのデータの作成</li>
@@ -197,7 +212,11 @@ document.addEventListener("DOMContentLoaded", function() {
 <li><input checked="" disabled="" type="checkbox"> <del><em>覚醒かつ安静時の時の値のみを取ってきて解析する 5h</em></del> [2026-06-21 19:16]</li>
 <li><input disabled="" type="checkbox"> 機械学習モデルを動かしてみる 20h</li>
 <li><input disabled="" type="checkbox"> 目的をはっきりさせる 2h</li>
-<li><input disabled="" type="checkbox"> </li>
+<li><input disabled="" type="checkbox"> <a href="https://notebooklm.google.com/notebook/b71ee6d5-5324-4d89-98e4-275795f5c533">https://notebooklm.google.com/notebook/b71ee6d5-5324-4d89-98e4-275795f5c533</a>
+<ul>
+<li><input disabled="" type="checkbox"> 休息時間</li>
+</ul>
+</li>
 </ul>
 <h3 id="bayes">Bayes<a class="anchor" href="#bayes">#</a></h3>
 <ul>
@@ -219,6 +238,20 @@ document.addEventListener("DOMContentLoaded", function() {
 <li><input disabled="" type="checkbox"> fig6→<strong>来週</strong></li>
 </ul>
 </li>
+</ul>
+</li>
+</ul>
+<h3 id="submit">submit<a class="anchor" href="#submit">#</a></h3>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Deep Learning
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://edu.omnicamp.us/courses/129/assignments/801/">https://edu.omnicamp.us/courses/129/assignments/801/</a></li>
+</ul>
+</li>
+<li><input checked="" disabled="" type="checkbox"> Bayes 課題</li>
+<li><input disabled="" type="checkbox"> ELSI
+<ul>
+<li><input disabled="" type="checkbox"> research introduction</li>
 </ul>
 </li>
 </ul>
@@ -352,6 +385,46 @@ document.addEventListener("DOMContentLoaded", function() {
 <p>UNVEILING THE BASIN-LIKE LOSS LANDSCAPE IN　LARGE LANGUAGE MODELSこれ読みたい
 <img src="/images/misc/Pasted%20image%2020260617063118.png" alt="" />
 <img src="/images/misc/Pasted%20image%2020260617063132.png" alt="" /></p>
+<h2 id="review">Review<a class="anchor" href="#review">#</a></h2>
+<p><strong>seminar</strong>とその後の議論</p>
+<ul>
+<li>LLC+DSB
+<ul>
+<li>→継続する</li>
+</ul>
+</li>
+<li>PINNs
+<ul>
+<li>LLCの論文を紹介した→その論文自体問題設定がはっきりしない
+<ul>
+<li>LLC→学習過程全体</li>
+<li>RLCT→学習後</li>
+<li>パラメータごとの不定性に近い値を持っているかもしれない→その部分の理論を整理できるかもしれない
+<ul>
+<li>LLCとRLCTの議論を整理しておく方がよさそう
+<ul>
+<li>大関さんが論文出してた</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>h
+<ul>
+<li>論文紹介が優先→出てきたパターンに対しての考察が知りたいらしい</li>
+<li>ヒストグラム</li>
+<li>べき分布→後でOK</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> AI  for Science
+<ul>
+<li><input disabled="" type="checkbox"> すぐに出す</li>
+</ul>
+</li>
+</ul>
 </div>
 </article>
  
@@ -392,16 +465,19 @@ document.addEventListener("DOMContentLoaded", function() {
     
 <nav id="TableOfContents">
   <ul>
+    <li><a href="#overview">Overview</a></li>
     <li><a href="#week-27-task">Week 27 TASK</a>
       <ul>
         <li><a href="#llc">LLC</a></li>
         <li><a href="#pj_h-40">PJ_H (40%)</a></li>
         <li><a href="#bayes">Bayes</a></li>
+        <li><a href="#submit">submit</a></li>
       </ul>
     </li>
     <li><a href="#喫緊の論文リスト">喫緊の論文リスト</a></li>
     <li><a href="#wip">WIP</a></li>
     <li><a href="#一旦後で">一旦後で</a></li>
+    <li><a href="#review">Review</a></li>
   </ul>
 </nav>
 
