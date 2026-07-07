@@ -18,8 +18,8 @@ url: /posts/daily/2026/
 ### August
 夏休み研究と勉強 （>90%）
 - LAB
-	- labで合宿 @??
-	- 研究発表などある
+	- labで合宿
+	- 研究発表などがある
 
 - neurips workshop dl Aug 29 とか
 - LLC

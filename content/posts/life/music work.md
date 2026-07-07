@@ -1,6 +1,7 @@
 ---
 title: Music Work
 url: /posts/life/music_work/
+layout: profile
 ---
 
 
@@ -23,6 +24,8 @@ url: /posts/life/music_work/
 	- 走行音のみ
 	- 夕暮れ
 
-
 - [祇園界隈｜昼とは別世界…夜へ向かう祇園、灯りがともる京都の夕暮れ](https://www.youtube.com/watch?v=IfTrtCA67K8)
-- 
+- [Relaxing Night Walk in Kyoto, Yasaka Pagoda, Binaural, City Sounds](https://www.youtube.com/watch?v=F399teRPBaY)
+	- 夜
+- [【絶景！雪の京都東山を歩く２時間】祇園 三年坂 八坂の塔 清水寺 八坂神社 円山公園](https://youtu.be/cwnKBK1r9rk?si=WtsSh-mdwMfa0b8e)
+	- 冬

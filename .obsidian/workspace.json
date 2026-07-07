@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c405b8045ba9a9d0",
+            "id": "a8853bed2550a19d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,48 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "2026-07-04 Sat"
-            }
-          },
-          {
-            "id": "a8853bed2550a19d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/univ/network.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "network"
-            }
-          },
-          {
-            "id": "8f759ad44194c994",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posts/life/music_work.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "music_work"
-            }
-          },
-          {
-            "id": "ec11d643fba84d81",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/life/music work.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "music work"
             }
           }
         ]
@@ -206,8 +164,21 @@
               "icon": "lucide-list",
               "title": "2026-05-11のアウトライン"
             }
+          },
+          {
+            "id": "8332521740d731bb",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "content/posts/daily/2026/07/2026-07-04 Sat.md"
+              },
+              "icon": "lucide-info",
+              "title": "2026-07-04 Satのファイルプロパティ"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -227,20 +198,37 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c405b8045ba9a9d0",
+  "active": "a8853bed2550a19d",
   "lastOpenFiles": [
+    "MISC/FINDR.md",
+    "content/posts/daily/2026/07/2026-07-05 Sun.md",
+    "content/posts/daily/2026/07/2026-07-04 Sat.md",
+    "content/posts/daily/2026/07/2026-07-02 Thr.md",
+    "public/images/misc/IMG_0967.jpeg",
+    "static/images/misc/IMG_0967.jpeg",
+    "IMG_0965.jpeg",
+    "IMG_0964.jpeg",
+    "public/images/misc/IMG_0965.jpeg",
+    "static/images/misc/IMG_0965.jpeg",
+    "public/images/misc/IMG_0964.jpeg",
+    "static/images/misc/IMG_0964.jpeg",
+    "content/english.md",
+    "content/posts/daily/2026/_index.md",
+    "content/posts/life/music work.md",
+    "posts/life/music_work.md",
+    "content/_index.md",
+    "content/posts/_index.md",
+    "content/posts/engineering/notes/環境構築メモ.md",
+    "content/posts/engineering/notes/ros2_humble.md",
+    "content/posts/engineering/notes/network.md",
+    "content/posts/engineering/notes/githubを人に教える時の参考.md",
+    "content/posts/univ/network.md",
     "content/posts/daily/2026/06/2026-06-05.md",
     "content/posts/daily/2026/06/2026-06-01.md",
-    "content/posts/daily/2026/07/2026-07-02 Thr.md",
     "content/posts/daily/2026/07/2026-07-03 Fri.md",
-    "content/posts/daily/2026/07/2026-07-04 Sat.md",
-    "content/posts/_index.md",
     "content/posts/home.md",
-    "content/posts/univ/network.md",
-    "posts/life/music_work.md",
     "posts/life/music_work 1.md",
     "MISC/リンク0704.md",
-    "content/posts/life/music work.md",
     "posts/life",
     "MISC/日誌01.md",
     "public/posts/daily/2026/07/04/index.html",
@@ -251,29 +239,12 @@
     "MISC/めも.md",
     "public/images/misc/Pasted image 20260702151902.png",
     "static/images/misc/Pasted image 20260702151902.png",
-    "public/images/misc/Pasted image 20260702132458.png",
-    "static/images/misc/Pasted image 20260702132458.png",
-    "public/images/misc/Pasted image 20260702132443.png",
-    "static/images/misc/Pasted image 20260702132443.png",
-    "public/images/misc/Pasted image 20260702131213.png",
-    "static/images/misc/Pasted image 20260702131213.png",
     "content/posts/daily/2026/06/2026-06-30 Tue.md",
     "content/posts/daily/2026/05/無題のファイル.md",
     "MISC",
-    "README.md",
-    "2026-06-30 Tue.md",
-    "content/posts/research/materials/PINNs.md",
-    "content/Templates/toggle-task.md",
-    "content/posts/life/京都.md",
     "public/posts/daily/2026/07/02/index.html",
     "public/posts/daily/2026/07/02",
-    "content/posts/life/シングルタスク.md",
     "public/posts/life/kyoto/index.html",
-    "public/posts/life/kyoto",
-    "content/posts/daily/2026/06/2026-06-28 Sun.md",
-    "public/images/misc/Pasted image 20260702122611.png",
-    "static/images/misc/Pasted image 20260702122611.png",
-    "content/posts/daily/2026/06/2026-06-29 Mon.md",
-    "content/posts/daily/2026/07/2026-07-01 Wed.md"
+    "public/posts/life/kyoto"
   ]
 }
