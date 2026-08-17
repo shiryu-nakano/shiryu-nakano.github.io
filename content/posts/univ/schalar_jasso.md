@@ -16,7 +16,7 @@
 -   [X] ~~*以下の書類に手書きして提出する必要がある*~~ [2026-06-18 15:38]
     -   <https://www.hit-u.ac.jp/shien/campuslife/pdf/scholarship/2026/2026inteiki/03_shitagaki.pdf>
 
--   [ ] 在学猶予について調べる
+-   [X] ~~*在学猶予について調べる*~~ [2026-08-12 23:11]
 
 
 # 資料

@@ -7,26 +7,23 @@ url: /posts/daily/2026/
 
 # Overview
 
+
 ### [June](/posts/daily/2026/06/)
 
-
-
-### July
+### [July](/posts/daily/2026/07/)
 
 
 
-### August
+###  [August](/posts/daily/2026/08/)
 夏休み研究と勉強 （>90%）
 - LAB
 	- labで合宿
 	- 研究発表などがある
 
-- neurips workshop dl Aug 29 とか
-- LLC
-- Honda
-- Okubo ??
-### September
-夏休み→研究と勉強（>90%）
+- neurips workshop dl Aug 29 とか？
+
+### [September](/posts/daily/2026/09/)
+- 夏休み→研究と勉強（>90%）
 
 
 

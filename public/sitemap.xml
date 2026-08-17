@@ -60,9 +60,9 @@
   </url><url>
     <loc>http://localhost:1313/posts/research/mcmc/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/life/music_work/</loc>
-  </url><url>
     <loc>http://localhost:1313/posts/engineering/memo/vpn/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/research/2026/neurips-workshop-submission/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/study/overview/</loc>
   </url><url>
@@ -96,6 +96,8 @@
   </url><url>
     <loc>http://localhost:1313/posts/univ/</loc>
   </url><url>
+    <loc>http://localhost:1313/posts/life/music_work/</loc>
+  </url><url>
     <loc>http://localhost:1313/posts/study/youtube1/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/engineering/notes/</loc>
@@ -115,6 +117,8 @@
     <loc>http://localhost:1313/posts/engineering/memo/setup_at_gpu0/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/research/materials/mechinter/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/life/kyoto/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/study/eigenvalues_vectors/</loc>
   </url><url>

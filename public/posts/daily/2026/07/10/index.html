@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="home
+予定# routine
+AtCoder 新聞 LOG# task sheet 疑問と仮説は別 なぜ線形識別器が最後まで残るのか？
+あとで京都書く ておく - Xも同様にしたい
+NISAについて →来週 Physical AI 確認など [2026-07-08 16:08] 他のGCIとDeep [2026-07-08 16:08] 喫緊のTASK# flow field論文紹介資料 ヒストグラム （alphaの計算） bayesのRLCT推定 計算の順序も整理して DSBの計算 それぞれnotionで小さなところから進めるようにすること TASK# weeky log
+6月分のgxp
+これらはもう書く始める→→まずファイルを作る 構成を適当に作っておく TODO
+Notion -&gt; paper 確か，どこかにghosttyで入るための設定も書いたはず geminiか？ claudeか？ 一旦これは後でOK nvimも本当は入れたい ghostty or wezterm で　ubuntuに入る時でも使えるようにする
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/daily/2026/07/10/">
+  <meta property="og:site_name" content="Shiryu NAKANO">
+  <meta property="og:title" content="2026-07-10">
+  <meta property="og:description" content="home
+予定# routine
+AtCoder 新聞 LOG# task sheet 疑問と仮説は別 なぜ線形識別器が最後まで残るのか？
+あとで京都書く ておく - Xも同様にしたい
+NISAについて →来週 Physical AI 確認など [2026-07-08 16:08] 他のGCIとDeep [2026-07-08 16:08] 喫緊のTASK# flow field論文紹介資料 ヒストグラム （alphaの計算） bayesのRLCT推定 計算の順序も整理して DSBの計算 それぞれnotionで小さなところから進めるようにすること TASK# weeky log
+6月分のgxp
+これらはもう書く始める→→まずファイルを作る 構成を適当に作っておく TODO
+Notion -&gt; paper 確か，どこかにghosttyで入るための設定も書いたはず geminiか？ claudeか？ 一旦これは後でOK nvimも本当は入れたい ghostty or wezterm で　ubuntuに入る時でも使えるようにする">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+
+
+  <meta itemprop="name" content="2026-07-10">
+  <meta itemprop="description" content="home
+予定# routine
+AtCoder 新聞 LOG# task sheet 疑問と仮説は別 なぜ線形識別器が最後まで残るのか？
+あとで京都書く ておく - Xも同様にしたい
+NISAについて →来週 Physical AI 確認など [2026-07-08 16:08] 他のGCIとDeep [2026-07-08 16:08] 喫緊のTASK# flow field論文紹介資料 ヒストグラム （alphaの計算） bayesのRLCT推定 計算の順序も整理して DSBの計算 それぞれnotionで小さなところから進めるようにすること TASK# weeky log
+6月分のgxp
+これらはもう書く始める→→まずファイルを作る 構成を適当に作っておく TODO
+Notion -&gt; paper 確か，どこかにghosttyで入るための設定も書いたはず geminiか？ claudeか？ 一旦これは後でOK nvimも本当は入れたい ghostty or wezterm で　ubuntuに入る時でも使えるようにする">
+  <meta itemprop="wordCount" content="117">
+
+<title>2026-07-10 | Shiryu NAKANO</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/posts/daily/2026/07/10/">
+<link rel="stylesheet" href="/book.min.b267f830fdf65302ecc1702a1178d4f25aa783409b3a25098f3404dd24f37a4d.css" integrity="sha256-smf4MP32UwLswXAqEXjU8lqng0CbOiUJjzQE3STzek0=" crossorigin="anonymous">
+
+
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/ja.search.min.f207aaa708d7ba7c522d7fef416d6d866191e5f547a47e501ac21f6195ff8e16.js" integrity="sha256-8geqpwjXunxSLX/vQW1thmGR5fVHpH5QGsIfYZX/jhY=" crossorigin="anonymous"></script>
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/custom.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "$", right: "$", display: false}
+        ],
+        throwOnError: false
+    });
+});
+</script>
+
+</head>
+<body dir="ltr" class="book-kind-page book-type-posts">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Shiryu NAKANO</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="検索"
+    aria-label="検索"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+  <div class="markdown">
+    <ul>
+<li><a href="/">Home</a></li>
+</ul>
+<!--
+- [Research](/posts/research/)
+- [Life](/posts/life/)
+- [Study](/posts/study/)
+- [Univ](/posts/univ/)
+--->
+  </div>
+
+
+
+</nav>
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>2026-07-10</h3>
+
+  <label for="toc-control">
+    
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+    
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#予定">予定</a></li>
+    <li><a href="#log">LOG</a></li>
+    <li><a href="#喫緊のtask">喫緊のTASK</a></li>
+    <li><a href="#task">TASK</a></li>
+    <li><a href="#所感">所感</a></li>
+    <li><a href="#ref">ref</a></li>
+  </ul>
+</nav>
+
+
+  
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown book-post">
+  <h1>
+    2026-07-10
+  </h1>
+  
+
+
+  
+
+  
+
+
+  <div class="book-post-content markdown-inner"><p><a href="https://shiryu-nakano-github-io.pages.dev/posts/home/">home</a></p>
+<h2 id="予定">予定<a class="anchor" href="#%e4%ba%88%e5%ae%9a">#</a></h2>
+<p><strong>routine</strong></p>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://zenn.dev/nkncru/scraps/c1d28ee1efe465">AtCoder</a></li>
+<li><input disabled="" type="checkbox"> 新聞</li>
+</ul>
+<h2 id="log">LOG<a class="anchor" href="#log">#</a></h2>
+<ul>
+<li><a href="https://docs.google.com/spreadsheets/d/1sJjXOGTBolwBPOM0rMjO5at-te6-X1c7a2s96QTfHx0/edit?gid=752941173#gid=752941173">task sheet</a></li>
+</ul>
+<p>疑問と仮説は別
+なぜ線形識別器が最後まで残るのか？</p>
+<ul>
+<li><input disabled="" type="checkbox"> あとで<a href="../../../life/%e4%ba%ac%e9%83%bd.md">京都</a>書く</li>
+</ul>
+<p>ておく
+- 　Xも同様にしたい</p>
+<ul>
+<li><input disabled="" type="checkbox"> NISAについて
+<ul>
+<li><input disabled="" type="checkbox"> →来週</li>
+</ul>
+</li>
+<li><input checked="" disabled="" type="checkbox"> <del><em>Physical AI 確認など</em></del> [2026-07-08 16:08]</li>
+<li><input checked="" disabled="" type="checkbox"> <del><em>他のGCIとDeep</em></del> [2026-07-08 16:08]</li>
+</ul>
+<h2 id="喫緊のtask">喫緊のTASK<a class="anchor" href="#%e5%96%ab%e7%b7%8a%e3%81%aetask">#</a></h2>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> flow field論文紹介資料</li>
+<li><input disabled="" type="checkbox"> ヒストグラム</li>
+<li><input disabled="" type="checkbox"> （alphaの計算）</li>
+<li><input disabled="" type="checkbox"> bayesのRLCT推定
+<ul>
+<li><input disabled="" type="checkbox"> 計算の順序も整理して</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> DSBの計算
+<strong>それぞれnotionで小さなところから進めるようにすること</strong></li>
+</ul>
+<h2 id="task"><a href="https://docs.google.com/spreadsheets/d/1sJjXOGTBolwBPOM0rMjO5at-te6-X1c7a2s96QTfHx0/edit?usp=sharing">TASK</a><a class="anchor" href="#task">#</a></h2>
+<ul>
+<li>
+<p><input disabled="" type="checkbox"> weeky log</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 6月分のgxp</p>
+<ul>
+<li><input disabled="" type="checkbox"> これらはもう書く始める→→まずファイルを作る</li>
+<li><input disabled="" type="checkbox"> 構成を適当に作っておく</li>
+</ul>
+</li>
+<li>
+<p><strong>TODO</strong></p>
+<ul>
+<li><input disabled="" type="checkbox"> Notion -&gt; paper</li>
+<li><input disabled="" type="checkbox"> 確か，どこかにghosttyで入るための設定も書いたはず
+<ul>
+<li><input disabled="" type="checkbox"> geminiか？</li>
+<li><input disabled="" type="checkbox"> claudeか？</li>
+<li>一旦これは後でOK</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> nvimも本当は入れたい</li>
+</ul>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> ghostty or wezterm で　ubuntuに入る時でも使えるようにする</p>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://gemini.google.com/app/3e776cccf9d1f959?hl=ja">https://gemini.google.com/app/3e776cccf9d1f959?hl=ja</a></li>
+<li><input disabled="" type="checkbox"> 実行が終わったらdiscordに通知を送る機能</li>
+</ul>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> Networkのメモを改訂しておく</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> ベイズの課題</p>
+<ul>
+<li><input disabled="" type="checkbox"> 期末課題？</li>
+<li><input disabled="" type="checkbox"> 中間か</li>
+</ul>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <strong>二分法の関数</strong>は書いておきたい</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> PInnsの実装→昨日読んだ分</p>
+</li>
+<li>
+<p>ghostty</p>
+<ul>
+<li>タブを切り替える方法→ cmd+shift+[</li>
+</ul>
+</li>
+<li>
+<p>github，ghqで管理している時に，リポジトリの名前を変更するとどうなるのか？</p>
+<ul>
+<li>かつその時にローカルのghqのリポジトリに対応するディレクトリの名前は勝手に変わる？それとも変えてもいい？</li>
+</ul>
+</li>
+<li>
+<p>日報を読んで，その人の気持ちを類推して，今この人が調べようとして他ことについて調べて簡単にまとめたレポートを作るようなskills</p>
+<ul>
+<li>skills?</li>
+</ul>
+</li>
+<li>
+<p>論文読み</p>
+<ul>
+<li><a href="https://app.notion.com/p/2602-11097-Statistical-Learning-Analysis-of-Physics-Informed-Neural-Networks-386230dfc3a581ada175f1e51fbce75c?source=copy_link">[2602.11097] Statistical Learning Analysis of Physics-Informed Neural Networks</a></li>
+<li>途中で一旦中止した</li>
+</ul>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> ai safetyの論文読むものリストを作成する</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> DSBの編集データの種類だけ整理</p>
+<ul>
+<li><input disabled="" type="checkbox"> データ容量の確認</li>
+<li><input disabled="" type="checkbox"> 事前に保存できるかどうかの確認</li>
+</ul>
+</li>
+<li>
+<p><input checked="" disabled="" type="checkbox"> <del><em>h</em></del> [2026-06-22 22:38]</p>
+<ul>
+<li><input disabled="" type="checkbox"> スライディングウィンドウ→保留
+<ul>
+<li>現状ではそこまで重要ではない</li>
+</ul>
+</li>
+<li><input checked="" disabled="" type="checkbox"> <del><em>後輩のアルゴリズムでもいいかも</em></del> [2026-06-22 22:37]</li>
+</ul>
+</li>
+</ul>
+<h2 id="所感">所感<a class="anchor" href="#%e6%89%80%e6%84%9f">#</a></h2>
+<ul>
+<li>7/1~7/3の所感：<a href="../../../../../MISC/%e6%97%a5%e8%aa%8c01.md">日誌01</a></li>
+<li><a href="../../../../../MISC/%e6%97%a5%e8%aa%8c01.md#0704">0704</a></li>
+<li><a href="../../../../../MISC/%e6%97%a5%e8%aa%8c01.md#0707">0706，0707</a></li>
+<li>0708-0710</li>
+</ul>
+<p>3時くらいまで寝付けず，寝て起きて，大体12時
+そのあとバスで大学まで行ってからREMCでRLCTを計算するアルゴリズムの部分を進めた．
+やっぱり自分でやらないと自分に残らない．
+PINNs-SLTの研究テーマをもっと洗練させたい．</p>
+<!--ここはオフレコ
+先生はこの研究テーマに関しては全然頼りにならないことがわかった
+何もわかっていない．深層学習とPINNsで進めるには自分でやるしかない
+→あえてPINNsとSLT縛りでやることで，ここを固定したときに研究としてどのくらい仮説と検証を進められるのか，ここが腕の見せ所かも
+
+-->
+<!--
+- ここら辺の演習問題は重要
+	- ![](../../../../../static/images/misc/Pasted%20image%2020260702151902.png)
+
+https://www.jstage.jst.go.jp/article/jnns/14/3/14_3_218/_pdf
+https://www.nri.com/jp/knowledge/publication/kinyu_itf_201606/files/itf_201606_10.pdf
+-->
+<h2 id="ref">ref<a class="anchor" href="#ref">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Item</th>
+          <th>URL</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>支出管理</td>
+          <td><a href="https://docs.google.com/spreadsheets/d/1uzVfhFT_m817u3qym3Ya4_d6GiNt_tCOxvM0Q9NeSz4/edit?gid=0#gid=0">https://docs.google.com/spreadsheets/d/1uzVfhFT_m817u3qym3Ya4_d6GiNt_tCOxvM0Q9NeSz4/edit?gid=0#gid=0</a></td>
+      </tr>
+      <tr>
+          <td>スケジュール</td>
+          <td><a href="https://docs.google.com/spreadsheets/d/12sE4xcu_ewRFfmZarHV4q-cS7gVA-cTld1aTSlu1nWM/edit?gid=94873348#gid=94873348">https://docs.google.com/spreadsheets/d/12sE4xcu_ewRFfmZarHV4q-cS7gVA-cTld1aTSlu1nWM/edit?gid=94873348#gid=94873348</a></td>
+      </tr>
+      <tr>
+          <td>ノート</td>
+          <td><a href="https://drive.google.com/drive/u/0/folders/1P5jnSUD81UzH5ZNmQm5lgJTc_W_RKvJa">https://drive.google.com/drive/u/0/folders/1P5jnSUD81UzH5ZNmQm5lgJTc_W_RKvJa</a></td>
+      </tr>
+      <tr>
+          <td>GTD</td>
+          <td><a href="https://www.notion.so/GTD-260510-35c230dfc3a5808681a3dfd080eac141?source=copy_link">https://www.notion.so/GTD-260510-35c230dfc3a5808681a3dfd080eac141?source=copy_link</a></td>
+      </tr>
+      <tr>
+          <td>プロジェト管理</td>
+          <td><a href="https://www.notion.so/Current-Projects-36f230dfc3a58089aaffc0484dd53807?source=copy_link">https://www.notion.so/Current-Projects-36f230dfc3a58089aaffc0484dd53807?source=copy_link</a></td>
+      </tr>
+      <tr>
+          <td>タスク</td>
+          <td><a href="https://docs.google.com/spreadsheets/d/1sJjXOGTBolwBPOM0rMjO5at-te6-X1c7a2s96QTfHx0/edit?gid=0#gid=0">https://docs.google.com/spreadsheets/d/1sJjXOGTBolwBPOM0rMjO5at-te6-X1c7a2s96QTfHx0/edit?gid=0#gid=0</a></td>
+      </tr>
+      <tr>
+          <td>Page</td>
+          <td><a href="https://shiryu-nakano-github-io.pages.dev/">https://shiryu-nakano-github-io.pages.dev/</a></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+</div>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+    
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#予定">予定</a></li>
+    <li><a href="#log">LOG</a></li>
+    <li><a href="#喫緊のtask">喫緊のTASK</a></li>
+    <li><a href="#task">TASK</a></li>
+    <li><a href="#所感">所感</a></li>
+    <li><a href="#ref">ref</a></li>
+  </ul>
+</nav>
+
+
+  
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

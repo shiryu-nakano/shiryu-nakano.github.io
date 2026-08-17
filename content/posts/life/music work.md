@@ -1,5 +1,5 @@
 ---
-title: Music Work
+title: Working Music 2026ver.
 url: /posts/life/music_work/
 layout: profile
 ---
@@ -29,3 +29,10 @@ layout: profile
 	- 夜
 - [【絶景！雪の京都東山を歩く２時間】祇園 三年坂 八坂の塔 清水寺 八坂神社 円山公園](https://youtu.be/cwnKBK1r9rk?si=WtsSh-mdwMfa0b8e)
 	- 冬
+
+## Tokyo
+- [東京旅情夕暮れ時の東京駅散歩: 丸の内・日本橋・八重洲 | 4K HDR バイノーラル録音 2026-05-02](https://www.youtube.com/watch?v=27rV26IfA74)
+
+
+## Overseas
+- [ハルシュタット - ヨーロッパで最も美しい村での雨の散歩 - 雷雨と雨の雰囲気](https://www.youtube.com/watch?v=AQB6dVt-t64)

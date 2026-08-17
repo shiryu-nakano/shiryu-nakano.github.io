@@ -1,4 +1,7 @@
 
+
+なんでnormalize log likelihood?
+
 ニューロンの選び方
 
 Cの形状とか

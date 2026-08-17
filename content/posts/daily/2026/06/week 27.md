@@ -106,12 +106,13 @@ url: /posts/daily/2026/06/week27/
 
 
 ## 一旦後で
-- [ ] 2025　revew
+- [X] ~~*2025　revew*~~ [2026-07-09 01:17]
 - [ ] macbook prom1 のorg fileから撮ってくる
 **AI Safety関連**
 - [ ] [[2311.17035] Scalable Extraction of Training Data from (Production) Language Models](https://arxiv.org/abs/2311.17035)
 - [ ] [[2406.17216] Machine Unlearning Fails to Remove Data Poisoning Attacks](https://arxiv.org/abs/2406.17216)
-- [ ] 
+
+
 
 他のタスク
 

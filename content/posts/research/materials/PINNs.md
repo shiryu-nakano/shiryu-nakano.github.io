@@ -18,12 +18,7 @@
 -   [[1711.10561] Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations](https://arxiv.org/abs/1711.10561)
 -   [[1711.10561] Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations](https://arxiv.org/abs/1711.10561)
 
--   PSP- process structure property
--   KANとSimboric regressionについて
-    [PSP-GEN: Stochastic inversion of the Process–Structure–Property chain in materials design through deep, generative probabilistic modeling - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1359645424009480)
--   [本家Examplesで知る、新たなニューラルネットワーク『KAN』の威力 #Python - Qiita](https://qiita.com/Cartelet/items/76e4eb83c0a02a6da13f)
 
--   https://arxiv.org/pdf/2404.19756
 -   <https://arxiv.org/pdf/2001.04536>
 -   <https://arxiv.org/pdf/2403.18494>
 - [[2403.18494] Learning in PINNs: Phase transition, total diffusion, and generalization](https://arxiv.org/abs/2403.18494)
