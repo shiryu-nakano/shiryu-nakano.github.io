@@ -10,7 +10,7 @@ url: /posts/univ/general/
 # About
 - [大学院｜一橋大学 ソーシャル・データサイエンス学部・研究科](https://www.sds.hit-u.ac.jp/graduate-education/)
 
-# カリキュラム
+# カリキュラム・登録要項
 
 - [2026年度ソーシャル・データサイエンス研究科での学びについて](https://www.hit-u.ac.jp/kyomu/newstudents/pdf/R8_GS_SDS_guidance3_about_learning.pdf)
   - 基本情報はこれを参照すればOK
@@ -31,14 +31,11 @@ url: /posts/univ/general/
 6. 研究指導（修士論文執筆)
 
 
-
-
-
 # MISC
 
 ## [履修登録](/posts/univ/class/)
 
-## 時間割
+## 時間割　
 
 | 時限 | 時間         |
 | ---- | ------------ |
@@ -55,6 +52,11 @@ url: /posts/univ/general/
 - [学士課程ガイドブック・大学院学生便覧](https://www.hit-u.ac.jp/kyomu/info/news.html#guidebook)
   - [学生便覧](https://www.hit-u.ac.jp/kyomu/info/pdf/2026_1-gakunenreki_tetsuzuki.pdf)
   - [ソーシャルデータサイエンス](https://www.hit-u.ac.jp/kyomu/info/pdf/2026_8-Social_Data_Science.pdf)
+
+- 2026年度学年暦
+	- https://www.hit-u.ac.jp/kyomu/calendar/index2.html
+
+
 
 ---
 # ref

@@ -6,6 +6,13 @@ layout: profile
 
 
 ## Kyoto
+
+- https://www.youtube.com/watch?v=xo-C7tgARoE
+- https://www.youtube.com/watch?v=-z3yjqrMIfI
+
+
+
+
 - [京都・初夏の新緑ドライブ 🌿 嵐山→貴船神社 / 8K 60fps HDR / 癒しのピアノ](https://www.youtube.com/watch?v=pmMbuIv5z90&t=575s)
 	- 音楽あり
 - [京都・初夏の新緑ドライブ 🌿 嵐山→貴船神社 / 8K 60fps HDR / 走行音のみ / バイノーラル環境音ASMR](https://www.youtube.com/watch?v=pmMbuIv5z90&t=575s)

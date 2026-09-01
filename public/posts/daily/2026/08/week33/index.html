@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Week 33 TASK 整理# 就職関係# suzukiインターンES | 8/18 [2026-08-19 06:11] HondaインターンES | 9/10には提出する．SPIあり Honda 1日ワークショップ [2026-08-24 22:35] 8/24まで [2026-08-24 22:35] 候補日：2026年9月3日（木）・9月14日（月）・9月23日(水)，各々午前午後 nissanインターンES | 9月8日(火) 23:59まで nissanラボツアー cyber egent? LLC# 8/24までに原稿 およびメール 日程調整を立ち上げる ここでMTGする内容も練っておく PJ_H (40%)# 機械学習モデルを動かしてみる 20h 目的をはっきりさせる 2h https://notebooklm.google.com/notebook/b71ee6d5-5324-4d89-98e4-275795f5c533 休息時間 計算し直したactivityでαを計算→最優先事項 Bayes# RLCTの実装 [2026-06-21 19:17] 論文の再実装→計画的にやる [2026-06-20 13:44] https://www.jstage.jst.go.jp/article/ipsjtrans/7/0/7_20/_pdf [2026-06-20 13:44] 再現：この前のMTGで決まった自分の担当はなんだったっけ？？ [2026-08-20 18:48] exp2 fig4 [2026-06-20 13:44] fig5 [2026-06-20 13:44] fig6→来週 図の差し替えなどおこなうひつようがある その他いろいろ# ゼロからDeep 長岡にいる間に色々と進めたいが、とはいえ一旦SPIに全振りする必要がありそう
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/daily/2026/08/week33/">
+  <meta property="og:site_name" content="Shiryu NAKANO">
+  <meta property="og:title" content="week 33">
+  <meta property="og:description" content="Week 33 TASK 整理# 就職関係# suzukiインターンES | 8/18 [2026-08-19 06:11] HondaインターンES | 9/10には提出する．SPIあり Honda 1日ワークショップ [2026-08-24 22:35] 8/24まで [2026-08-24 22:35] 候補日：2026年9月3日（木）・9月14日（月）・9月23日(水)，各々午前午後 nissanインターンES | 9月8日(火) 23:59まで nissanラボツアー cyber egent? LLC# 8/24までに原稿 およびメール 日程調整を立ち上げる ここでMTGする内容も練っておく PJ_H (40%)# 機械学習モデルを動かしてみる 20h 目的をはっきりさせる 2h https://notebooklm.google.com/notebook/b71ee6d5-5324-4d89-98e4-275795f5c533 休息時間 計算し直したactivityでαを計算→最優先事項 Bayes# RLCTの実装 [2026-06-21 19:17] 論文の再実装→計画的にやる [2026-06-20 13:44] https://www.jstage.jst.go.jp/article/ipsjtrans/7/0/7_20/_pdf [2026-06-20 13:44] 再現：この前のMTGで決まった自分の担当はなんだったっけ？？ [2026-08-20 18:48] exp2 fig4 [2026-06-20 13:44] fig5 [2026-06-20 13:44] fig6→来週 図の差し替えなどおこなうひつようがある その他いろいろ# ゼロからDeep 長岡にいる間に色々と進めたいが、とはいえ一旦SPIに全振りする必要がありそう">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+
+
+  <meta itemprop="name" content="week 33">
+  <meta itemprop="description" content="Week 33 TASK 整理# 就職関係# suzukiインターンES | 8/18 [2026-08-19 06:11] HondaインターンES | 9/10には提出する．SPIあり Honda 1日ワークショップ [2026-08-24 22:35] 8/24まで [2026-08-24 22:35] 候補日：2026年9月3日（木）・9月14日（月）・9月23日(水)，各々午前午後 nissanインターンES | 9月8日(火) 23:59まで nissanラボツアー cyber egent? LLC# 8/24までに原稿 およびメール 日程調整を立ち上げる ここでMTGする内容も練っておく PJ_H (40%)# 機械学習モデルを動かしてみる 20h 目的をはっきりさせる 2h https://notebooklm.google.com/notebook/b71ee6d5-5324-4d89-98e4-275795f5c533 休息時間 計算し直したactivityでαを計算→最優先事項 Bayes# RLCTの実装 [2026-06-21 19:17] 論文の再実装→計画的にやる [2026-06-20 13:44] https://www.jstage.jst.go.jp/article/ipsjtrans/7/0/7_20/_pdf [2026-06-20 13:44] 再現：この前のMTGで決まった自分の担当はなんだったっけ？？ [2026-08-20 18:48] exp2 fig4 [2026-06-20 13:44] fig5 [2026-06-20 13:44] fig6→来週 図の差し替えなどおこなうひつようがある その他いろいろ# ゼロからDeep 長岡にいる間に色々と進めたいが、とはいえ一旦SPIに全振りする必要がありそう">
+  <meta itemprop="wordCount" content="165">
+
+<title>week 33 | Shiryu NAKANO</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/posts/daily/2026/08/week33/">
+<link rel="stylesheet" href="/book.min.b267f830fdf65302ecc1702a1178d4f25aa783409b3a25098f3404dd24f37a4d.css" integrity="sha256-smf4MP32UwLswXAqEXjU8lqng0CbOiUJjzQE3STzek0=" crossorigin="anonymous">
+
+
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/ja.search.min.f207aaa708d7ba7c522d7fef416d6d866191e5f547a47e501ac21f6195ff8e16.js" integrity="sha256-8geqpwjXunxSLX/vQW1thmGR5fVHpH5QGsIfYZX/jhY=" crossorigin="anonymous"></script>
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/custom.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "$", right: "$", display: false}
+        ],
+        throwOnError: false
+    });
+});
+</script>
+
+</head>
+<body dir="ltr" class="book-kind-page book-type-posts">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Shiryu NAKANO</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="検索"
+    aria-label="検索"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+  <div class="markdown">
+    <ul>
+<li><a href="/">Home</a></li>
+</ul>
+<!--
+- [Research](/posts/research/)
+- [Life](/posts/life/)
+- [Study](/posts/study/)
+- [Univ](/posts/univ/)
+--->
+  </div>
+
+
+
+</nav>
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>week 33</h3>
+
+  <label for="toc-control">
+    
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+    
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#week-33-task-整理">Week 33 TASK 整理</a>
+      <ul>
+        <li><a href="#就職関係">就職関係</a></li>
+        <li><a href="#llc">LLC</a></li>
+        <li><a href="#pj_h-40">PJ_H (40%)</a></li>
+        <li><a href="#bayes">Bayes</a></li>
+        <li><a href="#その他いろいろ">その他いろいろ</a></li>
+      </ul>
+    </li>
+    <li><a href="#喫緊の論文リスト">喫緊の論文リスト</a></li>
+    <li><a href="#wip">WIP</a></li>
+    <li><a href="#一旦後で">一旦後で</a></li>
+    <li><a href="#review">Review</a></li>
+  </ul>
+</nav>
+
+
+  
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown book-post">
+  <h1>
+    week 33
+  </h1>
+  
+
+
+  
+
+  
+
+
+  <div class="book-post-content markdown-inner"><h2 id="week-33-task-整理">Week 33 TASK 整理<a class="anchor" href="#week-33-task-%e6%95%b4%e7%90%86">#</a></h2>
+<h3 id="就職関係">就職関係<a class="anchor" href="#%e5%b0%b1%e8%81%b7%e9%96%a2%e4%bf%82">#</a></h3>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <del><em>suzukiインターンES | 8/18</em></del> [2026-08-19 06:11]</li>
+<li><input disabled="" type="checkbox"> HondaインターンES | 9/10には提出する．SPIあり</li>
+<li><input checked="" disabled="" type="checkbox"> <del><em>Honda 1日ワークショップ</em></del> [2026-08-24 22:35]
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <del><em>8/24まで</em></del> [2026-08-24 22:35]</li>
+<li>候補日：2026年9月3日（木）・9月14日（月）・9月23日(水)，各々午前午後</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> nissanインターンES | 9月8日(火) 23:59まで</li>
+<li><input disabled="" type="checkbox"> nissanラボツアー</li>
+<li><input disabled="" type="checkbox"> cyber egent?</li>
+</ul>
+<h3 id="llc">LLC<a class="anchor" href="#llc">#</a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> 8/24までに原稿
+<ul>
+<li><input disabled="" type="checkbox"> およびメール</li>
+<li><input disabled="" type="checkbox"> 日程調整を立ち上げる</li>
+<li><input disabled="" type="checkbox"> ここでMTGする内容も練っておく</li>
+</ul>
+</li>
+</ul>
+<h3 id="pj_h-40">PJ_H (40%)<a class="anchor" href="#pj_h-40">#</a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> 機械学習モデルを動かしてみる 20h</li>
+<li><input disabled="" type="checkbox"> 目的をはっきりさせる 2h</li>
+<li><input disabled="" type="checkbox"> <a href="https://notebooklm.google.com/notebook/b71ee6d5-5324-4d89-98e4-275795f5c533">https://notebooklm.google.com/notebook/b71ee6d5-5324-4d89-98e4-275795f5c533</a>
+<ul>
+<li><input disabled="" type="checkbox"> 休息時間</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> 計算し直したactivityでαを計算→最優先事項</li>
+</ul>
+<h3 id="bayes">Bayes<a class="anchor" href="#bayes">#</a></h3>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <del><em>RLCTの実装</em></del> [2026-06-21 19:17]
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <del><em>論文の再実装→計画的にやる</em></del> [2026-06-20 13:44]
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <del><em><a href="https://www.jstage.jst.go.jp/article/ipsjtrans/7/0/7_20/_pdf">https://www.jstage.jst.go.jp/article/ipsjtrans/7/0/7_20/_pdf</a></em></del> [2026-06-20 13:44]</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><input checked="" disabled="" type="checkbox"> <del><em>再現：この前のMTGで決まった自分の担当はなんだったっけ？？</em></del> [2026-08-20 18:48]
+<ul>
+<li><input checked="" disabled="" type="checkbox"> exp2
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <del><em>fig4</em></del> [2026-06-20 13:44]</li>
+<li><input checked="" disabled="" type="checkbox"> <del><em>fig5</em></del> [2026-06-20 13:44]</li>
+<li><input checked="" disabled="" type="checkbox"> fig6→<strong>来週</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> 図の差し替えなどおこなうひつようがある</li>
+</ul>
+<h3 id="その他いろいろ">その他いろいろ<a class="anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96%e3%81%84%e3%82%8d%e3%81%84%e3%82%8d">#</a></h3>
+<p>ゼロからDeep
+長岡にいる間に色々と進めたいが、とはいえ一旦SPIに全振りする必要がありそう</p>
+<p>できることから最小単位でやる</p>
+<p>ベストドライブのサウンド，スイッチの録画</p>
+<h2 id="喫緊の論文リスト">喫緊の論文リスト<a class="anchor" href="#%e5%96%ab%e7%b7%8a%e3%81%ae%e8%ab%96%e6%96%87%e3%83%aa%e3%82%b9%e3%83%88">#</a></h2>
+<ul>
+<li>
+<p><input checked="" disabled="" type="checkbox"> DSB</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 研究紹介</li>
+</ul>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> Geometry of Forgetting</p>
+<ul>
+<li><a href="https://openreview.net/pdf?id=qKh7Aip3JC">https://openreview.net/pdf?id=qKh7Aip3JC</a></li>
+</ul>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://www.p.u-tokyo.ac.jp/~zbyszek/zrs/Papers/Entries/2007/9/28_Universal_Scaling_Law_in_Human_Behavioral_Organization_files/PhysRevLett.99.138103.pdf">https://www.p.u-tokyo.ac.jp/~zbyszek/zrs/Papers/Entries/2007/9/28_Universal_Scaling_Law_in_Human_Behavioral_Organization_files/PhysRevLett.99.138103.pdf</a></p>
+<ul>
+<li>これは実装までやる</li>
+<li><a href="https://claude.ai/chat/5b1435a5-db53-4a36-91dc-24fd4f59ce3a">https://claude.ai/chat/5b1435a5-db53-4a36-91dc-24fd4f59ce3a</a></li>
+</ul>
+</li>
+<li></li>
+<li>
+<p><a href="https://arxiv.org/pdf/2606.16399">https://arxiv.org/pdf/2606.16399</a></p>
+<ul>
+<li>むずそうなのでこのリストの中だと優先度低め．時間のあるときに</li>
+</ul>
+</li>
+</ul>
+<h2 id="wip">WIP<a class="anchor" href="#wip">#</a></h2>
+<p>作業復旧用のメモ</p>
+<ul>
+<li>
+<p>固有値の理解</p>
+<ul>
+<li><a href="https://www.math.s.chiba-u.ac.jp/~yasuda/Chiba/Lec/senkei/tl2009-6.pdf">https://www.math.s.chiba-u.ac.jp/~yasuda/Chiba/Lec/senkei/tl2009-6.pdf</a></li>
+<li>tutorialにもtexがある．書きかけのノートもある</li>
+<li><a href="https://qiita.com/ymsk_CM/items/cca0b8571cdef7f54a62">https://qiita.com/ymsk_CM/items/cca0b8571cdef7f54a62</a></li>
+</ul>
+</li>
+<li>
+<p>tensor flowのtutorial→特にこれはデータ提示の理解のために重要</p>
+<ul>
+<li>tutorial</li>
+</ul>
+</li>
+<li>
+<p>LLCの実験</p>
+<ul>
+<li><a href="https://claude.ai/chat/097bf219-3460-405f-8f30-8894847a96bf">https://claude.ai/chat/097bf219-3460-405f-8f30-8894847a96bf</a></li>
+</ul>
+</li>
+<li>
+<p>深層学習</p>
+<ul>
+<li><a href="https://blog.fltech.dev/entry/2021/04/09/aistats-hayase">https://blog.fltech.dev/entry/2021/04/09/aistats-hayase</a></li>
+<li>手法提案以外の場合は，面白いテーマを自分で探さないと
+<ul>
+<li>block interleave</li>
+<li>エッジオブカオスの話と結びつける
+<ul>
+<li><a href="https://blog.fltech.dev/entry/2021/04/09/aistats-hayase">https://blog.fltech.dev/entry/2021/04/09/aistats-hayase</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://www.jst.go.jp/kisoken/act-x/evaluation/s-houkoku/r04/JST_111F001_19206005_2022_Karakida_PER.pdf">https://www.jst.go.jp/kisoken/act-x/evaluation/s-houkoku/r04/JST_111F001_19206005_2022_Karakida_PER.pdf</a></li>
+</ul>
+</li>
+<li>
+<p>RBFの理解</p>
+<ul>
+<li>miniexperimentsのrbfがある</li>
+</ul>
+</li>
+</ul>
+<h2 id="一旦後で">一旦後で<a class="anchor" href="#%e4%b8%80%e6%97%a6%e5%be%8c%e3%81%a7">#</a></h2>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <del><em>2025　revew</em></del> [2026-07-09 01:17]</li>
+<li><input disabled="" type="checkbox"> macbook prom1 のorg fileから撮ってくる</li>
+</ul>
+<p><strong>AI Safety関連</strong></p>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://arxiv.org/abs/2311.17035">[2311.17035] Scalable Extraction of Training Data from (Production) Language Models</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://arxiv.org/abs/2406.17216">[2406.17216] Machine Unlearning Fails to Remove Data Poisoning Attacks</a></li>
+</ul>
+<p>他のタスク</p>
+<p>UNVEILING THE BASIN-LIKE LOSS LANDSCAPE IN　LARGE LANGUAGE MODELSこれ読みたい
+<img src="/images/misc/Pasted%20image%2020260617063118.png" alt="" />
+<img src="/images/misc/Pasted%20image%2020260617063132.png" alt="" /></p>
+<h2 id="review">Review<a class="anchor" href="#review">#</a></h2>
+<p><strong>seminar</strong>とその後の議論</p>
+<ul>
+<li>LLC+DSB
+<ul>
+<li>→継続する</li>
+</ul>
+</li>
+<li>PINNs
+<ul>
+<li>LLCの論文を紹介した→その論文自体問題設定がはっきりしない
+<ul>
+<li>LLC→学習過程全体</li>
+<li>RLCT→学習後</li>
+<li>パラメータごとの不定性に近い値を持っているかもしれない→その部分の理論を整理できるかもしれない
+<ul>
+<li>LLCとRLCTの議論を整理しておく方がよさそう
+<ul>
+<li>大関さんが論文出してた</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>h
+<ul>
+<li>論文紹介が優先→出てきたパターンに対しての考察が知りたいらしい</li>
+<li>ヒストグラム</li>
+<li>べき分布→後でOK</li>
+</ul>
+</li>
+<li><input checked="" disabled="" type="checkbox"> <del><em>AI  for Science</em></del> [2026-07-09 01:18]
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <del><em>すぐに出す</em></del> [2026-07-09 01:18]</li>
+</ul>
+</li>
+</ul>
+</div>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+    
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#week-33-task-整理">Week 33 TASK 整理</a>
+      <ul>
+        <li><a href="#就職関係">就職関係</a></li>
+        <li><a href="#llc">LLC</a></li>
+        <li><a href="#pj_h-40">PJ_H (40%)</a></li>
+        <li><a href="#bayes">Bayes</a></li>
+        <li><a href="#その他いろいろ">その他いろいろ</a></li>
+      </ul>
+    </li>
+    <li><a href="#喫緊の論文リスト">喫緊の論文リスト</a></li>
+    <li><a href="#wip">WIP</a></li>
+    <li><a href="#一旦後で">一旦後で</a></li>
+    <li><a href="#review">Review</a></li>
+  </ul>
+</nav>
+
+
+  
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

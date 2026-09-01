@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Overview# iPhone 12 pro以降，ProモデルにはLiDARが搭載されている
+Androidの最新機種には搭載されていない
+Androidを購入する場合は，LiDAR以外のカメラ，GNSS，チップなどにアクセスできることが要件になってきそう
+pixelがどのくらい自由に開発できるのかを調べてみること
+Ref# Claudeと相談
+claudeにスライドを作ってもらった リンク iPhone LiDAR開発の参考記事
+iPhone 12 Pro / Pro Maxに搭載の『LiDARスキャナ』とは？その仕組みや機能について解説｜KDDI トビラ iPhoneとROS2を繋げてみよう! – Keio Robotics Association https://apps.apple.com/us/app/sensorstream-powered-by-ros-2/id6764622202 iPhone12ProのLiDARスキャナを試してみる #iOS - Qiita 【iOS】LiDARセンサーを用いたサンプルコード集を公開しました！ #Swift - Qiita https://github.com/youtalk/conduit-support ">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/engineering/memo/202608smartphone/">
+  <meta property="og:site_name" content="Shiryu NAKANO">
+  <meta property="og:title" content="2026年8月スマホ購入検討">
+  <meta property="og:description" content="Overview# iPhone 12 pro以降，ProモデルにはLiDARが搭載されている
+Androidの最新機種には搭載されていない
+Androidを購入する場合は，LiDAR以外のカメラ，GNSS，チップなどにアクセスできることが要件になってきそう
+pixelがどのくらい自由に開発できるのかを調べてみること
+Ref# Claudeと相談
+claudeにスライドを作ってもらった リンク iPhone LiDAR開発の参考記事
+iPhone 12 Pro / Pro Maxに搭載の『LiDARスキャナ』とは？その仕組みや機能について解説｜KDDI トビラ iPhoneとROS2を繋げてみよう! – Keio Robotics Association https://apps.apple.com/us/app/sensorstream-powered-by-ros-2/id6764622202 iPhone12ProのLiDARスキャナを試してみる #iOS - Qiita 【iOS】LiDARセンサーを用いたサンプルコード集を公開しました！ #Swift - Qiita https://github.com/youtalk/conduit-support">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+
+
+  <meta itemprop="name" content="2026年8月スマホ購入検討">
+  <meta itemprop="description" content="Overview# iPhone 12 pro以降，ProモデルにはLiDARが搭載されている
+Androidの最新機種には搭載されていない
+Androidを購入する場合は，LiDAR以外のカメラ，GNSS，チップなどにアクセスできることが要件になってきそう
+pixelがどのくらい自由に開発できるのかを調べてみること
+Ref# Claudeと相談
+claudeにスライドを作ってもらった リンク iPhone LiDAR開発の参考記事
+iPhone 12 Pro / Pro Maxに搭載の『LiDARスキャナ』とは？その仕組みや機能について解説｜KDDI トビラ iPhoneとROS2を繋げてみよう! – Keio Robotics Association https://apps.apple.com/us/app/sensorstream-powered-by-ros-2/id6764622202 iPhone12ProのLiDARスキャナを試してみる #iOS - Qiita 【iOS】LiDARセンサーを用いたサンプルコード集を公開しました！ #Swift - Qiita https://github.com/youtalk/conduit-support">
+  <meta itemprop="wordCount" content="35">
+
+<title>2026年8月スマホ購入検討 | Shiryu NAKANO</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/posts/engineering/memo/202608smartphone/">
+<link rel="stylesheet" href="/book.min.b267f830fdf65302ecc1702a1178d4f25aa783409b3a25098f3404dd24f37a4d.css" integrity="sha256-smf4MP32UwLswXAqEXjU8lqng0CbOiUJjzQE3STzek0=" crossorigin="anonymous">
+
+
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/ja.search.min.f207aaa708d7ba7c522d7fef416d6d866191e5f547a47e501ac21f6195ff8e16.js" integrity="sha256-8geqpwjXunxSLX/vQW1thmGR5fVHpH5QGsIfYZX/jhY=" crossorigin="anonymous"></script>
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/custom.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "$", right: "$", display: false}
+        ],
+        throwOnError: false
+    });
+});
+</script>
+
+</head>
+<body dir="ltr" class="book-kind-page book-type-posts">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Shiryu NAKANO</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="検索"
+    aria-label="検索"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+  <div class="markdown">
+    <ul>
+<li><a href="/">Home</a></li>
+</ul>
+<!--
+- [Research](/posts/research/)
+- [Life](/posts/life/)
+- [Study](/posts/study/)
+- [Univ](/posts/univ/)
+--->
+  </div>
+
+
+
+</nav>
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>2026年8月スマホ購入検討</h3>
+
+  <label for="toc-control">
+    
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+    
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#ref">Ref</a></li>
+  </ul>
+</nav>
+
+
+  
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown book-post">
+  <h1>
+    2026年8月スマホ購入検討
+  </h1>
+  
+
+
+  
+
+  
+
+
+  <div class="book-post-content markdown-inner"><h2 id="overview">Overview<a class="anchor" href="#overview">#</a></h2>
+<ul>
+<li>
+<p>iPhone 12 pro以降，ProモデルにはLiDARが搭載されている</p>
+</li>
+<li>
+<p>Androidの最新機種には搭載されていない</p>
+</li>
+<li>
+<p>Androidを購入する場合は，LiDAR以外のカメラ，GNSS，チップなどにアクセスできることが要件になってきそう</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> pixelがどのくらい自由に開発できるのかを調べてみること</p>
+</li>
+</ul>
+<h2 id="ref">Ref<a class="anchor" href="#ref">#</a></h2>
+<ul>
+<li>
+<p><a href="https://claude.ai/share/e3bac2c3-2a89-42f2-8cea-d162d0a7a12c">Claudeと相談</a></p>
+<ul>
+<li>claudeにスライドを作ってもらった
+<ul>
+<li><a href="https://docs.google.com/presentation/d/1a1i1hP-HyYiH_-i8DeiVlsqG9GBk6SM1R6RmePcoqfk/edit?usp=sharing">リンク</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>iPhone LiDAR開発の参考記事</p>
+<ul>
+<li><a href="https://time-space.kddi.com/ict-keywords/20201204/3020.html">iPhone 12 Pro / Pro Maxに搭載の『LiDARスキャナ』とは？その仕組みや機能について解説｜KDDI トビラ</a></li>
+<li><a href="https://keiorogiken.wordpress.com/2025/12/22/iphone%E3%81%A8ros2%E3%82%92%E7%B9%8B%E3%81%92%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86/">iPhoneとROS2を繋げてみよう! – Keio Robotics Association</a></li>
+<li><a href="https://apps.apple.com/us/app/sensorstream-powered-by-ros-2/id6764622202">https://apps.apple.com/us/app/sensorstream-powered-by-ros-2/id6764622202</a></li>
+<li><a href="https://qiita.com/y-ohnuki/items/7bf67bff18f424257b9e">iPhone12ProのLiDARスキャナを試してみる #iOS - Qiita</a></li>
+<li><a href="https://qiita.com/TokyoYoshida/items/3b1c633dd9adc244aff9">【iOS】LiDARセンサーを用いたサンプルコード集を公開しました！ #Swift - Qiita</a></li>
+<li><a href="https://github.com/youtalk/conduit-support">https://github.com/youtalk/conduit-support</a></li>
+<li></li>
+</ul>
+</li>
+</ul>
+</div>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+    
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#ref">Ref</a></li>
+  </ul>
+</nav>
+
+
+  
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

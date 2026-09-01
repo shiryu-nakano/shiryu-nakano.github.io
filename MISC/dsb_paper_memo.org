@@ -1,0 +1,275 @@
+
+* Experiment
+
+** アーキテクチャ側
+atto以外
+
+** INBOX Data側
+- [ ] moment editの細かい部分
+- [ ] Fashion-MNISTとか他のデータでやる
+
+
+* DONE Abstract
+
+* DONE Introduction
+
+
+- [-] LLCがSLTから出てきてるってことがわかるようにする
+  - [X] deep learning is singular, and that's good
+  - [ ]  imaizumi 
+
+- [X] we adopt
+  - we focus on ?
+
+
+- [X] We use the LLC as a candidate measure of the solution complexity emphasized by SB and ask whether the moment-order hierarchy introduced by DSB is reflected in this geometry.
+  - これはいいのか？SBでemphasize されているのはfunction のcomplexityであって
+    solutionのcomplexityではないはず
+
+- [X]  are not directly meaningful.
+  - ここは適用できない．
+
+  
+#+ATTR_ORG: :width 400
+[[file:../static/images/20260827_142436.png]]
+** intro
+これから送る論文を読んでください．これはワークショップに提出するものです．
+introductionを，もっと魅力的，かつこの研究自体に興味がない人に刺さるようなものにしたい．
+そのためには，私が扱っているSB,DSB自体を知らない人に興味を持たせないといけない．
+広く深層学習の汎化性能の謎，というところを入り口にしていますが．ここをもっと引き立てられませんか？
+
+具体的に考える前に，深層学習を，データ・モデル・学習ダイナミクスの3つの相互作用で生じる現象としてりかいする，というポジションをとっている，
+名著的な論文を探して．ここから考えてみたい
+
+
+Controlled increases in the statistical complexity of training data induce ordered increases in the local geometric complexity of learned neural-network solutions, and this relationship has a remarkably architecture-invariant normalized profile.
+** フレーズ
+Connecting SB and DSB is important because it may reveal how the statistical structure of training data gives rise to the simplicity of the functions learned by neural networks.
+DSB が与える data-side の complexity hierarchy が、learned solution の complexity hierarchy に対応するかを調べ、SB と DSB の間に共通する simplicity principle があるかを検討すること
+
+** koment
+**1 Introduction**
+
+**(1)** Over-parameterized neural networks can represent an enormous number of functions that fit their training data (Zhang et al., 2021), yet training does not select among them arbitrarily. It favors simple ones. This preference is one of the main handles we have on why highly expressive networks learn structured solutions rather than arbitrary ones. What is not settled is what "simple" refers to.
+→ここの文章がわかりずらい，さっきのランダムなラベルに適合するほど表現力が高いとか訓練損失0でテストではランダム推論するようにできるほど表現力が高いとかここをシンプルに言った方がいい
+
+
+**(2)** Two lines of work answer differently, and on different objects. The simplicity bias (SB) describes a hierarchy in the learned *function*: networks trained with stochastic gradient descent fit simple classifiers before more complex, non-linear ones (Kalimeris et al., 2019; Rahaman et al., 2019; Valle-Pérez et al., 2019). The distributional simplicity bias (DSB) describes a hierarchy in the *data* a network exploits: low-order statistics such as the mean and covariance before higher-order ones such as (co)skewness and (co)kurtosis (Refinetti et al., 2023; Belrose et al., 2024; Rende et al., 2024). Both report the same ordering, simple before complex, but one on the function side and one on the data side.
+Whether they are two faces of one principle or two unrelated regularities is unknown.直接結び付けられていない
+→ここはいい感じ
+
+**(3)** The question decides what simplicity bias is. If the two hierarchies correspond, then simplicity bias is not a property of function space alone. It is a link from the statistical structure of the training data to the complexity of what the network ends up learning, and the preference for simple solutions becomes something the data can help explain, rather than something attributed to the architecture or the optimizer alone (Neyshabur et al., 2015; Valle-Pérez et al., 2019). Establishing such a link means treating data, architecture and learning dynamics as one interacting system (Zdeborová, 2020; Bahri et al., 2020; Simon et al., 2026).
+→→3．4のいちづけ，役割が微妙にわかりずらい，なんでここを入れるの？
+
+
+**(4)** Testing the correspondence needs two things. The first is a way to vary data complexity under control, and DSB supplies it: the construction used to establish DSB builds synthetic datasets whose class-conditional moments match those of a real dataset up to a specified order $k$. Seen as a phenomenon, DSB is a claim about learning dynamics. Seen as a tool, it turns data complexity into a variable that can be raised one well-defined step at a time. The second is a way to measure the complexity of what is learned, and this is missing. SB and DSB are both read off behavior, from the loss or the accuracy of a network over the course of training. That describes what a network does, not what it becomes: the weights it converges to, and the local geometry of the loss landscape around them. Work that studies trained weights directly (Unterthiner et al., 2020; Eilertsen et al., 2020; Martin et al., 2021; Schürholt et al., 2021; Haim et al., 2022) does not vary the training data under control, and so cannot say what in a solution came from the data.
+
+**(5)** For the second we turn to singular learning theory (Watanabe, 2009). Deep networks are singular models: the loss landscape around a solution is degenerate, so complexity measures built for regular models do not carry over. A parameter count reflects effective complexity only when a model is regular, and Hessian-based flatness is sensitive to degeneracy and to the choice of parameterization (Wei et al., 2022). We use the local learning coefficient (LLC; Lau et al., 2025), which quantifies that degeneracy around a learned solution and is invariant to parameter symmetries by construction. It measures local geometric complexity, defined on the solution rather than on the network's behavior. With a data-side dial and a solution-side measure in hand, we ask:
+
+1. Does the moment-order hierarchy of the training data manifest as an ordered hierarchy in the local geometric complexity of the learned solutions?
+2. To what extent is this relationship architecture-dependent?
+
+**(6)** We construct datasets whose class-conditional moments match those of real CIFAR-10 up to order $k = 1, \dots, 6$, train three architectures on each, and estimate the LLC of every converged solution. The three are two convolutional networks and a vision transformer of comparable parameter count, and the training recipe is fixed across all conditions. Absolute LLC values are not comparable across architectures, so we normalize each curve by that architecture's own real-data value. This lets us ask whether the dependence of solution complexity on $k$ separates into an architecture-dependent scale and a data-dependent profile.
+
+**(7)** This is one half of the correspondence. We measure the complexity of learned solutions, not of learned functions, so we test the data-to-solution link and leave the function side, and with it a direct test of SB, to future work. Our design is also cross-sectional: we train a separate model for each $k$ and compare endpoints rather than tracking one run over time, so we do not address training dynamics. Our conclusions are drawn from one dataset family and three architectures.
+
+---
+
+軸を「simplicity とは何を指すのか」に変えました。(1)–(3) がその問いの提示と、なぜ SB と DSB をつなぐ価値があるのかです。(4) で「つなぐには2つ要る、片方は DSB が既にくれている、もう片方が無い」と展開し、(5) で LLC がその欠けた片方だと位置づけています。
+
+査読対策として、(3) では「つながるなら何が言えるか」を条件法で書き、(7) で「我々が測るのは data→solution の半分だけ」と明示しています。動機としては SB↔DSB の接続を前面に出しつつ、主張は半分に留める形です。以前の指摘とはこれで両立します。
+
+前版から削ったのは、architecture/optimizer は変えられるが data は変えられない、という段落です。役割が (4) の「2つ要る」に吸収されたためです。
+
+
+
+* DONE Discussion
+
+#+begin_export latex
+
+Our results suggest that the data-side hierarchy identified by DSB has a corresponding hierarchy in the geometry of learned solutions. As progressively higher-order statistics are restored to the training data, the LLC of the resulting solutions also increases. This provides a measurable solution-side link between the statistical hierarchy of DSB and the functional hierarchy studied under SB, while stopping short of establishing a direct correspondence between the two. We next discuss what this result implies, how it depends on architecture and measurement, and the limitations of our experimental design.
+
+#+end_export
+
+
+
+* DONE Conclusion
+
+* DONE Appendix
+
+
+
+
+* Intro final
+The local learning coefficient (LLC)~\citep{lau2025local}, 
+grounded in singular learning theory (SLT)~\citep{watanabe2009algebraic}, 
+is the appropriate tool for studying the relationship between architecture and data.
+This relationship appears in the loss landscape, and optimization is a trajectory on this landscape.
+Measuring the shape of the landscape therefore means probing how architecture and data interact.
+Deep neural networks are singular models, whose loss landscape is degenerate around a solution.
+Measures such as parameter counting or Hessian-based flatness cannot capture this degeneracy~\citep{wei2022deep}.
+SLT provides a framework for handling such degeneracy.
+The LLC characterizes the local geometry around a degenerate solution, and is therefore the right tool for studying the relationship between architecture and data.
+
+
+
+
+
+
+
+
+* structure
+
+** 1 パラ目**
+- TS：深層 NN の汎化は、訓練アルゴリズムが低複雑度の解を選ぶ implicit bias に帰されている。
+- SS1：標準的なアーキテクチャはランダムラベルの訓練データも完全にフィットできる（Zhang）。
+- SS2：訓練された NN が汎化するかどうかは、訓練アルゴリズムがどの解に到達するかに依存する。
+- CS：SGD は低複雑度の解を選ぶと予想されている（Kalimeris）。
+
+** 2 パラ目**
+- TS：このバイアスは、学習される関数と、利用されるデータ統計の、それぞれについて階層として記述されてきた。
+- SS1：SB：SGD は単純な関数を先に、複雑な関数を後に学ぶ（Kalimeris, Rahaman）。
+- SS2：DSB：SGD で訓練された NN はデータの低次モーメントを先に、高次モーメントを後に利用する（Refinetti, Belrose）。
+
+** 3 パラ目**
+- TS：DSB の統計階層が、学習された解にどう現れるかは調べられていない。
+- SS1：Refinetti et al. は、クラス条件付きモーメントを次数 k まで実データに一致させた合成データで訓練したモデルの、実データ精度を測った。
+- SS2：Belrose et al. は、実データで訓練したモデルの、訓練途中でのその合成データ精度を測った。
+- SS3：どちらもモデルの出力を測っており、訓練が生成したパラメータそのものは測っていない。
+- CS：implicit bias は解についての主張であるから、DSB がそのバイアスを記述しているか検証するには、解の複雑度を測る必要がある。
+
+** 4 パラ目**
+- TS：学習された解の複雑度は LLC で測ることができる（Lau）。
+- SS1：深層 NN は特異モデルであり、解の周りで損失が縮退している。そのためパラメータ数や Hessian に基づく平坦性は複雑度の指標として適切でない（Wei）。
+- SS2：LLC は SLT に基づく局所幾何複雑度の指標で、この縮退を考慮しており、小さいほど局所幾何が単純である。
+- CS：LLC を用いれば、訓練データの統計次数を変えたときの解の複雑度の変化を直接測定できる。
+
+** 5 パラ目**
+- TS：我々は、訓練データのモーメント次数を上げたとき、学習された解の LLC が増加するかを検証する。
+- SS1：CIFAR-10 のクラス条件付きモーメントを k = 1,…,6 まで一致させたデータセットを構築する。
+- SS2：三アーキテクチャをそれぞれで訓練し、収束した解の LLC を推定する。
+- SS3：LLC の k 依存性がアーキテクチャ間で共有されるか、および実データ精度とどう関係するかを調べる。
+- CS：本研究はデータ統計から解への対応を扱い、解の複雑度と SB の関数複雑度の対応は今後の課題とする。
+
+
+* structure 2
+** P1：現象と、その説明としての単純性バイアス
+*** TS：深層 NN は、ランダムラベルすらフィットできる表現力を持つにもかかわらず、しばしば良く汎化する [Zhang et al. 2021]。
+*** SS1：この表現力ゆえに汎化は自明でない——同じネットワークは、汎化する規則を学ぶ代わりに、訓練セットを記憶することもできたはずである。
+*** SS2：この両立を説明する有力な仮説が「単純性バイアス」である：SGD で訓練された NN は単純な構造から順に学習し、データをフィットするのに必要な分だけ複雑さを増す [Kalimeris et al. 2019, Rahaman et al. 2019, Valle-Pérez et al. 2019]。
+*** CS：このバイアスが、学習を記憶ではなく汎化する規則へと導くと考えられている。
+
+** P2：DSB——単純性バイアスの操作可能な定式化
+*** TS：単純性バイアスの中でも、Refinetti らの distributional simplicity bias（DSB）は、バイアスを実験的に操作可能な形で定式化した点で際立っている [Refinetti et al. 2023]。
+
+*** SS1：DSB の主張は、単純さの序列を入力分布の統計構造に置く：NN は低次のクラス条件付きモーメント（平均、共分散）を先に、より高次の統計を後に利用するようになる。
+
+*** SS2：この定式化の帰結として、クラス条件付きモーメントを次数 k まで実データに一致させた合成データセットを構築すれば、モデルが利用できる統計構造を次数単位で制御できる [Refinetti et al. 2023, Belrose et al. 2024]。
+
+*** CS：これにより DSB の階層は、統計次数を独立変数とする実験の土台となった。
+
+
+** P3：ギャップ——観測は関数の振る舞いに限られてきた**
+
+*** TS**:しかし、この実験の土台の上で観測されてきたのは、もっぱらモデルの入出力の振る舞い——clone で訓練したモデルの実データに対する精度——であり、統計次数の増加が学習された解そのものをどう変えるかは測られていない
+
+*** SS1**:精度による検証は、「モデルがどの統計を利用しているか」という関数レベルの主張の検証としては直接的であり、これで完結している。
+
+*** SS2**:しかし、単純性バイアスが本来説明しようとしたのは、学習がどのような解へ導かれるか——なぜ記憶ではなく汎化する規則に至るのか——であった。
+
+*** CS**:統計次数の増加という振る舞いの階層が、解の複雑さの階層を伴うのか——伴うならどのような形で——は、独立に測定すべき開いた問いである。
+
+** P4：測定道具としての LLC**
+
+*** TS**:この問いに答えるには解の複雑さの尺度が要るが、深層 NN においてはその選択自体が非自明である。
+
+*** SS1**:深層 NN は特異モデルであり、同一の振る舞いを実現するパラメータが解の周りで縮退している。ゆえにパラメータ数や Hessian に基づく平坦性は、複雑さの尺度として適切でない [Wei et al. 2022]。
+
+*** SS2**:局所学習係数（LLC）は、特異学習理論 [Watanabe 2009] に基づき、この縮退を正しく数えることで解の局所幾何複雑度を特徴づける [Lau et al. 2025]。値が小さいほど縮退が大きく、局所幾何が単純である。
+
+*** CS**:LLC により、訓練データの統計次数を操作したときの、解の幾何の応答を測定できる。
+
+** P5：本研究**
+
+*** TS**:本研究では、統計次数を独立変数、解の幾何を観測量とする実験を行う：クラス条件付きモーメントを次数 k = 1, ..., 6 まで CIFAR-10 に一致させたデータセットで複数のアーキテクチャを訓練し、収束した解の LLC を測定する。
+
+*** RQ**:この設計により、次の二つの問いに答える：
+  1. DSB が導入したモーメント次数の階層は、学習された解の複雑さの階層として現れるか？
+  2. 現れるなら、その対応はアーキテクチャを超えてどの程度共有されるか？
+
+*** SS**:併せて、先行研究の観測量である実データ精度を測定し、LLC が精度の観察を超える情報を持つかを検討する。
+
+*** CS**:本研究は、DSB の統計階層と解の幾何を結びつける試みであり、DSB を単純性バイアスの関数階層と関係づけるための測定可能な中間項に向けた一歩である。
+
+** matome 
+P4 は前回決めた通り、箇条書きが旧 SS1–SS2 を吸収した形です。Q1/Q2 の文言はドラフト L44–46 を基にし、Q1 の "manifest as" を「現れるか」、Q2 の "to what extent is this correspondence shared" を「どの程度共有されるか」で対応させています。SS（精度の文）は箇条書きに入れていません——Q1/Q2 が研究の中心の問いで、精度との比較は補助的な検討という格差を、箇条書きの内外という形式で表現しています。これは Results の構造（3.1/3.2 が中心、3.3 が "Finally, we ask..."）とも一致します。
+
+全体を通しての確認点が一つ。P2 CS「伴うならどのような形で」と P4 Q2 は、どちらも「第二の問い」の座を占めますが、内容が違います——P2 は「どのような形で」（対応の形）、P4 Q2 は「アーキテクチャ間の共有」。厳密には P4 で問いが具体化される際に置き換わっている。これは瑕疵ではなく設計です：P2 の時点ではアーキテクチャを持ち出す根拠がない（前回の候補 1 の問題）ので、P2 では問いを抽象的に開いておき、P4 で実験設計（複数アーキテクチャ）が与えられた瞬間に具体化する。ただし英文化の際、P2 CS の「どのような形で（if so, in what form）」と P4 Q2 の「どの程度（to what extent）」の対応が読者に見えるよう、語を揃える配慮が要ります。
+
+構成はこれで全パーツが出揃いました。確定なら英文化に進めます。
+
+* structure 3
+
+
+
+
+
+* Paragraph writting
+
+** p1
+The ability of deep neural networks to simultaneously fit their training data and generalize well has been explained by various simplicity biases [Kalimeris et al., 2019, Rahaman et al., 2019, Valle-Pérez et al., 2019].
+These theories postulate that networks trained with stochastic gradient descent learn simple structure first and increase complexity only as far as needed to fit the data.
+This bias would prevent the network from memorizing the training set, even though the training loss has global minima with high generalization error [Liu et al., 2020].
+
+** p2
+
+The distributional simplicity bias (DSB) places simplicity in the statistical structure of the training data[Refinetti et al., 2023, Belrose et al., 2024]: networks exploit low-order moments, such as the mean and covariance, before learning to use its higher-order statistics. 
+Belrose et al. [2024] construct synthetic datasets whose class-conditional moments match those of real data up to a specified order k, and examine model behavior along this hierarchy. 
+DSB thus shifts the focus of simplicity biases from characterizing the function that the network learns to identifying the features of the training data that influence learning.
+
+
+** p3
+
+However, it has not been measured how the learned solution changes as the statistical structure of the training data is varied order by order. What prior studies observe is model behavior—the accuracy of models trained or evaluated on moment-matched data—and as a test of which statistics networks exploit, this is complete. Yet what simplicity biases were meant to explain is the selection of solutions, and their account says that a solution grows only as complex as the data demands. Since DSB grades this demand by the moment order k, the account, if correct, predicts that the complexity of learned solutions should increase step by step with k. Whether this solution-side gradation exists—and if so, what form it takes—is an open question.
+
+
+** p4
+
+** p5
+
+
+
+
+* Important Perspective Discussion and Limitatin と Conclusionの役割分担
+
+**Discussion and Limitations の役割**は、Results で得た事実をどう解釈するかを論じることです。つまり「この結果は何を意味するのか」「どこまで言ってよいのか」「別の解釈はあるか」「どんな制約があるか」を扱います。新しい主張を足す場所ではなく、Results の意味づけと適用範囲を決める場所です。
+
+**Conclusion の役割**は、論文全体を短く閉じることです。ここでは「何を問ったか」「何を示したか」「その意味は何か」を簡潔に再提示します。Discussion の細かい解釈や limitation をもう一度展開しません。Future work を入れるとしても、論文の中心的な未解決点を1つか2つ示す程度です。
+
+今回の論文に当てはめると、切り分けはこうです。
+
+*** **Discussion and Limitations**
+
+  * LLC が moment order とともに増えたことをどう解釈するか
+  * architecture 間で normalized trajectory が似ることをどう読むか
+  * accuracy と LLC がずれることの意味
+  * cross-sectional design の限界
+  * DSB の dynamics を直接検証していないこと
+  * SB との直接接続はまだ示していないこと
+  * single dataset / SGLD estimation などの limitation
+
+*** **Conclusion**
+
+  * DSB の data-side hierarchy に対応する solution-side hierarchy を LLC で検討した
+  * controlled increase in data complexity に対して LLC も系統的に変化した
+  * これは SB と DSB をつなぐための一歩である
+  * ただし function-side の SB との直接対応は今後の課題
+
+要するに、
+
+> **Discussion = 結果の意味と限界を考える場所**
+> **Conclusion = 論文全体の主張を最短で閉じる場所**
+
+です。
+
+今後この原稿について議論するときは、私はこの切り分けを前提にします。

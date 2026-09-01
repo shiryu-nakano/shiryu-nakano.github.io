@@ -80,3 +80,130 @@ Neurips 2026 Workshopに提出するにあたっての計画と備忘録をま�
 ### NeurReps
 
 ![](../../../../../static/images/misc/Pasted%20image%2020260817023258.png)
+
+
+
+
+
+
+
+![](../../../../../static/images/misc/Pasted%20image%2020260824135221.png)
+
+
+
+
+
+> **応用数学・深層学習・計算論的神経科学の交差領域で、特に「対称性（symmetry）」や「幾何学（geometry）」をニューラルネットワークや神経表現の理解に利用する研究**
+
+を募集しています
+
+#### 特に関連性が高いテーマ
+
+画像に挙げられているテーマは以下です。
+
+1. **不変表現・同変表現の学習理論と手法**
+    
+    - invariant representations
+        
+    - equivariant representations
+        
+    - 例：回転・並進・群作用に対して構造を保つ表現学習
+        
+2. **トポロジー・幾何・対称性の文脈における統計的学習理論**
+    
+    - Statistical Learning Theory
+        
+    - 幾何学的・対称性を持つモデルの汎化や学習理論
+        
+3. **ニューラルデータにおける表現幾何**
+    
+    - Representational geometry in neural data
+        
+    - 生物学的な神経活動だけでなく、人工ニューラルネットワークの内部表現も対象
+        
+4. **データ中の群構造の学習・利用**
+    
+    - group structure
+        
+    - Lie群、群表現などを利用した学習
+        
+5. **ロボティクスのための同変 World Model**
+    
+    - equivariant world models
+        
+    - ロボット制御・環境モデルへの対称性の導入
+        
+6. **ニューラル表現のダイナミクス**
+    
+    - Dynamics of neural representations
+        
+    - 学習中に内部表現がどう形成・変化するか
+        
+7. **トポロジカル深層学習・トポロジカルデータ解析**
+    
+    - Topological Deep Learning
+        
+    - TDA
+        
+8. **言語における幾何構造**
+    
+    - Geometric structure in language
+        
+    - TransformerやLLM内部の表現空間の幾何など
+        
+9. **生成モデルの幾何学的・トポロジカル解析**
+    
+    - diffusion model、VAEなどの表現空間・生成分布の構造解析
+        
+10. **対称性・力学系・学習**
+    
+
+- Symmetries, dynamical systems, and learning
+    
+- ニューラルネットワークを力学系として解析する研究など
+    
+
+#### 対象とする研究の種類
+
+理論研究だけに限定されていません。
+
+**理論的な研究と応用的・実験的な研究の両方を歓迎する**と明記されています。
+
+応用領域としては、
+- Vision
+- Motor control
+- Navigation
+- Language
+    
+などが挙げられています。
+また、使用する数学的対象として、
+- 商空間（quotient spaces）
+- ファイバー束（fiber bundles）
+- Lie群
+- Riemann多様体
+- グラフ
+- トポロジカル空間
+- 群表現
+
+なども歓迎されています。さらに、
+- ベンチマークデータセット
+- ソフトウェア
+の投稿も歓迎されています。
+
+## 執筆
+投稿先はまずNeuReps．形式はExtended Abstract.
+### 基本情報
+- [NeurIPS 2026 Workshop NeurReps Extended Abstracts | OpenReview](https://openreview.net/group?id=NeurIPS.cc/2026/Workshop/NeurReps_Extended_Abstracts#tab-recent-activity)
+
+
+![](../../../../../static/images/misc/Pasted%20image%2020260824134750.png)
+日本時間8/25 21:00
+
+
+提出について，今回はExtended Abstractとする．
+- [NeurIPS 2026 Workshop NeurReps Extended Abstracts | OpenReview](https://openreview.net/group?id=NeurIPS.cc/2026/Workshop/NeurReps_Extended_Abstracts#tab-recent-activity)
+![](../../../../../static/images/misc/Pasted%20image%2020260824135600.png)
+
+形式は，Extended Abstract.
+
+![](../../../../../static/images/misc/Pasted%20image%2020260824142435.png)
