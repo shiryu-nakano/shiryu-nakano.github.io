@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/engineering/notes/2026年8月スマホ購入検討.md",
+                "file": "content/posts/daily/2026/09/2026-09-04.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026年8月スマホ購入検討"
+              "title": "2026-09-04"
             }
           },
           {
@@ -27,26 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MISC/日誌01.md",
+                "file": "content/posts/engineering/就職活動.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "日誌01"
+              "title": "就職活動"
             }
           },
           {
-            "id": "380fd9063286bedf",
+            "id": "f18c3f8d6b12fa6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/daily/2026/08/August.md",
+                "file": "content/posts/engineering/notes/計算機利用時のtips.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "August"
+              "title": "計算機利用時のtips"
             }
           }
         ],
@@ -109,7 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.00471115112305
+    "width": 233.98127365112305
   },
   "right": {
     "id": "41737ac31f7df8c5",
@@ -229,53 +229,52 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d2590c863d76a709",
+  "active": "f18c3f8d6b12fa6f",
   "lastOpenFiles": [
-    "content/posts/daily/2026/08/2026-08-05.md.tmp.47270.f5266fefcbfd",
-    "public/posts/daily/2026/09/index.html",
-    "public/posts/daily/2026/09",
-    "content/posts/daily/2026/09/September.org",
-    "content/posts/daily/2026/09",
-    "content/posts/daily/2026/08/2026-08-31 Mon.md",
-    "MISC/日誌01.md",
+    "content/posts/engineering/notes/Ghostty からSSHでUbuntuに接続する設定.md",
+    "content/posts/engineering/notes/計算機利用時のtips.md",
+    "content/posts/engineering/notes/VPN接続時のスマホのOTP簡略化.md",
+    "content/posts/engineering/notes/ros2_humble.md",
+    "content/posts/engineering/notes/network.md",
+    "content/posts/engineering/notes/githubを人に教える時の参考.md",
+    "public/posts/engineering/memo/ubuntu_from_ghostty/index.html",
+    "public/posts/engineering/memo/ubuntu_from_ghostty",
     "content/posts/engineering/notes/2026年8月スマホ購入検討.md",
-    "MISC/dsb_paper_memo.org~",
+    "public/posts/engineering/notes/ghostty-からsshでubuntuに接続する設定/index.html",
+    "public/posts/engineering/notes/ghostty-からsshでubuntuに接続する設定",
+    "content/posts/daily/2026/09/2026-09-04.md",
+    "public/images/misc/Pasted image 20260904150121.png",
+    "static/images/misc/Pasted image 20260904150121.png",
+    "content/posts/engineering/archive/環境構築メモ.md",
+    "content/posts/engineering/archive",
+    "public/posts/engineering/memo/shortcut-otp/index.html",
+    "public/posts/engineering/memo/shortcut-otp",
+    "public/posts/engineering/memo/calc-server-tips/index.html",
+    "public/posts/engineering/memo/calc-server-tips",
+    "public/posts/engineering/notes/vpn接続時のスマホのotp簡略化/index.html",
+    "content/posts/research/paper_stock.md",
+    "content/posts/univ/network.md",
+    "content/posts/engineering/engineering-notes.md",
+    "content/posts/engineering/engineering-memo.md",
+    "content/posts/daily/2026/08/2026-08-02.md",
+    "content/posts/engineering/就職活動.md",
+    "MISC/日誌01.md",
+    "public/images/misc/IMG_0063.png",
+    "static/images/misc/IMG_0063.png",
+    "public/images/posts/daily/2026/09/20260902_180541.png",
+    "static/images/posts/daily/2026/09/20260902_180541.png",
+    "content/posts/daily/2026/08/August.md",
+    "content/posts/daily/2026/08/2026-08-31 Mon.md",
     "MISC/Untitled 1.md",
     "content/posts/daily/2026/07/2026-07-13 Mon.md",
     "content/posts/daily/2026/08/2026-08-08.md",
-    "public/posts/daily/2026/08/31/index.html",
-    "public/posts/daily/2026/08/31",
     "content/posts/daily/2026/08/2026-08-29 Sat.md",
     "content/posts/univ/修士1年ガイダンスメモ.md",
     "posts/univ/class 1.md",
     "posts/univ/class.md",
-    "posts/univ",
-    "MISC/めも2.md",
-    "content/posts/research/research_log/2026/Neurips 2026 workshop.md",
-    "content/posts/research/materials/paragraph writing.md",
-    "public/posts/research/materials/para_write/index.html",
-    "public/posts/research/materials/para_write",
-    "content/posts/research/attitude/attitude_overview.md",
-    "content/posts/life/京都.md",
-    "content/posts/daily/2026/08/2026-08-25 Tue.md",
-    "content/posts/daily/2026/08/2026-08-24 Mon.md",
     "public/images/20260827_142436.png",
     "static/images/20260827_142436.png",
-    "content/posts/daily/2026/08/week 33 ~.md",
-    "content/posts/life/music work.md",
-    "MISC/わいがや.md",
-    "content/posts/daily/2026/08/2026-08-19 Wed.md",
-    "content/posts/daily/2026/08/2026-08-20 Thur.md",
     "public/images/misc/Pasted image 20260824142435.png",
-    "static/images/misc/Pasted image 20260824142435.png",
-    "public/images/misc/Pasted image 20260824135600.png",
-    "static/images/misc/Pasted image 20260824135600.png",
-    "public/images/misc/Pasted image 20260824135221.png",
-    "static/images/misc/Pasted image 20260824135221.png",
-    "public/images/misc/Pasted image 20260824134750.png",
-    "static/images/misc/Pasted image 20260824134750.png",
-    "content/posts/daily/2026/08/2026-08-23 Sun.md",
-    "content/posts/life/シングルタスク.md",
-    "content/posts/life/Apple Music.md"
+    "static/images/misc/Pasted image 20260824142435.png"
   ]
 }

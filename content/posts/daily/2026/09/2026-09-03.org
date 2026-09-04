@@ -1,0 +1,71 @@
+#+TITLE: 2026-09-03
+#+URL: /posts/daily/2026/09/03/
+#+filetags: :daily:
+#+OPTIONS: toc:nil num:nil ^:nil tags:nil todo:nil H:10
+#+OPTIONS: broken-links:mark
+#+OPTIONS: tex:t
+#+OPTIONS: html-postamble:nil
+#+OPTIONS: links:nil
+
+
+
+
+** Week 36
+
+** 予定 
+
+** 喫緊のTASK
+
+*** important
+
+**** INBOX 伊藤くんとのご飯のよてい→9月中
+*** dsbllc
+
+**** INBOX vpn接続時にマウントする方法
+メモしてまとめる
+
+**** INBOX ネットワークについてもまとめておく
+**** INBOX データの整理
+***** INBOX result以下がめちゃくちゃになっている
+**** INBOX コードの整理
+**** INBOX 実験の1つ目の実行
+**** INBOX 
+*** honda
+**** INBOX 三國さんに連絡してみる
+*** pinns
+**** INBOX evanと連絡とる→slackで聞いてみる
+**** INBOX Pinns自分で実行しておくか
+
+
+** LOG
+
+- karabinar すぐにオンオフでモード切り替えできるとありがたい
+- 研究を継続して，結果を貯める．そのためにやること
+  - すぐにできることから
+  - [ ] コードの整理とデータの整理
+    - 今日これができれば十分か
+      
+- 在宅勤務の申請についてのメモ
+  - [X] 常時介護を必要とする状態に関する判断基準についての回答
+  - [X] 9月出勤簿の作成
+  - [ ] 9月の出勤日ごとの日誌の用意
+  - [X] 証明書類のスキャン
+  - [X] メールの送信
+- [ ] データの整理
+
+
+
+
+** 今日の学び week 36
+- [[https://manabitimes.jp/math/1269#3][ノルムの意味とL1，L2，L∞ノルム | 高校数学の美しい物語]]
+- https://claude.ai/chat/26114ad3-63d0-4fe7-9d81-9920ac8ba9fc
+  - [ ] orgで数式のインライン表示が壊れる理由についてメモしておく→zenn
+    - 
+
+
+** Reference
+
+
+ 
+
+

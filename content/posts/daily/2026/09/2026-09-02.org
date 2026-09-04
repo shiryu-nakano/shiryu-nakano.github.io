@@ -1,0 +1,47 @@
+#+TITLE: 2026-09-02
+#+URL: /posts/daily/2026/09/02/
+#+filetags: :daily:
+#+OPTIONS: toc:nil num:nil ^:nil tags:nil todo:nil H:10
+#+OPTIONS: broken-links:mark
+#+OPTIONS: tex:t
+#+OPTIONS: html-postamble:nil
+#+OPTIONS: links:nil
+
+
+
+
+** Week 36
+
+** 予定 
+
+** LOG
+
+- 論文の提出
+- 提出に先立って，関係者各所に連絡を行うこと
+- karabinar すぐにオンオフでモード切り替えできるとありがたい
+  
+
+
+
+
+
+#+ATTR_ORG: :width 650
+[[file:../../../../../static/images/posts/daily/2026/09/20260902_180541.png]]
+
+
+
+
+
+** 今日の学び week 36
+- [[https://manabitimes.jp/math/1269#3][ノルムの意味とL1，L2，L∞ノルム | 高校数学の美しい物語]]
+- https://claude.ai/chat/26114ad3-63d0-4fe7-9d81-9920ac8ba9fc
+  - [ ] orgで数式のインライン表示が壊れる理由についてメモしておく→zenn
+    - 
+
+
+** Reference
+
+
+ 
+
+

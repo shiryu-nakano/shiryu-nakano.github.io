@@ -22,11 +22,13 @@
   </url><url>
     <loc>http://localhost:1313/posts/misc/cabinet/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/misc/%E7%84%A1%E9%A1%8C%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB/</loc>
+    <loc>http://localhost:1313/posts/misc/pinns%E5%8B%89%E5%BC%B7/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/research/materials/ai-safty/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/research/materials/kan/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/research/materials/para_write/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/research/materials/pinns/</loc>
   </url><url>
@@ -39,6 +41,10 @@
     <loc>http://localhost:1313/posts/univ/schalar_jasso/</loc>
   </url><url>
     <loc>http://localhost:1313/templates/toggle-task/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/engineering/memo/202608smartphone/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/life/tips/applemusic_auth_prob/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
@@ -122,6 +128,8 @@
   </url><url>
     <loc>http://localhost:1313/posts/study/eigenvalues_vectors/</loc>
   </url><url>
+    <loc>http://localhost:1313/posts/univ/detail/</loc>
+  </url><url>
     <loc>http://localhost:1313/posts/study/books/engineer_method/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/file/health/gad/</loc>
@@ -129,7 +137,5 @@
     <loc>http://localhost:1313/posts/study/material/duality/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/study/math-for-physics/</loc>
-  </url><url>
-    <loc>http://localhost:1313/posts/univ/detail/</loc>
   </url>
 </urlset>

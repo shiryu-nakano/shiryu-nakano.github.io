@@ -25,7 +25,7 @@ url: /posts/daily/2026/08/
 - [2026-08-15 Sat](/posts/daily/2026/08/15/)
 - [2026-08-16 Sun](/posts/daily/2026/08/16/)
 - **Week 34** | [week 34](/posts/daily/2026/08/week33/)
-- [2026-08-17 Mon](/posts/daily/2026/08/17/)
+- [2026-08-17 Mon](/posts/daily/2026/08/17
 - [2026-08-18 Tue](/posts/daily/2026/08/18/)
 - [2026-08-19 Wed](/posts/daily/2026/08/19/)
 - [2026-08-20 Thu](/posts/daily/2026/08/20/)
@@ -52,3 +52,4 @@ url: /posts/daily/2026/08/
 ## TASK
 
 ## MISC
+
